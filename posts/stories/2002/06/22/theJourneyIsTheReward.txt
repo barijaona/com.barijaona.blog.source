@@ -1,0 +1,12 @@
+The Journey Is The Reward... (photos)
+meta-creation_date:  22/06/2002 01:16:05
+meta-bjrStylesheet: theme5.css
+meta-bjrKeywords: madagascar, sud, photos, 2001, antsirabe, betafo, morondava, isalo
+
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/264-2352-4A.JPG" width="405" height="197" alt="Antsirabe"><div class="phototext"><br>Il faisait frais à Antsirabe, mais la photo en valait peut-être la peine...</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/261-4052-19A.JPG" width="429" height="168" alt="Aux environs de Betafo"><div class="phototext">Partout, le soleil monte vite... Il faut se lever tôt pour profiter de la meilleure lumière. Ici, du coté de Betafo, avant un petit déjeuner de Ramanonaka...</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/264-2352-E0.JPG" width="425" height="606" alt="Morondava"><div class="phototext">La fameuse allée des baobabs près de Morondava m'a un peu déçu... Je ne la montre pas, il ne faut pas hésiter à porter son regard ailleurs.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/Nissan05.jpg" width="397" height="265" alt="Une voiture &agrave; l'eau !!"><div class="phototext">Légers problèmes... Si vous voulez en savoir plus sur le passage de gués, je peux <em>maintenant</em> vous donner des conseils.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/Nissan02.jpg" width="397" height="265" alt="Une voiture hors d'eau..."><div class="phototext">Lorsqu'on tire la bonde, la baignoire se vide...</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/232-05-8A.JPG" width="262" height="565" alt="Nez &agrave; nez avec un l&eacute;murien dans l'Isalo..."><div class="phototext">C'est qui ces zèbres qui me rendent visite dans l'Isalo ?</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/264-2343-5A.jpg" width="612" height="432" alt="Rivi&egrave;re dans l'Isalo"><div class="phototext">Pas très rationnel, mais j'aime bien cette photo qui techniquement présente pourtant bien des défauts...</div></div>

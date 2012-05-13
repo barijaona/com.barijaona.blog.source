@@ -1,0 +1,45 @@
+﻿À propos de ce site
+meta-creation_date: 07/01/2005 22:12:26
+
+Ce site est essentiellement le carnet web (<a href="http://embruns.net/etude_du_blogue/000076.html" title="Embruns : c'est quoi un blogue ?">définition par Laurent Gloaguen</a>, <a href="http://planetes.levillage.org/rapport/rapport_weblogs.pdf" title="téléchargement fichier PDF, 1 Mo">étude du phénomène par Morgan Magnin et Christina Pasteur</a>) de Barijaona Ramaholimihaso, <a href="http://www.geocities.com/barijaona/accueil/ar19980322.html" title="Premier billet chez Geocities : dimanche 22 mars 1998">commencé en 1998</a> et migré ici depuis février 2002.
+
+La plupart des billets sont publiés d'Antananarivo, Madagascar.
+
+Les premières pages ont été développées de manière très artisanale. La production a ensuite été automatisée, dans un premier temps grâce à Radio Userland, avant d'être actuellement <a href="http://www.blosxom.com/" title="Outil de publication Open Source" hreflang="en">propulsée par Blosxom</a>.
+
+À part mon cerveau et mes doigts, le web, <a href="http://blapp.sourceforge.net/" title="A Mac OS X Blosxom weblog editor" hreflang="en">Blapp</a>, <a href="http://www.barebones.com/products/textwrangler/index.shtml" title="Bare Bones Software" hreflang="en">TextWrangler</a> et <a href="http://www.apple.com/fr/macosx/" title="Apple Computers France">MacOS X</a> sont les ingrédients essentiels à la réalisation de ce site.
+
+<h2>Accès au contenu</h2>
+
+<a href="<$url />/" title="HTML">Page d'accueil principale du carnet web (blog)</a>.
+
+Si vous souhaitez être informé régulièrement des mises à jour, l'un des fils <a href="http://fr.wikipedia.org/wiki/Really_simple_syndication" title="Really Simple Syndication : définition sur l'encyclopédie Wikipedia">RSS</a> et Atom pourrait mieux vous convenir :
+
+* Fil RSS 1.0, contenant le texte complet des billets de la page d'accueil : <a href="<$url />/rss.xml">rss.xml</a>.
+* Fil RSS 1.0, contenant uniquement un extrait des billets : <a href="<$url />/shortened.xml">shortened.xml</a>.
+* Fil Atom, contenant le texte complet des billets : <a href="<$url />/atom.xml">atom.xml</a>.
+
+<h2>Par catégories (depuis Novembre 2003)</h2>
+
+* Liens butinés sur le web, un peu en vrac : <a href="<$url />/musardages/" title="HTML">Musardages</a> (<a href="<$url />/musardages/rss.xml" title="RSS 1.0, extrait">RSS</a>).
+* Actualité des blogs : <a href="<$url />/blogosphere/" title="HTML">Blogosphere</a> (<a href="<$url />/blogosphere/rss.xml" title="RSS 1.0, extrait">RSS</a>).
+* Voisinage non réseau : <a href="<$url />/madagascar/" title="HTML">Madagascar</a> (<a href="<$url />/madagascar/rss.xml" title="RSS 1.0, extrait">RSS</a>).
+* Reprises intégrales de textes d'autres auteurs  : <a href="<$url />/invites/" title="HTML">Invités</a> (<a href="<$url />/invites/rss.xml" title="RSS 1.0, extrait">RSS</a>).
+* Distrayant, au moins pour moi : <a href="<$url />/manala_azy/" title="HTML"><i lang="mg">Manala azy</i></a> (<a href="<$url />/manala_azy/rss.xml" title="RSS 1.0, extrait">RSS</a>).
+* Entre les oreilles : <a href="<$url />/musique/" title="HTML">Musique</a> (<a href="<$url />/musique/rss.xml" title="RSS 1.0, extrait">RSS</a>).
+* Déclaration d'amour à mon ordinateur : <a href="<$url />/macintosh/" title="HTML">Macintosh</a> (<a href="<$url />/macintosh/rss.xml" title="RSS 1.0, extrait">RSS</a>).
+* Actualité du site et de son auteur : <a href="<$url />/equipe/" title="HTML">Équipe</a> (<a href="<$url />/equipe/rss.xml" title="RSS 1.0, extrait">RSS</a>), <a href="<$url />/futile/" title="HTML">Futile</a> (<a href="<$url />/futile/rss.xml" title="RSS 1.0, extrait">RSS</a>), <a href="<$url />/procrastination/" title="HTML">Procrastination</a> (<a href="<$url />/procrastination/rss.xml" title="RSS 1.0, extrait">RSS</a>).
+* Archives personnelles, photos : <a href="<$url />/best_of/" title="HTML"><i lang="en">Best of</i></a> (<a href="<$url />/best_of/rss.xml" title="RSS 1.0, extrait">RSS</a>).
+* Technologies liées à la publication de ce site : <a href="<$url />/web/" title="HTML">Web</a> (<a href="<$url />/web/rss.xml" title="RSS 1.0, extrait">RSS</a>).
+* Textes un peu plus longs et "exilés" ici : <a href="<$url />/stories/" title="HTML">Articles</a> (<a href="<$url />/stories/rss.xml" title="RSS 1.0, extrait">RSS</a>).
+
+<h2>Archives chronologiques</h2>
+
+
+* L'époque où je naviguais entre Claris HomePage, Adobe GoLive, BBEdit Lite et Tidy HTML : <a href="<$url />/accueil/" title="Liste antéchronologique">1998 à 2001</a>
+* L'époque RadioUserland : <a href="<$url /><$path />/archives_radio.html" title="Liste chronologique, HTML">Février 2002 à Septembre 2003</a>
+* <a href="<$url />/2003/" title="Sous Blosxom">Octobre à Décembre 2003</a>
+* <a href="<$url />/2004/" title="Sous Blosxom, HTML">2004</a>
+* <a href="<$url />/2005/" title="Sous Blosxom, HTML">2005</a>
+* <a href="<$url />/2006" title="Sous Blosxom, HTML">2006</a>
+

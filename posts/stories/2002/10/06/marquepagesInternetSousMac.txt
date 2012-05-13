@@ -1,0 +1,138 @@
+Marque-pages Internet sous MacOS X
+meta-bjrStylesheet: theme3.css
+meta-bjrKeywords: bookmarks, applescript, fichier, adresse, internet, location, file, web, .webloc, internet explorer, mozilla, chimera, navigator, macos x, macosx
+meta-bjrDescription: Un applescript pour sauvegarder l'adresse d'une page Internet sans la bookmarker
+meta-creation_date: 06/10/2002 00:00:01
+
+Lorsque vous utilisez intensivement l'internet, vous vous retrouvez facilement dans une des situations suivantes :
+<ul>
+	<li>en naviguant avec un navigateur donné (par exemple Internet Explorer), vous tombez sur une page que vous voudrez plus tard revisiter avec un autre navigateur (par exemple Netscape),
+	</li>
+	<li>vous tombez sur une page que vous souhaitez conserver, mais sans la bookmarker.
+</li>
+</ul>
+
+L'idée que j'ai reprise d'un <a href="http://www.blankreb.com/studioarticles.php?ID=16" title="Better Bookmarks: Create Internet Location Files from the Browser">article de Studio Log</a>, est de créer un script qui va récupérer les informations pertinentes de la fenêtre du navigateur, et demander au Finder de créer un fichier adresse web (<cite lang="en">Internet Location file</cite>) dans un dossier de mon choix.
+
+Ces fichiers peuvent être ouverts d'un double-clic à partir du Finder pour lancer votre navigateur par défaut.
+
+Le script permet aussi d'enregistrer un commentaire visible notamment avec la commande "<cite>Lire les informations</cite>" du Finder. Une bonne méthode est de créer un dossier où vous allez déposer tous vos fichiers d'adresse et de choisir une présentation par liste. En utilisant la commande "Afficher les options de présentation" du Finder, ne faites apparaître que les informations Nom, Date de création et Commentaire. Les autres informations ne sont pas réellement intéressantes, mais l'information Commentaire est essentielle.
+
+Enregistrez ce script de manière à pouvoir l'exécuter à partir du menu Script (enregistrement sous forme de script compilé dans ~:Bibliothèque:Scripts).
+
+Au premier lancement, il vous demandera d'indiquer un dossier pour stocker les fichiers d'adresse. Ce choix est également accessible en choisissant l'option "Réglage dossier..." dans le dialogue de sélection du navigateur qui apparaît ensuite.
+
+Le dialogue suivant vous propose le nom sous lequel le fichier sera enregistré. Ce nom est plus parlant qu'une URL et peut être édité à votre convenance.
+
+Le dialogue suivant vous permet de saisir le commentaire au fichier qui apparaîtra si vous adoptez la présentation suggérée ci-dessus. Cela permet de trier vos signets dans la vue par liste du Finder, et de vous souvenir pourquoi vous avez sauvegardé cette adresse.
+
+Modifications apportées au script original :
+<ul><li>contournement d'un problème d'édition des noms sous Netscape/Mozilla </li>
+<li>extension du nombre de navigateurs pouvant être supportés, et support de <a href="http://www.mozilla.org/projects/chimera/" title="a Cocoa browser that embeds the Gecko layout engine">Chimera</a> (nécessite <a href="http://perso.club-internet.fr/phupe/YKIndex.html" title="Utilitaire d'automatisation gratuit">YoupiKey</a> qui va faire transiter les informations d'URL par le presse-papier) et de <a href="http://www.apple.com/safari/" title="Navigateur d'Apple">Safari</a>
+</li>
+<li>gestion d'erreur améliorée
+</li>
+<li>ergonomie revue et corrigée
+</li>
+</ul>
+
+Une archive complète est disponible <a href="<$url />/download/Sauvez%20l'URL.sit" title="Scripts AppleScript et YoupiKey">au téléchargement ici</a>, mais le source Applescript suit :
+<pre>
+(* voir <$url />/stories/2002/10/06/marquepagesInternetSousMac.html *)
+(* original idea : StudioLog http://www.blankreb.com/studioarticles.php?ID=16 *)
+(* Modified by Barijaona Ramaholimihaso *)
+(* v1.1 14 jan 2003 : supports Safari, displays the URL in dialog box *)
+(* v1.0 initial version *)
+property URLFolder : ""
+property dialog_timeout : 30
+global theT
+global TheU
+global newFile<br>
+if URLFolder is "" then
+    setFolder()
+end if<br>
+doBrowser()<br>
+on setFolder()
+    set URLFolder to choose folder with prompt "Choisissez un dossier pour classer vos adresses Internet :"
+end setFolder<br>
+on doBrowser()
+    choose from list {"Chimera", "Explorer", "Mozilla", "Safari", "R&eacute;glage dossier..."} with prompt "Choisissez votre navigateur :" default items {"Safari"}
+    set bRet to result as text
+    if bRet is "R&eacute;glage dossier..." then
+        set URLFolder to ""
+        setFolder()
+        doBrowser()
+    else if bRet is "Explorer" then
+        tell application "Internet Explorer"
+            Activate
+            set theT to do script "TheT=document.title;"
+            set TheU to do script "TheU=document.URL;"
+        end tell
+    else if bRet is "Mozilla" then
+        tell application "Mozilla"
+            activate
+            set theT to name of window 1 as string
+            (* sp&eacute;cifique Mozilla : supprimer le suffixe ' - Mozilla' dans le nom de fen&ecirc;tre *)
+            set theT to (characters 1 through ((count of characters of theT) - 10) of theT) as string
+            set TheU to URL of window 1
+        end tell
+    else if bRet is "Chimera" then
+        tell application "Navigator"
+            activate
+            set theT to name of window 1 as string
+        end tell
+        tell application "Youpi Key"
+            run shortcut "Copier l'URL" of shortcutset "Navigator"
+            set TheU to the clipboard as text
+        end tell
+    else if bRet is "Safari" then
+        tell application "Safari"
+            activate
+            set theT to name of window 1 as string
+            set TheU to URL of document 1
+        end tell
+    end if
+    set theCap to ((("Sauver l'adresse de la fen&ecirc;tre :" &amp; return as text) &amp; "'" &amp; theT &amp; "'" &amp; return as text) &amp; "&lt;" &amp; TheU &amp; "&gt;" &amp; return as text) &amp; "sous le nom de fichier :"
+    display dialog theCap default answer theT with icon note giving up after dialog_timeout
+    set the new_name to text returned of the result
+    set theCap to "Ajoutez un commentaire au fichier URL :"
+    display dialog theCap default answer theT with icon note giving up after dialog_timeout
+    set the new_comment to text returned of the result
+    my makeFile(new_name, new_comment)
+    
+end doBrowser<br>
+on makeFile(new_name, new_comment)
+    
+    set theURL to TheU
+    
+    tell application "Finder"
+        make new internet location file to theURL at URLFolder
+    end tell
+    
+    set theULength to count of characters of TheU
+    set thePU to characters 8 through theULength of TheU as string
+    
+    set newFile to (URLFolder &amp; thePU &amp; ".webloc") as string
+    --    set fileInfo to info for alias newFile
+    finishFile(new_name, new_comment)
+    say "OK"
+end makeFile<br>
+on finishFile(new_name, new_comment)
+    tell application "Finder"
+        set comment of file newFile to new_comment
+        try
+            set name of file newFile to new_name
+        on error error_message number error_number
+            if (error_number is -37 or error_number is -59) then
+                set error_message to "Ce nom contient des caract&egrave;res incorrects, comme (:)."
+            else --the suggested name is too long
+                set error_message to error_message
+            end if
+            beep
+            display dialog error_message default answer new_name
+            set new_name to text returned of the result
+            my finishFile(new_name, new_comment)
+        end try
+    end tell
+end finishFile
+</pre>

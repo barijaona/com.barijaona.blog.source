@@ -1,0 +1,8 @@
+Bookmarklet delicious.com for iPhone
+
+Faites un clic prolongé sur cette page
+
+<textarea>javascript:location.href=%27http://delicious.com/save?v=6&noui&jump=yes&url=%27+escape(location.href)+%27&title=%27+escape(document.title)</textarea>
+
+Edit the bookmark.
+

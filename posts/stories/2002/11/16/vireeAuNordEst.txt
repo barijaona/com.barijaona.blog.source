@@ -1,0 +1,14 @@
+Virée au Nord Est (photos)
+meta-creation_date: 16/11/2002 21:54:23
+meta-bjrStylesheet: theme5.css
+meta-bjrKeywords: mananara, antalaha, sambava, maroantsetra, vohemar, nord-est, madagascar
+
+
+<div class="photo"><img src="<$url />/myPictures/2002/11/16/echo_lima_sambava.jpg" width="422" height="283" alt="Avion Piper"><div class="phototext">Barijaona.com se prendrait-il pour <a href="http://www.yannarthusbertrand.com/fr/photogra/index.htm" title="La Terre vue du ciel">Yann Arthus Bertrand</a> ? Non, impossible d'approcher la qualité de <a href="http://www.photo.fr/laterre/europafrique/textes/madagascar/madagascar.html" title="Les photos de Yann Arthus-Bertrand sur Madagascar">ces images</a>, mais l'occasion de goûter aux plaisirs de l'aviation générale ne se manque pas. 5 Romeo Mike Echo Lima, vu ici sur la piste de Sambava, va allègrement sur ses 36 ans.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/11/16/vsat_antalaha.jpg" width="374" height="258" alt="Une antenne VSAT"><div class="phototext">Le prétexte du voyage : visiter des antennes paraboliques... rien à voir avec les campagnes électorales.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/11/16/mananara.jpg" width="422" height="284" alt="Vue a&eacute;rienne des environs de Mananara"><div class="phototext">Rêvons que ces paysages aussi verdoyants redeviennent la règle dans toute l'île...</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/11/16/mananara_turquoise.jpg" width="422" height="284" alt="Vue a&eacute;rienne de la mer du cot&eacute; de Mananara"><div class="phototext">La couleur de la mer dans le Nord-Est est moins belle que celle d'Andavadoaka, mais ça ne se défend pas mal, non ?</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/11/16/maroantsetra_cocobeach.jpg" width="422" height="284" alt="Photo prise &agrave; l'H&ocirc;tel Cocobeach &agrave; Maroantsetra"><div class="phototext">La crise politique a eu un impact négatif sur les lieux les plus touristiques.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/11/16/antalaha.jpg" width="422" height="284" alt="Vue a&eacute;rienne de la ville d'Antalaha"><div class="phototext">Les apparences sont trompeuses. Antalaha, capitale mondiale de la vanille, peut à peine prétendre au statut de ville. Mais elle pèse plus que Sambava, plus ostentatoire.</div></div>
+
+

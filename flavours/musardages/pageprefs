@@ -1,0 +1,3 @@
+$meta::bjrStylesheet = "theme5";
+
+$meta::navigationLinks = qq#<a href="$blosxom::url/best_of/hotlist.html" class="submenu" title="Sites préférés">Hotlist</a>&nbsp;|&nbsp;<a href="$blosxom::url/musardages/" class="submenu" title="Collectionnite">Musardages</a>&nbsp;|&nbsp;<a href="$blosxom::url/photos/" class="submenu" title="Quelques photos...">Photos</a>&nbsp;|&nbsp;<a href="$blosxom::url/musique/" class="submenu" title="Oreille défaillante">Musique</a># ;

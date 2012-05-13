@@ -1,0 +1,9 @@
+Petites modifs de static_file
+meta-creation_date: 13/2/2004 05:35:56
+
+Le présent billet aurait peut-être dû être écrit en anglais, car je n'ai pas encore trouvé un autre blog francophone utilisant Blosxom ; mais je me dis que ces petits morceaux de propagande distillés par-ci par-là finiront peut-être par  inciter quelqu'un à expérimenter...
+
+On a le droit de rêver, non ?
+
+Donc, j'ai modifié le plugin <a href="<$url />/download/static_file" title="Code source">static_file</a> pour <a href="http://groups.yahoo.com/group/blosxom/message/6690" title="Blosxom Yahoo Group" hreflang="en">clarifier la documentation</a> et intégrer le patch de <a href="http://zovirl.com/2003/software/blosxom/pictures" title="software::blosxom : pictures">Mark Ivey</a>.
+

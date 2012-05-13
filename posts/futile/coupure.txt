@@ -1,0 +1,22 @@
+Noir c'est noir, mais il y a toujours de l'espoir...
+meta-creation_date: 17/6/2004 07:17:38
+
+J'étais dans l'obscurité la plus complète lorsque [mon poste radio][1] (alimenté par de salutaires piles alcalines) m'apprenait qu'en Afrique subsaharienne, 15% de la population avait accès à l'électricité.
+
+[1]: http://www.rfi.fr/fichiers/Magazines/emissions/afrique/medias_afrique_tv.asp "RFI : Médias d'Afrique"
+
+En effet, comme pour faire plus couleur locale, la compagnie locale, la Jirama, procède à des maintenances de ses centrales hydroélectriques, ce qui nous vaut un soir sur deux un délestage d'environ vingt minutes aux heures de pointe.
+
+[En attendant mieux][2], une centrale thermique privée devrait rentrer en service en Juillet pour renforcer l'alimentation d'Antananarivo.
+
+J'espère qu'il n'y aura pas de retards et que cela suffira, parce que mes vendeurs de groupe électrogène préférés agitent un peu le spectre de la pénurie... L'expérience des [coupures sauvages d'il y à deux ans (d'une durée de 24 h et 48 h)][3] rend philosophe, mais le vécu plus quotidien montre aussi que dans l'ensemble que constituent l'alimentation Jirama, un groupe électrogène, plusieurs onduleurs et des inverseurs pour marier le tout, il y a toujours un composant qui risque de vous mettre dans une situation inédite dont on goûte tout l'intérêt seulement <i>a posteriori</i>.
+
+[2]: http://www.madagascar-tribune.com/index.php?JOURNAL=317&ART=5070 "Madagascar Tribune : «Privilégier l’exploitation de l’énergie renouvelable»"
+[3]: <$url />/2002/06/22.html#a212 "Autocitation : 22 juin 2002 (la deuxième coupure fut du 26 au 28 juin)"
+
+Le malheur immédiat, c'est que les deux dernières fois, ces délestages électriques sont arrivés au moment où je le souhaitais le moins.
+
+Je compatis avec [Morgan][4] et [Laurent][5], mais eux n'ont vraisemblablement pas été interrompus au moment le plus précieux de leurs journées.
+
+[4]: http://www.hemisphair.net/index.php/2004/06/16/p345-Coupure "Hemisphair : Coupure"
+[5]: http://embruns.net/logbook/2004/06/16.html#001242 "Embruns : 16/06/2004 - Salariés de l'EDF"

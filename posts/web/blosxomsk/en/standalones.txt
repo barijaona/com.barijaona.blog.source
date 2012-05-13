@@ -1,0 +1,17 @@
+Three plugins for blosxom users...
+meta-creation_date: 10/6/2005 05:29:04
+This is to (re-)publish as standalones three plugins included in my <a href="<$url />/download/blosxomsk.zip" title="Download (Zip archive)">blosxom starter kit</a> :
+
+* <a href="<$url />/download/prevnextstory" title="Download prevnexstory's source">prevnextstory</a> : populates the prevnexstory namespace with links for pointing to preceding 
+and following stories (arranged chronologically).
+* <a href="<$url />/download/pagetype" title="Download pagetype's source">pagetype</a> : the variable `$pagetype::pagetype` is to be used with interpolate_fancy.<br />
+You can test it in your templates to know what kind of page Blosxom is currently rendering :<br />
+  * <cite>main</cite> : the root of the blog
+  * <cite>category</cite> : a category archive page
+  * <cite>chrono</cite> : a chronological archive page (per year, per month, per day...)
+  * <cite>story</cite> : an individual story page.
+* <a href="<$url />/download/fix_static_url" title="Download fix_static_url's source">fix\_static\_url</a> : corrects the `$blosxom::url` variable for static rendering.<br />
+When you use blosxom for rendering static pages, the `$url` variable refers to your local machine, which is rarely acurate, especially if you intend to upload the static files to a different server... You have to explicitly assign the `$url` variable in the source of blosxom, or you can use this plugin as an alternative.<br />
+You can assign the `$static_url` variable in the config section, or use the prefs plugin (the alternative to the config plugin for static rendering) to define
+`$fix_static_url::static_url`.
+

@@ -1,0 +1,4 @@
+$meta::bjrAccent = "accent1";
+
+# posts posterieurs 8/5/2004 : Markdown, sinon textile2
+if (($blosxom::yr > 2004) or (($blosxom::yr == 2004) and ($blosxom::mo_num > 5)) or (($blosxom::yr == 2004) and ($blosxom::mo_num == 5) and ($blosxom::da >  8))){$meta::markup = "markdown"} else {$meta::markup = "textile2"};

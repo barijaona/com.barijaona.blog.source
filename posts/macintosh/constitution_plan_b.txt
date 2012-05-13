@@ -1,0 +1,28 @@
+Le plan B
+meta-creation_date: 9/6/2005 06:41:01
+Pas celui au refus de la constitution européenne.
+
+Celui du passage d'Apple à une architecture Intel.
+
+On comprend mieux  pourquoi Apple a durci ces derniers mois sa politique vis à vis des sites de rumeurs... Rien ne peut-être plus perturbateur pour le cours de l'action qu'une foule de passionnés argumentant violemment sur les forums (demandez aux ouistes français et néerlandais ce qu'ils pensent des risques de mal aborder un référendum...).
+
+Ni ThinkSecret ni Macrumors n'ont pu parler avant l'annonce officielle du <a href="http://www.powerpage.org/cgi-bin/WebObjects/powerpage.woa/wa/story?newsID=14643" title="O'Grady's PowerPage - development boxes available to select ADC Premiere members" hreflang="en">premier Mac avec une carte mère à base d'Intel</a>. Bon, il y avait bien eu une petite feuille de chou dénommée Wall Street Journal qui avait supputé qu'il se tramait quelque chose, mais comme aucun Macmaniaque qui se respecte ne prendrait ce genre de publication au sérieux, l'ami Steve [a pu nous assommer tranquille](http://www.macplus.net/magplus/chronique-9078-apple-roque-vers-intel "MacPlus : Apple "roque" vers Intel")...
+
+On aura au moins évité le retour de baton des <a href="http://www.michaelhanscom.com/eclecticism/2003/10/even_microsoft.html" title="eclecticism: Even Microsoft wants G5s (Oct 23, 2003)" hreflang="en">photos fort réjouissantes</a> (sauf <a href="http://www.michaelhanscom.com/eclecticism/2003/10/of_blogging_and.html" title="eclecticism: Of blogging and unemployment" hreflang="en">pour leur auteur</a>) prises chez Microsoft adoptant le [Powermac G5 comme plate-forme de développement](http://www.factornews.com/seenews.php?n=13430 "Factornews : Les webzines fouinent autour des nouvelles consoles")...
+
+Plan B disais-je en titre, parce qu'il est douteux que l'abandon des processeurs PowerPC ait été fait de gaité de coeur.
+
+Plan néanmoins, parce qu'alors que Microsoft et Sony viennent de lancer sur le marché deux stations de jeu (Xbox360 et PlayStation 3) utilisant le PowerPC, et que Nitendo s'apprête à faire de même, on n'imagine pas que le pommier ait choisi sans bonnes raisons d'aller à contre-courant en délaissant ce même processeur.
+
+Par rapport aux deux précédentes grandes transformations du Macintosh (passage au PowerPC et introduction de MacOS X), l'adoption de l'architecture Intel apparaît comme relativement facile, tant pour Apple que pour les développeurs ([on est quand même en 2005, Kids](http://linuxfr.org/~webseb/9520.html "Linuxfr.org : L'oeuf ou la poule ?"), les environnements de développement permettent de laisser les batailles de Petits Boutistes et Gros Boutistes à [Jonathan Swift](http://www.traduc.org/pipermail/traduc/2001-August/000436.html "[traduc] little endian ou petit boutiste ?")).
+
+Mais ça va évidemment différer certains achats de machines (les Macs vieillissent lentement...) et de logiciels.
+
+Et ça pourrait violemment redistribuer les cartes, car au moment de racheter certains outils, il y aura quelques remises en cause. Parions  que tous ceux qui ont fait des erreurs récentes dans leur grille de tarification vont notamment en souffrir... n'est ce pas, monsieur Adobe, que vous vous souvenez de ce qui est arrivé à Quark ?
+
+Les grands gagnants de l'opération pourraient être :
+
+* les logiciels Open Source
+* Java, dont les vieilles promesses commencent à se concrétiser grâce à la puissance des machines actuelles (Ex : [NeoOffice/J](http://www.planamesa.com/neojava/fr/ "Applications bureautiques Open Source"), [Limewire](http://www.limewire.com/french/content/peerserver.shtml "Partage de fichiers P2P")...). Pour l'instant, <a href="http://tn5250j.sourceforge.net/" title="Terminal emulation and file transfers" hreflang="en">tn5250j</a> et [PDFLab](http://www.cuk.ch/articles.php?unique=372 "Cuk.ch : PDFLab, couteau suisse pour les PDF") sont les seuls outils de ce type que j'utilise quotidiennement , mais ça devrait changer...
+
+Le Steve, [il aime vraiment bien tout chambouler](http://www.nanoblog.com/past/2005/06/steve_jobs_soye.htm "nanoblog : Steve Jobs : "soyez affamé, soyez fous"")...

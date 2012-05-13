@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="$url/style/rss.css" type="text/css"?>
+<rdf:RDF 
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:sub="http://purl.org/rss/1.0/modules/subscription/"
+> 
+
+  <channel rdf:about="$blosxom::url">
+    <title>$blog_title</title>
+    <link>$blosxom::url</link>
+    <description>$blog_description</description>
+    <dc:language>$blog_language</dc:language>
+    <dc:creator>$rss10::creator ($rss10::email)</dc:creator>
+    <dc:rights>Copyright $rss10::creator</dc:rights>
+    <admin:generatorAgent rdf:resource="$rss10::generatorAgent" />
+    <admin:errorReportsTo rdf:resource="mailto:$rss10::email"/>
+
+{{{items}}}
+
+$blogroll::blogroll
+  </channel>
+  

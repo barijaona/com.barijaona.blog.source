@@ -1,0 +1,48 @@
+Un parfum de pingouin
+meta-creation_date: 7/9/2008 10:45:20
+
+[Update Jan 3rd 2009/Mise à jour 3 janvier 2009 : version 0.15 - with options --enable-contrast --enable-dst-correction ]
+[Update Oct 29th 2008/Mise à jour 29 octobre 2008 : version 0.14.1]
+
+Téléchargement/download : &lt;<a href="<$url />/download/UfrawQuartz.dmg" title="Disk Image, 29.3 Mbytes"><$url />/download/UfrawQuartz.dmg</a>&gt;
+
+<a href="http://www.flickr.com/photos/barijaona/2835286737/" title="Ufraw pour MacOS X, sur Flickr"><img src="http://farm4.static.flickr.com/3168/2835286737_686efdfd53.jpg" width="500" height="307" alt="La disposition globale reste très X Windows, mais les contrôles et surtout le rendu sont plus Mac"  title="Copie d'écran sous MacOS X" /></a>
+
+[en]
+
+Thanks to the <a href="http://developer.imendio.com/projects/gtk-macosx" title="Imendio Developer Pages" hreflang="en">Gtk for MacOS X project</a>, I have built a native Macintosh version of the raw photo converter Ufraw.
+
+One can download it at &lt;<a href="<$url />/download/UfrawQuartz.dmg" title="Disk Image, 34.7 Mbytes"><$url />/download/UfrawQuartz.dmg</a>&gt;.
+
+At the time of writing, some browsers may have difficulties negociating with mac.com servers (also known as me.com servers). If the downloaded file is named UfrawQuartz.dmg.bz2, just rename it to UfrawQuartz.dmg before opening.
+
+My main interest was to get 16 bits images in order to compare dcraw to other raw converters, but others might also be interested by the <a href="http://sourceforge.net/projects/osx-gimp/" title="Sourceforge" hreflang="en">Native Gimp for MacOS X</a> project.
+
+[fr]
+
+Voilà bien les geeks... À force de se poser des questions sur les différentes manières de traiter des photos, on est amené à comparer sa manière de procéder avec celle des autres. Et puis on se dit que tant qu'à expérimenter, et pour se faire une meilleure idée, il vaut mieux mettre les différents outils sur le même pied d'égalité...
+
+Question d'ergonomie, je n'ai jamais vraiment réussi à aimer The Gimp, même si (en dehors de Seashore qui a une tout autre philosophie) il existe trois projets cherchant à le faire mieux apprécier des Macophiles : <a href="http://gimp-app.sourceforge.net/" title="Sourceforge : A self contained application bundle of the
+GNU Image Manipulation Program for OS X" hreflang="en">Gimp.app</a>,  <a href="http://darwingimp.sourceforge.net/" title="Sourceforge : darwingimp" hreflang="en">Wilber loves Apple</a> qui permettent d'installer la version X11 d'un clic ou presque, et un rien plus ambitieux, <a href="http://sourceforge.net/projects/osx-gimp/" title="Sourceforge" hreflang="en">OSX-Gimp</a> qui promet un Gimp sans X11.
+
+Cependant cette dernière version n'a pas encore intégré les plug-ins, et pour l'instant, de toute façons, The Gimp reste limité à l'édition en mode 8 bits par canal, ce qui est assez pénalisant lorsque l'on est obligé de rajouter du contraste sur une image "brute de dématriçage".
+
+Mais heureusement... ufraw, le dématriceur lié à The Gimp, peut aussi travailler de manière autonome pour produire des fichiers en 16 bits par canal.
+
+Ufraw intègre la gestion des couleurs et des profils couleurs. Mais le doute persistait... Le fenêtrage X11 ne perturbe-t-il pas le rendu des couleurs ? Le mieux ne serait-il pas de se débarrasser de cet encombrant X11 ?
+
+D'où l'aventure de compiler une version native Mac de ufraw, dont les plus fondus d'entre vous pourront peut-être profiter.
+
+L'image disque se télécharge à &lt;<a href="<$url />/download/UfrawQuartz.dmg" title="Image Disque, 34,7 Mo"><$url />/download/UfrawQuartz.dmg</a>&gt;.
+
+_Attention_ : si votre navigateur vous télécharge un fichier UfrawQuartz.dmg.bz2, renommez le UfrawQuartz.dmg avant de l'ouvrir.
+
+Pour le mode d'emploi, je suggère de vous référer à [ces pages du site Questions Photos](http://www.questionsphoto.com/article/166-linux-pour-les-photographes-sixieme-partie "Linux pour les photographes - Sixième partie"), même si elles se réfèrent à une version légèrement plus ancienne.
+
+Un point qui peut être un peu piégeux est que vous devrez indiquer les profils colorimétriques, qui ne sont pas livrés avec l'application, et donc les choix "par défaut" ne sont pas vraiment satisfaisants.
+
+Pour les profils de sortie, vous aurez à en sélectionner parmi ceux qui se trouvent probablement déjà dans les dossiers /System/Library/ColorSync/Profiles et ~/Library/ColorSync/Profiles.
+
+Pour le profil d'affichage, prenez celui correspondant à votre moniteur dans le dossier /Library/ColorSync/Profiles/Displays.
+
+Pour le profil d'entrée de l'appareil photo, certains tiennent à le fournir, d'autres (dont moi) n'en utilisent pas et se contentent des matrices de couleurs incluses dans dcraw, en spécifiant un gamma de 0,45 et une linéarité de 0,10.

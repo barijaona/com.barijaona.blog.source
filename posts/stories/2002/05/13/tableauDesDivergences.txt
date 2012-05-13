@@ -1,0 +1,50 @@
+Tableau des divergences
+meta-creation_date: 13/05/2002 00:36:07
+
+Nota : Les liens cliquables permettent de télécharger des fichiers détails au format PDF (il vous faudra peut-être utiliser l'option de rotation anti-horaire pour les lire à l'écran).
+
+
+<table border="1" align="right" rules="all" summary="Triple confrontation">
+<caption>Récapitulatif de la comparaison entre les données des deux verdicts de la HCC et les données du Consortium <a href="<$url />/download/triple_confrontation.xls" title="T&eacute;l&eacute;chargement">(version Excel)</a></caption>
+<colgroup span="1">
+<colgroup span="1">
+<colgroup span="5">
+<colgroup span="5">
+<colgroup span="5">
+<thead>
+	<tr>
+		<th>&nbsp;</th> <th>&nbsp;</th> <th colspan="5">HCC1 (25/01)</th> <th colspan="5">HCC2 (29/04)</th><th colspan="5">Consortium</th>
+	</tr>
+	<tr>
+		<th>&nbsp;</th> <td>Nombre de bureaux</td> <td>Suffrages exprimés</td> <td>R. Marc</td> <td>% Marc</td> <td>R. Didier</td> <td>% Didier</td> <td>Suffrages exprimés</td> <td>R. Marc</td> <td>% Marc</td> <td>R. Didier</td> <td>% Didier</td> <td>Suffrages exprimés</td> <td>R. Marc</td> <td>% Marc</td> <td>R. Didier</td> <td>% Didier</td>
+	</tr>
+</thead><tfoot>
+	<tr><td colspan="15"></td>
+	</tr>
+	<tr>
+		<th>Total</th> <td>16493</td> <td>4099839</td> <td>1894575</td> <td>46,21%</td> <td>1676230</td> <td>40,89%</td> <td>4481452</td> <td>2306482</td> <td>51,47%</td> <td>1608614</td> <td>35,89%</td> <td>3336591</td> <td>1688061</td> <td>50,59%</td> <td>1257053</td> <td>37,67%</td>
+	</tr>
+	</tfoot><tbody>
+	<tr>
+		<th>HCC1, HCC2 et Consortium concordent</th> <td>9331</td> <td>2581921</td> <td>1287183</td> <td>49,85%</td> <td>994837</td> <td>38,53%</td> <td>2581921</td> <td>1287183</td> <td>49,85%</td> <td>994837</td> <td>38,53%</td> <td>2581921</td> <td>1287183</td> <td>49,85%</td> <td>994837</td> <td>38,53%</td>
+	</tr>
+	<tr>
+		<th>HCC1 et HCC2 concordent ; Consortium diverge</th> <td><a href="<$url />/download/h1c_h2c_cd.pdf" title="T&eacute;l&eacute;chargez (PDF, 295 Ko) le d&eacute;tail de ces 557 bureaux">557</a></td> <td>165184</td> <td>76474</td> <td>46,30%</td> <td>71566</td> <td>43,33%</td> <td>165184</td> <td>76474</td> <td>46,30%</td> <td>71566</td> <td>43,33%</td> <td>165782</td> <td>75251</td> <td>45,39%</td> <td>73460</td> <td>44,31%</td>
+	</tr>
+	<tr>
+		<th>HCC1 et HCC2 concordent ; Consortium absent</th> <td>2143</td> <td>361581</td> <td>104819</td> <td>28,99%</td> <td>191609</td> <td>52,99%</td> <td>361581</td> <td>104819</td> <td>28,99%</td> <td>191609</td> <td>52,99%</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td>
+	</tr>
+	<tr>
+		<th>HCC1 et Consortium concordent ; HCC2 diverge</th> <td><a href="<$url />/download/h1c_h2d_cc.pdf" title="T&eacute;l&eacute;chargez (PDF, 169 Ko) le d&eacute;tail de ces 282 bureaux">282</a></td> <td>51581</td> <td>17213</td> <td>33,37%</td> <td>24812</td> <td>48,10%</td> <td>50589</td> <td>23965</td> <td>47,37%</td> <td>19165</td> <td>37,88%</td> <td>51581</td> <td>17213</td> <td>33,37%</td> <td>24812</td> <td>48,10%</td>
+	</tr>
+	<tr>
+		<th>HCC2 et Consortium concordent ; HCC1 diverge</th> <td><a href="<$url />/download/h1d_h2c_cc.pdf" title="T&eacute;l&eacute;chargez (PDF, 720 Ko) le d&eacute;tail de ces 1496 bureaux">1496</a></td> <td>445809</td> <td>252420</td> <td>56,62%</td> <td>141961</td> <td>31,84%</td> <td>500647</td> <td>293477</td> <td>58,62%</td> <td>148261</td> <td>29,61%</td> <td>500647</td> <td>293477</td> <td>58,62%</td> <td>148261</td> <td>29,61%</td>
+	</tr>
+	<tr>
+		<th>HCC1, HCC2 et Consortium divergent</th> <td><a href="<$url />/download/h1d_h2d_cd.pdf" title="T&eacute;l&eacute;chargez (PDF, 119 Ko) le d&eacute;tail de ces 174 bureaux">174</a></td> <td>31266</td> <td>11891</td> <td>38,03%</td> <td>14668</td> <td>49,61%</td> <td>38054</td> <td>22114</td> <td>58,11%</td> <td>11044</td> <td>29,02%</td> <td>36660</td> <td>14937</td> <td>40,74%</td> <td>15683</td> <td>42,78%</td>
+	</tr>
+	<tr>
+		<th>HCC1 et HCC2 divergent ; Consortium absent</th> <td><a href="<$url />/download/h1d_h2d_ca.pdf" title="T&eacute;l&eacute;chargez (PDF, 1 Mo) le d&eacute;tail de ces 2510 bureaux">2510</a></td> <td>462497</td> <td>144575</td> <td>31,26%</td> <td>236777</td> <td>51,20%</td> <td>783476</td> <td>498450</td> <td>63,62%</td> <td>172132</td> <td>21,97%</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td>
+	</tr>
+	</tbody>
+</table>

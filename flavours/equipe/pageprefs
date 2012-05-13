@@ -1,0 +1,5 @@
+$meta::bjrDescription = "À propos de ce site" ;
+$meta::bjrKeywords = "barijaona, ramaholimihaso";
+$meta::bjrStylesheet = "theme6";
+
+$meta::navigationLinks = qq#<a href="$blosxom::url/equipe/equipe.html" class="submenu" title="Intermittents du spectacle">Rédaction et inspiration</a>&nbsp;|&nbsp;<a href="$blosxom::url/equipe/sitemap.html" class="submenu" title="Catégories, fils XML">Plan du site</a>&nbsp;|&nbsp;<a href="$blosxom::url/equipe/cv_bjr.html" class="submenu" title="Qui donc ?">Barijaona</a>&nbsp;|&nbsp;<a href="$blosxom::url/equipe/evenements/" class="submenu" title="Vie de la rédaction">Faits d'hiver et d'été</a>&nbsp;|&nbsp;<a href="$blosxom::url/futile/" class="submenu" title="Rapports de repas chez...">Nombrilisme</a># ;

@@ -1,0 +1,4 @@
+$meta::bjrDescription = "Mac-maniaque incurable" ;
+$meta::bjrStylesheet = "theme3";
+
+$meta::navigationLinks = qq#<a href="$blosxom::url/macintosh/" class="submenu" title="Le présent">Actualités</a>&nbsp;|&nbsp;<a href="$blosxom::url/macintosh/macosx.html" class="submenu" title="Les débuts de l'ère moderne">MacOS X</a>&nbsp;|&nbsp;<a href="$blosxom::url/macintosh/os8et9.html" class="submenu" title="Le passé...">MacOS classique</a>&nbsp;|&nbsp;<a href="$blosxom::url/macintosh/macrules.html" class="submenu" title="Guerre de religions ?">Pourquoi ?</a># ;

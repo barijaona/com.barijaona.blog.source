@@ -1,0 +1,25 @@
+Safari 3
+meta-creation_date: 16/11/2007 03:45:19
+
+WebKit étant utilisé ailleurs que dans Safari, j'avais par fainéantise évité les betas de Safari...
+
+Grosse frayeur en installant la mise à jour 10.4.11 du MacOS : la version censée être stable de Safari 3 que cette mise à jour amène refusait d'afficher quoi que ce soit...
+
+La console affichait de nombreux et très peu parlant :
+
+<blockquote style="text-align: left ; font-family:monospace">
+2007-11-16 02:05:28.197 Safari[360] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: &lt;NSGenericException&gt; decodeDataTo: unknown type descriptor ?@::<br />
+2007-11-16 02:05:28.215 Safari[360] *** -[NSAutoreleasePool dealloc]: Exception ignored while releasing an object in an autorelease pool: decodeDataTo: unknown type descriptor ?@::
+</blockquote>
+
+On essaye de ne pas paniquer... ça doit être lié au nouveau mécanisme de sécurité plus restrictif...
+
+Encore heureux que l'on ait toute une floppée de navigateurs sur sa machine, et on ouvre Firefox pour aller sur les forums de [MacGeneration](http://forums.macgeneration.com/vbulletin/showthread.php?t=194207 "10.4.11 !!!"). Finalement, en désactivant <a href="http://www.piclens.com/site/" title="Immersive Slideshows Across the Web" hreflang="en">PicLens</a>, je pus retrouver la sérénité... (pour ceux qui auraient le même ennui, ça se trouve dans `/Library/InputManagers`).
+
+Et après... Vavavoum, ça va vite !! Un vrai plaisir.
+
+Le seul plugin Safari qui me reste indispensable est <a href="http://www.pozytron.com/" title="pozytron.com" hreflang="en">AcidSearch qui doit être en version 0.7b3</a>. Pour sa part, ForgetMeNot est remplacé par la commande "Historique > Rouvrir toutes les fenêtres de la dernière session".
+
+Et pour ceux qui ont activé le menu Debug de Safari, l'inspecteur Web est une merveille pour le développeur... Bien plus ergonomique de mon point de vue que l'inspecteur DOM de Firefox.
+
+Mais enfin, il faut reconnaître que celui-ci m'a bien aidé cette nuit...

@@ -1,0 +1,22 @@
+Announcement : Blosxom starter kit
+meta-creation_date: 21/9/2004 01:43:57
+
+[Blosxom](http://www.blosxom.com "The zen of blogging") is a web publishing tool which has a good following. Here are (from my point of view) the main reasons of its success  :
+
+* Blosxom is open source,
+* its core is really small and simple, but thanks to a plugin architecture, it is very modular and flexible, allowing a strong community of hackers to improve it,
+* this programmer community is very [helpful](http://groups.yahoo.com/group/blosxom/ "Yahoo Groups") ; for many people, Blosxom is an useful and fun way to learn the [Perl language](http://en.wikipedia.org/wiki/Perl "Wikipedia") ;
+
+I am a regular user of Blosxom since September 2003. I have chosen it because of the above mentioned reasons, but also because it is one of the blogging tools which allow (optionaly) the generation of static HTML pages. This makes things a lot easier with the hosting company I use, and additionnaly is faster than a script running on a web server.
+
+I really like Blosxom, but I noticed that its learning curve can be a bit frustrating. You get your first post in a few minutes ; but to make your blog fit your exact needs, you will have to explore the web to find the useful plugins, configure and test each of them and change your page templates accordingly. There are some plugins [repositories](http://blosxom.ookee.com/blog/plugins/registry/v2/listing.html "The Unofficial Blosxom User Group :: Version 2 Plugin Registry Listing"), but you are very likely to encounter and spend some time with plugins which are no more maintained or will create compatibility problems.
+
+This will allow you to learn a lot, and entice you to have a blog which is not like your neighbour's one. But sometimes, you wish there were opportunities to look at what others have made, or to have an example of a clean, coherent and "ready made" Blosxom site, whose features could constitute a good basis for your own hacks.
+
+This Blosxom starter kit is designed to meet that kind of need. The idea was expressed many times in the Blosxom mailing list, but to my knowledge, only [Hail2U.net](http://hail2u.net/archives/bsk.html#download) has done something similar, which is a little unfortunate for the rest of us who aren't fluent in Japanese ;-).
+
+Another specificity of my Blosxom distrib is that it reflects my experiences with rendering of static pages. Plugins that I chose to incorporate are either well-behaved when used in static rendering, or have been modified by myself to fit this requirement. I checked thoroughly that the site behavior remains coherent either you run the kit on your web server to dynamically serve it, or you generate your HTML pages on your local hard disk before transferring them via FTP or something similar to your server. 
+
+The described installation procedure is intended for MacOS X users, but it should not be very difficult to adapt it for other environments (most Unixes, but also Windows and classical MacOS) running Perl.
+
+The first release is <a href="<$url /><$path />/../blosxomsk_20040921.zip" title="317Ko, Sep 21th, 2004">available here for download</a>. The most recent release will always be available at <a href="<$url />/download/blosxomsk.zip"><$url />/download/blosxomsk.zip</a>

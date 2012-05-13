@@ -1,0 +1,27 @@
+Fébrilité (photos)
+meta-bjrStylesheet: theme5.css
+meta-bjrKeywords: noël, commerce
+meta-creation_date: 23/12/2002 01:14:30
+
+J'étais parti pour une diatribe contre la mercantilisation de Noël.
+
+Cette fête devrait être une fête de joie. Pour beaucoup de mes compatriotes, c'est tout simplement un douloureux casse-tête.
+
+Comment fêter Noël lorsqu'on gagne un Smic malgache (environ 30 Euros) ? Même si l'on veut se contenter d'améliorer l'ordinaire avec une salade de pâtes avec un peu de mortadelle, cela semble tenir de la mission impossible.
+
+Pour éviter de parler de manière trop péremptoire, j'ai trainé mes guêtres ce dimanche après-midi dans le royaume de la petite voiture à 7500 <acronym title="Franc malgache">MGF</acronym>, de la chemise à 12500 MGF, du sac de sport pseudo-Adidas à 20000 MGF : le triangle "Camp Pochard", Behoririka et marché "Petite Vitesse".
+
+C'est assez douloureux de surprendre des gens marchander au bord d'un trottoir un article à 1000 MGF.
+
+Cela surprend de voir d'ex-paysans chinois devenus capitalistes par la grâce de la conversion de quelques yuans en francs malgaches.
+
+C'est encore plus étonnant de voir que malgré tout, les gens ont encore la force de sourire.
+
+Les photos ont été prises avec un <a href="http://www.nomatica.com/photo/exilimm1FR.htm" title="Appareil photo format carte">Casio Exilim</a> emprunté: je sais, c'est le genre de détails qui semble inavouable dans ce contexte.
+<div class="photo"><img src="<$url />/myPictures/2002/12/23/0.jpg" width="359" height="480" alt="Descente vers Behoririka"><div class="phototext">La photo ne donne qu'une faible idée de la densité de la foule, un dimanche après-midi.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/12/23/1.jpg" width="360" height="459" alt="Vendeur de ballons et autres articles à 1000 francs malgaches"><div class="phototext">Après s'être assuré que je ne le ferais pas payer, il était d'accord pour qu'on le prenne en photo.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/12/23/2.jpg" width="480" height="334" alt="Une galerie au coeur de Chinatown"><div class="phototext">Du fait de la crise, un certain nombre de boutiques ont changé de mains ; beaucoup ont été reprises par des malgaches.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/12/23/3.jpg" width="313" height="480" alt="Accessoires du photographe"><div class="phototext">26° C : le Père Noël gagne sa vie à la sueur de son front.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/12/23/4.jpg" width="480" height="318" alt="Vente sur le trottoir d'&eacute;quipements audio"><div class="phototext">Attention les oreilles.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/12/23/5.jpg" width="480" height="360" alt="Vente de chaussures sur le trottoir"><div class="phototext">Pour une population qui en a marre d'être traitée de va-nu-pieds.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/12/23/6.jpg" width="240" height="480" alt="Vendeur à la sauvette"><div class="phototext">Pas cher, sans doute pas solide non plus...</div></div>

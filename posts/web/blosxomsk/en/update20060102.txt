@@ -1,0 +1,17 @@
+New version of Blosxom Starter Kit
+meta-creation_date: 2/1/2006 23:59:56
+Late Christmas gift <a href="<$url /><$path />/../blosxomsk_20060102.zip" title="316Ko, Jan 2nd, 2006">is available for download</a>...
+
+It is based on a recent version of blosxom.cgi ([CVS revision 1.9](http://cvs.sourceforge.net/viewcvs.py/blosxom/blosxom2/ "Sourceforge")) which has removed many bugs, and as a consequence required to change some plugins :
+* some hacks in flatarchives and categories plugins were removed because they are no more required* updated prevnextstory and pagetype plugins to handle the fixed $path_info information* updated the exclude plugin to the new method of handling the filter subroutines  (much cleaner for static rendering !)
+
+This version also includes the recent version of prefs plugin which is more friendly in case of errors in preferences files.
+
+Plugins version numbers :
+
+* prevnextstory : 2006-01-01blosxom2
+* pagetype ; 2006-01-01blosxom2
+* exclude : 2006-01-02blosxom2
+* prefs : 2005-11-20
+
+Reminder : the most recent release will always be available at <a href="<$url />/download/blosxomsk.zip"><$url />/download/blosxomsk.zip</a>

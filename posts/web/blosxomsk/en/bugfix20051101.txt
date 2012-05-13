@@ -1,0 +1,5 @@
+Bugfix
+meta-creation_date: 1/11/2005 10:54:52
+A new release of Blosxom starter kit <a href="<$url /><$path />/../blosxomsk_20051101.zip" title="316Ko, Nov 1st, 2005">is available for download</a> . It fixes a validation problem with the RSS 1.0 feed (`<language>` element replaced by `<dc:language>`).
+
+Reminder : the most recent release will always be available at <a href="<$url />/download/blosxomsk.zip"><$url />/download/blosxomsk.zip</a>

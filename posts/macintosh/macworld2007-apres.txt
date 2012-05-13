@@ -1,0 +1,29 @@
+La 3ème impression est la bonne.
+meta-creation_date: 10/1/2007 04:56:22
+Je ne me ferais pas avoir une troisième fois...
+
+1/ Lorsque le [Macintosh est sorti](http://fr.wikipedia.org/wiki/Macintosh#Le_Macintosh "Historique sur Wikipedia"), j'ai lu la fiche technique.
+
+Un Motorola 68000 à 2495 dollars US, alors que Sinclair sortait en même temps un [Motorola 68008 à un prix presque accessible pour ma petite bourse d'étudiant](http://fr.wikipedia.org/wiki/Sinclair_QL "Wikipedia : Sinclair QL") (autour de 7000 francs français si je ne m'abuse)... Bof.
+
+Je ne comprenais pas l'enthousiasme de mon copain Jeff, et l'imputais au halo induit par un usage insuffisamment modéré de l'Apple II.
+
+2/ Lorsque le premier iPod est sorti, je me suis demandé pourquoi et avec quelle légitimité Apple se lançait sur le marché fort encombré des lecteurs MP3, alors que le Mac était en danger...
+
+Plus tard, en voyant le machin en vitrine, je me suis dit que le look était fort séduisant, mais fâché avec les oreillettes, je n'avais pas vraiment l'usage d'un lecteur musical et ai passé rapidement mon chemin.
+
+Et ce n'est que lorsque mon père (arrghhh !!) s'est retrouvé possesseur d'un Nano que j'ai eu l'occasion de manipuler un iPod en conditions réelles et que je me suis dit : <q><cite>Bon sang mais c'est bien sûr !! Je comprends tout !</cite></q> (ce n'est vraiment pas vieux, presque dans les 5 dernières minutes ;-) ). Lent à la comprenette, le Barijaona.
+
+Donc ce soir, à l'annonce du iPhone (mais diable, le nom n'est-il pas une marque déposée de Cisco ?), j'étais largement prévenu contre ma méfiance...
+
+Alors oui, je crois que Steve a gagné <a href="http://arstechnica.com/staff/fatbits.ars/2007/1/7/6514" title="John Siracusa's Journal: MWSF 2007 keynote bingo" hreflang="en">le gros lot au Loto</a>. Avec les <a href="http://www.apple.com/iphone/" title="Apple - iPhone" hreflang="en">vidéos</a>, impossible de répéter les erreurs de 1984 et 2001... L'engin parait terriblement efficace, et présenter un potentiel largement supérieur au seul téléphone. On ne joue pas dans la même catégorie que les Palm, SonyEricsson ou autres BlackBerry.
+
+Quelques questions cependant :
+
+* l'engin utilise MacOS X. Génial. Sur mon Mac, le dossier Système et la Bibliothèque font cependant déjà 5,63 Go... Même si la version de poche sera moins gourmande, qu'est ce que l'on pourra effectivement stocker dans le iPhone 4 Go ?
+* quelles applications tierces pourra-t-on installer ? Un client Mail c'est bien, mais il faudrait au moins pouvoir visualiser les .doc, .xls et .pdf qui encombrent notre petite vie...
+* dans la vraie vie, quelle sera l'autonomie électrique de la septième merveille du monde ?
+
+Mais de toute évidence, les motifs pour justifier l'investissement dans des ordinateurs portables de type notebook se sont sérieusement rétréci ce soir...
+
+C'est bien, les grandes économies.

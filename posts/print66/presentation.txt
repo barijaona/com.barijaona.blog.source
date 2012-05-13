@@ -1,0 +1,77 @@
+Print66, a free print server for the Macintosh
+meta-creation_date: 28/12/2003 21:07:47
+
+This document can be retrieved at <$url />/print66/
+
+Current version : 0.69 (January 2002)
+
+<h1>To download :</h1>
+
+* if your web browser achieves to retrieve binaries : <a href="./download/print66_folder.sit" title="Stuffit archive">132 K compressed archive</a>
+* for very old web browsers who don't retrieve binaries : <a href="./download/print66_folder.sit.hqx" title="Binhexed Stuffit archive">180 K binhex compressed archive</a>
+
+Source code is also available (for Metrowerks Codewarrior11) : <a href="./download/print66src_folder.sit" title="Stuffit archive">116 k binary compressed archive</a>.
+
+Archives are compressed. You will need Stuffit Expander 5.1 or later.
+
+<h1>What is it ?</h1>
+
+Print66 is a print server that implements the Berkeley Line Printer Protocols on the Macintosh. It "listens on the TCP port 515(RFC 1179)":http://www.faqs.org/rfcs/rfc1179.html, spools files sent from remote hosts and sends them to an USB printer, a Serial printer, or a LaserWriter on the Appletalk network. It can also be used to print any file to a Laserwriter printer.
+
+Print66 should run under System 7 and requires MacTCP or OpenTransport TCP/IP.
+
+This program is really a quick and dirty work, which in many aspects does not conform to Macintosh user interface, but I may rework it if I have enough time and/or someone find it useful. Bug reports and suggestions are welcomed at print66@barijaona.com.
+
+This program is freeware and will stay freeware. As the program is free, it comes without any warranty. You use it at your own risks.
+
+<h1>A few quotes</h1>
+
+<a href="http://www.macobserver.com/columns/macgadget/00/20001002.shtml" title="October 2nd, 2000">Macobserver</a> :
+
+bq.:http://www.macobserver.com/columns/macgadget/00/20001002.shtml ...there may be cases where your network doesn't allow AppleTalk, or you may want to share your printer with non-Mac computers. Print66 can solve your problem...
+
+<a href="http://www.macwindows.com/citrix.html" title="October 27th, 2000">Peter Figaroa</a> :
+
+bq.:http://www.macwindows.com/citrix.html In my case I've six iMacs and one PowerMac G4 each one has a local attach HP deskjet printer connected to the USB port. They all running the freeware LPD daemon Print66 from barijaona, which can accept print jobs from our Citrix server, Windows NT server, IBM AS/400 system, Unix server and Windows PCs.
+
+<a href="http://www.jonandnic.com/comment-view.asp?item=366&amp;type=1" title="May 13th, 2003">Jonathan Wise</a> :
+
+bq.:http://www.jonandnic.com/comment-view.asp?item=366&type=1 A little searching uncovered an incredible app for the Mac called Print66 -- a port of some well known Unix functionality. It's not very sexy, but it is quite lightweight, and elegant.
+
+bq. I just wanted to tell you that Print66 is the most useful product I've ever seen. I investigated numerous commercial software and hardware print servers to allow my Mac and PCs to use the same printer. All were expensive or cumbersome. Print66, while a little tough to configure, was elegant, lightweight and... perfect.
+
+Michael W. Leonard :
+
+bq. Thank you so much for Print66.  My fiancee has a Macintosh with an HP OfficeJet Series 6100 on one of the USB ports.  I had wanted to put the printer on a USB print server, but she balked when I told her she wouldn't be able longer to use the scanner without moving the USB plug from the print server back to the computer.  So, I needed another solution.  I have a laptop running Linux via wireless.  I searched using Google to find a way to use her Mac as a server, and voila!, Print66 came up.  A couple hours later, I had everything working.  The PPC version is now started automatically via her Startup folder, so I won't have to worry when she reboots.  All is well.
+
+<h1>What is the status of this application ?</h1>
+
+It is unlikely that I will add new functionalities to Print66. But I still support it and will attempt to correct any left bug. Do not hesitate to contact me at print66@barijaona.com.
+
+"<cite>Whatever you do will be insignificant, but it is very important that you do it.</cite>" --Mahatma Gandhi.
+
+<h1>Version History</h1>
+
+The latest version can be downloaded through the URL : <a href="<$url />/download/print66_folder.sit"><$url />/download/print66_folder.sit</a>
+
+Print66 is a quick port from the lpDaemon program originally written by Casper Boon in Think C. The lpDaemon version 3.3.2 sources have been ported to Metrowerks CodeWarrior environment and have been recompiled. Some parts of the code have been rewritten due to the change of environment and the evolutions of Mac Headers, and to build a PowerPC version. I corrected a few bugs (and may have inadvertently added new ones :-) ), added the handshake support for serial printers and the support of USB printers.
+
+I did this work because I wanted to print some AS/400 print files on a printer connected directly to my desktop Macintosh. The possibility to print to a serial port or USB printer appears nowadays more interesting than the use of AppleTalk, because many modern network printers already handle directly TCP/IP and LPR/LPD, and this explain the focus of my work.
+
+* 0.69 (Jan, 21th 2002) : solves a memory problem introduced in 0.68 version (Thanks to Mark Taylor).
+* 0.68 (Jan, 11th 2002) : workaround a problem where long host names made the spool names get longer than the 31 characters the classic MacOS can handle.
+* 0.67 : internal version
+* 0.66 (Sep, 5th 2001) : this version should run faster (better buffer handling) ; the Laserwriter printer driver is now opened in read only mode, which solves some issue on getting the resources and is safer anyway.
+* 0.65 (June, 4th 2001) : solves a problem poking spool files under MacOS 9.1 ; this version should also run faster.
+* 0.64 (Dec, 4th 2000) : solves another problem with the null byte marking the end of a data or control file. In certain situations, remote hosts using Apple Laserwriter driver could not print.
+* 0.63 (Nov, 28 th 2000) : improves the way Print66 handles the null byte marking the end of a data or control file, and acknowledges it. The previous method was not 100% compliant with RFC1179 and could cause problems with certain clients or under certain network conditions. Added a FAQ to the documentation.
+* 0.62 (Nov, 24 th 2000) : (was only sent to some testers) attempt to correct the way Print66 handles the null byte marking the end of a spool file and acknowledges it.
+* 0.61 (Oct, 18 th 2000) : workaround for the LMGetUnitTableEntryCount missing in InterfaceLib in early PowerPC machines ROMs.
+* 0.6 (Oct, 2nd 2000) : added USB printer support, and corrected some bugs.
+* 0.5 (Aug, 14th 2000) : corrected a long standing crash for 68K machines ; added handshaking support for serial ports (either RTS/CTS or Xon/Xoff) ; requires use of explicit ports names for defining serial printers in the LPD.config file ; added support for Quit AppleEvent ; cleaned source from some pre-system 7 routines and adapted it to UniversalHeaders 3.3.2. The spectacular leap in version numbering is due to mistakes :-). Tested under MacOS 8.6 and MacOS 7.1.
+* 0.0.4 (Jul, 14th 2000) : corrected the mailing routine ; bugs correction and clarification in log file.
+* 0.0.3 (Jul, 11th 2000) : fixed a bug related to closing serial ports (already fixed in 0.0.2, but this version was never published). Reviewed the documentation and the default config file. Tested under MacOS 8.6.
+* 0.0.2 (Jun, 30th 2000) : internal version.
+* 0.0.1 (Jun, 20th 2000) : first version.
+
+p>. "Next : setting up(Setting up the app on the Mac and machines using it)":./print66/setup.html

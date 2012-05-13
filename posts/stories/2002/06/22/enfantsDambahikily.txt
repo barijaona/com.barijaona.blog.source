@@ -1,0 +1,11 @@
+Enfants d'Ambahikily (photos)
+meta-creation_date: 22/06/2002 01:29:26
+meta-bjrStylesheet: theme5.css
+meta-bjrKeywords: éclipse, solaire, 2001, enfants, photos, ambahikily, madagascar, toliara, morombe
+
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/262-4052-25.JPG" width="356" height="194" alt="Enfants &agrave; Ambahikily..."><div class="phototext">Ambahikily est un petit village près de Morombe... Quelques heures avant l'éclipse... Faute de lunettes et surtout à cause d'une communication catastrophique, la plupart de ces enfants ne verront rien de l'éclipse, qu'ils passeront terrés chez eux avec leurs parents. Ils ne se doutaient sans doute pas que leur village était le meilleur endroit de Madagascar pour l'observation de l'éclipse, à la fois par sa position et par sa météo.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/262-4052-32.JPG" WIDTH="285" HEIGHT="430" alt="Enfants &agrave; Ambahikily..."><div class="phototext">Big brother...</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/262-4052-33.JPG" WIDTH="284" HEIGHT="428" alt="Enfants &agrave; Ambahikily..."><div class="phototext">... and little sister.</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/262-4052-033.JPG" WIDTH="427" HEIGHT="287" alt="Enfants &agrave; Ambahikily..."><div class="phototext">On vaut le coup d'oeil, non ?</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/262-4052-E.JPG" WIDTH="382" HEIGHT="484" alt="Enfants &agrave; Ambahikily..."><div class="phototext">De l'influence de la vidéo...</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/06/22/265-2352-26.JPG" WIDTH="428" HEIGHT="612" alt="Enfant d'Ambahikily..."><div class="phototext">Le petit prince.</div></div>

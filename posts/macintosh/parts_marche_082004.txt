@@ -1,0 +1,22 @@
+Très chère caféine...
+meta-creation_date: 29/9/2004 07:03:55
+
+Cela devrait faire plaisir à [Tristan Nitot](http://standblog.org/blog/2004/09/25/93113686-microsoft-aime-firefox "Microsoft aime Firefox") : il n'y a plus que <a href="http://arstechnica.com/news/posts/20040928-4244.html" title="The Ars Platform and Browser report" hreflang="en">38% des visiteurs d'ArsTechnica qui utilisent Internet Explorer</a>... contre 79,82% il y a à peine 3 ans. Les différents parfums de Mozilla suivent à 31%.
+
+ArsTechnica est un site orienté informatique, qui n'a pas de prédilection pour une plate-forme en particulier. C'est donc un bon observatoire des usages des <i lang="en">geeks</i> :
+
+* Windows : 67%
+* Macintosh : 18%
+* Linux : 10%
+* BSD : 2%
+
+Et encore, à mon humble avis, il doit y avoir plus d'amateurs de pommes et d'amis des pingouins contraints d'ouvrir la fenêtre alors que le temps se couvre que l'inverse...
+
+<a href="http://www.linuxinsider.com/story/36120.html" title="Linux News: Macs Are More Expensive, Right?" hreflang="en"><q>Les Macs et les PCs sont optimisés pour des types d'activité complètement différents et reflètent donc des perceptions différentes de ce qui constitue la performance.</q></a> Ce qui n'empêche pas l'auteur de cette sage phrase d'essayer de comparer des choses vaguement comparables entre Apple et Dell, le "champion" du PC de marque pas cher :
+
+* pour les machine de bureau d'entrée de gamme, Dell offre des solutions légèrement plus économiques qu'un eMac ou un iMac, mais avec des possibilités multimédia et de connectivité moindre ;
+* pour les machines de bureau haut de gamme : dans cette gamme de prix, l'accent est mis sur les capacités multimédia, et les PCs ne sont tout simplement pas compétitifs, autant par les capacités des matériels que par leur coût ;
+* pour ce qui est des serveurs, la comparaison est plus délicate. Apple propose des serveurs particulièrement aptes à gérer des gros flux multimédias, alors que les serveurs de Dell sont optimisés pour des pointes d'accès disques qu'on retrouve pour le stockage de fichiers et de bases de données. Mais dès qu'on rajoute la taxe Microsoft (3295 dollars pour 25 utilisateurs...), le Dell se retrouve à des prix assez prohibitifs ;
+* le segment qui progresse le plus est celui des portables : là, il n'y a pas photo, Apple est bien plus compétitif que Dell. Il suffit de flaner dans une convention Linux pour s'en rendre compte...
+
+Bon, chers amis étudiants, [je trouve que le café est très cher en France](http://www.macgeneration.com/mgnews/depeche.php?aIdDepeche=112248 "Que j’aime ta couleur café")... Il est largement temps de passer au [commerce équitable](http://www.google.com/search?hl=fr&ie=UTF-8&safe=off&c2coff=1&q=café+équitable+madagascar&btnG=Rechercher&lr= "Pas encore grand choix, mais enfin..").

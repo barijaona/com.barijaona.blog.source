@@ -1,0 +1,14 @@
+Message de service
+meta-creation_date: 14/7/2011 16:35:06
+
+Pour faire bref : l'URL devient [http://blog.barijaona.com](http://blog.barijaona.com "Étonnements rapides et durables").
+
+Dans les logiciels et dans les services, l'obsolescence n'est pas forcément programmée, mais elle doit parfois être accélérée pour que la sève continue de circuler. Apple ayant décidé de faire partiellement table rase du passé, l'iDisk deviendra inaccessible en juillet 2012 et il va falloir déménager les infos ici présentes.
+
+Ce sera le deuxième déménagement de ces pages après la migration de Geocities (je crois que le quartier d'origine chez Geocities était SiliconValley). C'était en l'an 2000, et comme [iTools était alors gratuit](http://en.wikipedia.org/wiki/MobileMe#iTools "Wikipedia" hreflang="en"), c'était une occasion idéale de se débarasser de la publicité qui rendait les pages non conformes aux standards HTML. À l'époque, ces pages étaient faites « à la mimine », les liens étaient relatifs, et je n'avais eu qu'à supprimer les balises permettant à Geocities d'insérer ses publicités.
+
+Aujourd'hui, la migration est subie plutôt que choisie : même s'il n'y a pas encore urgence, la nostalgie justifie un peu de boulot pour ne pas perdre complètement tout le travail antérieur d'indexation fait par les humains et les machines. La nouvelle adresse blog.barijaona.com continuera donc de pointer provisoirement sur l'ancienne, mais l'ajout de la balise [`<link rel="canonical" href="...">`](http://www.google.com/support/webmasters/bin/answer.py?hl=fr&answer=139394 "À propos de l'attribut rel=\"canonical\"") devrait permettre aux moteurs de recherche de comprendre mes intentions et de faire le lien entre passé, présent et futur. Merci, `find`, `xargs` et `sed` pour avoir facilité les substitutions fines.
+
+Il me reste un peu moins d'un an pour trouver un hébergement pas trop cher et dans la tradition de l'internet libre et <i lang="en">geek friendly</i>.
+
+Souvenirs, souvenirs...

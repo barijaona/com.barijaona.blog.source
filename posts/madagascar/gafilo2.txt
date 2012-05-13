@@ -1,0 +1,20 @@
+On en apprend tous les jours...
+meta-creation_date: 15/3/2004 00:22:11
+
+Par exemple, qu'un cyclone tropical, c'est <a href="http://www.lemonde.fr/web/article/0,1-0@2-3238,36-356658,0.html" title="Les cyclones tropicaux, soupapes de s&eacute;curit&eacute; de l'atmosph&egrave;re">l'équivalent, chaque seconde, de cinq bombes atomiques analogues à celle qui a frappé la ville japonaise d'Hiroshima en 1945</a>.
+
+Bon, d'accord, cela s'exerce sur une surface assez étendue...
+
+Aux dernières nouvelles, Gafilo a fait donc moins de victimes que "<a href="http://fr.wikipedia.org/wiki/Bombe_atomique" title="Wikipedia : bombe atomique">Little Boy</a>", mais 81 morts, 160 disparus et 120.000 sans-abris, c'est trop pour un pays <a href="http://www.reuters.fr/locales/c_newsArticle.jsp?type=topNews&amp;localeKey=fr_FR&amp;storyID=4563297" title="&Agrave; Madagascar, jour de deuil pour les victimes du cyclone Gafilo">qui n'a même plus vraiment le temps de les pleurer</a>.
+
+Les communications avec Antalaha commencent à se rétablir (difficilement), ce qui me permet de publier quelques photos supplémentaires envoyées par Marie Hélène Kam-Hyo.
+
+<!-- more -->
+
+<img src="<$url /><$path />/gafilo_antalaha_avant.jpg" width="400" height="300" alt="Bateaux ballotés par la tempête">
+
+<img src="<$url /><$path />/gafilo_antalaha_apres.jpg" width="400" height="266" alt="La côte d'Antalaha après la tempête...">
+
+<img src="<$url /><$path />/gafilo_antalaha_habitations.jpg" width="400" height="300" alt="Habitations de type traditionnel endommagées">
+
+

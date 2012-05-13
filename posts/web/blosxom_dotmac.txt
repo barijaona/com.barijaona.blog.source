@@ -1,0 +1,84 @@
+Publishing a blosxom blog on a Mac.com account
+meta-creation_date: 13/3/2004 12:02:33
+
+This post will probably irritate some french speaking readers as well as lovers of the english language, but this is a quick and dirty adaptation of an e-mail which may be useful for other people.
+
+<div lang="en">Many MacOS X users users are interested in running a <a href="http://www.blosxom.com" title="The zen of blogging">blosxom</a> blog ; they may also have a <a href="http://www.mac.com/" title="Apple">mac.com</a> account.
+
+Following <a href="http://groups.yahoo.com/group/blosxom/message/7060" title="remote hosting / .mac">a request in the blosxom mailing list</a>, here is a short description of my configuration for publishing a blosxom blog on a mac.com account.
+
+.Mac does not run CGIs, so Blosxom runs on my local machine.
+
+<h1>1/ Initial setup</h1>
+
+My datadir must be readable by the www user, so I put it at :
+
+bq. <code>$datadir = "/Users/my_macintosh_username/blosxom/posts";</code>
+
+(replace my_macintosh_username by your short login name)
+
+The plugins are configured this way :
+
+<blockquote>
+<p>
+<code># --- Plugins (Optional) -----</code>
+</p>
+<p>
+<code># Where are my plugins kept?</code>
+</p>
+<p>
+<code>$plugin_dir = "/Users/my_macintosh_username/blosxom/plugins";</code>
+</p>
+<p>
+<code># Where should my modules keep their state information?</code>
+</p>
+<p>
+<code>$plugin_state_dir = "$plugin_dir/state";</code>
+</p>
+
+</blockquote>
+
+I setup the access rights for the state directory (/Users/my_macintosh_username/blosxom/plugins/state) to 775, owner www, group my_macintosh_username.
+
+Blosxom is used to generate static pages on the Sites directory of my home, so that I can preview the site before uploading to .Mac through the URL http://127.0.0.1/~my_macintosh_username
+
+<blockquote>
+<p>
+<code># --- Static Rendering -----</code>
+</p>
+<p>
+<code># Where are this blog's static files to be created?</code>
+</p>
+<p>
+<code>$static_dir = "/Users/my_macintosh_username/Sites";</code>
+</p>
+</blockquote>
+
+
+<h1>2/ Day to day use</h1>
+
+After writing a post, I run a shell script which generates the static pages :
+
+bq. <code>perl /Library/WebServer/CGI-Executables/blosxom.cgi -password="My_static_password_here" ${*}</code>
+
+This script contains also instructions to rename some files to my liking (for instance, I find it easier having index.rss renamed rss.xml, index.atom renamed atom.xml...) and delete other files which I don't want to upload (for instance the daily archives, because monthly archives are enough for me...).
+
+I can then check my writing by browsing at http://127.0.0.1/~my_macintosh_username.
+After doing so, I upload to my iDisk through a shell script invoking rsync :
+
+bq. <code>rsync -vaz --size-only --exclude=.DS_Store --stats --progress ~/Sites/ /Volumes/my_dotmac_login/Sites/</code>
+
+(replace my_dotmac_login by what is adequate). Of course, you'll have first to mount your iDisk to run the above.
+
+To speedup the rsync process, you can add other --exclude options, for instance for the older archives. In fact, my current script contains :
+
+bq. <code>rsync -vaz --size-only --exclude=.DS_Store --exclude=2002 --exclude=2003 --exclude=myPictures --stats --progress ~/Sites/ /Volumes/barijaona/Sites/</code>
+
+<h1>3/ Further enhancements you can consider</h1>
+
+My setup uses the prefs plugin, which I use instead of Rael Dornsfed's <a href="http://www.blosxom.com/plugins/general/config.htm" title="blosxom.com">config plugin</a> because of some problems I encountered with static rendering, and <a href="<$url />/download/prefs" title="Prefs plugin">can be downloaded here</a>.
+
+Among other things, this plugin is used to set a meta variable to the base address, whether blosxom runs in dynamic or static mode (http://127.0.0.1/cgi-bin/blosxom.cgi or <$url />).
+
+I use this meta variable in my templates in a ==&lt;base ...&gt;== HTML directive, so that links within the blog function both in dynamic and static rendering.
+</div>

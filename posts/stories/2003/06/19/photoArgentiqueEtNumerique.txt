@@ -1,0 +1,135 @@
+Photo argentique ET numérique
+meta-creation_date:  19/06/2003 03:05:25
+meta-bjrStylesheet: theme5.css
+meta-bjrKeywords: photo, numérique, argentique, photoshop, elements, iphoto, minilab, fuji, frontier, cd-rom, papier, jet d'encre
+
+Pour ceux qui l'oublieraient ou qui ne savent pas où je réside, je rappelle que Madagascar n'est <a href="http://www.aneki.com/Madagascar.html" title="Madagascar : ranking 12th among the poorest" hreflang="en">pas précisément</a> un temple de la consommation de masse.
+
+Alors, c'est un peu un miracle qu'un laboratoire photo y ait adopté il y a quelques semaines un minilab numérique. Un Fuji Frontier 370 plus précisément.
+
+<h2>Pourquoi passer par un minilab numérique ?</h2>
+Ça fait 5 ans que dans les balises <code>meta</code> de ce site figure le mot-clé <cite>photo</cite>, sans qu'il y ait énormément de photos dessus.
+
+Parce qu'il y a des choses plus intéressantes dans la vie que d'attendre gentiment qu'un scanner veuille bien faire son travail, ce pour un résultat qui franchement n'était pas à la hauteur de mes attentes (manque de dynamique des scanners à plat dont la résolution réelle bute de toutes façons sur la définition du papier photo, sensibilité aux poussières des scanners de films d'entrée de gamme, sans compter pour un maladroit comme moi le risque non négligeable de rayer les films).
+
+Parce que par rapport à leurs qualités photographiques intrinsèques (qualité et choix des optiques, précision du cadrage, temps de latence à la prise de vue...), les appareils numériques me semblent encore un peu cher. Surtout lorsqu'on aime bien les vues prises avec un grand angle "extrême"... Pour retrouver un environnement un tant soit peu comparable de mon équipement actuel, il me faudrait investir environ 3600 Euros. Impensable.
+
+Parce que je ne me vois pas <a href="<$url />/myPictures/2002/06/22/Nissan05.jpg" title="Pas toujours tr&egrave;s soigneux avec le mat&eacute;riel...">risquer</a> un appareil numérique et éventuellement un PowerBook que je ne possède même pas dans des <a href="<$url />/stories/2002/06/22/enfantsDambahikily.html" title="Ambahikily">contrées</a> où je ne suis même pas sûr de trouver une prise électrique pour les recharger.
+
+Parce que le temps pour préparer et mettre en ligne des fichiers Jpeg de qualité moyenne serait du temps volé sur celui dont je ne dispose même pas pour rendre les épreuves papier plus expressives. Ce qui, même si je vous aime bien, est ma principale motivation.
+
+Donc un minilab numérique, c'est très bien. Pour un surcoût raisonnable, et sans effort supplémentaire, je me retrouve, en sus des classiques épreuves papier réclamées par un usage familial, avec un CD gravé à la résolution dite "HD 16 Base", soit des photos d'un peu plus de 7 mégapixels (3360 x 2240) avec une compression Jpeg de l'ordre de 1/10 (fichiers de l'ordre de 3 Mo). Par rapport à un reflex numérique haut de gamme, ce n'est pas si mal...
+
+<h2>Les outils</h2>
+En "prime" sur le CD, il y a un logiciel pour Windows, qui se révèle, après test rapide sous VirtualPC, assez indigent...
+
+Pour les macintoshiens, la solution de facilité pour visualiser et gérer les fichiers est <a href="http://www.apple.com/fr/iphoto/" title="Apple - iLife - iPhoto">iPhoto</a>, gratuit, et déjà nettement supérieur à cet utilitaire livré par le labo. Certains recommandent également iView Media Pro comme gestionnaire alternatif de fichiers (la période d'essai de 21 jours était trop brève pour me permettre de me faire une véritable opinion sur ce produit).
+
+Mais il ne faut pas attendre de miracles de la part d'iPhoto en tant qu'outil de retouche, sauf pour éliminer rapidement les yeux rouges sur des photos prises au flash. Si on est un peu exigeant, on investira dans Photoshop Elements ou Photoshop, sachant qu'il est possible dans les préférences d'iPhoto de définir un éditeur externe.
+
+Pour un meilleur usage d'iPhoto, je suggère de lire <a href="http://www.macdevcenter.com/pub/a/mac/2002/06/08/iphoto_tips.html?page=1" title="Top Ten iPhoto Tips" hreflang="en">cet article de Derrick Story chez O'Reilly</a>.
+
+Je recommande également dans les préférences d'iPhoto d'éviter l'apparence "Ombre" autour des photos : le logiciel se montre ainsi beaucoup plus réactif.
+
+<h2>La qualité de la numérisation</h2>
+Bon, ceci étant dit, que valent les photos ainsi numérisées ?
+
+La définition est élevée : en agrandissant au maximum l'image, on commence à distinguer le grain du film (négatif couleur 100 ISO), et le moindre défaut de mise au point devient perceptible. Voilà qui donne envie de soigner ses photos aux petits oignons !
+
+Petite déception néanmoins, on distingue par endroits quelques artefacts peut-être liés à la numérisation (le "pas" du scanner semble se trahir par des lignes).<br>
+<img src="<$url />/myPictures/2003/06/18/agrandissement2.jpg" alt="Photo &agrave; agrandissement maximum" width="511" height="383"><br>
+Des "pétouilles" sont également visibles : est-ce le labo ou moi-même qui sommes à l'origine de ces poussières ? Je croyais que des dispositifs comme <a href="http://www.asf.com/products/ICE3/Example.shtml" title="ASF Technology : Image Correction Enhancement" hreflang="en">Digital ICE</a> nous débarrasseraient complètement de ce genre de problème.
+<br>
+<img src="<$url />/myPictures/2003/06/18/agrandissement.jpg" alt="Photo &agrave; agrandissement maximum" width="511" height="383"><br>
+Je n'ose croire que, horreur, pour gagner du temps, le labo ait désactivé ces options logicielles ou le traitement multi-passes.
+
+<h2>Résolution et qualité d'impression</h2>
+Grosse satisfaction néanmoins : la taille des fichiers du CD (un peu plus de 7 mégapixels, disais-je) permet d'envisager sans trop de complexes des tirages 30x40, en tout cas plus que ce que ne permet une imprimante A4.
+
+Ne croyez pas comme je l'ai cru longtemps qu'il faille envoyer à une imprimante 1440 dpi un fichier à 1440 pixels/pouce. Au delà de 300 pixels/pouce, la différence de qualité apportée par des fichiers de taille accrue est imperceptible, quelle que soit l'imprimante.
+
+La résolution plus fine des imprimantes est très utile, mais elle sert essentiellement à faire des gouttes plus fines qui, alliées avec une trame de diffusion savamment calculée, donnent l'illusion de tons continus.
+
+Une saine précaution pour éviter les surprises : garder comme résolution du fichier imprimé un sous-multiple de la résolution de l'imprimante. Dans mon cas, j'utilise une bonne vieille Epson Stylus Photo 750, dont la résolution "qualité photo" est de 1440 dpi : je lui envoie des fichiers dont la résolution est de 180, 240, 288 ou 360 pixels par pouce.
+
+Lorsque j'ai à changer la taille de l'image, je préfère éviter de la rééchantilloner, c'est à dire que je conserve autant que possible le nombre de pixels initiaux. Si vous devez néanmoins le faire, on recommande en général :
+<ul>
+<li>de le faire dans le logiciel de retouche plutôt qu'à l'intérieur du logiciel du scanner</li>
+<li>de le faire sur le scan brut plutôt que sur une image déjà retraitée,</li>
+<li>de procéder par étapes : réduire la résolution par pas d'environ 50 pixels/pouce à la fois, plutôt qu'en une seule fois</li>
+</ul>
+
+iPhoto, dans sa volonté de rester simple, permet moins de maîtriser l'ensemble de ces paramètres que Photoshop ou Photoshop Elements. Veiller quand même au signal d'avertissement (le signal routier avec un point d'exclamation) qu'il affiche parfois dans l'aperçu de la boite de dialogue "<cite>Imprimer</cite>", pour signaler qu'il ne peut pas faire de miracles avec le fichier dont il dispose.
+
+<h2>La gestion des couleurs</h2>
+Le post-traitement des photos n'est pas une chose simple. "La" bible est <cite><a href="http://www.photoshopforphotographers.com/" title="www.photoshopforphotographers.com" lang="en" hreflang="en">Adobe Photoshop 7.0 for Photographers</a></cite>, par Martin Evening, dont <a href="http://www.eyrolles.com/php.informatique/Ouvrages/9782212111613.php3?xd=ef521ba915abec0e235b6219d1b09be7" title="Photoshop 7.0 pour les photographes">la traduction française est publiée chez Eyrolles</a>.
+
+Chance pour vous, quelques extraits au format PDF sont disponibles sur le site d'Eyrolles, dont le chapitre 4 qui traite justement de la gestion des couleurs...
+
+Pour tenter de rester simple, voici les points essentiels :
+<ul>
+<li>régler l'écran : pour calibrer un écran, il existe des outils optionnels très perfectionnés, mais ce que permet en standard un système d'exploitation n'est déjà pas mal du tout. Sous MacOS X, dans les préférences systèmes, utiliser la section <cite>Couleurs</cite> du tableau de bord <cite>Moniteurs</cite>. Avec mon Apple Studio Display, le réétalonnage automatique semble très bien fonctionner, mais un réglage manuel peut être préféré. Ne pas hésiter à vérifier le réglage fréquemment, dans l'idéal tous les mois.</li>
+<li>régler ColorSync : choisir comme profil <abbr title="Rouge, Vert Bleu">RVB</abbr> par défaut "<cite>Adobe RGB 1998</cite>", le standard parmi les profils RVB étendus, et comme profil <abbr title="Cyan, Magenta, Jaune, Noir">CMJN</abbr> par défaut "<cite lang="en">Euroscale Coated v2</cite>" (profil correspondant à une impression offset sur papier brillant confiée à la plupart des imprimeurs européens). En fait, le choix du profil CMJN n'est pas vraiment important pour l'utilisateur moyen (j'y reviendrai un peu plus loin).</li>
+<li>régler les préférences de couleurs de votre logiciel de retouche : dans Photoshop Elements, choisissez l'option <cite>Système de gestion des couleurs complet - optimisé pour l'impression</cite> ; dans Photoshop, adoptez <cite lang="en">Europe Prepress Defaults</cite>.</li>
+<li>ne pas tenir compte de ce qu'on lit sur certains forums et travailler uniquement en RVB ! lorsqu'on utilise une imprimante jet d'encre, le logiciel pilote s'attend à recevoir un fichier RVB (Rouge, Vert, Bleu) et non pas un fichier CMJN (Cyan, Magenta, Jaune, Noir)... Il est tout à fait aberrant d'envoyer à une imprimante jet d'encre un fichier CMJN, car la double conversion ne peut que dégrader le rendu de couleurs, et d'ailleurs les imprimantes optimisées photos utilisent non pas 4 mais 6 couleurs. Les fichiers CMJN ne sont utiles qu'à un imprimeur devant préparer des plaques offset, et dans ce cas, il vaut mieux discuter quelque temps avec lui avant de décider si et comment vous ferez la conversion ou si vous préférez lui confier la tâche...</li>
+<li>lorsque vous imprimez, si vous utilisez Photoshop, passez par la commande <cite>Imprimer avec aperçu</cite>. Cochez la case <cite>Afficher plus d'options</cite>, et sélectionnez la section <cite>Gestion des couleurs</cite> ; vérifiez que l'Espace source est <cite>Document</cite> et que le Profil est <cite>Identique à la source</cite></li>
+<li>lorsque vous arrivez à la boite de dialogue d'impression spécifique à votre imprimante, affichez les paramètres avancés de configuration : choisissez le type de papier que vous employez. Dans les paramètres de gestion des couleurs, cochez l'option ColorSync (MacOS) ou <abbr title="Image Color Management">ICM</abbr> (Windows) afin que l'imprimante choisisse automatiquement le profil correspondant au papier sélectionné.</li>
+</ul>
+
+Comme pour la plupart des photos venant d'appareils numériques, les photos provenant de mon labo ont le profil "grand public" <cite>sRGB IEC 6 1966-2.1</cite>.
+
+Au départ, je m'y suis fié... Mais bien vite l'impression qui s'imposait était que les fichiers livrés par mon labo paraissaient à l'écran éxagérément jaunes, comme les Ektachrome grand public d'il y a quelques années ; certains apprécient ces tons chauds, mais je trouvait cela quand même excessif, comparé aux tirages faits par le labo. Rien de très flagrant avec des photos de mire utilisant les couleurs primaires, mais sur certaines photos du monde réel où une couleur légèrement orangée sur les tirages paraissait plus franchement jaunâtre sur l'écran, le doute était permis.
+
+Au bout d'un certain temps, me vint l'idée que la numérisation était optimisée en vue d'un tirage sur le minilab plutôt que pour un usage général... Ceci fut conforté par un <a href="http://www.drycreekphoto.com/Frontier/using_frontier_profiles.htm" title="Dry Creek Photo : Using Frontier/Noritsu profiles" hreflang="en">article</a> mettant en évidence que la partie tirage du Frontier 370 ignore les profils ICC incorporés dans les fichiers, et qu'il fallait lui fournir un fichier spécialement préparé pour elle. Donc, les fichiers bruts de scan devaient avoir un profil optimisé pour la tireuse...
+
+Vérifions : après avoir téléchargé sur le site de Fuji <a href="http://www.fujifilm.co.uk/colour/" title="Colour Management by Fuji" hreflang="en">le profil ICC générique</a> de la tireuse, je l'installe dans mon dossier <cite>Library:ColorSync:Profiles</cite>.
+
+Puis j'applique ce profil à mes fichiers (commande <cite>Image</cite> &gt; <cite>Mode</cite> &gt; <cite>Attribuer un profil</cite>)... Bingo ! Une fois cette manipulation faite, je constate que la simulation d'épreuve avec ce même profil (<cite>Affichage</cite> &gt; <cite>Format d'épreuve</cite> &gt; <cite>Personnalisé</cite>) est cette fois très fidèle aux tirages que me livre effectivement le laboratoire...
+
+Ceci confirmait que les fichiers scannés par le labo avaient non pas comme prétendu un profil sRGB, mais le profil de la Frontier 370...
+
+Puisque je suis obligé de réenregistrer le fichier après avoir ainsi appliqué le profil de la Frontier 370, je préfère le convertir d'abord au profil Adobe RGB 1998 (<cite>Image</cite> &gt; <cite>Mode</cite> &gt; <cite>Convertir en profil</cite>) ; ce profil est recommandé pour les retouches fines de la colorimétrie.
+
+La gestion des couleurs n'est pas une chose simple ; les discussions entre professionnels ont parfois des allures bien ésotériques, et il y a donc parfois des chausses-trappes inattendues...
+
+Mais l'<a href="http://www.color.org/" title="International Color Consortium" hreflang="en">ICC</a> a défini des normes, et Apple, un de ses membres fondateurs, a beaucoup fait pour les rendre utilisables pour le commun des mortels... Les quelques conseils rassemblés ici devraient assurer une homogénéité de couleur généralement satisfaisante entre différents écrans et différentes imprimantes.
+
+<h2>Le choix du papier</h2>
+Deux paramètres m'ont apparu rapidement essentiels pour les tirages jet d'encre : choisir le bon papier et trouver les réglages optimums correspondant sur l'imprimante.
+
+Avec mon Epson, la tentation est de rester exclusivement sur du papier Epson.
+
+On se perd toutefois facilement dans les références. Par précipitation, on risque de confondre Epson Photo Paper (Papier photo, très bon) avec Epson Photo Quality Paper (Papier couché qualité photo, un peu moins bon). Et Epson n'est pas très clair sur les performances de la SP750 avec l'Epson Premium Photo Paper.
+
+Le second problème, c'est le coût... Il y a comme une rente de situation qui amène à vouloir expérimenter un peu.
+
+Entre en scène Chasseur d'Images, n°250, Janvier-Février 2003 :
+
+<blockquote>
+Les imprimantes Canon (...) donnent le meilleur d'elles-mêmes avec des encres et du papier Canon ou Kodak. Les imprimantes Epson supportent bien les papiers Epson, Kodak, Ilford, Konica et Tetenal. Les imprimantes HP préfèrent le papier HP, Kodak et Ilford, mais nécessitent un petit temps de séchage avec les papiers d'autres... et sont quasi incompatibles (pour cause de séchage) avec d'autres surfaces Ilford et Konica !
+</blockquote>
+
+En pratique, avec ma SP750, j'obtiens de très bons résultats avec de l'Imation Photojet (Photo Quality Paper for Inkjet Printers Ultra White Glossy), acheté depuis déjà longtemps, à condition de choisir dans les réglages d'imprimante <cite>Papier couché qualité photo</cite>. C'est un papier lourd et brillant, qui bluffe bien son monde...
+
+Son rendu de couleurs est tout à fait acceptable, mais diffère un peu de celui de l'Epson Photo Paper, notamment dans les verts, plus vifs, ce que j'impute à son aspect brillant : idéalement, il faudrait avoir un profil ICC spécifique. Je n'en ai pas trouvé sur Internet, et <a href="http://www.drycreekphoto.com/" title="Dry Creek Photo" hreflang="en">en faire réaliser un sur mesure</a> est un peu excessif pour un usage amateur.
+
+J'ai essayé de bidouiller dans la section <cite>Gestion des couleurs</cite> de Photoshop, ainsi que de voir si la gestion de couleurs Epson qui offre quelques possibilités de réglages permettait d'obtenir de meilleurs résultats que Colorsync : peine perdue, le meilleur rendu reste celui obtenu par Colorsync avec le profil d'origine de l'imprimante Epson.
+
+Un autre papier testé, le Kodak Picture Paper Glossy m'a initialement déçu, par son apparence plutôt satinée que brillante.
+
+Là encore, il faut choisir dans les réglages d'imprimante <cite>Papier couché qualité photo</cite>, et non pas <cite>Papier photo</cite> (et ce contrairement aux conseils de Kodak !).
+
+Le grammage moins important que celui de l'Imation trahit l'origine jet d'encre de ses tirages par de légères gondolations ; par contre, son toucher est bien plus agréable. Les couleurs sont également mieux rendues que celles de l'Imation, mais pas tout à fait au niveau de l'Epson Photo Paper.
+
+Au final, c'est un bon papier pour un usage courant, ce pour quoi il est vendu.
+
+Et de l'usage courant, il vaut mieux en faire de temps en temps : les cartouches de la SP750 ne semblent pas apprécier le sommeil prolongé...
+
+Pour du haut de gamme, j'avoue que le doute persiste : sur le papier, je me laisserais peut-être tenter par le Kodak Ultima Picture Paper Ultra Glossy (270 g/m2), plus lourd que l'Epson Photo Paper (194 g/m2), mais quid de l'Epson Premium Glossy Photo Paper (255 g/m2) ?
+
+Bref, pour l'instant, il m'a paru plus raisonnable de me contenter d'épuiser les stocks. J'ai déjà eu assez de mal à m'approvisionner depuis mon île profonde, et j'ai de quoi expérimenter un peu...
+
+<h2>Imprimer au labo</h2>
+Pour l'impression courante comme pour l'impression de qualité, pourquoi ne pas revenir au minilab avec un CD ? Comme je l'ai écrit plus haut, on peut télécharger <a href="http://www.fujifilm.co.uk/colour/" title="Colour Management by Fuji" hreflang="en">un profil ICC générique sur le site de Fuji</a>, et d'ici à quelques semaines, <a href="http://www.drycreekphoto.com/Frontier/Targets/TargetPreparation.htm" title="Dry Creek Photo : basic/free profiling service" hreflang="en">j'aurai les éléments pour obtenir un profil personnalisé</a> à condition de négocier un peu avec les opérateurs.
+
+<a href="http://www.drycreekphoto.com/Frontier/using_frontier_profiles.htm" title="Dry Creek Photo : Using Frontier/Noritsu profiles" hreflang="en">Les instructions pour tirer parti de ces profils sont ici</a>. À nous les 25 x 38 !

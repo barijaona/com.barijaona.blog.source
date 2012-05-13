@@ -1,0 +1,24 @@
+K.O. suite à un crochet du droit...
+meta-creation_date: 22/12/2003 14:34:22
+
+Bon, ça dort dans la blogospère ? Où sont les stakhanovistes de l'HTML, les fêlés du beau code, les fadas de l'<i lang="en">open source</i> ?
+
+Suite à mon poste précédent, j'ai identifié ce qui apparaît comme de sérieux problèmes de Safari 1.1 (<i lang="en">Build</i> v100.1) lorsqu'on applique un style sur le pseudo-élément '<code>first-letter</code>'.
+
+Voici le code d'une page très simple qui envoit ma version de Safari au tapis :
+
+@<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">@
+@<html>@
+@<head>@
+@<style>@
+@P:first-letter { font-size: 100%; }@
+@</style>@
+@</head>@
+@<body>@
+@<p>[</p>@
+@</body>@
+@</html>@
+
+En fait, ça semble se produire dès qu'un paragraphe ne contient pas au moins deux "vrais" caractères alphanumériques.
+
+Bon, quelqu'un veut bien me confirmer le problème ? Je serais aussi curieux de savoir si Konqueror nous amuse avec le même genre de facéties.

@@ -1,0 +1,16 @@
+Kung Fu master contre grippe du poulet
+meta-creation_date: 28/1/2004 07:01:01
+
+Depuis un peu plus de 30 heures, j'assiste sur mes mails à ce qui paraît être la plus grosse attaque de vers informatiques depuis l'origine de l'internet...
+
+<a href="http://www.k-otik.com/news/01.27.Novarg.php" title="k-otic.com : Virus MyDoom/Novarg - Alerte de Niveau 4 &amp; Attaque contre SCO">Des inconnus qui vous envoyent des messages</a> intitulés <cite lang="en"><q>Hi</q></cite>, <cite lang="en"><q>hello</q></cite>, ou <cite lang="en"><q>test</q></cite>, ça devrait paraître aussi incroyable que votre président du conseil d'administration vous envoyant un message <cite lang="en"><q>I love you</q></cite>... (bon, ça dépend des présidents de conseils d'administrations et de vos attirances affectives, mais la plupart de ceux que je connais sont aussi secs qu'un saucisson d'Auvergne et aussi crédibles dans les déclarations passionnées qu'une boite de jus d'orange. Prière de signaler les exceptions dans les commentaires afin que je puisse attirer l'attention de quelques marieuses sur les cas en question).
+
+N'empêche que malgré toute logique, il y en a qui semblent ignorer les précautions les plus élémentaires... Chez moi, tout ce qui se termine par <cite>.pif</cite>, <cite>.scr</cite>, <cite>.exe</cite>, <cite>.cmd</cite>, <cite>.bat</cite> et quelques autres extensions va systématiquement à la poubelle.
+
+S'il n'y avait eu les versions du ver comprimées dans des fichiers Zip et tous ces messages destinés à <i lang="en">postmaster</i>, j'aurais presque pu ignorer tout cela...
+
+Hélas, au boulot, <a href="http://www.macintosh2004.com/" title="Macintosh, 20 ans apr&egrave;s...">contrairement à mon douillet chez moi</a>, il y a des PC certifiés compatibles virus...
+
+Pour les infectés, voir par <a href="http://www.symantec.com/avcenter/vinfodb.html" title="Symantec security response">ici</a> ou par <a href="http://www.pandasoftware.com/activescan/com/activescan_principal.htm" title="Panda Active Scan">là</a>... (souvenez vous cependant que je n'ai pas eu à essayer ces petits carnivores là...).
+
+Et pour ceux qui s'interrogeraient encore une fois à raison ou à tort sur mon état mental, le titre de ce billet est une <i lang="en">private joke</i>...

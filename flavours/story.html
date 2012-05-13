@@ -1,0 +1,16 @@
+<?$pagetype::pagetype eq="main"><div class="post"><div class="post-full"><h3 class="$meta::bjrAccent"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Lien permanent vers cet article"><span class="timestamp">[&nbsp;$date_fullname::dw $da $date_fullname::mo $yr,&nbsp;$hr:$min&nbsp;]</span>&nbsp;$title</a></h3>$body</div><div class="comment-link"><script type="text/javascript"><!--
+document.write("<div class=\"js-kit-comments\" uniq=\"$yr$mo_num$da$hr$min\" permalink=\"$blosxom::url$path/$fn.html\" domain=\"blog.barijaona.com\"></div>");
+//-->
+</script>
+<noscript>
+<a href="http://html.blog.barijaona.com/$yr$mo_num$da$hr$min">[Réactions]</a>
+</noscript></div></div><br /></?>
+<?$pagetype::pagetype eq="story"><div class="post"><div class="post-full"><h3 class="$meta::bjrAccent"><span class="timestamp"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;$hr:$min&nbsp;]</a></span>&nbsp;$title</h3>$body</div><div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> $modiftime::modiftime</span><br /></div><a name="comments"></a>
+<script type="text/javascript"><!--
+document.write("<div class=\"js-kit-comments\" uniq=\"$yr$mo_num$da$hr$min\" permalink=\"$blosxom::url$path/$fn.html\" domain=\"blog.barijaona.com\"></div>");
+//-->
+</script>
+<noscript>
+<a href="http://html.blog.barijaona.com/$yr$mo_num$da$hr$min">[Réactions]</a>
+</noscript></div><br /></?>
+<?$pagetype::pagetype like="(chrono|category)"><h3 class="$meta::bjrAccent"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Aller vers l'article complet">$da $date_fullname::mo $yr : $title</a></h3>$foreshortened::body <span class="seemore"><a href="$url$path/$fn.$flavour" title="Aller vers l'article complet">-&gt;&gt;</a></span></?>

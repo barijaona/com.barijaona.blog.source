@@ -1,0 +1,2 @@
+$blosxom::plugins{'sort_reverse'} = 0;
+$blosxom::num_entries = 8 ;

@@ -1,0 +1,22 @@
+Cause (... publie, émets) toujours
+meta-creation_date: 12/3/2004 04:26:28
+
+Suite à un <a href="http://www.haloscan.com/comments.php?user=barijaona&amp;comment=200403100312#122140" title="Lili voulait aller regarder...">commentaire</a> sur le billet précédent, j'ai procédé à un test sur Google News Francophone vers 3 h du matin (Temps universel +3), ce jour (prière de ne pas répéter l'heure à mon médecin...).
+
+* Une recherche sur <a href="http://permanent.nouvelobs.com/europe/20040311.OBS5711.html" title="Nouvel Obs : la journ&eacute;e heure par heure">attentats madrid</a> nous ramène <a href="http://news.google.com/news?hl=fr&amp;ie=ISO-8859-1&amp;edition=fr&amp;q=attentats+madrid&amp;btnG=Recherche+Actualit%e9s" title="Beaucoup pour 15 heures">environ 527 dépêches</a>
+* Pour <a href="http://www.beafrica-opinions.com/depeches5/depeches302.htm" title="B&eacute;africa-opinions.com : La Maison Blanche n&rsquo;appr&eacute;cie pas les d&eacute;clarations du pr&eacute;sident Aristide">centrafrique aristide</a>, on a droit à <a href="http://news.google.com/news?hl=fr&amp;ie=ISO-8859-1&amp;edition=fr&amp;q=centrafrique+aristide&amp;btnG=Recherche+Actualit%e9s" title="Ils auraient d&ucirc; lui trouver un lieu d'asile plus paum&eacute; encore...">environ 500 dépêches</a>
+* <a href="http://www.reuters.com/locales/newsArticle.jsp?type=worldNews&amp;locale=fr_CA&amp;storyID=4551700" title="Reuters : Rwanda/L'Onu admet poss&eacute;der une &quot;bo&icirc;te noire&quot; li&eacute; au g&eacute;nocide">rwanda kagamé</a> arrive péniblement à <a href="http://news.google.com/news?hl=fr&amp;ie=ISO-8859-1&amp;edition=fr&amp;q=rwanda+kagam%e9&amp;btnG=Recherche+Actualit%e9s" title="beaucoup de morts, mais on va dire que c'est parce que &ccedil;a fait d&eacute;j&agrave; 10 ans">154</a>
+* <a href="http://permanent.nouvelobs.com/etranger/20040310.OBS5669.html" title="Nouvel Obs : Les mercenaires de Malabo voulaient destituer Nguema">guinée mercenaires</a> (je ne précise même pas Guinée Équatoriale) est ridiculement bas à <a href="http://news.google.com/news?hl=fr&amp;ie=ISO-8859-1&amp;edition=fr&amp;q=guin%e9e+mercenaires&amp;btnG=Recherche+Actualit%e9s" title="Il faut de vrais cadavres pour attirer l'attention">33</a>
+* quand à mon très égocentrique <a href="http://www.la-croix.com/afp/index.jsp?docId=1424600&amp;rubId=1301" title="AFP (via La Croix ) : Cyclone &agrave; Madagascar: au moins 170 disparus et 32 morts">madagascar cyclone</a>, il paraîtrait presque dans la bonne moyenne avec <a href="http://news.google.com/news?hl=fr&amp;ie=ISO-8859-1&amp;edition=fr&amp;q=madagascar+cyclone&amp;btnG=Recherche+Actualit%e9s" title="En bilans tr&egrave;s provisoires, &agrave; peu pr&egrave;s autant de victimes qu'&agrave; Madrid, mais c'est des morts presque naturelles">246</a>
+
+Difficile de ne pas se dire qu'il y a des régions du monde qui sont des trous noirs en matière d'information. Mais il est des adjectifs qui semblent un rien politiquement incorrects dans ce contexte...
+
+Et encore, mon test porte sur internet, média supposé être un peu élitiste... Qu'est-ce que ça doit être pour les boites à images...
+
+Pour mémoire : <a href="http://blogs.law.harvard.edu/ethan/2004/01/22#a61" title="Iraq, the black hole">un billet d'Ethan Zuckermann</a> sur le même sujet, dont le titre me laisse songeur sur les mécanismes de ladite mémoire...
+
+Pour les bonnes nouvelles, je ne trouve pas d'exemples susceptibles de donner des données statistiquement significatives...
+
+PS : Ah, si, il y a quand même eu des nouvelles que l'on peut considérer comme bonnes qui ont dépassé le seuil des radars : <a href="http://news.google.com/news?hl=fr&amp;ie=ISO-8859-1&amp;edition=fr&amp;q=afrique+sud+oscar&amp;btnG=Recherche+Actualit%e9s" title="Merci, les ex-top model">97</a> et <a href="http://news.google.com/news?hl=fr&amp;ie=ISO-8859-1&amp;edition=fr&amp;q=cap+vert+victoires&amp;btnG=Recherche+Actualit%e9s" title="Victoire, Cesaria !">4</a>... Ce n'est plus du niveau de la toile mondiale, mais de <a href="http://news.google.com/news?hl=fr&amp;ie=ISO-8859-1&amp;edition=fr&amp;q=saint-etienne+mickey+3d&amp;btnG=Recherche+Actualit%e9s" title="Saint-Etienne : Mickey 3D aussi a gagn&eacute; aux Victoires de la Musique...">l'actualité locale (42)</a>.
+
+Sans rancune, je <a title="Mickey 3 D : discographie" href="http://www.mickey3d.com/discographie.html">respire</a>. Peut-être un peu plus que les médiocres médiacteurs.

@@ -1,0 +1,37 @@
+Pour que l'écran fasse moins écran
+meta-creation_date: 14/6/2004 23:30:51
+
+Le blog est un outil [d'interactivité et d'échange][1]. Sauf qu'échanger, ça veut dire donner, et que dans ce domaine, [certains sont plus égaux que d'autres][2] (question subsidiaire : un blog copié-collé est-il égal aux autres ?).
+
+[1]: http://www.homo-numericus.net/article.php3?id_article=212 "Homo Numericus : Défense des blogs"
+[2]: http://mouche.joueb.com/news/521.shtml "Mouche : pire que moi"
+
+Entre les articles non lus dans <a href="http://minutillo.com/steve/feedonfeeds/" title="Aggrégateur de nouvelles actuellement utilisé" hreflang="en">Feed on feeds</a>, les onglets ouverts dans Safari, les liens hâtivement stockés sur <a href="http://del.icio.us/barijaona" title="del.icio.us/barijaona (Marque-pages partagé)" hreflang="en">delicious</a>, et les marque-pages sauvegardés plus durablement dans un dossier du disque dur, le besogneux du blog que je suis n'écrit que sur une infime partie de ce qu'il voudrait.
+
+Ceux qui pensent "<cite>heureusement qu'il se tait plus souvent qu'il ne parle</cite>" sont invités à se manifester, pour m'aider à calmer les quelques <a href="http://imajes.info/archives/2004/05/05/blog-frequency" title="James Cox : On Blogging, Frequency, and so on" hreflang="en">scrupules que je ressens à peu publier</a>.
+
+Alors difficile de ne pas se reconnaître dans un <a href="http://www.plasticbag.org/archives/2004/06/on_representing_the_backlog_caused_by_an_absence_of_cerebral_ram.shtml" title="Plasticbag : on representing the backlog caused by an absence of cerebral RAM..." hreflang="en">billet de Tom Coates</a> :
+
+> Dans la vie réelle, bien sûr, les gens peuvent deviner lorsque vous êtes occupés et ne sont pas particulièrement troublés si vous n'êtes pas en mesure de leur consacrer le temps que vous voudriez. Ils peuvent ne pas être enthousiasmés par cette perspective, mais ils l'acceptent. Par contre, les signaux que je peux émettre en public à travers mon blog sont moins clairs.
+
+> (...)
+
+> Ce dont j'ai besoin est un moyen de refléter la réalité de ma météo personnelle - sans toute la lourdeur d'avoir à choisir consciemment un état d'esprit.
+
+> (...)
+
+> 600 billets non triés, 50 onglets ouverts représentant 50 billets filtrés dont il faudrait parler, 200 marque-pages représentant 200 autres conversations auxquelles il faudrait prendre part, plus 4 ou 5 documents de plusieurs pages (dont l'un faisant environ 6000 mots) qui attendent en marge et que je suis incapable d'accoucher de manière efficace. Voilà l'indicateur de l'état de débordement dans lequel je me trouve. Voilà la mesure de mon manque total de RAM cérébrale. Comprenez-vous maintenant pourquoi je publie si peu ?
+
+À vue de nez, pour moi, les ordres de grandeur sont similaires (et je ne parle pas de l'état de mes bureaux, ça en fait six entre les réels et les virtuels, entre ceux de la maison et du travail...).
+
+Pour donner un peu de ce type de contexte, je me suis surpris à polluer des billets avec des considérations personnelles tellement cryptiques et décalées qu'elles n'amélioraient en rien le contenu réel.
+
+Je me suis aussi retrouvé, après une absence de plusieurs jours, à me demander si je n'alertais pas mes lecteurs, vu [mes piteux antécédents][3]... D'ailleurs, ça n'a pas manqué : à l'absence suivante, un lecteur (que j'ai injustement oublié de remercier pour sa sollicitude mais qui je l'espère se reconnaîtra) sollicitait un signe de survie...
+
+[3]: <$url />/madagascar/hopital.html "Autocitation d'un incident de blog : on n'est pas à Lambaréné..."
+
+Il était temps de réagir... quitte à sacrifier un peu l'aspect ascétique auquel je tiens tant sur ma page d'accueil. Sur [ladite page][4] donc (dans la colonne de gauche pour les navigateurs gérant les feuilles de style, en fin de page pour les autres), une nouvelle rubrique, le Sextant (référence à ma navigation personnelle et non pas à mon bas-ventre) : une petite description de mon style de vie du moment en moins caricatural que les <a href="http://www.livejournal.com/moodlist.bml" title="Live Journal Moods" hreflang="en">icônes d'humeur à la Live Journal</a>. Format libre et indéterminé, sauf vraisemblablement pour les prévisions à court terme qui permettront de déterminer le niveau de blogo-blues et de blogo-vacances.
+
+[4]: <$url />/ "Accueil"
+
+Hautement volatile et un rien futile, le Sextant ne figurera pas dans les fils RSS et Atom, et ne sera pas historisé. Il faut bien que je vous donne de temps à autres envie de sortir de votre aggrégateur de nouvelles pour venir déposer des commentaires.

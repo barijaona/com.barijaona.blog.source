@@ -1,0 +1,11 @@
+Mise à jour
+meta-creation_date: 20/11/2005 20:04:42
+Une des règles d'or du développement Open Source est : "Sortez rapidement et fréquemment de nouvelles versions".
+
+Donc 22 mois depuis [la version précédente]( <<$url />/web/plugin_prefs.html "Article précédent : réinventer la poudre..."), c'est beaucoup trop...
+
+Mais comme <a href="http://groups.yahoo.com/group/blosxom/message/11309" title="Message: Blosxom, the Thanksgiving edition" hreflang="en">une nouvelle version de Blosxom est imminente</a> (j'espère d'ailleurs qu'elle intègrera certains correctifs que j'ai soumis), il me fallait faire au mieux pour que [le plugin prefs]( <<$url />/download/prefs "Source du plugin") soit perçu comme la solution naturelle pour personnaliser certaines pages d'un blog.
+
+Avec cette nouvelle version, si vous faites une erreur de syntaxe dans vos fichiers de personnalisation, le système vous le signalera poliment dans les logs du serveur (ou directement à l'écran si vous utilisez en même temps le plugin seeerror). 
+
+Au XXIème siècle, c'est quand même le minimum qu'on puisse demander.

@@ -1,0 +1,87 @@
+Insulaires
+meta-creation_date: 12/10/2007 14:13:49
+
+<img src="<$url /><$path />/tromelin1.jpg" width="696" height="496" alt="Vue aérienne de Tromelin"><br />Tromelin vue du ciel - (c) Ifremer
+
+L'insularité est un des moteurs de ce blog. Que dis-je ? L'insularité est à la fois le moteur et le [contre-balancier d'internet](http://www.lemonde.fr/web/article/0,1-0@2-651865,36-963839,0.html "Le Monde : Les enfants de la Net-génération") : <cite><q>chacun prend conscience qu'il est un individu parmi des millions d'autres, mais aussi qu'il peut être contacté depuis le monde entier</q></cite>.
+
+Alors oui, laissez moi vous dire que j'aime / je hais l'insularité.
+
+Madagascar, la "grande île", n'est que la cinquième plus grande île du monde, après l'Australie, le Groenland, la Nouvelle Guinée et Bornéo. (Certains chipoteront que l'Australie est un continent, mais enfin, ça ne change pas le fond des choses.)
+
+Je ne viens de trouver qu'il y a quelques heures une astuce mnémonique pour situer sans trop d'hésitation la Nouvelle Guinée et Bornéo sur une mappemonde. Aussi, je peux comprendre qu'un certain pourcentage d'individus associent d'abord le nom de Madagascar à un film d'animation, et que les clichés sur les papous soient légion.
+
+Je ne m'étonne point que l'on situe plus facilement Hong-Kong, Taïwan, Malte ou Manhattan que mon pays.
+
+Je serais attristé, mais point abasourdi que le nom de Nosy Be soit plus familier à certains italiens que celui de Madagascar.
+
+Tout ceci pour dire que Madagascar, comme île du bout du monde, ça se pose là.
+
+Alors oui, laissez moi vous dire que j'aime / je hais l'insularité.
+
+Dans un monde où tout se mesure, l'insularité aussi se chiffre.
+
+Un premier élément qui vient à l'esprit est l'indice côtier : rapport entre longueur des côtes (en kilomètres) et surface émergée (en km<sup>2</sup>). Cet indicateur est notoirement imprécis, car mesurer la longueur de côtes dépend fortement du niveau de détail des cartes utilisées (révisez donc vos mathématiques fractales). De plus, cet indice avantage outrageusement les petites îles et atolls (révisez donc votre géométrie sur les relations entre périmètres et surfaces).
+
+Avec un indice côtier de 0,008, Madagascar apparaît à peine plus insulaire que la France continentale (0,006), et plus continentale que la Grande Bretagne (0,029) ou le Canada (0,020).
+
+Ne nous laissons donc point aveugler par ce seul critère et partons à la quête d'autres indicateurs.
+
+L'indice d'isolement se définit comme le rapport entre la surface de la [zone économique exclusive](http://fr.wikipedia.org/wiki/Zone_économique_exclusive "Wikipedia") des 200 milles marins (ZEE) et la surface émergée.
+
+L'Australie et ses annexes sont à 1,05 ; ah, Madagascar est à 2,07 !
+
+Pas de triomphalisme, le Japon est à 11,86, la Nouvelle Zélande à <a href="http://www.teara.govt.nz/EarthSeaAndSky/HarvestingTheSea/FishingIndustry/5/ENZ-Resources/Standard/2/en" title="Map - Te Ara Encyclopedia of New Zealand" hreflang="en">15,20</a>... Comme quoi, être un archipel présente quelques avantages.
+
+Plus étonnant, le Royaume Uni est à 16,23, la France à 16,34... En fait, certains ont compris que garder de leurs vieux [empires](http://a.ttfr.free.fr/liste2.php "Tous les territoires français : La France métropolitaine et ultra-marine en chiffres") quelques îlots [lointains](http://www.malango.fr/iles-zee.htm "Malango : les Z.E.E. des Dom-Tom") permettait de garder droits de pêche et droits miniers sans encombrer les sillons de son terroir de trop d'ADN bizarroïde... Sans cet habile dopage, la France métropolitaine stagnerait à 0,63...
+
+Madagascar revendique mollement les [îles éparses](http://fr.wikipedia.org/wiki/Îles_Éparses "Wikipedia") (population civile : 4 personnes).
+
+Pourquoi pas, entrons un peu dans l'histoire, plus précisément l'histoire d'une d'entre elle, Tromelin.
+
+Le 17 novembre 1760, la flûte "L’Utile" quitte le port de Bayonne avec 132 marins à bord.
+
+Le trois-mâts est affrété par Jean-Joseph de Laborde pour le compte de la Compagnie française pour le commerce des Indes orientales. Ce négociant est un personnage hors du commun : banquier de Louis XV, première fortune de France, mécène des peintres Jean-Baptiste Greuze, Hubert Robert, Joseph Vernet et négrier.
+
+Ce personnage est représentatif de son temps, dans la mesure où il se livre à la traite négrière avec une parfaite bonne conscience, allant même jusqu'à baptiser ses navires du nom de ses filles ou de ses amis.
+
+L'Utile est sous le commandement du capitaine de brûlot [Jean de La Fargue](http://gran.i-maj.com/ "Groupe de Recherche en Archéologie Navale"), 57 ans.
+
+Après plusieurs mois de navigation et une escale à Pasages (Espagne), le navire atteint l’île Maurice en avril 1761. D’où il repart, en juin, pour Foulpointe, à Madagascar.
+
+<img src="<$url /><$path />/tattum-fort_de_foulpointe_2.jpg" width="500" height="371" alt="Vue du fort de Foulpointe"><br />Fort de Foulpointe - Certains droits réservés par [Tattum](http://tattum.canalblog.com/albums/madagascar___est__/photos/1562082-fort_de_foulpointe_2.html "L'odyssée de Tattum")
+
+La Fargue y fait embarquer des vivres et une centaine d’esclaves qu’il compte revendre à l’île Maurice, malgré l’interdiction formelle du gouverneur. En effet, celui-ci, craignant un blocus des Anglais, ne veut pas s’embarrasser de bouches inutiles.
+
+Le 31 juillet 1761, une tempête terrible jette l’Utile sur les récifs de l’île de Tromelin. L’équipage parvient à rallier l’îlot sableux sans trop de mal, suivi par seulement une soixantaine d’esclaves, car les panneaux de la cale avaient été cloués.
+
+L'ordre règne : blancs et esclaves vivent dans des camps différents. Rapidement, le commandant fait construire une embarcation avec le bois arraché à l’épave. Une forge est même installée à terre.
+
+Les 122 français ne restent que 2 mois sur la petite île avant de repartir en promettant de revenir chercher les 60 Malgaches. Mais il n’en fût rien : le gouverneur de Maurice, furieux contre La Fargue, qui avait désobéi à ses ordres, refusa de porter secours aux esclaves.
+
+[Seuls 8 esclaves survivants, dont un bébé de 8 mois, furent récupérés 15 ans plus tard, le 29 novembre 1776](http://noelpecout.blog.lemonde.fr/2006/12/07/tromelin-lile-des-esclaves-oublies "jadislherbe : Tromelin, l’île des esclaves oubliés"). Le petit garçon sera rebaptisé Jacques Moïse (!), sans que l'histoire retienne si on a demandé l'avis de la mère et d'une de ses grand-mères, également survivantes, et dont l'histoire n'a retenu ni les noms, ni les témoignages.
+
+[Sur l'île](http://www.inrap.fr/archeologie-preventive/Decouvrir/Audiovisuels/Reportages_videos/p-1167-L_Utile__1761._Esclaves_oublies..htm "Institut National de Recherches Archéologiques Préventives (Vidéo)"), un mur de 1 mètre 60 de long et 50 centimètres de large [témoigne](http://www.temoignages.re/article.php3?id_article=18572 "Témoignages : retour de l’expédition archéologique sur l’île de Tromelin") de l’état d’esprit des survivants : ils ont compris que leur séjour sur l’île allait durer. Le sol avoisinant a également livré des informations concernant leur alimentation. Il apparaît que les esclaves aient dû se nourrir principalement de tortues et d’oiseaux et que le feu a pu être conservé jusqu’à leur départ, grâce au bois de l’épave. Autre découverte importante : 6 récipients de cuivre qui, par leurs multiples réparations, démontrent la volonté des rescapés à faire durer leurs objets.
+
+Le dimanche, certains responsables politiques français auront peut-être lu cette petite histoire dans leur [magazine en papier glacé favori](http://www.lefigaro.fr/magazine/20061201.MAG000000273_le_mystre_des_survivants.html "Le Figaro : Tromelin : le mystère des survivants") sans avoir de nostalgie par rapport au bon vieux temps où l'immigration était choisie. A l'époque, on choisissait d'après l'état de la dentition, aujourd'hui et demain on essaiera [avec plus ou moins de succès](http://www.lemonde.fr/web/article/0,1-0@2-3224,36-961894,0.html "Le Monde : Les élites économiques victimes inattendues du projet de loi sur l'immigration") de choisir d'après les diplômes, le QI et pourquoi pas l'ADN.
+
+Et lorsque les mots "immigration choisie" auront perdu de leur portée électorale, on parlera peut-être d'immigration utile, sans penser à l'immigration de l'Utile.
+
+Alors oui, laissez moi vous dire que j'aime / je hais l'insularité.
+
+Ne tombons point dans la victimisation. Sortons donc de l'histoire, terrain de jeu de M. Guaino, et revenons à la géographie.
+
+Un autre indice d'isolement d'une île a été défini par le Programme des Nations unies pour l'environnement (PNUE) en 1998. Il consiste à la somme des racines carrées des distances (en kilomètres) à l'île comparable la plus proche, le groupe d'îles le plus proche, et le continent le plus proche.
+
+Je n'ai pas retrouvé les données de Tromelin, mais les îles Glorieuses se situent à 53, et <a href="http://islands.unep.ch/IMI.htm#767" title="UN Island Directory Tables : Islands of Madagascar" hreflang="en">Madagascar</a> apparaît donc plus isolé à 58... Bon, on n'en n'est pas aux <a href="http://islands.unep.ch/Tisolat.htm" title="UN Island Directory Tables : More Isolated Islands" hreflang="en">149 de l'île de Paques, ni même aux 73 de la Réunion</a>, mais cela me permet de revendiquer un bon vrai statut de plouc. Ça nous démarque quand même franchement de l'[île de la Cité](http://fr.wikipedia.org/wiki/Cité_%28métro_de_Paris%29 "Wikipedia : Cité (métro de Paris)").
+
+Alors oui, laissez moi vous dire que j'aime / je hais l'insularité.
+
+Liens divers pas complètement sans rapport, et un brin contradictoires :
+
+* [Des étudiants comoriens en situation irrégulière expulsés de Madagascar](http://www.angolapress-angop.ao/noticia-f.asp?ID=565805 "AFP via Angola Press"). Je note que l'indice d'isolement des îles de l'archipel des Comores est de 49 et ne me prononce pas sur la proportion de [vrais](http://www.madagascar-tribune.com/2-000-etudiants-comoriens-a,2262.html "Madagascar Tribune : 2.000 étudiants comoriens à expulser") et [faux](http://www.lexpressmada.com/index.php?p=display&id=11775 "«Les étudiants en situation irrégulière sont manipulés»") étudiants.
+* [Regard sur l'auteur de Baghdad Burning](http://www.cuk.ch/articles/3588 "Anne Cunéo : Sous le coude du Tigre") : <q><cite>personne, jamais, n’émigre pour le plaisir</cite></q>.
+* Samuel K, sans ressources, sans diplômes, sans menaces sur sa vie dans son pays d’origine, [n’obtiendrait vraisemblablement pas de visa](http://www.trassagere.com/blog/etranger-france/ "Trassagere : Samuel K et les autres..."). Samuel K. est le père de Joseph Kessel et le grand oncle de Maurice Druon, l'auteur du chant des partisans. (via [Maître Eolas](http://www.maitre-eolas.fr/2007/09/25/736-la-machine-folle "La machine folle") et [Diner's room](http://dinersroom.free.fr/index.php?2007/09/15/639 "La preuve génétique de la filiation au secours du contrôle de l'immigration")).
+* <q><cite>En jetant ce regard misérabiliste et compassionnel sur l'Afrique, la France se rassure elle-même. [Elle a besoin de penser que l'Afrique ne va pas bien](http://www.lemonde.fr/web/article/0,1-0@2-3212,36-961078,0.html "Le Monde : L'Afrique vous salue bien")</cite></q>.
+* À l'aéroport de Beyrouth, seule une salle d'attente est noire de monde. Sur le mur, un panneau indique <q><cite>zone de réception pour les bonnes</cite></q>. Depuis des années, des jeunes filles d'une trentaine de pays pauvres viennent se placer comme [domestiques au Liban](http://www.lemonde.fr/web/article/0,1-0@2-3218,36-965267,0.html "Bonnes à vendre"). Aujourd'hui, elles sont plus de 90 000 Sri-Lankaises, 30 000 Ethiopiennes, 40 000 Philippines, sans parler des autres nationalités, dont beaucoup de Burundaises et de Malgaches.
+* Henri Guaino [parle](http://podcast.blog.lemonde.fr/2007/10/11/guaino-raciste-pieces-a-conviction/ "Guaino raciste ? Pièces à conviction") de la colonisation comme une chance pour les sociétés "primitives" (audio).

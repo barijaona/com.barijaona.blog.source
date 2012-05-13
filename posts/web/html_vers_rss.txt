@@ -1,0 +1,166 @@
+Transformer une page Web en fil RSS
+meta-creation_date: 11/7/2004 11:06:28
+
+Lorsque ce joyeux drille de Tony Pierce se met à être sérieux une demi-heure, il est encore plus intéressant.
+
+Ses <a href="http://www.tonypierce.com/blog/2004/06/how-to-blog-by-tony-pierce-110-1.htm" title="busblog : How to blog" hreflang="en">conseils aux blogueurs</a> ne peuvent laisser indifférent, mais il en manque un : [ayez un fil RSS ou Atom][1].
+
+[1]: http://www.ticarl.com/carnet/aggregateurs.asp "Ticarl : Qu'est-ce qu'un aggrégateur ?"
+
+Si possible, ayez en plusieurs :
+* un complet, avec liens et images ;
+* un abrégé, avec juste le titre et un court extrait ;
+* et éventuellement, un (ou deux) pour chaque catégorie de billets si vos lecteurs ont des intérêts segmentés.
+
+Et si votre outil de blog ne permet de publier qu'un seul fil de nouvelles, privilégiez le fil complet.
+
+Parce qu'un blogueur est un être paresseux : l'inciter à cliquer pour sortir de son aggrégateur de nouvelles est quasiment un exploit... (sauf ceux comme Mouche qui ont [besoin de graphisme pour combattre la lassitude][2]).
+
+[2]: http://mouche.joueb.com/news/266.shtml "L'oeil de Mouche : je suis fatiguée"
+
+Bon, pour inciter un être vil comme moi à vous rendre visite, vous pouvez toujours dans le titre de votre billet et votre première phrase me promettre du sexe ou de me rendre beau, riche et intelligent ; mais accablé par la centaine de sites que je devrais lire chaque jour et assiégé par les courriels de marchands de Viagra et de Cialis, je tends à être sceptique...
+
+Chaque semaine, je découvre plein de blogs intéressants dont je ne prends pas la peine de marquer l'adresse, parce qu'il n'ont pas de fil de nouvelles ou que le fil de nouvelles ne permet pas de juger si un billet est _vraiment_ susceptible de m'intéresser.
+
+Il y a quand même quelques pages web qui sont indispensables, mais qui n'ont pas de bons fils de nouvelles, et pour lequel je consent à faire un effort supplémentaire.
+
+Créer un fil RSS à partir d'une page Web, est-ce le pirater ? Sans doute pas, si le fil RSS est destiné à un usage personnel. C'est ce que je fais avec un script PHP inspiré de <a href="http://www.voidstar.com/gnews2rss.php" title="Takes a Google News search and turns it into RSS" hreflang="en">GNews2RSS</a>.
+
+<!-- more -->
+
+Exemple avec [Le Monde, pour lequel j'utilise la Une en mode texte][3] : :
+	
+	<?
+	// This program is public domain. Do with this what you want.
+	// It is derived from Gnews2rss (http://www.voidstar.com/gnews2rss.php)
+	// by Barijaona Ramaholimihaso
+	//
+	// Disclaimer. Don't expect this to be here, to work, or to get fixed.
+	// But if you have a question or comment, email scraper@barijaona.com
+	//
+	
+	
+	// ----------------------------------------------------------------------------
+	// personalize these settings according to your needs
+	
+	// URL to parse
+	  $url = "http://www.lemonde.fr/txt/sequence/0,2-3208,1-0,0.html";
+	
+	// do not scrap before this text
+	  $ignore_before = "<a name=vers_tete>";
+	
+	// encoding
+	  $encoding = "iso-8859-1";
+	  
+	// description
+	  $channel_description = "La Une du Monde";
+	
+	// language
+	  $channel_language = "fr-fr";
+	
+	// regular expression pattern, and positions 
+	// of interesting stuff delimited by parenthesis in the pattern
+	  $itemregexp = "%<a href=\'(.+?)\'[^>]*>(.+?)</a>([^<]*)%i";
+	  
+	  $url_match_number = 1;
+	  $title_match_number = 2;
+	  $desc_match_number = 3;
+	
+	// This is used to suppress some tags and makes writing the search pattern easier
+	  $searchable_tags = "<A><B><BR><BLOCKQUOTE><CENTER><DD><DL><DT><HR><I><IMG><LI><OL><P><PRE><U><UL>"; 
+
+	//------------------------------------------------------------------------------
+	
+	  $allowable_tags = "<A><B><BR><BLOCKQUOTE><CENTER><DD><DL><DT><HR><I><IMG><LI><OL><P><PRE><U><UL>";
+	
+	  header("Cache-Control: public");
+		  
+	// When debugging, make the following line a comment
+	  header("Content-Type: text/xml");
+	  
+	  preg_match("/(http:\/\/([^\/]*))/i", $url, $matches);
+	  $root = $matches[1]."/";
+	
+	  if ($fp = @fopen($url, "r")) {
+		while (!feof($fp)) $data .= fgets($fp, 128);
+		fclose($fp);
+	  }
+	
+	// *******************
+	  
+	// Debug stuff : comment out the content-type header above
+	// and uncomment the following lines to see what the site is returning.
+	//  print "<html>";
+	//  print "<pre>";
+	//  print htmlentities($data);
+	  
+	  eregi("<title>(.*)</title>", $data, $title);
+	
+	  $channel_title = $title[1];
+	
+	// trash the text before the $ignore_before text
+	  $data = strstr($data,$ignore_before);
+	  
+	// Debug stuff;
+	//  print htmlentities($data);
+	
+	// suppress some tags and makes writing the search pattern easier
+	  $data = strip_tags($data, $searchable_tags);
+	  
+	// Debug stuff;
+	//  print htmlentities($data);
+	  
+	  $match_count = preg_match_all($itemregexp, $data, $items);
+	  $match_count = ($match_count > 70) ? 70 : $match_count;
+	  
+	  $output .= "<?xml version=\"1.0\" encoding=\"$encoding\" ?>\n";
+	  $output .= "<!DOCTYPE rss >\n";
+	
+	  $output .= "<rss version=\"2.0\">\n";
+	  $output .= "  <channel>\n";
+	  $output .= "    <title>$channel_title</title>\n";
+	  $output .= "    <link>". htmlentities($url) ."</link>\n";
+	  $output .= "    <description>$channel_description</description>\n";
+	  $output .= "    <webMaster>reactions@barijaona.com</webMaster>\n";
+	  $output .= "    <language>$channel_language</language>\n";
+	  $output .= "    <generator>&lt;a href=\"http://www.voidstar.com/gnews2rss.php\"&gt;GNews2Rss&lt;/a&gt;</generator>\n";
+	
+	  for ($i=0; $i< $match_count; $i++) {
+	
+		$item_url = $items[$url_match_number][$i];
+		$item_url = htmlspecialchars($item_url, ENT_QUOTES, $encoding);
+		$item_url = preg_replace("%^/%", $root, $item_url);
+	
+		$title = $items[$title_match_number][$i];
+		$title = strip_tags($title);
+		$title = htmlspecialchars(html_entity_decode($title, ENT_QUOTES, $encoding), ENT_QUOTES, $encoding);
+		$title = preg_replace("/&amp;\#([0-9]+);/", "&#\${1};", $title);
+		
+		$desc = $items[$desc_match_number][$i];
+		$desc = strip_tags($desc, $allowable_tags);
+		$desc = htmlspecialchars(html_entity_decode($desc, ENT_QUOTES, $encoding), ENT_QUOTES, $encoding);
+		$desc = preg_replace("/&amp;\#([0-9]+);/", "&#\${1};", $desc);
+			
+		$output .= "    <item>\n";
+		$output .= "      <title>". $title ."</title>\n";
+		$output .= "      <link>". $item_url ."</link>\n";
+		$output .= "      <description>". $desc ."</description>\n";
+		$output .= "    </item>\n";
+	  }
+	
+	  $output .= "  </channel>\n";
+	  $output .= "</rss>\n";
+	
+	  print $output;
+	
+	?>
+
+[3]: http://www.lemonde.fr/txt/sequence/0,2-3208,1-0,0.html "Le Monde.fr : A la Une"
+
+J'ai un peu la flemme d'expliquer tout en détail ici, mais pour utiliser ce script pour d'autres usages, l'essentiel des personnalisations à faire est en début de script.
+
+On commencera par mettre pour `$url` l'adresse de la page à analyser, pour `$ignore_before` une chaîne vide, et on activera les instructions de deboguage avant de jouer avec les [expressions régulières][4] dans `$itemregexp`...
+
+[4]: http://www.commentcamarche.net/php/phpreg.php3 "Comment ça marche : PHP expressions régulières"
+
+Bon, je ne suis pas très pédagogue, donc tout commentaire pour rendre ce billet moins incompréhensible est bienvenu.

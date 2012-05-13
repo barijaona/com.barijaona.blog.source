@@ -1,0 +1,6 @@
+Mystère résolu, frustration allégée
+meta-creation_date: 7/11/2003 13:32:27
+
+Après installation de <a href="http://www.entropy.ch/software/macosx/php/" title="Marc Liyanage - Mac OS X Packages - PHP" hreflang="en">PHP</a>, <a href="http://www.mysql.com/downloads/mysql-4.0.html" title="MySQL 4.0 Downloads" hreflang="en">mySQL</a> et de <a href="http://minutillo.com/steve/feedonfeeds/" title="Feed On Feeds : About" hreflang="en">FeedOnFeeds</a>, il s'avère que Magpie RSS, en contradiction avec <a href="http://www.w3.org/TR/NOTE-datetime" title="w3.org : Date and Time Formats" hreflang="en">la norme</a>, exige qu'on lui précise les secondes dans le format de date et heure.
+
+L'expérimentation était aussi suscitée par certains commentaires sur <a href="http://navire.net/archives/general/agregateur_en_ligne.html" title="Navire : aggr&eacute;gateur en ligne">ce post de Laurent</a>, mais FeedOnFeeds me semble moins intéressant que <a href="<$url />/2003/05/29.html" title="29 mai 2003 : Changement d'aggr&eacute;gateur de nouvelles">ma combinaison actuelle</a>.

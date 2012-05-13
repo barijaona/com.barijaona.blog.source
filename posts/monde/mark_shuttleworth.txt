@@ -1,0 +1,25 @@
+Un peu de geekerie...
+meta-creation_date: 12/4/2005 04:04:31
+Bizarrerie que je n'arrive pas à expliquer complètement : sur <a href="http://del.icio.us/barijaona" title="del.icio.us/barijaona" hreflang="en">mes liens del.icio.us</a>, les articles ayant trait à l'informatique et notamment au Macintosh sont bien plus populaires que les articles d'intérêt plus général.
+
+Allez avec ça prétendre auprès de ma mère que l'internet est devenu le terrain de jeu de Dupont & Dupond, et qu'il serait temps qu'elle s'y mette...
+
+Mieux vaut donc se laisser aller à plonger avec délices dans mon petit pêché mignon et pondre un billet incompréhensible pour elle.
+
+Tout ça uniquement pour pointer sur la traduction en français d'une interview de Mark Shuttleworth, le monsieur qui a successivement :
+
+* créé <a href="http://www.thawte.com/" title="ssl digital certificates" hreflang="en">Thawte</a> pour la revendre au moment opportun à Verisign, 
+* s'est payé le luxe de devenir [le premier cosmonaute du continent](http://pif.allolespace.com/invites_semaine/ms/ "Pif-News"),
+* a initié la distribution Linux [qui monte](http://ww.framasoft.org/article3753.html "Framasoft : L'Hoary, ma meilleure amie"), [Ubuntu](http://www.ubuntu-fr.org/ "Communauté francophone des utilisateurs d'Ubuntu (en construction)") (j'attends avec impatience <a href="http://shipit.ubuntulinux.org/" title="Ubuntu CD Distribution" hreflang="en">des CDs Intel et PPC</a> qui devraient arriver dans les prochains jours).
+
+[Morceau de bravoure](http://ww.framasoft.org/article3752.html "Framasoft : Interview de Mark Shuttleworth") :
+
+> Je pense que j’aime l’Afrique plus qu’un américain aime l’Amérique -- malgré ses problèmes. Et oui, il y a beaucoup de problèmes, ils sont plus faciles à voir que ceux auquels font face les pays développés. Mais l’Afrique n’est pas uniquement le Darfour et le Zimbabwé, de même que l’Amérique n’est pas que McDonalds et Shock-and-Awe. Je vous recommande vraiment de prendre le temps de voyager jusqu’au Cap, à Zanzibar, au Ruwenzori ou dans les régions montagneuses d’Ethiopie, et découvrez par vous-même.
+
+> Ce qui est interessant à propos de l’Afrique c’est qu’elle présente de formidables opportunités. Dans 50 ans, les 2 milliards d’habitants du continent auront, je pense, une forte position économique et géographique. Le continent possède tout ce dont il a besoin pour subsister et prospérer. Il faut de bons leaders, un traitement équitable de la part du reste du monde du commerce, et du temps. Je suis assez confiant dans le fait que nous verrons de notre vivant l’Afrique se débarrasser de son image de tragédie et d’imposture, et de la remplacer par un mélange tentant de prospérité et de qualité d’âme.
+
+> Vous demandez si vous pouvez justifier les vol spatiaux alors que le monde fait encore face à des problèmes basiques d’alimentation, d’éducation et d’emploi pour des millions de ses habitants, et alors que nous détruisons activement les habitats de milliers d’autres espèces avec lesquelles nous partageons la planète. C’est une question difficile. La réponse standard parle de la manière dont l’exploration spatiale a changé notre monde dans le bon sens, dans tous les domaines, de l’ingénierie des matériaux jusqu’à la géographie et les sciences de l’alimentation. Mais je pense que la plus importante réponse tient au fait que ce qui fait tourner le monde c’est la volonté, pas les ressources.
+
+(Via [Tristan Nitot](http://standblog.org/ "Standblog"))
+
+Le premier qui nous traite d'idéalistes, je l'étrangle.

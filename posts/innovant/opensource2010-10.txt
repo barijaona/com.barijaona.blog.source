@@ -1,0 +1,38 @@
+De l'ouverture et de l'amateurisme
+meta-creation_date: 17/10/2010 08:11:39
+
+Ce blog n'était absolument pas en sommeil, il était en mode maintenance.
+
+Parce qu'il y avait deux ou trois trucs dans le <i lang="en">workflow</i> de sa mise à jour qui m'agaçaient un peu.
+
+Et que je ne trouvais pas vraiment mon bonheur pour y remédier. Rageant d'avoir la flemme, alors qu'il y a plein de brouillons de billets qui traînent sur le disque dur.
+
+La frustration a traîné jusqu'à ce que ce vendredi soir, je trouve [Multimarkdown], évolution de Markdown avec qui j'ai écrit l'essentiel de mes billets. Multimarkdown résoud un certain nombre des limitations de syntaxe qui m'agaçaient.
+
+Déception relative cependant en tentant d'installer le bébé, car son intégration dans Blosxom n'était pas si évidente que cela. Une bonne occasion de replonger dans les arcanes de ma configuration et de dérouiller ma pratique du Perl. Et du coup de découvrir avec [Git](http://www.alexgirard.com/git-book/index.html "Git Livre communautaire") que la gestion de version décentralisée, ça change vraiment la vie.
+
+Le problème des projets Open Source, c'est qu'on ne peut pas toujours être tous d'accord au sein d'une communauté. Et que cela peut considérablement ralentir le développement.
+
+Le problème ne se pose pas trop quand il y a un <i lang="en">leader</i> charismatique qui est très actif. Ça le devient quand la continuité du projet repose sur un tas de contributeurs qui ont d'autres chats à fouetter que de suivre nuit et jour tout ce qui se passe autour.
+
+Résultat : lorsque les <i lang="it">dilettantes</i> se réintéressent à la chose, ils ont la trouille de se retrouver largués par ce qui s'est passé entretemps et de casser ce qui marchait bien chez eux.
+
+« Chez nous ça marche » est l'expression qui pourrit tout effort de développement concerté. Entre ceux qui ont un problème pressant et ceux qui ne veulent pas prendre de risques, les conflits sont inévitables. Surtout lorsque les « gardiens du temple » ont des ressources limitées. Si quelqu'un sait comment avoir des journées de 72 heures, merci de laisser un mot en commentaire.
+
+Avec un outil décentralisé, chacun peut travailler dans son coin et publier immédiatemment ce qu'il a fait. Libre à chacun de décider à quel moment il rattrape le train.
+
+J'ai ainsi résolu mon problème avec MultiMarkdown. À moi désormais de [surveiller] si « ma » modification sera reprise, et si ce n'est pas le cas, de réincorper dans « ma » version ce qui sera fait par les autres et qui me paraîtra intéressant.
+
+La vie, c'est mieux en <i lang="en">open</i>.
+
+**PS** : 
+
+- il y a un peu de politique dans ce billet, mais c'est totalement involontaire.
+- discussion intéressante [sur ce blog].
+
+
+[Multimarkdown]: http://fletcherpenney.net/multimarkdown/ "A natural markup language for producing XHTML, LaTex and PDF documents" hreflang="en"
+
+[surveiller]: http://github.com/barijaona/MultiMarkdown/network "The MultiMarkdown network graph" hreflang="en"
+
+[sur ce blog]: http://www.red-sweater.com/blog/1078/open-source-obligations "Open Source Obligations - Red sweater" hreflang="en"

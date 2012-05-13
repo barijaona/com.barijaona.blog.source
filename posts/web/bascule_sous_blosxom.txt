@@ -1,0 +1,29 @@
+Émergence
+meta-creation_date: 30/10/2003 02:34:24
+
+Coucou, me revoi-loup... Après près de deux mois d'écriture de <em>langage</em> Perl, me voilà à nouveau en mesure d'écrire dans une <em>langue</em>...
+
+Malgache, française ou anglaise, qu'importe, dans une langue compréhensible sans avoir à feuilleter compulsivement <a href="http://www.oreilly.fr/catalogue/2841772535.html" title="&Eacute;ditions O'Reilly"><i>Perl précis et concis</i></a> à chaque coin de ligne (laissez moi décider des licences que je prends par rapport aux règles de géométrie), et à farfouiller dans des <a href="http://groups.yahoo.com/group/blosxom/" title="Yahoo! Groups : blosxom" hreflang="en">groupes de discussion</a> fleurant bon le café, la pizza froide et la barbe de trois jours.
+
+Après l'époque GoLive combiné avec BBEdit Lite et HTML Tidy, après l'épopée Radio Userland, voici venu le temps des pages sous <a href="http://www.blosxom.com/" title="the zen of blogging" hreflang="en">blosxom</a>.
+
+J'en vois déjà ricaner : <q><cite>Ah, bon ? on ne perçoit pas vraiment la différence...</cite></q>
+
+C'est justement là que réside la beauté cachée de la chose...
+<ul>
+<li>les archives sont toujours imperturbablement là, gardant leur parfum authentiquement rétro et sans qu'une seule URL ait été déplacée,</li>
+<li>le fil RSS est toujours invariablement au même endroit,</li>
+<li>le calendrier continue monotonement à s'enchaîner,</li>
+<li>l'apparence des pages est toujours désespérément la même,</li>
+<li>le code des pages est toujours conservativement de l'HTML 4 (bon, d'accord, là, j'ai hésité, mais vraiment, et au risque de choquer certains, je ne voyais pas de véritable valeur ajoutée, ni pour vous, ni pour moi, de passer au XHTML)</li>
+</ul>
+
+Bref, indépendamment des outils utilisés, il semble que ces pages me ressemblent... ou que j'essaie de faire passer pour de la continuité dans les idées ce qui n'est que de l'entêtement borné.
+
+L'exercice a duré plus longtemps que je ne le pensais (comme quoi, il faut se méfier des <a href="<$url />/2002/12/31.html#a351" title="31 d&eacute;cembre 2002">résolutions de nouvel an</a>).
+
+La plupart des difficultés rencontrées ont eu trait au fait que blosxom est le plus souvent utilisé pour générer des pages dynamiques, et que bien des <a href="http://www.blosxom.com/plugins/" title="blosxom :: plugins" hreflang="en">plugins</a> doivent être adaptés pour tenir compte de la génération de pages statiques. J'ai dû pas mal retravailler sur <a href="http://www.bje.nu/dl/exclude" title="Breyten Ernsting">exclude</a> et <a href="http://blog.fatoprofugus.net/computers/www/blosxom/chrono_nav.html" title="responding to internal stimuli" hreflang="en">chrono_nav</a>, ai été amené à écrire une alternative à <a href="http://groups.yahoo.com/group/blosxom/message/990" title="Announcement on Yahoo! Groups : blosxom" hreflang="en">config</a> pour retrouver <a href="<$url />/2002/06/18.html#a193" title="18 juin 2002">la souplesse de paramétrage</a> offerte par Radio, et Todd Larason risque de renier son oeuvre s'il tombe un jour sur la bouillie de code que j'ai fabriqué à partir de <a href="http://molelog.molehill.org/blox/Computers/Internet/Web/Blosxom/Calendar/" title="Mt. Molelog : Calendar Plugin" hreflang="en">calendar</a>.
+
+Difficile de conserver sa santé mentale sans l'aide également d'<a href="http://www.blosxom.com/plugins/interpolate/interpolate_fancy.htm" title="interpolate-fancy by Rael Dornfest" hreflang="en">interpolate_fancy</a>, <a href="http://molelog.molehill.org/blox/Computers/Internet/Web/Blosxom/SeeError/" title="Todd Larason, an unmarried man" hreflang="en">seeerror</a>, <a href="http://www.blosxom.com/plugins/general/flavourdir.htm" title="by Rael Dornfest" hreflang="en">flavourdir</a> et <a href="http://exo.org.uk/code/storytitle/" title="exo : code :storytitle" hreflang="en">storytitle</a>.
+
+Bon, mes méfaits habituels peuvent reprendre...

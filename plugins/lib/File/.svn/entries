@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="10"
+   name=""
+   committed-date="2005-12-20T19:21:18.430617Z"
+   url="file:///Users/barijaon/svn/blosxomsk/trunk/plugins/lib/File"
+   last-author="barijaon"
+   kind="dir"
+   revision="36"/>
+<entry
+   committed-rev="10"
+   name="Temp.pm"
+   text-time="2003-08-16T18:22:08.000000Z"
+   committed-date="2005-12-20T19:21:18.430617Z"
+   checksum="c248b65252b772c66f55b64330e0698f"
+   last-author="barijaon"
+   kind="file"/>
+<entry
+   committed-rev="10"
+   name="Cat.pm"
+   text-time="1999-01-21T23:21:02.000000Z"
+   committed-date="2005-12-20T19:21:18.430617Z"
+   checksum="250e5498640f5179f7c985cf4c5be538"
+   last-author="barijaon"
+   kind="file"/>
+<entry
+   committed-rev="10"
+   name="Listing.pm"
+   text-time="1999-03-20T07:37:35.000000Z"
+   committed-date="2005-12-20T19:21:18.430617Z"
+   checksum="0afe064ff0c4c4dc80e86d184c9750a1"
+   last-author="barijaon"
+   kind="file"/>
+</wc-entries>

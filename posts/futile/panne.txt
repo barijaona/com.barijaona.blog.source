@@ -1,0 +1,28 @@
+High tech, low tech
+meta-creation_date: 15/5/2004 22:51:15
+
+En tombant sur une <a href="http://www.tikouka.net/mailapp/" title="Mail.app plugs and suggestions" hreflang="en">page consacrée aux plug-ins et astuces</a> destinés à <i>Mail.app</i>, voilà que je me suis mis à m'inquiéter de <a href="http://joar.com/certificates/" title="Using encryption and digital signatures in Mail" hreflang="en">certificats numériques</a> que j'ai mis en oeuvre il y a déjà un certain temps...
+
+Je suis peut-être un peu plus paranoïaque que la majorité des gens, n'empêche qu'une fois après avoir compris comment mettre en oeuvre ces techniques James Bondesques, je n'en n'avais pas vraiment fait un usage intensif.
+
+Mais après avoir reçu un accusé de réception pour un curriculum-vitae que je n'ai jamais envoyé, miracle sans doute imputable au fait que les virus et chevaux de Troie dispersés par la monoculture Windows ont tendance à usurper massivement les adresses mail de tout honnête citoyen même macmaniaque, je me suis dit qu'il ne serait peut-être pas mauvais de désormais signer mes mails avec ces certificats numériques.
+
+Et puis, si tout le monde signait ses mails, il serait bien plus simple de lutter contre le spam...
+
+Donc, où est-ce que j'avais rangé ces certificats ?... Ah, ils sont bien rangés dans le Trousseau d'accès (<a href="http://www.apple.com/macosx/features/security/" title="MacOS X : Security" hreflang="en"><i lang="en">Keychain</i></a>), car j'avais quand même bien pensé à les exporter de Netscape 4.7 (je vous avais bien dit que tout ça datait déjà d'un certain temps...). Mais bien évidemment, entretemps, ils étaient expirés...
+
+Et c'est au moment où j'essayais de me souvenir désespérément du mot de passe d'<a href="http://www.thawte.com/email/" title="Thawte : personal e-mail certificates" hreflang="en">accès au site de Thawte</a> que le [délestage électrique quotidien][4] est arrivé.
+
+[4]: http://www.lagazette-dgi.com/simu/dev.php?id=17071 "Gazette de la Grande Île : Centrales hydroélectriques : Les travaux de rénovation démarrent"
+
+Leçon de la journée : ce n'est pas parce qu'on a un problème sur les bras qu'il faut croire que la panne de courant ne durera pas plus longtemps que l'autonomie de son onduleur.
+
+Thawte a beau être sud-africaine, le reste de la technologie ne suit pas toujours...
+
+Et cette petite mésaventure aide à être moins surpris qu'il y ait pour l'heure si peu de bloggeurs francophones africains actifs : une [en Tunisie][1], deux [geeks][2] à l'île de [la Réunion][3], et votre serviteur.
+
+[1]: http://www.rundom.com/infinity/ "Infinity"
+[2]: http://www2.univ-reunion.fr/~colin/blog/index.php "Serge"
+[3]: http://lionel.suz.free.fr/ "Lionel"
+
+Note : par africain, j'entends résidant en Afrique, quelle que soit la nationalité (ce qui exclut les africains de sang ou de coeur émigrés en Europe ou au Canada).

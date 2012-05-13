@@ -1,0 +1,5 @@
+Maman, ce billet n'est pas pour toi...
+meta-creation_date: 24/7/2005 21:39:41
+Le <a href="<$url />/atom.xml" title="Plus riche que le RSS">fil Atom</a> de ce blog est désormais conforme à la <a href="http://ietfreport.isoc.org/idref/draft-ietf-atompub-format/" title="The Atom Syndication Format" hreflang="en">spécification 1.0</a>.
+
+Pourquoi ? parce que je le peux.

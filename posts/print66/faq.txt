@@ -1,0 +1,102 @@
+Print66 Frequently Asked Questions
+meta-creation_date: 28/12/2003 13:03:10
+
+<a name="top"></a>
+
+# <a href="./print66/faq.html#a1">Features</a>
+## <a href="./print66/faq.html#a11">Can I use Print66 to print from a Macintosh to another computer via TCP/IP ?</a>
+## <a href="./print66/faq.html#a12">What have I to do if my machines have dynamic IP addresses ?</a>
+## <a href="./print66/faq.html#a13">Can I use it to generate PDF files ?</a>
+# <a href="./print66/faq.html#a2">Troubleshooting with some printers</a> 
+## <a href="./print66/faq.html#a21">How do I get the right settings for a serial printer ?</a>
+## <a href="./print66/faq.html#a22">Why can't I make it work with my Apple printer ?</a>
+## <a href="./print66/faq.html#a23">Why can't I print using USB ?</a>
+## <a href="./print66/faq.html#a24">Why do I have Postscript errors ?</a>
+
+<a name="a1"></a>
+<h1>1 Features</h1>
+
+<a name="a11"></a>
+<h2>1.1 Can I use Print66 to print from a Macintosh to another computer via TCP/IP ?
+</h2>
+No. I have to remind you that Print66 is a print server not a print client... Print 66 can be used to print from a remote client to a printer attached to the Macintosh, not the reverse.
+
+To print via TCP/IP from a Mac, the only free print client on the Mac that I know is Apple's Laserwriter 8.5.1 (or later) which can handle Postscript printer (see Print66 homepage at the section "What to do on another Macintosh to set it up as a client").
+
+If you want to print to a non Postscript printer and you have access to an Unix or a Windows machine, you might consider setting up it as a print server, and use the Ghostscript application. I have successfully tested the <a href="http://www.cs.wisc.edu/~ghost/redmon/index.htm" title="Redirection Port Monitor">REDMON utility</a> in Windows environment. <a href="http://www.denver.com.au/html/downloads/downloadpcl3.htm" title="Windows Ghostscript Driver for HP compatible printers">Denver Technology's build</a> of <a href="http://home.t-online.de/home/Martin.Lottermoser/pcl3.html" title="Martin Lottermoser">PCL3</a> may be easier to install.
+
+<a name="a12"></a>
+<h2>1.2 What have I to do if my machines have dynamic IP addresses ?</h2>
+
+TCP/IP implies addressing to a machine using a TCP/IP numerical address. If the Mac running Print66 uses DHCP or PPP to get its TCP/IP parameters, its TCP/IP address may change from day to day, and remote hosts would have difficulties knowing to which IP address they have to send their print data.
+
+A similar problem applies to hosts you allow to print on your printers... You have to give fixed IP addresses or host names known by your DNS in the config file...
+
+If you have a Domain Name Server (DNS) which handles dynamic DNS updates, you can use machine names. I know that <a href="http://www.vicomsoft.com">Vicomsoft</a> InterGate or Internet Gateway, <a href="http://www.isc.org/products/DHCP/" title="ISC Dynamic Host Configuration Protocol">ISC's DHCP server</a> version 3 and Windows 2000 Server have this ability but haven't tested them.
+
+On the Internet, you could use one of the services like <a href="http://www.dyndns.org/" title="DynDNS.org">DynDNS</a>.
+
+Yet, Print66 loads and resolves its config file at startup. So Print66 clients have to be correctly registered before it starts.
+
+<a name="a13"></a>
+<h2>1.3 Can I use it to generate PDF files ?</h2>
+
+This was a feature often asked for... People would like to "print" from a foreign host to a Mac running Print66, but would like to get an Adobe Acrobat PDF file instead of sending data to a real printer.
+
+Basically, this means that the data have to be sent to Acrobat Distiller or Ghostscript.
+
+This is how I did it :
+
+* put a NOACTION line in the config, to make Print66 not print but just store the files it receives,
+* print as you like to a Print66 queue from your remote host(s),
+* inside the Spool Folder, select the files whose names begin with "dfA" (without quotes) and bring them to a folder watched by Acrobat Distiller or to your Ghostscript application,
+* trash the files whose names begin with "cfA" (these are control files).
+
+I think the two last actions can be automated with AppleScript...
+
+<a name="a2"></a>
+<h1>2 Troubleshooting with some printers</h1>
+
+<a name="a21"></a>
+<h2>2.1 How do I get the right settings for a serial printer ?</h2>
+
+One important thing to understand is that Print66 basic job is catching print data addressed via the network, and redirect it to the serial port... There is no sophisticated management done by the application : all the formatting is performed by the remote host which must have an adequate driver.
+
+This explains why in your setup, you just need to provide Print66 with the adequate informations on how to "speak" to the serial port : baud speed, bit number, parity, etc... If you don't find the information in your printer's documentation, the best solution is to test with a terminal emulation software like Communicate Lite, Zterm, BlackNight or even ClarisWorks/AppleWorks.
+
+# switch off, then on, your printer
+# in the terminal emulation software, set the communication to 57600 bps, 8 bit data, no parity, 1 stop bit, no handshake... If your emulation software options permit it, choose Local echo (to see what you type), and Send linefeeds (for the Enter key to send Carriage Return plus Line Feed as in the PC world, opposed to just CR in the Mac world...)...
+# open the connection, type any text you like at your keyboard, and finish by sending a form feed (FF), because some page printers (like laser printers) require this code to recognize the end of instructions related to the page to print.
+(CR = carriage return = Ascii code 13 = Control-M on most terminal emulation software
+LF = line feed = Ascii code 10 = Control-J
+FF = form feed = Ascii code 12 = Control-L)
+
+If nothing prints at all (or if what prints does not fit what you typed), change the speed... If this still does not work, try 7 bit data, parity even, 1 stop bit, no handshake... If you find a working combination, configure Print66 with it.
+
+You will probably get truncated print jobs. Try adding CTS or XON/XOFF handshake. CTS is most often used, but with the PowerPrint serial to parallel cable, the adequate setting is XON/XOFF (57600/8/N/1).
+
+<a name="a22"></a>
+<h2>2.2 Why can't I make it work with my Apple printer ?</h2>
+
+Unfortunately, some earlier Apple printers are an illustration of the need for Cupertino at those times to reinvent the wheel... Rather than simply put an Apple logo on a standard printer, Apple chose to make specific printers which seem only able to speak QuickDraw, which has been largely ignored by the rest of the hardware world... The StyleWriter, StyleWriter Pro, StyleWriter 2200, 2400, 2500, and the LaserWriter 300/LS, even if they are all based on Canon hardware, "speak" a so specific protocol that I doubt you will ever get a PC or Linux box able to print to it...
+
+The following other ones could be managed by their PC-equivalent drivers (I haven't tried this, but have found the info on Ghostscript documentation and various other sources) :
+
+* ImageWriter : C-Itoh M8510
+* StyleWriter 4100 : HP DeskWriter 660 C
+* StyleWriter 4500 : HP DeskWriter 690 C
+* StyleWriter 6500 : HP DeskWriter 870 Cxi (Epson LQ might work too...)
+
+<a name="a23"></a>
+<h2>2.3 Why can't I print using USB ?</h2>
+
+Try to print a page first from a normal Mac application. On some models of Macintosh, after a cold start, it seems that you have to print something using the printer manufacturer's driver before Print66 and other applications addressing directly the USB port achieve to send data. It seems to be a hardware issue, as there is no problem after a warm reboot. If someone is able to give me a clue, it would be welcomed...
+
+<a name="a24"></a>
+<h2>2.4 Why do I have Postscript errors ?</h2>
+
+There are some well known issues with binary Postscript with Apple's PAP protocol. I suggest sending Postscript data from the remote host as ASCII rather than binary (this can be configured on the print dialog for Apple Laserwriter driver, and I think a similar setup exists on PC).
+
+Similarly, it is safer sending Postscript Level 1 compatible data, and enabling NOACNT (no accounting) in the config file.
+
+p>. "Final word : legal warning(Let's do it the American way...)":./print66/legal.html

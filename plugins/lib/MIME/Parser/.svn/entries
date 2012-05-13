@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="10"
+   name=""
+   committed-date="2005-12-20T19:21:18.430617Z"
+   url="file:///Users/barijaon/svn/blosxomsk/trunk/plugins/lib/MIME/Parser"
+   last-author="barijaon"
+   kind="dir"
+   revision="36"/>
+<entry
+   committed-rev="10"
+   name="Filer.pm"
+   text-time="2000-11-23T05:04:03.000000Z"
+   committed-date="2005-12-20T19:21:18.430617Z"
+   checksum="b9e83199d73b3680c3ea3ff4f4269c53"
+   last-author="barijaon"
+   kind="file"/>
+<entry
+   committed-rev="10"
+   name="Results.pm"
+   text-time="2000-11-04T19:54:49.000000Z"
+   committed-date="2005-12-20T19:21:18.430617Z"
+   checksum="820b2ba170d8ba2c75f54306777379b1"
+   last-author="barijaon"
+   kind="file"/>
+<entry
+   committed-rev="10"
+   name="Reader.pm"
+   text-time="2000-09-21T03:48:22.000000Z"
+   committed-date="2005-12-20T19:21:18.430617Z"
+   checksum="ef67a92df1082183b4411d4600a26123"
+   last-author="barijaon"
+   kind="file"/>
+</wc-entries>

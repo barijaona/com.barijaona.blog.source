@@ -1,0 +1,6 @@
+$blosxom::blog_language="en";
+$meta::bjrDescription = "A freeware print server for the Macintosh" ;
+$meta::bjrKeywords = "print server, macintosh, tcp/ip, lpd, lpr, rfc1179, free, freeware";
+$meta::bjrStylesheet = "theme4";
+
+$meta::navigationLinks = qq#<a href="$blosxom::url/print66/presentation.html" class="submenu" title="Description">What is it ?</a>&nbsp;|&nbsp;<a href="$blosxom::url/print66/setup.html" class="submenu" title="How to...">Setup</a>&nbsp;|&nbsp;<a href="$blosxom::url/print66/faq.html" class="submenu" title="Read before complaining">Frequently asked questions</a>&nbsp;|&nbsp;<a href="$blosxom::url/print66/legal.html" class="submenu" title="I am not a lawyer">Legal</a># ;

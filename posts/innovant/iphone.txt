@@ -1,0 +1,31 @@
+Ce n'est même pas pour moi...
+meta-creation_date: 23/11/2007 05:16:24
+
+<a href="http://www.flickr.com/photos/barijaona/2055487551/" title="Arrivée de l'iPhone"><img src="http://farm3.static.flickr.com/2156/2055487551_e362770ff3_t.jpg" width="100" height="70" alt="Carton d'expédition" class="photo" /></a><a href="http://www.flickr.com/photos/barijaona/2055489389/" title="Emballage commercial de l'iPhone"><img src="http://farm3.static.flickr.com/2378/2055489389_d46d2f8d06_t.jpg" width="100" height="71" alt="Début du déballage" class="photo" /></a>
+
+<a href="http://www.flickr.com/photos/barijaona/2055491773/" title="Connexion sur le dock"><img src="http://farm3.static.flickr.com/2129/2055491773_16c4bd6348_t.jpg" width="60" height="100" alt="Ecran invitant à activer l'iPhone sur iTunes" class="photo" /></a>
+<a href="http://www.flickr.com/photos/barijaona/2056279974/" title="Résultat quasi-final"><img src="http://farm3.static.flickr.com/2286/2056279974_f0cbe0b93c_t.jpg" width="75" height="100" alt="Iphone débloqué et traduit en français" class="photo" /></a>
+
+Non, c'est mon père qui a craqué...
+
+L'engin a été acheté aux USA par un complice qui y réside...
+
+Une fois arrivé sous nos tropiques, on commence par vérifier quelle version de logiciel a-t-on :
+
+- à l'écran <i lang="en">"Activate iPhone"</i>, on fait glisser le curseur <i lang="en">"slide for emergency"</i>
+- on compose le *\*3001#12345#\**, puis on appuye sur le bouton <i lang="en">Call</i>.
+- ceci nous amène dans le programme de test. On appuye sur le bouton <i lang="en">Versions</i>.
+- La version de Firmware affichée est 04.01.13_G, ce qui correspond à la 1.1.1
+
+[La procédure de déblocage la plus simple correspondant à cette version est expliquée sur Frenchiphone.com](http://www.frenchiphone.com/2007/10/29/revolution-activation-et-desimlockage-sans-ordinateur-en-10-minutes/ "Activation sans ordinateur en 10 minutes"). Cela revient à mettre en place l'application Installer via un petit passage par le site jailbreakme.com (vive le Wifi !), installer le sous-système BSD et le programme anySIM 1.1p et à lancer ce dernier. 
+
+Ensuite, avec Installer, on télécharge Menu International (1.1.1) et Pack français (1.1.1). Reste à choisir les bons réglages via <i lang="en">Settings>General>International</i>...
+
+Pour peaufiner le tout, on peut, toujours avec Installer :
+
+* supprimer anySIM, désormais inutile,
+* ajouter l'application Services, qui permet d'accéder plus rapidement aux fonctions d'activation et de désactivation du Bluetooth et du Wifi, ce qui est bien utile pour économiser la batterie.
+
+Même si le son est un peu faiblard, un iPhone, c'est vraiment bien.
+
+Je ne garantis pas que je ne craquerai pas à mon tour... Heureusement que nos latitudes nous protègent un peu des achats d'impulsion de ce type.

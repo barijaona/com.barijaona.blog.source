@@ -1,0 +1,88 @@
+Je vous joue mon Lacan...
+meta-creation_date: 16/2/2004 02:36:28
+
+Avec l'aide de l'<i lang="de">übersuchmaschinen</i> Google et d'une inconscience proverbiale, je me risque à avancer 15 millions comme nombre de pages Web francophones.
+
+Je me suis quand même demandé si notre moteur de recherche préféré n'exagérait pas en m'emmenant à la conclusion que 53% des pages francophones contiennent le mot sexe... Mais des proportions presque aussi impressionnantes en allemand ou en espagnol ont fini par me faire admettre que la multiplication par les pornographes des noms de domaine et des sites afin de maximiser leurs chances d'attraper le chaland se pratiquait à une échelle que je ne soupçonnais pas...
+
+Le but de la recherche n'était point de trouver sur l'espace cybernétique de quoi soulager une irritation du bas ventre, mais au lendemain d'une fête que les commerçants ont réussi à imposer même dans nos trous paumés, et qui incite même <a href="http://mouche.joueb.com" title="Boite &agrave; bisous">Mouche</a> à adopter une mise en page qu'on s'attendrait plutôt à trouver chez <a href="http://www.sandrinecam.com/" title="Que pensent les services juridiques d'Apple de la page d'accueil ?">Sandrinecam</a>, j'étais curieux de voir si la prolifération de blogs "intimes" ne trahissait pas une névrose dûe au manque de câlins et de battements de coeur.
+
+Conforté par le fait que la première page francophone trouvée par Google sur le mot "sexe" et n'ayant pas de rapport avec l'industrie "adulte" évoque <a href="http://www.monde-diplomatique.fr/1997/06/CARLANDER/8746" title="Le Monde Diplomatique : Le sexe des sciences (Juin 1997)">les grands noms de la science</a>, je me résolus à faire se retourner <a href="http://www.evene.fr/citations/auteur.php?ida=926&amp;p=3" title="Citations du monde">Lacan</a> et Laplace dans leurs tombes, et entrepris de comparer le taux d'apparition de certains mots dans le web francophone, le web francophone contenant le mot "blog", et les pages rédigées par votre serviteur.
+
+==<table width="95%" border="1" align="center" summary=
+"proportion de certains mots sur le web">
+<caption align="bottom">Proportions de certains mots sur le web francophone et quelques sous-ensembles</caption><colgroup><col span="4" width="1*" /></colgroup>
+
+<tr>
+  <th>mot</th>
+  <th>Web francophone</th>
+  <th>Web francophone contenant "blog"</th>
+  <th>barijaona</th>
+</tr>
+
+<tr>
+  <th>amour</th>
+  <td align="right" style="border-style:dotted">1,9%</td>
+  <td align="right" style="border-style:dotted">8,0%</td>
+  <td align="right" style="border-style:dotted">5,3%</td>
+</tr>
+
+<tr>
+  <th>sexe</th>
+  <td align="right" style="border-style:dotted">53%</td>
+  <td align="right" style="border-style:dotted">4,6%</td>
+  <td align="right" style="border-style:dotted">4,1%</td>
+</tr>
+
+<tr>
+  <th>mensonges</th>
+  <td align="right" style="border-style:dotted">0,91%</td>
+  <td align="right" style="border-style:dotted">0,24%</td>
+  <td align="right" style="border-style:dotted">0,28%</td>
+</tr>
+
+<tr>
+  <th>video</th>
+  <td align="right" style="border-style:dotted">4,7%</td>
+  <td align="right" style="border-style:dotted">12%</td>
+  <td align="right" style="border-style:dotted">3,6%</td>
+</tr>
+
+<tr>
+  <th>bonheur</th>
+  <td align="right" style="border-style:dotted">7,5%</td>
+  <td align="right" style="border-style:dotted">4,7%</td>
+  <td align="right" style="border-style:dotted">1,1%</td>
+</tr>
+
+<tr>
+  <th>malheur</th>
+  <td align="right" style="border-style:dotted">1,3%</td>
+  <td align="right" style="border-style:dotted">0,80%</td>
+  <td align="right" style="border-style:dotted">0,55%</td>
+</tr>
+
+<tr>
+  <th>jalousie</th>
+  <td align="right" style="border-style:dotted">2,3%</td>
+  <td align="right" style="border-style:dotted">0,36%</td>
+  <td align="right" style="border-style:dotted">0,55%</td>
+</tr>
+
+
+<tr>
+  <th>nombril</th>
+  <td align="right" style="border-style:dotted">0,71%</td>
+  <td align="right" style="border-style:dotted">0,35%</td>
+  <td align="right" style="border-style:dotted">1,9%</td>
+</tr>
+
+</table>==
+
+Je comprends mieux ainsi pourquoi tant de monde arrive ici via une recherche sur le mot "nombril". C'est à cause du titre de <a href="<$url />/blogosphere/toilette_nombril.html" title="Nombril et gant de toilette">ce billet</a> qui en plus a eu le bonheur d'être pointé par Pierre Carion.
+
+Par contre les autres mots confirment que mes textes n'ont rien de particulièrement intimes.
+
+Et est-ce qu'on peut conclure que les bloggueurs sont des gens heureux ?
+
+Bon, arrêtons de délirer : il est temps que <a href="http://cityzen.levillage.org/index.php?m=200402#192" title="CityZen : Framboise">je me rafraîchisse les idées</a>, moi...

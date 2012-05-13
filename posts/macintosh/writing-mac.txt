@@ -1,0 +1,12 @@
+Hello, I'm a Mac...
+meta-creation_date: 8/11/2008 20:28:40
+
+<div lang="en">Barack Obama <a href="http://www.nytimes.com/2008/02/04/technology/04link.html?ex=1359867600&amp;en=02cb151437cd9f9e&amp;ei=5090&amp;partner=rssuserland&amp;emc=rss&amp;pagewanted=all" title="NYTimes : Is Obama a Mac and Clinton a PC?" hreflang="en">is a Mac</a>...</div>
+
+<a href="http://www.tuzworld.com/2008/06/27/unline-mccain-obama-can-use-a-computer/" title="Tuzworld : Unline McCain, Obama can use a computer…" hreflang="en"><img src="<$url /><$path />/obama_computer.jpg" alt="Barack Obama with a Macbook" title="Tuzworld" width="324" height="324" /></a>
+
+<div lang="en">...<a href="http://www.courrierinternational.com/article.asp?obj_id=83567" title="Courrier International (The New York Times) : Dans la bouche d’Obama" hreflang="fr">Ron Favreau</a> is a PC...</div>
+
+<a href="http://www.donkeydish.com/2008/03/what-would-barack-obama-say/" title="Donkey Dish" hreflang="en"><img src="<$url /><$path />/jon-favreau-1.jpg" alt="Ron Favreau working" title="Donkey Dish : What Would Barack Obama Say …" width="476" height="294" /></a>
+
+Et Ravalo, c'est une <span lang="en">Debian unstable</a> ?

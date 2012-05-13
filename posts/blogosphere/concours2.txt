@@ -1,0 +1,85 @@
+Elections
+meta-creation_date: 12/12/2007 15:29:28
+
+__[edit]__ A la demande du [public](http://www.haloscan.com/comments.php?user=barijaona&comment=200712121529#377723 "Commentaire de Lili"), le tableau des blogs malgaches sera mis à jour jusqu'à la clôture des nominations aux Bombs, soit le 31 décembre 2007. Bon, c'est fait à la mimine, donc il faudra quand même que je trouve le temps de transpirer un peu.
+
+***
+Retour du bureau de vote. Pour la première fois depuis longtemps pour ce qui est de mon quartier, [il fallait patienter pour faire acte de civisme](http://www.angolapress-angop.ao/noticia-f.asp?ID=581210 "Madagascar : Début du vote pour les élections municipales"). Ça doit en rendre nerveux quelques-uns.
+
+En l'absence de sondages, le suspense est à peu près complet. Dans la file d'attente, bien peu de personnes semblaient capables de nommer ne serait-ce qu'un seul des candidats au poste de conseiller municipal ; l'élection des seuls maires a kidnappé toute l'attention, et il fort probable que dans l'esprit de nombre de personnes, le seul débat intéressant était "TIM ou pas TIM". Un peu triste pour une élection locale, mais bon...
+
+Ayant eu confirmation que je n'aime pas voter pour des inconnus, et pensant n'être pas le seul, je propose d'éclairer votre lanterne pour [la prochaine élection](http://www.bestofmalagasyblogs.com/ "Nomination des meilleurs blogs malgaches").
+
+Bizarrement, [aucune liste de candidats ne semble devoir être publiée avant le 31 décembre](http://www.haloscan.com/comments.php?user=barijaona&comment=200711290052#376200 "Commentaire de Jogany")... C'est un choix, mais qui me semble un rien contradictoire avec le fait que seuls les cinq les plus nominés dans chaque catégorie seront portés à la connaissance du public et du jury.
+
+Difficile dans ces conditions de faire des découvertes avant le 31 décembre.
+
+Bien embêtant pour moi, qui cherche à cliquer fébrilement sur de nouveaux horizons afin de regarnir un aggrégateur de nouvelles récemment vidé.
+
+Bien embêtant pour toute personne désirant contribuer au concours, car elle ne peut effectuer que quatre nominations, et risque fort de regretter son choix initial faute d'avoir découvert à temps une petite perle cachée.
+
+Donc, Jogany, désolé, mais je n'ai pu m'empêcher de concocter un petit script pour découvrir quels sites avaient déjà été nominés. Et comme l'information a été publiée par ailleurs via ton fil RSS, je préfère ne pas la garder pour moi seul.
+
+<table summary="Liste de blogs &quot;malgaches&quot;">
+<caption>Liste provisoire des blogs enregistrés sur bestofmalagasyblogs.com</caption>
+<thead><tr><th>Blog</th><th>Langue principale</th><th>Fil complet</th><th>Nomination</th></tr></thead>
+<!-- Inserer ci apres les lignes individuelles (col K classeur2) -->
+<tr><td><a href="http://www.purplecorner.com" title="Jogany" hreflang="fr">The purple corner</a></td><td>fr</td><td><a href="http://www.purplecorner.com/?feed=rss2" title="Fil rss2 pour Jogany">rss2</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=83" title="Nomination de Jogany">Vote</a></td></tr>
+<tr><td><a href="http://dadarabe.blaogy.com/" title="Dadarabe " hreflang="mg">Blaogin'i DadaRabe</a></td><td>mg</td><td><a href="http://dadarabe.blaogy.com/rss/atom/588" title="Fil Atom pour Dadarabe ">Atom</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=84" title="Nomination de Dadarabe ">Vote</a></td></tr>
+<tr><td><a href="http://ravatorano.blaogy.com/" title="Ravatorano" hreflang="mg">Ravatorano</a></td><td>mg</td><td><a href="http://ravatorano.blaogy.com/rss/rss20/211" title="Fil rss2 pour Ravatorano">rss2</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=85" title="Nomination de Ravatorano">Vote</a></td></tr>
+<tr><td><a href="http://dagoscoot.skyrock.com" title="Dagoscoot " hreflang="fr">Dagoscoot </a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=86" title="Nomination de Dagoscoot ">Vote</a></td></tr>
+<tr><td><a href="http://radotiana.blaogy.com/" title="Radotiana " hreflang="mg">Radotiana </a></td><td>mg</td><td><a href="http://radotiana.blaogy.com/rss/rss10/283" title="Fil rss1 pour Radotiana ">rss1</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=87" title="Nomination de Radotiana ">Vote</a></td></tr>
+<tr><td><a href="http://nantenaina.blogspot.com/" title="Nantenaina " hreflang="fr">Si j'étais Nantenaina </a></td><td>fr</td><td><a href="http://nantenaina.blogspot.com/atom.xml" title="Fil Atom pour Nantenaina ">Atom</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=88" title="Nomination de Nantenaina ">Vote</a></td></tr>
+<tr><td><a href="http://avylavitra.skyrock.com/" title="AVY LAVITRA " hreflang="mg">AVY LAVITRA </a></td><td>mg</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=89" title="Nomination de AVY LAVITRA ">Vote</a></td></tr>
+<tr><td><a href="http://www.Ikalakely.blogspot.com" title="Ikalakely " hreflang="fr">Ikalakely </a></td><td>fr</td><td><a href="http://www.ikalakely.blogspot.com/atom.xml" title="Fil Atom pour Ikalakely ">Atom</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=90" title="Nomination de Ikalakely ">Vote</a></td></tr>
+<tr><td><a href="http://artii.canalblog.com/" title="Artii " hreflang="fr">Artii </a></td><td>fr</td><td><a href="http://artii.canalblog.com/rss.xml" title="Fil rss2 pour Artii ">rss2</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=91" title="Nomination de Artii ">Vote</a></td></tr>
+<tr><td><a href="http://milakory-fr.hautetfort.com/" title="Milakory" hreflang="fr">... mILaKoRY ...firaisana ara-nofy ...</a></td><td>fr</td><td><a href="http://milakory-fr.hautetfort.com/atom.xml" title="Fil Atom pour Milakory">Atom</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=92" title="Nomination de Milakory">Vote</a></td></tr>
+<tr><td><a href="http://kroupaska.skyrock.com" title="kroupaska" hreflang="fr">kroupaska</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=93" title="Nomination de kroupaska">Vote</a></td></tr>
+<tr><td><a href="http://radotiana.blaogy.com/" title="Radotiana " hreflang="mg">Radotiana </a></td><td>mg</td><td><a href="http://radotiana.blaogy.com/rss/rss20/283" title="Fil rss2 pour Radotiana ">rss2</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=94" title="Nomination de Radotiana ">Vote</a></td></tr>
+<tr><td><a href="http://tokinao.blaogy.com/" title="Tokinao " hreflang="mg">Tokinao </a></td><td>mg</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=95" title="Nomination de Tokinao ">Vote</a></td></tr>
+<tr><td><a href="http://gasywoman.skyrock.com/" title="Gasywoman" hreflang="fr">Gasywoman</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=96" title="Nomination de Gasywoman">Vote</a></td></tr>
+<tr><td><a href="http://tattum.canalblog.com/" title="Tattum" hreflang="fr">Odyssée de Tattum </a></td><td>fr</td><td><a href="http://tattum.canalblog.com/rss.xml" title="Fil rss2 pour Tattum">rss2</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=97" title="Nomination de Tattum">Vote</a></td></tr>
+<tr><td><a href="http://jentilisa.blaogy.com/" title="Jentilisa" hreflang="mg">Vaovao Eto anTOerana.VETO</a></td><td>mg</td><td><a href="http://jentilisa.blaogy.com/rss/rss10/122" title="Fil rss1 pour Jentilisa">rss1</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=98" title="Nomination de Jentilisa">Vote</a></td></tr>
+<tr><td><a href="http://valamaty.blogspot.com/" title="Valamaty " hreflang="mg">Amin'ny Anaran'ny Tolona</a></td><td>mg</td><td><a href="http://valamaty.blogspot.com/atom.xml" title="Fil Atom pour Valamaty ">Atom</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=99" title="Nomination de Valamaty ">Vote</a></td></tr>
+<tr><td><a href="http://victim19.skyrock.com" title="Harisoir " hreflang="fr">Harisoir </a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=100" title="Nomination de Harisoir ">Vote</a></td></tr>
+<tr><td><a href="http://tsikisariaka.blaogy.com" title="Tsikisariaka " hreflang="mg">Tsikisariaka </a></td><td>mg</td><td><a href="http://tsikisariaka.blaogy.com/rss/atom/638" title="Fil Atom pour Tsikisariaka ">Atom</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=101" title="Nomination de Tsikisariaka ">Vote</a></td></tr>
+<tr><td><a href="http://shadow-gasy.blogspot.com/" title="Shadow" hreflang="fr">Tapatapak'ahitra miaraka amin'i Shadow</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=102" title="Nomination de Shadow">Vote</a></td></tr>
+<tr><td><a href="http://cultmada.blogspot.com/" title="Pierre Maury" hreflang="fr">Bibliothèque malgache </a></td><td>fr</td><td><a href="http://cultmada.blogspot.com/feeds/posts/default" title="Fil Atom pour Pierre Maury">Atom</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=103" title="Nomination de Pierre Maury">Vote</a></td></tr>
+<tr><td><a href="http://serenitystar.wordpress.com/" title="Insane mind" hreflang="en">(a) Taste of Insanity</a></td><td>en</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=104" title="Nomination de Insane mind">Vote</a></td></tr>
+<tr><td><a href="<$url />/" title="Barijaona" hreflang="fr">Quai sud 2 minutes d'arrêt </a></td><td>fr</td><td><a href="<$url />/atom.xml" title="Fil Atom pour Barijaona">Atom</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=105" title="Nomination de Barijaona">Vote</a></td></tr>
+<tr><td><a href="http://www.rajiosy.com/" title="Rajiosy " hreflang="fr">Rajiosy </a></td><td>fr</td><td><a href="http://web.mac.com/mhrakoto/Site/Blog/rss.xml" title="Fil rss2 pour Rajiosy ">rss2</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=106" title="Nomination de Rajiosy ">Vote</a></td></tr>
+<tr><td><a href="http://thenonrequired.wordpress.com/" title="tnr" hreflang="fr">the non required</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=107" title="Nomination de tnr">Vote</a></td></tr>
+<tr><td><a href="http://gasymozika.blogspot.com/" title="Gasymozika " hreflang="fr">Gasymozika </a></td><td>fr</td><td><a href="http://gasymozika.blogspot.com/atom.xml" title="Fil Atom pour Gasymozika ">Atom</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=108" title="Nomination de Gasymozika ">Vote</a></td></tr>
+<tr><td><a href="http://victim19.skyrock.com" title="Victim 19 " hreflang="fr">Victim 19 </a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=109" title="Nomination de Victim 19 ">Vote</a></td></tr>
+<tr><td><a href="http://www.netgasy.com/Shoan" title="Shoan " hreflang="fr">Shoan </a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=110" title="Nomination de Shoan ">Vote</a></td></tr>
+<tr><td><a href="http://livelys.skyrock.com/" title="Livelys" hreflang="fr">Livelys ART-ADALANA </a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=111" title="Nomination de Livelys">Vote</a></td></tr>
+<tr><td><a href="http://hery.blaogy.com" title="Hery " hreflang="mg">Hery -Tsiky dia ampy</a></td><td>mg</td><td><a href="http://hery.blaogy.com/rss/atom/4" title="Fil Atom pour Hery ">Atom</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=112" title="Nomination de Hery ">Vote</a></td></tr>
+<tr><td><a href="http://adala-be.skyrock.com/1.html" title="Adala Be" hreflang="fr">Adalabe</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=125" title="Nomination de Adala Be">Vote</a></td></tr>
+<tr><td><a href="http://kalarindra.skyrock.com" title="Kalarindra" hreflang="fr">Kalarindra</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=126" title="Nomination de Kalarindra">Vote</a></td></tr>
+<tr><td><a href="http://miourandria.skyrock.com/" title="Miourandria" hreflang="fr">Miora</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=127" title="Nomination de Miourandria">Vote</a></td></tr>
+<tr><td><a href="http://www.etoile-des-flibustiers.com" title="L'étoile des Flibustiers" hreflang="fr">L'étoile des Flibustiers</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=128" title="Nomination de L'étoile des Flibustiers">Vote</a></td></tr>
+<tr><td><a href="http://tcmada.zeblog.com" title="Tcmada" hreflang="fr">Blog d'automne</a></td><td>fr</td><td><a href="http://tcmada.zeblog.com/rss.php" title="Fil rss2 pour Tcmada">rss2</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=130" title="Nomination de Tcmada">Vote</a></td></tr>
+<tr><td><a href="http://tanariddimstyle.skyrock.com/" title="Tanariddimstyle" hreflang="fr">Tana Riddim Style</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=131" title="Nomination de Tanariddimstyle">Vote</a></td></tr>
+<tr><td><a href="http://akamatarika.skyrock.com/" title="Akamatarika" hreflang="fr">Akamatarika</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=133" title="Nomination de Akamatarika">Vote</a></td></tr>
+<tr><td><a href="http://vazahagasy.wordpress.com/" title="Ruth" hreflang="en">Vazaha Gasy</a></td><td>en</td><td><a href="http://vazahagasy.wordpress.com/feed/" title="Fil rss2 pour Ruth">rss2</a></td><td><a href="http://www.bestofmalagasyblogs.com/?p=134" title="Nomination de Ruth">Vote</a></td></tr>
+<tr><td><a href="http://lazarbi.skyrock.com/" title="Lazarbi" hreflang="fr">OFFICIALLY NO NAME but it is the blog de Laza.</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=137" title="Nomination de Lazarbi">Vote</a></td></tr>
+<tr><td><a href="http://fashion13011.skyrock.com/" title="YONEL.R" hreflang="fr">Fashion13011</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=138" title="Nomination de YONEL.R">Vote</a></td></tr>
+<tr><td><a href="http://madagascar.mabulle.com/" title="kisifi" hreflang="fr">madagascar mabulle</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=148" title="Nomination de kisifi">Vote</a></td></tr>
+<tr><td><a href="http://rija95.skyrock.com/" title="Rija" hreflang="fr">Rija95</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=149" title="Nomination de Rija">Vote</a></td></tr>
+<tr><td><a href="http://madagascan.over-blog.com/" title="Madagascan" hreflang="fr">madagascan</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=150" title="Nomination de Madagascan">Vote</a></td></tr>
+<tr><td><a href="http://tacaque.tsenagasy.com/" title="tacaque" hreflang="fr">Théories et remarques bidons...</a></td><td>fr</td><td></td><td><a href="http://www.bestofmalagasyblogs.com/?p=151" title="Nomination de tacaque">Vote</a></td></tr>
+<!-- Fin d'insertion -->
+</table>
+
+Problème annexe : j'ai dans mon aggrégateur quatre blogs "malgaches" dont je ne sais à quelle catégorie du concours ils correspondent... Comment je fais pour tout ce qui n'est pas culture, société, langue malgache et jeunesse ?
+
+
+<table summary="Liste de blogs &quot;malgaches&quot;">
+<caption>Liste de blogs que je lis et que je ne sais comment nominer</caption>
+<thead><tr><th>Blog</th><th>Langue principale</th><th>Fil complet</th></tr></thead>
+<tr><td><a href="http://www.thethousand.net/" title="Aliotsy" hreflang="en">The Thousand Dot Net</a></td><td>en</td><td><a href="http://www.thethousand.net/index.rdf" title="Fil rss1 pour Aliotsy">rss1</a></td></tr>
+<tr><td><a href="http://mialisenfout.hautetfort.com/" title="Mialy" hreflang="fr">Mialy s'en fout !!</a></td><td>fr</td><td><a href="http://mialisenfout.hautetfort.com/atom.xml" title="Fil Atom pour Mialy">Atom</a></td></tr>
+<tr><td><a href="http://herivelo.blogspot.com/" title="Herivelo" hreflang="fr">Crjo's Place</a></td><td>fr</td><td><a href="http://herivelo.blogspot.com/feeds/posts/default" title="Fil Atom pour Herivelo">Atom</a></td></tr>
+<tr><td><a href="http://iarivo.hautetfort.com/" title="Mialy" hreflang="mg">Iarivo iombonantsika</a></td><td>mg</td><td><a href="http://iarivo.hautetfort.com/atom.xml" title="Fil Atom pour Mialy">Atom</a></td></tr>
+</table>
+

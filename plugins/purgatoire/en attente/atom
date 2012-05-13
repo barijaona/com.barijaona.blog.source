@@ -1,0 +1,48 @@
+package atom;
+
+use strict;
+use warnings;
+use XML::Parser;
+
+# --- Output variables -----
+
+our $type;
+our $mode;
+our $body;
+
+# --- Plug-in package variables -----
+
+my $parser;
+my %escape;
+my $escape_re;
+
+# --------------------------------
+
+sub start {
+  $parser = new XML::Parser;
+  %escape = ('<'=>'&lt;', '>'=>'&gt;', '&'=>'&amp;', '"'=>'&quot;');
+  $escape_re  = join '|' => keys %escape;
+  1;
+}
+
+sub story {
+  my ($pkg, $path, $filename, $story_ref, $title_ref, $body_ref) =@_;
+
+  if (eval {$parser->parse("<div>$$body_ref</div>")}) {
+    $type = 'application/xhtml+xml';
+    $mode = 'xml';
+    $body = "<div xmlns=\"http://www.w3.org/1999/xhtml\">$$body_ref</div>";
+  } else {
+    $type = 'text/html';
+    $mode = 'escaped';
+    if (index($$body_ref,']]>')<0) {
+      $body = "<![CDATA[$$body_ref]]>";
+    } else {
+      ($body = $$body_ref) =~ s/($escape_re)/$escape{$1}/g;
+    }
+  }
+
+  return 1;
+}
+
+1;

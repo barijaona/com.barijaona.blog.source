@@ -1,0 +1,29 @@
+# Blosxom Plugin: charset
+# Author: chrome (chrome@cgi.no-ip.org)
+# Version: 2003-05-23
+# Blosxom Home/Docs/Licensing: http://www.raelity.org/blosxom
+
+package charset;
+
+# --- Configurable variables -----
+
+# What's your blog's charset?
+$blog_charset = "UTF-8";
+
+# Set 1 to add charset parameter to the HTTP header.
+my $add_header = 1;
+
+# --------------------------------
+
+sub start {
+	return $blosxom::static_or_dynamic eq 'dynamic' ? 1 : 0;
+}
+
+sub head {
+	if ($add_header) {
+		my $content_type = (&$blosxom::template($blosxom::path_info,'content_type',$blosxom::flavour));
+		$content_type =~ s!\n.*!!s;
+		$blosxom::header->{'Content-Type'} = $content_type . "; charset=$blog_charset";
+	};
+	1;
+}

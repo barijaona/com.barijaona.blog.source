@@ -1,0 +1,32 @@
+Recherche d'aides respiratoires
+meta-creation_date: 5/12/2003 13:38:04
+
+Parmi les raisons du <i lang="en">blog blues</i> qui frappe les carnets généralistes, je suis tenté de citer la raréfaction et l'appauvrissement des sources d'information gratuites depuis l'explosion de la bulle internet en Avril 2000.
+
+Mon carnet est essentiellement un blog de liens. Je l'ai imaginé au départ non point pour des technophiles qui disposent d'une connexion <abbr title="Asymetric Digital Subscriber Line">ADSL</abbr> à domicile, mais pour des lecteurs épisodiques qui vont sur Internet lorsqu'ils le peuvent.
+
+Parce qu'ils constituent le gros de mon entourage, je ne peux oublier ceux pour qui s'offrir une heure dans un cybercafé est une petite gâterie (qui fait moins grossir qu'une boite de chocolats).
+
+Il ne faut pas négliger non plus ceux qui n'ont qu'un forfait mensuel de quelques heures, en connexion <abbr title="Réseau téléphonique commuté">RTC</abbr>.
+
+Vous n'avez pas vécu cette époque ? Pour moi, les temps ne sont pas si lointains où, après le travail, je me permettais 10 minutes de <cite>surf</cite> (ah, comme l'expression a vieilli...) avec un taraudant sentiment de culpabilité pour dépenses outrancières.
+
+Une bonne partie de mon entourage en est encore là. Sans compter tous ceux qui pouponnent, courtisent, travaillent, cultivent, se cultivent, bref ont une vie en dehors du Net.
+
+Lorsque j'ai commencé à prendre un peu plus mes aises en ce qui concerne la bande passante et que j'ai pu envisager d'avoir <cite><q>mon site à moi</q></cite>, je me suis dit que si je voulais que les gens daignent de temps en temps m'accorder un petit reliquat de leur forfait de connexion, il valait mieux veiller à ce que chaque kilo-octet transféré par le visiteur soit utile.
+
+Aussi ce site a été fortement inspiré par <a href="http://www.macintouch.com/" title="The original Mac news and information site since 1994" hreflang="en">Macintouch</a>, ma première drogue quotidienne : pourquoi paraphraser ce qui est si bien dit par d'autres, alors qu'il suffit de pointer leurs propos avec un lien ?
+
+Par rapport à une simple page de <i lang="en">bookmarks</i>, une opinion, si possible originale et pertinente, amène une véritable valeur ajoutée.
+
+Mais à mes yeux, à effort équivalent, un billet contenant un lien sera vraisemblablement plus riche qu'un billet sans lien. 
+
+Voilà pourquoi il m'arrive de signaler un article du <a href="http://www.lemonde.fr/" title="A la une">Monde</a> ou du <a href="http://www.nytimes.com/pages/world/index.html" title="International" hreflang="en">New York Times</a>.
+
+Mais si le jour où mes cousins jettent un coup d'oeil sur ma prose (ce qu'ils ne peuvent faire que toutes les <i>x</i> semaines), ils ne peuvent plus accéder au dit article du Monde ou du New York Times parce qu'il est tombé dans les archives <em>payantes</em>, je les aurais frustré plus que contenté...
+
+Pas vraiment bon pour les relations familiales, ça. D'où une certaine tendance récente à s'abstenir de lier à ces sources.
+
+Pour ne pas être condamnée à s'auto-citer, la blogosphère a besoin de saines (ou pas si saines) lectures, variées, intelligentes, avec des archives permanentes accessibles, et qui ne soient pas des blogs.
+
+Faites connaître vos trouvailles.

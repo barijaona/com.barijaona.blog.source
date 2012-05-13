@@ -1,0 +1,10 @@
+Concours de popularité
+meta-creation_date: 5/3/2009 22:39:32
+
+<a href="http://gs.statcounter.com/" hreflang="en" title="Stat Counter">Ce n'était pas forcément évident</a>. Firefox est plus populaire qu'Internet Explorer à Madagascar.
+
+<img src="<$url /><$path />/StatCounterGlobal.jpg" alt="Graphe de l'évolution des parts de marché des navigateurs sur Madagascar" title="Part de marché des navigateurs à Madagascar" width="641" height="375" />
+
+Et surtout, que personne ne s'avise de chercher une signification politique aux couleurs du graphe...
+
+Sur la même période (Juillet 2008 à début Mars 2009), Safari est à 2,03% de part d'usage. Alors, soit nous sommes plus nombreux que je ne l'imaginais, soit je surfe trop.

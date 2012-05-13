@@ -1,0 +1,10 @@
+# Example showing how you can change the sort order
+# We use the chronological order (instead of the ante-chronological order)
+# for chronological indexes.
+# Trier à l'envers (ordre chrono) les pages HTML
+# des pages chrono, et les faire apparaître toutes
+if ( $pagetype::pagetype =~ m#chrono# ) {
+	$blosxom::plugins{'sort_reverse'} = 1;
+	$blosxom::num_entries = 999;
+} ;
+	

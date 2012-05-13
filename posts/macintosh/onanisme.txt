@@ -1,0 +1,25 @@
+Onanisme
+meta-creation_date: 20/6/2004 23:47:53
+
+Résumé de la partie technique du week-end :
+
+* Flirté avec le PHP pour permettre à <a href="http://www.voidstar.com/gnews2rss.php" title="Convertor that takes a Google News search and turns it into RSS" hreflang="en">GNews2Rss</a> de lire la version française de Google News,
+* Tripoté avec concupiscence le programme pour lire des journaux en ligne qui ont le quasi-archaïsme de ne pas offrir de fils RSS,
+* Bruyamment proféré des insanités parce que la manipulation d'expressions régulières en PHP paraît antédiluvienne pour quelqu'un qui a été dorloté par <a href="http://www.barebones.com/products/bbedit/index.shtml" title="It doesn't suck" hreflang="en">BBEdit</a> : il m'a fallu 24 heures pour réaliser que là où dans BBEdit je peux mettre `(.*)</a>`, il me fallait en PHP coucher le très tantrique `(([^<]|<[^/]|</[^a])*)</a>`,
+* Émis des soupirs de satisfaction lorsqu'une injection amoureusement dosée de [`strip_tags($data, $allowable_tags)`][2] permettait de retrouver un code lumineusement clair,
+* Compris avec un plaisir frôlant la jouissance que j'arriverai plus rapidement à mon but en remplaçant le marquage HTML par des tatouages plus personnels à grands coups de [`preg_replace`][3],
+* Ahané pour introduire mes organes RSS dans Feed on feeds : il fallut chatouiller la variable `MAGPIE_FETCH_TIME_OUT` dans le fichier `rss_fetch.inc` pour vaincre la réticence de MagpieRSS à accepter mes fins,
+* Savouré comme une dernière caresse la dernière version de <a href="http://minutillo.com/steve/feedonfeeds/" title="Server side personal aggregator" hreflang="en">FeedOnFeeds</a>, qui a le bon goût de mieux gérer les encodages texte, et ce même s'il subsiste quelques soucis avec les titres contenant des entités HTML ; après tout, la plus belle fille du monde ne peut donner que ce qu'elle a,
+
+[2]: http://www.nexen.net/docs/php/annotee/function.strip-tags.php "Documentation strip_tags chez nexen"
+[3]: http://www.nexen.net/docs/php/annotee/function.preg-replace.php "Doc preg_replace"
+
+Et puis, je me suis demandé : "<cite>[Omne animal post PHP triste][4] ? est-ce bien mon Macintosh bien aimé qui est en face de moi ?</cite>". Moi qui vantais la simplicité des Macs, je trouve désormais que l'un des principaux reproches que l'on peut faire à Windows est d'être trop fermé et propriétaire... et je me mets à vanter et à appliquer l'amour (du) libre...
+
+La vérité est que le giron du Mac est toujours fort accueillant... En fait, depuis Panther, je ne vois plus aucune situation rendant l'usage du terminal indispensable à un utilisateur moyen...
+
+Mais il est des choses non indispensables qui sont fort agréables. Depuis Octobre 2000, où j'ai découvert MacOS X Public Beta, je suis bien plus aventureux qu'auparavant...
+
+L'aventure continue.
+
+[4]: http://www.locutio.com/bouteille_a_la_mer.htm "Bouteille à la mer"

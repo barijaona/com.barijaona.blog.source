@@ -1,0 +1,6 @@
+Brumes et fumées
+meta-creation_date: 3/4/2004 11:00:21
+
+Suite du mois de la photo, avec un cliché du massif de l'Andringitra, pris en janvier 2003.
+
+<img src="<$url /><$path />/andringitra.jpg" alt="Massif rocheux, nuages et feux de brousses" width="600" height="259" class="photo" />

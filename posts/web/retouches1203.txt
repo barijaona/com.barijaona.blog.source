@@ -1,0 +1,10 @@
+Ménage
+meta-creation_date: 15/12/2003 00:10:23
+
+Incapable de trancher entre deux <a href="http://embruns.net/" title="Laurent Gloaguen (Embruns)">orientations</a> de mise en page <a href="http://www.kottke.org/" title="Jason Kottke (home of fine hypertext products)" hreflang="en">complètement opposées</a>, mais en tout cas plus abouties que la mienne, je me contente pour l'instant d'un <a href="<$url />/equipe/sitemap.html" title="Diff&eacute;rents points d'acc&egrave;s &agrave; ce site">pis-aller</a> pour mettre en avant les différentes catégories et fils RSS de ce carnet.
+
+Je sais, je ne me méfie pas assez du provisoire définitif...
+
+<a href="http://embruns.net/notes_du_carnet/000038.html" title="Laurent aussi se demande si &ccedil;a sert d&eacute;j&agrave; &agrave; quelque chose...">Un peu par vanité</a>, mais officiellement histoire <a href="http://diveintomark.org/archives/2003/12/13/atom03" title="Dive into Mark : Atom 0.3 snapshot" hreflang="en">de coller à l'actualité</a> : un fil <a href="<$url />/atom.xml" title="Fil XML Atom 0.3">Atom</a>.
+
+Évidemment que <a href="http://feedvalidator.org/check?url=http:%2F%2Fhomepage.mac.com%2Fbarijaona%2Fatom.xml" title="Feed Validator" hreflang="en">ça valide</a>, vous me prenez pour qui ?

@@ -1,0 +1,90 @@
+# Blosxom Plugin: RSS LastBuildDate
+# Author: Joe Francis  (see: http://www.floppymoose.com/contact.html for contact info)
+# Version: 0.0 alpha
+# License: as per http://www.blosxom.com/license.html, except copyright 2003, Joe Francis
+# URL: http://www.floppymoose.com/projects/blosxom
+
+package lastbuilddate;
+
+use File::stat;
+use Time::localtime;
+use Time::gmtime;
+
+my $old_entries = 0;
+my $last_build_date = 0;
+
+sub start { 1; }
+
+sub entries
+{
+  # cache the default blosxom entries subroutine.
+  if (! $old_entries) 
+  {
+    $old_entries = $blosxom::entries;
+  }
+  
+  # our entries sub is merely a pipe to the default one,
+  # so that the entries can be examined for latest build date.  
+  return sub
+  {
+    my (%files, %indexes, %others);
+    
+    # call deafult entries()    
+    my ($files_ref, $indexes_ref, $others_ref) = &$old_entries();
+    %files = %$files_ref; 
+    %indexes = %$indexes_ref; 
+    %others = ref $others_ref ? %$others_ref : ();
+    
+    # sort the entries to find newest
+    my %f = %files;
+    foreach my $path_file ( sort { $files{$b} <=> $files{$a} } keys %f ) 
+    {
+      my($path,$fn) = $path_file =~    
+      m!^$blosxom::datadir/(?:(.*)/)?(.*)\.$blosxom::file_extension!;
+    
+      # toss any entries not in the right hierarchy
+      $path =~ /^$blosxom::path_info/ or 
+      $path_file eq "$blosxom::datadir/$blosxom::path_info" or next;
+      
+      if ($last_build_date eq 0) 
+      { 
+        # this is the newest entry, so remember the date
+        $last_build_date = traditional_rss_date(stat("$path_file")->mtime); 
+      }
+    }
+    
+    #pass default results back
+    return (\%files, \%indexes, \%others);
+  }
+}
+
+sub head
+{
+  # add our cached lastBuildDate to the end of the head,
+  # but only if the flavor is rss.
+  if ($blosxom::flavour eq "rss")
+  {
+    my($pkg, $currentdir, $head_ref) = @_;
+    $$head_ref .= "    <lastBuildDate>$last_build_date</lastBuildDate>\n";
+  }
+  1;
+}
+
+sub traditional_rss_date 
+{
+  # return the datein the format traditionally used by rss feeds for lastBuildDate.
+  # Note that this format is not the one actually specified in the spec.  Don't ask.
+  
+  my($unixtime) = @_;
+  my $c_time = ctime($unixtime);
+  my($dw,$mo,$da,$ti,$yr) = 
+      ( $c_time =~ /(\w{3}) +(\w{3}) +(\d{1,2}) +(\d{2}:\d{2}):\d{2} +(\d{4})$/ );
+  $da = sprintf("%02d", $da);
+  my $mo_num = $blosxom::month2num{$mo};
+
+  return $yr."-".$mo_num."-".$da."T".$ti.":00-08:00"; 
+}
+
+1;
+
+__END__

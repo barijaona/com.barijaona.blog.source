@@ -1,0 +1,71 @@
+# Blosxom plugin: modiftime
+# Author(s): Barijaona Ramaholimihaso
+# Version: 20040802
+# Documentation: see bottom of file or perldoc title
+
+package modiftime;
+
+use File::stat;
+
+
+# ---------------------------------------------------------
+
+sub start { 1; }
+
+sub story {
+  my ($pkg, $path, $filename, $story_ref, $title_ref, $body_ref) =@_;
+	my $mtime;
+	$file = "$blosxom::datadir$path/$filename.$blosxom::file_extension";
+	$mtime = stat("$file")->mtime;
+	my($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime($mtime);
+					$year += 1900;
+					$mon += 1;
+					$hour = sprintf("%02d",$hour);
+					$min = sprintf("%02d",$min);
+					$sec = sprintf("%02d",$sec);
+	$modiftime ="$mday/$mon/$year $hour:$min";
+}
+
+1;
+
+__END__
+=head1 NAME
+
+Blosxom Plug-in: modiftime
+
+=head1 SYNOPSIS
+
+Allows you to include the date and time when the file was last modified. Useful if you want to include this info, while using a plugin like entries_index or entriescache.
+
+=head2 QUICK START
+
+Put title in your plug-ins directory.
+
+If required adapt the $modiftime variable.
+
+Just place $modiftime::modiftime where you want to display the date and time when your story was last modified.
+
+=head1 VERSION
+
+20040802
+
+=head2 CHANGES
+
+20040802 - First "official" release
+
+=head1 AUTHOR
+
+Barijaona Ramaholimihaso <reactions@barijaona.com>, http://homepage.mac.com/barijaona/
+
+=head1 SEE ALSO
+
+Blosxom Home/Docs/Licensing: http://www.raelity.org/apps/blosxom/
+
+Blosxom Plugin Docs: http://www.raelity.org/apps/blosxom/plugin.shtml
+
+=head1 COPYRIGHT
+
+This program is free software; you can redistribute
+it and/or modify it under the same terms as Perl itself.
+
+=cut

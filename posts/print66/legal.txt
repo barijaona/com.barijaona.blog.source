@@ -1,0 +1,18 @@
+Legal warning
+meta-creation_date: 27/12/2003 13:00:40
+
+The program is provided "as is" and without warranty, express and implied, including but not limited to any implied warranties of merchantability and fitness for a particular purpose. In no event will Barijaona Ramaholimihaso be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages, even if Barijaona Ramaholimihaso is advised of the possibility of such damages, or for any claim by you or any third party.
+
+If you do not agree with the above terms, simply do not use the program, or consider using an alternative program such as :
+
+* lpDaemon, the program from which Print66 is closely derived. lpDaemon can be found in InfoMac archives or HyperArchive, for instance at the URL <a href="ftp://mirrors.aol.com/pub/info-mac/comm/inet/lp-daemon-34.hqx" title="FTP download">ftp://mirrors.aol.com/pub/info-mac/comm/inet/lp-daemon-34.hqx</a>,
+* the commercial package IntragyAccess from Lucent Technology.
+
+<h1>For programmers :</h1>
+As Casper Boon who posted the original program source in 1993, I decided to make the source public, because it seems to interest more people than I thought, and this is the best guarantee I can provide to the Mac community that a cheap ;-)) solution to the issue I faced will remain. I hope you will give me a feedback.
+
+For copyright issues, my intent is to make the licence as much OpenSource as possible. You can probably use the sources to start other projects as soon as they remain freeware, but for commercial projects, you'd better contact Casper Boon because he has at least some moral rights on it. As for me, there is no problem whatever your project is, as far as you mention me in the source of your program. I am also interested to see how people use the source and would appreciate receiving copies of applications created with it, but this is not a requirement.
+
+All products mentioned are trademarks or registered trademarks of their respective holders. Many parts of the code are work of Casper Boon who holds their original copyright.
+
+Information presented here is accurate as of the time of writing, but is subject to change without notice.

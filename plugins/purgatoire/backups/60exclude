@@ -1,0 +1,170 @@
+# Blosxom Plugin: exclude
+# Author(s): Barijaona Ramaholimihaso
+# Credits to :
+#   Breyten Ernsting author of the original exclude plugin http://www.bje.nu/
+#   Fletcher T. Penney author of the hide plugin http://fletcher.freeshell.org
+# IMPORTANT : requires some patch to blosxom !!!
+#             Works with the Blosxom starting kit by Barijaona
+# Version: 2004-08-29blosxom2
+
+package exclude;
+
+# --- Configurable variables -----
+
+# name of the file where the patterns of the posts to be hidden
+# are stored
+$ign_file = 'exclude';
+
+# location of the file : I prefer it in the flavour directory
+$refdir = "$blosxom::basedir/flavours";
+# --------------------------------
+use CGI qw/:standard/;
+%savefiles = {};
+%files_list = {};
+
+# --------------------------------
+
+sub start {
+  # compatiblily with Fletcher T. Penney fide plugin and wikieditish
+ ((param('plugin') eq 'find') || (param('find')) || (param('plugin') eq 'wikieditish')) ? 0 : 1 ;
+
+}
+
+sub exclude {
+  # Loads the "exclude" file
+  # (this is located here because in static rendering, the $path_info variable
+  # is not available in earlier subs like filter) 
+  if (($blosxom::path_info) && ( $blosxom::path_info !~ m!^(\d{4})!)) {
+  	$ign_fp = "$refdir/$blosxom::path_info";
+  	$ign_fp2 = "$blosxom::datadir/$blosxom::path_info";
+  	}
+  else {
+  	$ign_fp = "$refdir";
+  	$ign_fp2 = "$blosxom::datadir";
+  	};
+  $ign_ext = (-e "$ign_fp/${ign_file}.${blosxom::flavour}") ? ".$blosxom::flavour" : "";
+  $ign_fn = "$ign_fp/$ign_file$ign_ext";
+  # populates the excludes list
+  @excludes = ();
+  open(EXCLUDE, "< $ign_fn") or 1;
+  while ($line = <EXCLUDE>) {
+    $line =~ s/\n//;
+    push(@excludes, "$ign_fp2/$line") if $line;
+  }
+  close(EXCLUDE);
+warn "path_info $blosxom::path_info";
+# warn "workingdir $blosxom::workingdir";
+
+#  my @files_list = keys %blosxom::files;
+#  my $path = "$blosxom::datadir/$blosxom::workingdir";
+  my $path = "$blosxom::datadir/$blosxom::path_info";
+#  warn "path $path";
+  foreach $exclude (@excludes) {
+  warn "exclude $exclude";
+    foreach $ign_cf (@files_list) {
+    warn "ign_cf $ign_cf path $path";
+# 	if ($ign_cf =~ m#^$exclude#  and ($ign_cf !~ m#^$path# or $blosxom::workingdir eq '')){ delete $blosxom::files{$ign_cf} ;  };
+# 	if ($ign_cf =~ m#^$exclude#  and ($ign_cf =~ m#^$path# or $blosxom::path_info eq '')){ warn "ignore $ign_cf"; delete $blosxom::files{$ign_cf} ;  };
+
+ 	if ($ign_cf !~ m#^$path# or $ign_cf =~ m#^$exclude#){ warn "ignore $ign_cf"; delete $blosxom::files{$ign_cf} ;  };
+ 	}
+  }
+}
+
+
+
+sub filter {
+ my ($pkg, $files_ref) = @_;
+ @files_list = keys %$files_ref;
+ 
+ if ($blosxom::static_or_dynamic eq 'static'){
+   # backups the %blosxom::files hash  
+   %savefiles = %blosxom::files;
+ }
+ exclude();
+ 1;
+}
+  	
+sub skip {
+ if ($blosxom::static_or_dynamic eq 'static'){ 
+  # restore the %blosxom::files hash 
+  %blosxom::files = %savefiles ;
+  @files_list = keys %blosxom::files;
+  exclude();
+  }
+ 0;
+}
+ 
+
+1;
+
+__DATA__
+__END__
+
+=head1 NAME
+
+Blosxom Plug-in: exclude
+
+=head1 SYNOPSIS
+
+Purpose: ignores files and directories in entries. Still allow these stories to appear in the results of a search via Fletcher T. Penney's find plugin <http://fletcher.freeshell.org>
+ 
+This file does not make any new variables available for use in template files.
+
+=head1 VERSION
+
+2004-0829blosxom2
+
+1st test release
+
+=head1 AUTHOR
+
+First released by Breyten J. Ernsting <bje@dds.nl> http://www.bje.nu/
+Hacked by Barijaona Ramaholimihaso http://homepage.mac.com/barijaona to handle static rendering.
+Compatibility with the find plugin provided by Fletcher Penney.
+
+=head1 BUGS
+
+Probably ;)
+IMPORTANT : Needs a specially hacked version of blosxom available in Barijaona's blosxom starter kit.
+
+=head1 CONFIGURATION
+
+C<$ign_file> name to use for exclude files. Defaults to C<exclude>.
+
+C<$refdir> directory where you put the exclude files. The default is your flavourdir. Some people might prefer the datadir.
+
+=head1 EXAMPLE
+
+Your C<.exclude> file should look like this:
+
+apps/
+life/about.txt
+
+One entry per line. You should be able to use regexes.
+
+=head1 LICENSE
+
+this Blosxom Plug-in
+Copyright 2003, Breyten Ernsting
+Copyright 2004, Barijaona Ramaholimihaso
+
+(This license is the same as Blosxom's)
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.

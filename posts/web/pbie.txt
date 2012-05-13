@@ -1,0 +1,17 @@
+Appel à témoins
+meta-creation_date: 20/10/2007 08:38:50
+
+Non, je ne recherche pas un Vico...
+
+Mais il m'a été rapporté que dans certains navigateurs Web (que j'ai tendance à considérer comme un peu tristounets), les liens permanents et les liens pour commenter n'apparaissaient pas.
+
+J'espère avoir corrigé, mais je n'ai pas de machine Windows sous la main, donc si vous utilisez autre chose que MacOS 10.4 (que ce soit Linux, Windows, NetBSD, VMS, Symbian... ), ce serait sympa de me laisser un petit mot citant :
+
+* votre type de système d'exploitation,
+* votre version de navigateur,
+* si la lisibilité de la <a href="<$url />" title="<$url />">page d'accueil</a> et de la <a href="<$url /><$path />/pbie.html" title="<$url /><$path />/pbie.html">page du présent billet</a> est à peu près satisfaisante,
+* si vous pouvez accéder aux menus, liens permanents, liens de commentaires, liens vers le billet précédent...
+
+Merci d'utiliser le lien de commentaire ou s'il n'apparaît pas, un bon vieil e-mail à <a title="reactions" href="#" rel="barijaona.com" onclick="this.href='mailto:'+this.getAttribute('title')+'@'+this.getAttribute('rel')">reactions (arobace) barijaona.com</a>.
+
+Ma reconnaissance vous sera acquise.

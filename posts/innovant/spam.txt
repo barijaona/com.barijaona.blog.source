@@ -1,0 +1,38 @@
+Pratique du Don Quichottisme
+meta-creation_date: 24/8/2005 13:55:02
+[Dix ans d'internet commercial](http://www.lemonde.fr/web/article/0,1-0@2-3234,36-680976,0.html "Le Monde.fr : Il y a dix ans, Internet commençait à changer le monde"), et dix ans de gouttes d'internet africain dans un [océan américain](http://usinfo.state.gov/journals/itgic/1103/ijgf/gj3f.htm "Lane Smith, L'Afrique en ligne") :
+
+> Dans le domaine politique, l'USAID a établi un important principe avec le lancement, en 1996, de l'Initiative Leland : nous ne travaillerions qu'avec les pays qui seraient prêts à adopter une politique de communication moderne favorable à l'internet et basée sur la baisse des prix, l'introduction de la concurrence et la libre circulation de l'information.
+
+Bon, la libre circulation de l'information, ça a été interprété par certains comme la possibilité de me montrer leur grande sollicitude pour le volume et la durée de mes érections, la restructuration de mon endettement colossal ou la longueur pharaonique de mes ordonnances médicales mal remboursées par la sécurité sociale américaine.
+
+Ils ne sont pas formidables, les bienfaiteurs de l'humanité ?
+
+Submergées par un flot de spam fort indigeste, et malgré leur valeur sentimentale (c'est le coté [fleur bleue du geek](http://eihamatt.canalblog.com/archives/2005/04/20/449761.html "Eihamatt me cite")), mes premières adresses e-mail ont du hélas être passées par pertes et profits.
+
+Tentant d'éviter de passer de la naïveté du débutant à la paranoïa totale, je prends néanmoins désormais quelques précautions avant de rendre mes adresses e-mail accessibles au premier venu.
+
+Le spam arrive toujours (essentiellement sur les adresses publiées dans ce site, qu'est ce que la vanité peut coûter cher...), mais en quantité qui reste gérable par les filtres de [Mail](http://www.apple.com/fr/macosx/features/mail/ "Apple"). Même s'ils passent à travers les mailles du filet, les messages indésirables ne sont même pas lus, sauf...
+
+Sauf l'un d'eux qui m'a intrigué d'abord, révolté ensuite...
+
+En dix ans de pratique d'internet, je n'étais jamais tombé sur un site pédophile. Ce n'est malheureusement plus le cas.
+
+Soyons clair, je ne sais pas de manière stricte ce qui, d'après les textes, est légal ou illégal dans ce domaine, et je n'ai pas cherché à vérifier si le site en question passait ou non la ligne jaune... Mais indubitablement, c'était un site pédophile.
+
+Suffisamment en tout cas pour me décider à jouer les vengeurs : [l'analyse des en-têtes SMTP](http://www.faqs.org/faqs/fr/usenet/abus/reagir-conseils/ "FAQ : Comment réagir aux messages abusifs (2/2 : conseils pratiques)") et un petit nslookup révélèrent le nom de domaine du fournisseur d'accès par lequel le message avait été émis. Un bref mail au compte <cite>abuse</cite> dudit FAI était déjà mieux que rien...
+
+Mais mon agacement ne se satisfaisait pas de cela.
+Un <a href="http://www.geektools.com/whois.php" title="Geektools" lang="en" hreflang="en">whois</a> permit de confirmer que le fournisseur d'accès était états-unien. Au risque de passer pour Christine Bouttin, je me résolus à faire recours aux <a href="http://www.ftc.gov/spam/" title="FTC - SPAM - Home Page" hreflang="en">services</a> de George W.
+
+Je m'assurais que le mail contrevenait sur au moins trois points à la <a href="http://www.ftc.gov/bcp/conline/pubs/buspubs/canspam.htm" title="The CAN-SPAM Act: Requirements for Commercial Emailers" hreflang="en">réglementation américaine</a> :
+
+* il ne s'identifiait pas explicitement comme mail publicitaire,
+* il ne précisait pas l'adresse postale physique de l'émetteur,
+* il ne fournissait pas de moyen pour demander de ne plus m'envoyer de messages de ce type.
+
+Sur ces bases, je me sentis fondé à le faire suivre à l'adresse spam@uce.gov.
+
+Et en plus, ça marche ! Le fournisseur d'accès m'a annoncé après 48 h qu'il avait confirmé l'usage abusif sur un compte de ses clients et pris "des mesures".
+
+Et un moulin de moins, un !

@@ -1,0 +1,26 @@
+Retour sur une catastrophe annoncée
+meta-creation_date: 20/2/2008 03:35:10
+
+La blogosphère de l'Océan Indien parle largement du cyclone Ivan et de ses conséquences : à l'heure qu'il est, on dénombre [2422 entrées chez Google](http://www.google.com/blogsearch?hl=fr&num=10&c2coff=1&safe=active&ie=UTF-8&q=ivan+cyclone+OR+dépression+OR+hurricane+OR+rivo-doza+OR+rivodoza&btnG=Rechercher&lr= "Recherche de blogs") et <a href="http://www.technorati.com/search/ivan+AND+(cyclone+OR+dépression+OR+hurricane+OR+rivodoza+OR+rivo-doza)" hreflang="en" title="Le pionnier de la recherche de blogs...">343 chez Technorati</a>.
+
+Bon, il y a peut-être dans ces décomptes un peu de confusion avec un [homonyme célèbre](http://fr.wikipedia.org/wiki/Ouragan_Ivan "Ouragan Ivan (2004) : Wikipedia"), mais il n'empêche que ces chiffres sont assez significatifs de l'émotion récente.
+
+Celle-ci n'est pas injustifiée : au moment de toucher la côte malgache, Ivan était classé [cyclone tropical intense](http://www.meteo.fr/temps/domtom/La_Reunion/TGPR/saison/11_table.html "Données de France Météo").
+
+C'est grosso modo l'équivalent d'un niveau 4 sur l'échelle de Saffir-Simpson dont le maxima est à 5. En touchant l'île Sainte Marie et la côte Est de Madagascar dimanche dernier, Ivan était donc comparable pour ce qui concerne la force de vent à l'ouragan Katrina au moment où il a touché La Nouvelle Orléans le 29 août 2005.
+
+Cette donnée brute ne suffit pas à apprécier l'impact réel d'un cyclone sur Madagascar. Hélas, des cyclones tropicaux intenses (CTI) ou très intenses (CTTI) font partie des [évènements](http://firinga.free.fr/cy-memoria-mada.htm "Les Cyclones et les Tempêtes mémorables pour  Madagascar (Firinga)") "normaux" de l'île (au sens statistique du mot, s'entend...). Il y a moins d'un an, nous avons ainsi connu <a href="http://en.wikipedia.org/wiki/Cyclone_Indlala" hreflang="en" title="Wikipedia">Indlala</a> : 88 morts, 30 disparus.
+
+Dans le cas d'Ivan, une autre donnée importante qu'il faut prendre en compte est la vitesse de déplacement après la touchée de l'île. Ce cyclone a malheureusement pris tout son temps pour traverser Madagascar, provoquant sur son passage des pluies très abondantes.
+
+Comme un cyclone n'a aucune raison d'épargner les routes, ponts, infrastructures électriques et équipements de télécommunication (même si [certains](http://monblog.ch/lebu/?p=200802151505368 "Nom de code : Ivan (Un Autre Monde, Une Autre Vie...)") arrivent à [bloguer pendant le cyclone](http://herxav.canalblog.com/archives/2008/02/17/7982641.html "Cyclone Ivan, en direct de Tamatave ! (Carnet de vadrouilleurs)")), il est encore un peu tôt pour tenter d'établir un bilan.
+
+Pour quelques très privilégiés, le seul désagrément sera de ne pouvoir faire leurs courses au  centre commercial Smart de Tanjombato qui se trouve actuellement les pieds dans l'eau. Pour la grande majorité, les désagréments seront un peu plus sérieux. Pour se faire une idée, on peut s'appuyer sur Mialy qui prend la peine [d'écouter la radio pour nous](http://mialisenfout.hautetfort.com/archive/2008/02/19/loza-mihatra.html "Ampitapitao !!!...").
+
+Car la radio reste la meilleure source d'information en de telles circonstances, à condition d'avoir un poste transistor fonctionnant avec des piles et d'avoir le réflexe de l'allumer à l'heure du bulletin d'information.
+
+Si l'on n'a pas oublié [cette caractéristique des médias locaux](http://www.alancha.net/2008/02/17/ivan-rafales-de-vent-169-kmh/ "Le blog du rédac (La Réunion)"), on peut dire que le [dispositif d'alerte](http://www.meteo.fr/temps/domtom/La_Reunion/charte/pics/Alertes/tableau-alerte-cyclonique.html "Meteo.fr : tableau des alertes") a bien fonctionné. Il y a juste quelques personnes qui ont oublié que lorsqu'un avis de menace (<q><cite lang="mg">filazana loza manambana</cite></q>) est émis, les écoles ferment.
+
+Par contre, le dispositif de levée d'alerte après le passage du cyclone semble un peu moins au point... En général, les services météorologiques nationaux ont maintenu longtemps dans leurs bulletins des avis d'alerte complètement déphasés par rapport aux communiqués que les chefs de districts faisaient diffuser sur les radios locales.
+
+Un peu gênant  de constater que les gens étaient en train de quérir marteaux et clous pour reconstruire leurs maisons, alors que selon la météo nationale, ils ne devaient pas encore en être sortis... Il vaudrait mieux corriger le tir avant le prochain météore.

@@ -1,0 +1,112 @@
+Setting Up
+meta-creation_date: 28/12/2003 13:11:30
+
+<h1>Setting up Print66 on a Macintosh server</h1>
+
+Print66 looks for a folder called "Spool Folder" in your system folder and a text file called LPD.config in this "Spool Folder" folder. A sample LPD.config file is included in this package. The sample contains very detailed information about setting up for your installation, but in fact a very few lines are really useful and need to be edited.
+
+For a quick setting :
+
+* in the file LPD.config in the "Spool Folder", edit the PRINTER section and HOST section to define which printers are connected and which remote computers are allowed to print.
+For instance :
+<code>PRINTER pslaser PAP "Laserjet 5" POSTSCRIPT</code>
+<code>PRINTER raw1 SERIAL "Printer port" 57600 10 N 8 XON # a printer connected using PowerPrintª serial to parallel cable</code>
+<code>PRINTER raw2 USB "Stylus Photo 750:Stylus Photo 750"</code>
+<code>HOST 192.168.1.5</code>
+<code>HOST s2345678.acme.com</code>
+* copy the "Spool Folder" into your system folder.
+
+<em>Known issue</em> : with my Epson Stylus Photo 750 and my G4 Cube under MacOS 9.0.4, after a cold start, it seems that you have to print something using Epson's driver before Print66 and other applications addressing directly the USB port achieve to send data. It seems to be a hardware issue, as there is no problem after a warm reboot. If you encounter something similar, please let me know.
+
+<h1>What's in the LogFile</h1>
+
+The log file keeps a record of everything printed through the spooler as well as all errors. This file can be cleared by using the "Clear Log File" entry under the "File" menu.
+
+If you are experiencing problems you may want to turn debugging on by adding a <code>DEBUG</code> command to the config file. This causes extra debugging information to be sent to the log file.
+
+The log file may be cleared using the "Clear Log File" entry in the file menu. When this is done the contents are first mailed to the ADMIN specified in the config file.
+
+<h1>What if I Send a non-PostScript file to a PostScript printer</h1>
+
+The program checks the first 2 characters in the file looking for %! which it would assume to be in all postscript file. If these two characters are not there, Print66 will reject the file and mail the owner.
+
+<h1>What to do on an Unix box to set it up as a print client</h1>
+
+//Based on information's provided by Casper Boon//
+
+The Unix machine needs to be told about the printer. This is done by adding an entry to the printcap file. The following shows such an entry :
+
+<code style="align:left">pslaser|PostScript LaserWriter:\</code><br>
+<code style="align:left">:rp=pslaser:lp=:\</code><br>
+<code style="align:left">:rm=server-mac:sd=/usr/spool/maclpd:\</code><br>
+<code style="align:left">:lf=/usr/adm/lpd-errs: </code>
+
+To print to this printer you use the command :
+<kbd>lpr -Ppslaser <filename> </kbd>
+
+The "rm" entry tells lpr which machine the printer is connected to, in our case where Print66 is running.
+
+The "rp" entry tells lpr which of the printers connected to this rm to print on. This name will be passed on to Print66 which will map the name to a printer as specified in the config file.
+
+The "sd" entry tells the pathname of a spool directory. The "lf" entry tells the log file name.
+
+If your LPD.config file on the Macintosh has an entry :
+<code>PRINTER pslaser PAP "" POSTSCRIPT # default </code><br>
+the print command above would print to your default Appletalk Laserwriter printer.
+
+<h1>What to do on an IBM AS/400 system to set it up as a print client
+</h1>
+The syntax of a print request in the AS/400 is :
+==<code>LPR RMTSYS(name_of_mac_in_DNS | *INTNETADR) PRTQ(name_of_mac_queue) FILE(name_of_as400_printfile) JOB(job_number/user_name/job_name | *) SPLNBR(number | *ONLY | *LAST) MFRTYPMDL(printer_model)[ INTNETADR(ip_adress) ] </code>==
+
+You can specify the Mac host by providing either a name which can be resolved by the AS/400 or an IP numerical address (INTNETADR option).
+
+If you do not specify the job which generated the spool file, the AS/400 assumes it is the current job.
+For instance, I routinely used the command :
+==<code>LPR RMTSYS(BJRMAC) /* Name of my macintosh in our domain */ PRTQ(RAW) FILE(QSYSPRT) /* or any other print file */ SPLNBR(*LAST) MFRTYPMDL(*HPII)</code>==
+
+If the name of the Macintosh host (here BJRMAC) is defined correctly in your network DNS or in the AS/400's TCP/IP host table, and if there is an entry like the following inside the Config.LPD file on that Macintosh :
+<code>PRINTER "RAW" SERIAL "Printer port" 57600 10 N 8 </code><br>
+then the print request above should print correctly to a PCL printer (like HP Laserjet) connected to the Printer Port of the Macintosh.
+
+Nota : on these examples, the name RAW is arbitrary, but was chosen because Hewlett-Packard network printers use the same.
+
+If you are to print regularly, you can create on the AS/400 an outqueue object (OUTQ). This can be achieved through a command like this :
+==<code>CRTOUTQ OUTQ(QGPL/BJRMACLPD) /* name of the OUTQ */
+RMTSYS(BJRMAC) /*name of my macintosh in our domain */
+RMTPRTQ(RAW) /* name defined on my mac's LPD.config */
+AUTOSTRWTR(1) CNNTYPE(*IP) DESTTYPE(*OTHER)
+MFRTYPMDL(*WSCSTA4) /* A4 paper format */
+WSCST(QWPHPLSR4) /* IBM's driver for the HP Laser 4 */
+/* for other printers, look for objects which type is *WSCST */</code>==
+
+After that, all you will have to do in order to print is to send your spool files to the created outqueue.
+
+<h1>What to do on another Macintosh to set it up as a print client</h1>
+
+<em>Nota</em> : Remember that Print66 is a print server. Print formatting is to be achieved by the client.
+
+You can use Apple's LaserWriter 8.5.1 or Later as a LPR postscript client. The Apple package includes a utility named "Desktop Printer Utility" (the name may vary in international versions of MacOS ; for instance, in French MacOS, it is "Utilitaire Service dÕimpression"). You could then connect an old postscript printer to a Mac, run Print66 on this machine to add LPR/LPD ability and avoid the use of AppleTalk for the rest of the network.
+
+On the Macintoshes who will request print jobs :
+
+* Launch the Desktop Printer Utility.
+* Select "Printer (LPR)" and click OK.
+* In the "PostScript Printer Description (PPD) File" section, click on "Change..." and select the PPD for your printer.
+* In the "Internet Printer" section, click on "Change...".
+* Enter the IP address or domain name of the Mac which runs Print66 for "Printer Address".
+* Enter the queue name as specified in the PRINTER line in the LPD.config file on the Mac where Print66 runs.
+* Go to the File menu and select "Save". Enter a name and location for the desktop printer icon and click OK. The default name is the printer's IP address, and the default location is on the desktop.
+* Quit.
+
+Nota : Info based on Apple's TIL article 24409
+
+<h1>What to do on a Windoze system to set it up as a print client</h1>
+
+Windows NT/2000/XP and Windows 98 support LPR printing. It is not always included in the  OS install : you may have to explicitly install or start a service named Microsoft TCP/IP printing.
+
+For Windows 95, you will have to use a third party software, for instance Axis Print Monitor for Windows "http://www.axis.com/techsup/software/":http://www.axis.com/techsup/software/
+
+I have checked that these solutions work, but you will have to read the documentation, because my doctor warned me not to spend a long time dealing with stuff related to a certain monopoly because it tends to make me horribly angry :-)
+
+p>. "Next : FAQ(Frequently asked questions)":./print66/faq.html

@@ -1,0 +1,10 @@
+Les petits détails qui améliorent la vie
+meta-creation_date: 22/7/2007 02:52:37
+Deux petites évolutions pratico-pratiques dans le kit photo :
+
+* les traitement de fichiers Raws sont lancés avec une priorité de traitement Unix moins importante, ce qui rend l'ordinateur plus réactif pour d'autres tâches,
+* une option pour aligner la date et l'heure de modification d'un fichier sur celle de la prise de vue, telle qu'elle figure dans les données Exif a été rajoutée. Ceci est bien pratique lorsqu'on s'appuie sur le système de fichiers de l'ordinateur pour cataloguer les photos.
+
+(Téléchargement outil version française : <br />&lt;<a href="<$url />/download/LPMM-photokit.zip" title="Archive ZIP 744 Ko"><$url />/download/LPMM-photokit.zip</a>&gt;)
+
+(Download the english version tool : <br />&lt;<a href="<$url />/download/LPMM-photokit-en.zip" title="Archive ZIP 744 Ko"><$url />/download/LPMM-photokit-en.zip</a>&gt;)

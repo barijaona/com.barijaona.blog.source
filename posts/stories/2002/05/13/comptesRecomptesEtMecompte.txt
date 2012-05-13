@@ -1,0 +1,49 @@
+Comptes, recomptes et mécomptes.
+meta-creation_date: 13/05/2002 00:14:46
+
+A priori, ceci ne devrait plus intéresser aucune personne sensée...
+
+Il faudrait avoir l'audace de croire que Madagascar ne serait peuplé que d'alpha geeks pour croire que ces plaisirs solitaires d'informaticien soient d'une quelconque utilité pour résoudre cette dispute qui ronge le pays...
+
+Il faudrait également être un professeur Nimbus venu d'une autre planète pour ne pas s'interroger sur la fiabilité et la neutralité du processus :
+<ul>
+	<li>d'établissement des listes électorales,</li>
+	<li>de délivrance des cartes électorales,</li>
+	<li>d'obtention de cartes d'identité,</li>
+</ul>
+toutes conditions nécessaires pour avoir le droit de déposer une enveloppe contenant un bulletin de vote dans ces mystérieuses et secrètes boites appelées urnes.
+
+Il faudrait enfin être un des braves génies cités dans cet <a href="http://allafrica.com/stories/200205020633.html" title="AllAfrica.com : Ratsiraka, another old man resisting change">article</a> du Daily News d'Harare pour prétendre qu'aucune pression n'a jamais été exercée sur le moindre électeur, le moindre agent d'administration, et que l'accès aux médias a été équitable dans l'ensemble du territoire national (je ne vais pas entrer ici dans les nuances entre une nation unitaire, 6 voire 7 provinces plus ou moins héritées d'une administration d'il y a deux siècles, une arrière cour d'Ambodiatafana ou l'un des bacs à fleurs qui sont sur la terrasse de mon appartement).
+
+Bref, ne lisez pas ce qui suit... Cela n'a aucun intérêt.
+
+Vous êtes toujours là ?
+
+Vous aurez été prévenus. Si vous n'avez pas des antalgiques à portée de main, je vous en conjure, arrêtez cette lecture. Je ne voudrais pas avoir de migraines persistantes sur la conscience.
+
+Bon, puisque vous y tenez...
+
+J'ai fait deux sauvegardes du <a href="http://www.simicro.mg/hcc">site Web</a> de la Haute Cour Constitutionnelle les 29 janvier et 2 mai 2002... soit peu de temps après deux verdicts que la <a href="http://www.whitehouse.gov/news/releases/2002/05/20020508-6.html" title="US : Statement by the President Press Secretary">communauté internationale</a> fait mine de <a href="http://allafrica.com/stories/200205090815.html" title="AllAfrica.com : US Hopes Wade's Second Rule of Talks will Resolve Crisis">respecter tous les deux</a> pour ne pas être taxée de s'ingérer dans l'institution judiciaire malgache, et ce malgré leur caractère plutôt contradictoire.
+
+Il n'a pas été très simple de compiler toutes ces pages HTML assez mal formattées (en fait, il serait plus juste de dire que ça a vraiment été la galère...). Mais bon, c'est fait, et je puis raisonnablement dire que ça a été bien fait.
+
+J'ai ensuite rapproché ces données de celles que m'a communiqué le Consortium des Observateurs.
+
+Avertissement : ce serait un euphémisme de dire que j'ai des relations proches avec certaines personnes du Consortium... Cependant, je ne peux porter de jugement personnel sur la qualité de l'ensemble du travail de collecte et de traitement de données qui a été fait par le Consortium sur toute la période. Les données que j'ai reçues ne peuvent être rapprochées facilement avec celles du <a href="http://www.geocities.com/consortiumobservateurs/">site Web du Consortium</a>, car il a été nécessaire de procéder au fastidieux travail de renumérotation des bureaux de vote pour rendre la numérotation compatible avec celle adoptée par la HCC. Par ailleurs, il a été repéré quelques doublons sur les données publiées initialement par le Consortium.
+
+Les données complètes sont dans ce fichier dBase zippé <a href="<$url />/download/par_bureau2.dbf.zip">(700 Ko)</a>. La structure du fichier présente dans l'ordre les données de la première HCC (champs dont le nom est préfixé par la lettre P), les données de la deuxième HCC, et les données du Consortium (champs dont le nom est préfixé par la lettre C). Les champs EQUIVALENC et CEQUIVALEN permettent de repérer les bureaux de vote qui figurent dans le jugement de la HCC2 mais pas dans les données de HCC1 et du Consortium.
+
+Si on ne fait que s'intéresser qu'aux trois données "essentielles" (suffrages exprimés, voix de Marc Ravalomanana et voix de Didier Ratsiraka, et désolé pour les autres candidats...), <a href="<$url />/stories/2002/05/13/tableauDesDivergences.html">cette page résume les divergences</a>.
+
+Pour les férus d'analyse régionale, il y a également une analyse par fivondronana <a href="<$url />/download/comparaison_2hcc_parfiv.pdf">(PDF, 192 Ko)</a>. Je laisse à encore plus masochiste que moi le soin de sophistiquer les choses...
+
+Qu'en conclure ? Ne me dites pas que je ne vous avais pas prévenu sur l'inutilité de cette lecture ! Lorsque les divergences entre les deux verdicts portent sur des bureaux de vote représentant 25 à 30 % des suffrages, on n'a que l'exemple du <a href="http://www.lemonde.fr/article/0,5987,3210--275196-,00.html" title="Le Monde : &Eacute;lections pr&eacute;sidentielles au Mali : tour de rattrapage pour la d&eacute;mocratie">Mali</a> pour se consoler... Les seules affirmations que j'oserais émettre en espérant garder quelques très vagues traces d'une onction de rigueur scientifique sont :
+<ul>
+	<li>la variété des fraudes possibles illustre sans doute bien la créativité de l'être humain</li>
+	<li>dans un passé récent, personne n'a sans doute lu sérieusement les articles du code pénal concernant les sanctions pour fraude électorale (en tout cas, pas votre serviteur)</li>
+	<li>ça semblait manquer sérieusement d'observateurs du coté de Toamasina et Toliary</li>
+</ul>
+
+Pour le reste, chacun verra sans doute là dedans de quoi conforter l'opinion qu'il s'était déjà faite bien auparavant... Pour la mienne, c'est par <a href="<$url />/2002/05/04.html#a99">ici</a>.
+
+Je vous avais bien dit que l'exercice était idiot...

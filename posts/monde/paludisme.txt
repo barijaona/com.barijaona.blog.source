@@ -1,0 +1,66 @@
+Quelle mouche nous pique ?
+meta-creation_date: 31/5/2004 00:04:59
+
+Plus j'entends parler de "principe de précaution", et plus je l'assimile au sabir de bûche.
+
+Comment croire qu'il y ait une seule activité humaine qui n'entraîne un risque ? (c'est aussi valable pour l'inactivité humaine d'ailleurs...)
+
+Au risque de radoter, et sans prétendre faire concurrence à la [chimiste][0] de service (la chimie orga, c'était un de mes cauchemars...), je vais me répéter, car contrairement à [Infinity][9], je ne suis point dans un pays où le paludisme est éradiqué.
+
+[0]: http://mouche.joueb.com/news/430.shtml "Mouche (aucun rapport avec le titre du billet !)"
+[9]: http://www.rundom.com/infinity/archives/001289.html "Coup de gueule : les moustiques !"
+
+J'avais [signalé en Avril][1] un article du New York Times défendant l'usage du <abbr title="dichloro-diphenyl-trichloromethylmethane">DDT</abbr> en pulvérisation à l'intérieur des habitations.
+
+[1]: <$url />/musardages/vary2004-04-15.html "15 avril 2004 : Vary amin'anana (5)"
+
+En bons francophones, mes trois lecteurs n'ont sans doute pas lu ; il me faut donc signaler dans Libération [un article sur le même sujet][2] :
+
+[2]: http://www.liberation.fr/page.php?Article=210229 "Le DDT, insecticide utile à petite dose"
+
+> «<cite>Non seulement Rachel Carson avait tort dans ses prévisions, mais les bénéfices du produit pour la santé publique ont, du coup, été complètement négligés</cite>», tonne Richard Tren, de la fondation Africans Fighting Malaria.
+
+>(...)
+
+> La vaporisation de DDT dans les habitations est, il est vrai, de seulement 2 grammes par mètre carré. Rien à voir avec le largage de tonnes entières de cet insecticide sur les champs américains.
+
+> Maureen Coetzee, spécialiste du paludisme à l'Institut national pour les maladies transmissibles d'Afrique du Sud, reconnaît que le DDT est «<cite>un poison qui a une durée de vie importante et qui a été retrouvé dans le lait de mères allaitant. Mais s'opposer à son utilisation dans les pays en développement est inapproprié</cite>», estime-t-elle. «<cite>Si vous donnez le choix à une mère entre avoir une petite quantité de DDT dans son lait ou voir son bébé mourir du paludisme, a-t-elle vraiment le choix ?</cite>» ajoutait-elle récemment dans une interview à l'agence de presse sud-africaine Sapa.
+
+>(...)
+
+> Les écologistes eux-mêmes approuvent discrètement son utilisation dans le combat contre le paludisme. «<cite>Le recours au DDT ne nous plaît pas, mais nous comprenons qu'en l'absence de solution de rechange, il doit être utilisé en quantités très limitées</cite>», confirme Rob Little, directeur du WWF (Fonds mondial pour la nature) pour l'Afrique du Sud.
+
+N'empêche que depuis le 17 mai, le DDT fait partie d'une liste de <a href="http://www.reuters.com/newsArticle.jhtml?type=scienceNews&amp;storyID=5140584" title="Reuters : Set for Ban, DDT Lingers in Battle Against Malaria" hreflang="en">"12 salopards"</a> que la convention de Stockholm se propose d'éliminer aussi radicalement que des armes de destruction massive.
+
+Madagascar a ratifié ladite convention, mais heureusement [en obtenant une dérogation spécifique de 10 ans][3] pour le DDT.
+
+[3]: http://www.sidsnet.org/archives/communiques-des-iles/2003/msg00282.html "Madagascar et la Convention de Stockholm sur les polluants organiques"
+
+Au passage, une autre grosse râlerie contre les médecins des pays dits <q>avancés</q> qui supposent qu'un pays de presque 600&nbsp;000 km2 est complètement homogène et qui prescrivent systématiquement de la [méfloquine][4] en guise de prévention au moindre touriste qui se pointe à Madagascar...
+
+Ce qui doit pousser les [praticiens locaux][8] à se taper la tête sur les murs en se demandant doctement si [l'amnésie fait l'objet de travaux pratiques dans les facultés occidentales][5].
+
+[4]: http://perso.wanadoo.fr/j-f.russo/lariam.htm "Jean François Russo : Lariam ®"
+[5]: http://fr.allafrica.com/stories/200405171377.html "Le Soleil (Dakar) : Lutte contre le paludisme : les erreurs du passé payées très cher (via AllAfrica.com)"
+[8]: http://www.pasteur.mg/AtlasPalu/resist.htm "Institut Pasteur de Madagascar : Atlas évolutif du paludisme à Madagascar, chapitre 5"
+
+Lors de mes dernières vacances, passées en compagnie de deux amis suisses, ceux-ci se payèrent les désagréments fréquents liés à la prise ce médicament pour nantis : hallucinations, légère dépression...
+
+Cela n'empêcha pas l'un d'entre eux de goûter aux plaisirs douteux d'une bonne crise de palu (croyez-moi, le palu, ça fait du bien quand ça s'arrête).
+
+Le plus proche médecin de campagne le soigna avec une prise unique de [sulfadoxine-pyriméthamine][6] <i lang="en">made in India</i>, accompagnée de paracétamol et de vitamine C.
+
+Le prix de ces soins parfaitement efficaces explique largement le déficit des caisses de sécurité sociale helvétiques : 23&nbsp;000 francs malgaches pour la visite à domicile et les trois médicaments.
+
+Comme quoi, la rusticité a du bon.
+
+[6]: http://edisan.timone.univ-mrs.fr/edisan/Guide/SFP.html "Fansidar® et Paludar®"
+
+Quant à [la dernière petite merveille][10] dont tout le monde parle, [l'artémisinine][7] extraite d'une plante chinoise, il est à craindre que son mode de prise (24 comprimés en 3 jours) n'entraînerait trop de monde à ne pas achever correctement son traitement dans nos contrées radines par nécessité...
+
+[7]: http://www.liberation.fr/page.php?Article=210227 "Libération : Un barrage contre le paludisme"
+[10]: http://www.msf.fr/site/site.nsf/paludismeurgence "Médecins sans frontières : Il est temps de passer aux ACT"
+
+*PS* : l'automédication est dangereuse.
+
+*PPS* : Décodage nécessaire suite à la demande populaire : sabir de bûche = langue de bois.

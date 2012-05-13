@@ -1,0 +1,95 @@
+Charte d'accessibilité
+meta-creation_date: 28/1/2003 13:12:00
+meta-bjrDescription: Charte d'accessibilité de ce site
+
+<h2>Pourquoi ?</h2>
+
+Ce site est, pour autant que je sache, accessible aux personnes atteintes par un handicap. Je l'ai conçu, et le maintiens à jour pour qu'il puisse être utilisé par les non-voyants, les mal-voyants et les handicapés moteurs. Cet effort est permanent et sûrement imparfait.
+
+<h2>Les différentes zones du site</h2>
+
+Le site est essentiellement un carnet web (weblog), ce qui signifie que l'essentiel des informations est organisé chronologiquement. S'y ajoutent des pages initiées antérieurement qui sont organisées selon une structure plus traditionnelle.
+
+Plus d'informations sur l'organisation du site, ainsi que sur les possibilités de syndication via un aggrégateur, sont disponibles <a href="<$url />/equipe/sitemap.html" title="Diff&eacute;rents points d'acc&egrave;s &agrave; ce site">à cette page</a>.
+
+L'ensemble des pages a été conçu avec un souci d'accessibilité à l'esprit. Cependant les technologies mises en oeuvre ont varié avec le temps, et seules les pages rédigées ou mises à jour récemment offrent l'ensemble des fonctionnalités décrites ici.
+
+<h2>Accès rapide par combinaison de touches</h2>
+
+La plupart des logiciels de navigation permettent d'atteindre des liens spécifiques par la frappe simultanée d'une touche spéciale (Alt sous Windows, Control sous Macintosh) et d'une clé d'accès.
+<dl>
+<dt>Clé d'accès 1</dt>
+<dd>Page d'accueil</dd>
+<dt>Clé d'accès 4</dt>
+<dd>Formulaire de recherche dans le site</dd>
+<dt>Clé d'accès 9</dt>
+<dd>Contact</dd>
+<dt>Clé d'accès 0</dt>
+<dd>Charte d'accessibilité (le présent document)</dd>
+</dl>
+
+<h2>Liens</h2>
+
+La majorité des liens ont un titre qui décrit plus en détail la page à laquelle ils renvoient, à moins que le texte du lien ne soit suffisamment explicite pour décrire la page cible.
+
+Les archives du carnet Web incluent un calendrier avec des liens aux articles de chaque jour. Le tableau utilisé comporte un titre, un résumé et des en-têtes de colonnes dont le marquage structurel lui permet d'être plus accessible à partir d'un navigateur non visuel.
+
+Il n'y a pas de pseudo-liens faisant appel à un langage de script. Tous les liens peuvent donc être activés depuis n'importe quel logiciel de navigation. Le langage JavaScript n'est utilisé que pour afficher le nombre de commentaires à un article, ainsi que pour cacher les adresses e-mails aux logiciels robots utilisés par les spammeurs.
+
+Il n'y a aucun lien qui ouvre une nouvelle fenêtre sans prévenir.
+
+La page d'accueil et les archives du carnet Web ont des liens de navigation supplémentaire. Les navigateurs en mode texte, vocaux ou en braille tirent parti de ces liens qui permettent d'atteindre d'une manière <em>normalisée</em> la page précédente, la page suivante et la page d'accueil.
+
+Ces liens supplémentaires sont également supportés par certains navigateurs visuels comme Mozilla, Netscape 7, Opera 7 et iCab. Ainsi Mozilla affiche ces liens supplémentaires dans une barre de navigation que l'on active via le menu <cite>Voir</cite>, options <cite>Afficher/Cacher la barre de navigation de site</cite>, <cite>Toujours afficher</cite> (ou <cite>Afficher si nécessaire</cite>).
+
+<h2>Apparence visuelle</h2>
+
+L'apparence visuelle du site est régie par des feuilles de style.
+
+Le choix des polices de caractère a été fait pour permettre au maximum d'utilisateurs de choisir à leur guise la taille d'affichage des caractères : le site utilise presque partout des tailles relatives pour tenir compte des limites d'Internet Explorer sous Windows dans cette fonction de redimensionnement.
+
+Ce dernier logiciel utilise par défaut une taille de caractères correspondant à la dimension 4 en HTML, et ce contrairement à l'ensemble de ses concurrents. Ses utilisateurs préféreront peut-être fixer de manière permanente une taille plus petite via le menu <cite>Affichage</cite>, article <cite>Polices</cite>.
+
+Une feuille de style spécifique est utilisée pour l'impression.
+
+Si votre logiciel de navigation ne supporte pas du tout les pages de style, le contenu de chaque page reste accessible et est privilégié par rapport aux liens de navigation. Ces choix facilitent la navigation sur les assistants numériques personnels. 
+
+<h2>Recherche</h2>
+
+Un formulaire de recherche simplifié permet à ceux qui ne peuvent parcourir facilement le site de trouver l'information plus rapidement.
+
+Pour des besoins de recherche fins, une <a href="<$url />/accueil/advanced_search.html" title="Formulaire de recherche">recherche avancée</a> est également disponible.
+
+<h2>Formulaires</h2>
+
+Un effort a été fait pour rendre les formulaires accessibles : l'utilisation de la balise <code>LABEL</code> associe un sens à chaque champ, et les balises <code>FIELDSET</code> et <code>LEGEND</code> regroupent les contrôles correspondant à une logique commune.
+
+<h2>Images</h2>
+
+Chaque image possède un descriptif via l'attribut <code>ALT</code>, pour les mal-voyants et les utilisateurs préférant des navigateurs textuels.
+
+Pour accélérer la navigation, les graphiques purement décoratifs ont été exclus du site.
+
+<h2>Tableaux</h2>
+
+Aucun tableau n'est utilisé pour la mise en page. A fortiori, il n'y a pas de tableaux imbriqués, car ils sont très complexes à comprendre pour qui utilise un navigateur texte (Braille) ou vocal.
+
+<h2>Conformité aux standards</h2>
+
+Sauf erreur, les pages sont conformes aux normes du consortium <abbr title="World Wide Web Consortium">W3C</abbr> en ce qui concerne les codes <abbr title="Hypertext markup language">HTML</abbr> et <abbr title="Cascading Style Sheet (feuilles de style en cascade)">CSS</abbr>.
+
+Les pages utilisent un marquage sémantique structuré. Par exemple, sur la page d'accueil qui regroupe les articles de plusieurs jours, des balises <code>H2</code> sont utilisées pour les dates, des balises <code>H3</code> pour les titres de chaque article. Les utilisateurs de JAWS peuvent ainsi sauter au jour suivant en tapant ALT+INSERT+2, ou à l'article suivant en tapant ALT+INSERT+3.
+
+<h2>Références</h2>
+
+* <a href="http://handy.univ-lyon1.fr/access/" title="par la Mission handicap de l'Universit&eacute; Claude Bernard Lyon I">Traduction française des normes</a> de la <abbr title="Web Accessibility Initiative">WAI</abbr> sur l'accessibilité * <a href="http://www.la-grange.net/accessibilite/index.html" title="Pourquoi dois-je rendre mon site Web plus accessible ? Comment puis-je rendre mon site web plus accessible ?">Plongez dans l'accessibilité</a> : traduction française par Karl Dubost d'un texte très pédagogique écrit par Mark Pilgrim.
+
+<h2>Outils gratuits</h2>
+
+* <a href="http://validator.w3.org/" lang="en">W3C MarkUp Validation Service</a> : contrôle de la syntaxe des pages HTML et XHTML.
+* <a href="http://jigsaw.w3.org/css-validator/" lang="en">W3C CSS Validation service</a> : contrôle de conformité syntaxique des feuilles de style en cascade.
+* <a href="http://bobby.watchfire.com/bobby/html/en/index.jsp" title="La version gratuite en ligne permet de tester une page &agrave; la fois">Bobby</a> : outil de contrôle en ligne de la conformité de pages par rapport aux recommendations de la WAI et du gouvernement américain en ce qui concerne l'accessibilité.
+* <a href="http://www.w3.org/People/Raggett/tidy/" title="Clean up your Web pages with HTML TIDY" lang="en">HTML Tidy</a> : un outil qui corrige rapidement la plupart des erreurs de syntaxe sur le langage HTML et donne quelques conseils d'accessibilité.
+* <a href="http://www.delorie.com/web/wpbcv.html" lang="en">Web Page Backward Compatibility Viewer</a> : permet de se rendre compte de l'aspect d'une page Web dans un logiciel plus ancien ou moins puissant.
+* <a href="http://lynx.isc.org/release/" title="Page de la distribution stable de Lynx">Lynx</a> : un navigateur en mode texte.
+* <a href="http://artax.karlin.mff.cuni.cz/~mikulas/links/" title="Sources du programme Links">Links</a> : un autre navigateur en mode texte, pour Unix et OS/2.

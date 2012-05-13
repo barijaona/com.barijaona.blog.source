@@ -1,0 +1,4 @@
+$blosxom::plugins{'sort_reverse'} = 0;
+$blosxom::num_entries = 8 ;
+# $blosxom::plugins{"interpolate_fancy"} = 0;
+

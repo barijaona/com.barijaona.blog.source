@@ -1,0 +1,26 @@
+Retour en mode bricolage
+meta-creation_date: 21/9/2004 01:25:38
+
+Oyez, oyez, braves gens : le maître de céans s'excuse, mais il semble qu'il soit condamné aux éclipses annuelles vers la fin du mois d'Août et le début du mois de Septembre.
+
+Blamez en une pratique saisonnière de la grande entreprise : "l'exercice budgétaire", combinaison de mots concourant au concours de l'expression la plus ambigüe. Si exercice évoque le grand air et un vaillant optimisme sur l'état de santé du pratiquant, le mot budget évoque davantage la reclusion dans de sinistres bureaux et les interrogations angoissées sur un avenir qu'on voit facilement en noir.
+
+Cette période est en tout cas fort peu favorable au blogging : en rentrant chez lui le soir, après s'être arraché les cheveux sur l'évolution possible du cours des monnaies et de l'inflation, l'individu au cerveau décomposé par tant de conjectures est moins intéressé par le débat intellectuel que par de saines réalisations concrètes : remplir son estomac et voir du code remplir son rôle.
+
+Pour celui qui a tendance à s'inquiéter de l'avenir, la programmation a ceci de rassurant qu'il s'agit d'un monde bien plus maîtrisable. Et le fait de la pratiquer en _amateur_ présente l'avantage de ne pas être soumis à des contraintes de calendrier, et permet d'apprécier à sa juste valeur la jouissance ressentie lorsqu'"enfin, ça marche !"
+
+J'ai le plaisir de proposer à la blogosphère qui n'en n'a que faire, et à tous mes frères et soeurs bricoleurs, un "nouvel" outil.
+
+Pas si nouveau, car je vous prends régulièrement la tête avec <a href="http://www.blosxom.com" title="The zen of blogging" hreflang="en">Blosxom</a>.
+
+Je suis très content de Blosxom, mais j'ai cependant réalisé que cet outil peut être fort frustrant : avec Blosxom, on peut commencer à "voir quelque chose" au bout de quelques minutes ; mais pour obtenir quelque chose qui ressemble vraiment à ses besoins individuels, il faut chercher dans le large web les <a href="http://blosxom.ookee.com/blog/plugins/registry/" title="The Unofficial Blosxom User Group" hreflang="en">plugins</a> nécessaires, en évitant les vieux nanars qui ne sont plus maintenus, configurer un à un ces plugins, et adapter en conséquence vos maquettes de page.
+
+Cette démarche est très formatrice, et vous permet d'avoir un blog qui ne ressemble pas à celui des voisins, mais de temps en temps, on se dit qu'on aimerait bien avoir sous la main un modèle de site Blosxom "prêt à l'emploi" et pas trop dépouillé, qu'on puisse utiliser comme base ou comme source d'inspiration pour ses propres bidouilles.
+
+C'est ce qui m'a donné l'idée d'un <a href="<$url />/download/blosxomsk.zip" title="Téléchargement">kit de démarrage Blosxom</a>. L'idée est reprise de <a href="http://hail2u.net/archives/bsk.html#download" title="Très populaire au Japon" hreflang="ja">Hail2U.net</a>, mais cette version se veut un peu plus accessible pour ceux qui ne parlent pas japonais ;-) .
+
+Les instructions de mise en oeuvre sont essentiellement pour MacOS X, mais il devrait être assez facile de transposer le tout dans un autre environnement (à peu près tous les Unixes, mais aussi Windows ou MacOS classique) acceptant le langage Perl.
+
+J'invite tous les bricoleurs et bricoleuses à faire un petit galop d'essai. La <a href="<$url /><$path />/../blosxomsk_20040921.zip" title="320Ko, 21/09/2004">toute première version est téléchargeable ici</a>. Les versions plus récentes pourront être retrouvées à <a href="<$url />/download/blosxomsk.zip"><$url />/download/blosxomsk.zip</a>.
+
+Commentaires et critiques particulièrement bienvenues. Je recherche notamment les opinions d'utilisateurs d'ActivePerl en environnement Windows (à chacun sa croix...).

@@ -1,0 +1,28 @@
+Tolérance aux pannes
+meta-creation_date: 3/2/2004 23:03:33
+
+1976 : A peu près en même temps que la disquette souple 5"1/4, le Cray 1 (100 MFlops), l'Apple 1 et la puce Zilog Z-80, apparait le premier ordinateur tolérant aux pannes, le Tandem T/16.
+
+1994 : Le <a href="http://www.refer.mg/madag_ct/cop/refmada/cyclone.html" title="Agence Universitaire de la Francophonie : Les cyclones">cyclone tropical</a> intense <a href="http://firinga.free.fr/geralda.htm" title="Cyclone Tropical G&eacute;ralda">Géralda</a> aborde Madagascar le 2 février, et gagne l'appelation de "cyclone du siècle". La ville de Toamasina est détruite à 95%, on estime le nombre de décès à plus de 200 et les sans abris à environ 500.000.
+
+2002 : la crise politique entraîne des pénuries de tout genre, et des coupures d'électricité de plusieurs jours.
+
+2004 : dix ans et un jour après Géralda, les <a href="http://www.clicanoo.com/articles/article.asp?id=70602" title="JIR : Second passage d&rsquo;Elita sur Madagascar">tribulations</a> d'Elita provoquent une <a href="http://www.lagazette-dgi.com/simu/dev.php?id=14644" title="La Gazette de La Grande &Icirc;le : Elita, retour en zone ce jour">sérieuse alerte</a> dans la capitale Antananarivo, d'ordinaire plus habituée à voir ces phénomènes météorologiques de loin.
+
+<a href="http://cimss.ssec.wisc.edu/tropic/real-time/indian/storm/storm16.html" title="Cooperative Institute for Meteorological Satellite Studies : Tropical Storm 09S" hreflang="en">Elita</a> et <a href="http://cimss.ssec.wisc.edu/tropic/real-time/indian/storm/storm17.html" title="CIMSS : Cyclone 10S" hreflang="en">Franck</a> rodaient depuis tellement de temps que la plupart des habitants de la capitale, ne prêtant plus guère attention aux bulletins météorologiques, ont été surpris par les vents violents de la nuit dernière, et ont vécu aujourd'hui dans l'expectative.
+
+Ce genre de situation, préoccupante mais qu'on hésite à qualifier tout de suite de catastrophe, permet de se rendre compte que comme les ordinateurs, il est des individus et des sociétés qui sont tolérants aux pannes et d'autres qui ne le sont pas.
+
+Il y a ceux qui savent qu'il vaut toujours mieux avoir quelques bougies et de quoi faire du feu chez soi, et ceux qui ignorent qu'on ne peut en toutes circonstances compter aveuglément sur la fée électricité.
+
+Il y a ceux qui connaissent les distinctions entre avis d'avertissement, avis de menace et avis de danger imminent, et ceux qui ne sont pas en mesure d'entendre les dits avis, faute de poste radio basique fonctionnant avec de bêtes piles.
+
+Il y a ceux qui n'ont peut-être pas les moyens de renforcer les fermetures de leurs portes et fenêtres ou de lester leurs toitures avec des sacs remplis de terre comme ils l'entendraient ; et ceux qui dans leurs solides villas ne peuvent néanmoins dormir, pour des raisons qui n'ont pas un rapport physiologique direct avec les décibels produits par le vent et la pluie.
+
+Il y a ceux qui regardent instinctivement en l'air et ceux que le sacro-saint principe de précaution a habitué à ce que les arbres soient bien élagués et les câbles électriques solidement accrochés.
+
+Bref, il y a les habitués et ceux qui ne le sont pas, les rustiques et les trop sophistiqués, les "fatalistes" et les "râleurs".
+
+Je fais par bonheur encore partie des premiers.
+
+Mais est-ce glisser dans la seconde catégorie que d'être choqué que dans les bilans du cyclone égrénés dans les bulletins d'informations, on annonce l'état des bâtiments administratifs avant les morts et les blessés ?

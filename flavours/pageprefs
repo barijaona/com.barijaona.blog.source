@@ -1,0 +1,46 @@
+# Titre du blog
+# Blog's title
+$blosxom::blog_title = "Étonnements rapides et durables";
+
+# Description du blog
+# Blog's description
+$blosxom::blog_description = "Ahanements d'octets austraux";
+
+# Langue du blog (format ISO)
+# Language of the blog (ISO format)
+$blosxom::blog_language = "fr";
+
+# Votre nom (apparaît dans les fils RSS)
+# Your name (appears in RSS feeds)
+$rss10::creator = "Barijaona Ramaholimihaso";
+
+# Adresse e-mail pour les fils RSS
+# Pour une raison mystérieuse, mettre un \ avant l'arobace
+# e-mail address (appears in RSS feeds)
+# Better to put a \ before the arobace
+$rss10::email = "reactions\@barijaona.com";
+
+# Décalage par rapport à l'heure GMT
+# Time offset relative to GMT time
+$rss10::tz_offset = "+03:00";
+
+# Nombre de billets sur la page
+# Number of posts per page
+if (($pagetype::pagetype eq 'chrono') or ($pagetype::pagetype eq 'category')) { $blosxom::num_entries = 100 } else { $blosxom::num_entries = 10 };
+
+# Utilisé pour les pages générées statiquement.
+# URL de la racine du blog
+# par ex : http://votrenom.name ou http://www.provider.com/utilisateur
+# Used for statically rendered pages
+# URL of the blog's root
+# ie : http://yourname.name or http://www.yourprovider.com/username
+$fix_static_url::static_url = 'http://blog.barijaona.com';
+
+$meta::bjrDescription = "Carnet web de Barijaona R." ;
+$meta::bjrKeywords = "macintosh, print66, geek, madagascar, malgache, madagasikara, malagasy, barijaona, ramaholimihaso, blog" ;
+$meta::bjrStylesheet = "theme1" ;
+
+$meta::navigationLinks = qq!<a href="$blosxom::url/" class="submenu" title="Derniers billets">Weblog</a>&nbsp;|&nbsp;<a href="$blosxom::url/stories/" class="submenu" title="Textes plus longs">Articles</a>! ;
+
+
+$atomfeed::icon_url = "$blosxom::url/favicon.ico";

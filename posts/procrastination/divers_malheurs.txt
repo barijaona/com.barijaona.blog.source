@@ -1,0 +1,30 @@
+Pas à 100% le moral...
+meta-creation_date: 24/5/2004 01:37:44
+
+Il serait indécent pour moi de me plaindre que l'Euro soit à 12&nbsp;272 francs malgaches, le dollar US à 10&nbsp;236, le litre d'essence à 7&nbsp;120...
+
+Un ami m'a remis un peu de plomb dans la cervelle, en me disant : <q><cite>Barijaona, toi et moi, on se dit qu'on est deux fois moins riche qu'avant... mais songe à tous ceux qui sont deux fois plus pauvres.</cite></q>
+
+Pour mes quelques lecteurs un rien lointains, je signale que le salaire minimum d'embauche a été récemment augmenté à ... 230&nbsp;000 francs malgaches. Oui, un peu plus de 18 euros, un peu moins de 23 dollars états-uniens...
+
+Donc, en affreux privilégié, je la ferme, je la boucle, je la cadenasse, je la verrouille, je la scotche avec autant de conviction que s'il y avait du gaz sarin dehors en évitant de penser que le résultat en matière d'asphyxie sera à peu près équivalent...
+
+En tentant de me persuader que le rebond pourrait ne pas être trop lointain, si nos amis chinois voulaient bien [se calmer un peu][2], si le Bush devenait un peu raisonnable (ça irait sans doute encore un peu mieux s'il avait <a href="http://www.time.com/time/europe/magazine/article/0,13005,901040531-641112,00.html" title="Time Magazine : The Fine Art of Burning Bush" hreflang="en">le bon goût </a>de se faire battre en novembre, ou à tout le moins de moins écouter Dick Cheney), et si ceci, et si cela (je pourrais en mettre quelques kilomètres comme cela...)...
+
+[2]: http://www.orientationfinance.com/accueil/Chroniques/Bourse_prevision/bourse_pre/La_Chine_surchauffe-t-elle.html "La Chine surchauffe-t-elle ? (Mars 2004)"
+
+De quoi me plains-je ? Après vingt ans de quasi-immobilisme, ce pays bouge un peu. Alors, il y a quelques bêtises qui se font, par exemple un Ministère des Finances qui suppose naïvement que pour lire les [cours de change][1], tout le monde utilise Internet Explorer et Microsoft Office Web Components... Mais enfin, il y a des choses qui se font, et pas uniquement pour en mettre plein dans les poches personnelles de quelques-uns (sans prétendre pour autant qu'il n'y ait pas à redire dans ce domaine).
+
+[1]: http://www.mefb.gov.mg/don_stat/change/t11_chngmg_jr.htm "Ministère de l'Économie, des Finances et du Budget"
+
+Il n'empêche que cela m'énerve... Presqu'autant que le <a href="http://www.hrw.org/photos/2004/darfur1/index1.htm" title="Human Rights Watch : Darfur in Flames, 2004" hreflang="en">Darfour</a> (via [Thomas][5] et [Netlex Blogs][3], [deux fois][4] plutôt qu'une), un peu plus que la première faille de sécurité sérieuse de MacOS X.
+
+[3]: http://www.netlexfrance.com/weblogs/index.php?m=200405#1914 "Nettoyage ethnique au Darfour"
+[4]: http://www.netlexfrance.com/weblogs/index.php?m=200405#1928 "Netlex Blogs : Darfour - Soudan : l'indicible - témoignage photographique de Claude Iverné"
+[5]: http://www.afrique-web.net/ici/archives/000125.html "Mercredi : Claude Iverné"
+
+Ce dernier problème est résolu par une mise à jour de sécurité, avec par surcroît de précaution l'installation de <a href="http://www.unsanity.com/haxies/pa" title="Unsanity : Paranoid Android" hreflang="en">Paranoïd Android</a> nécessitant lui-même <a href="http://www.unsanity.com/haxies/ape" title="Unsanity : Application Enhancer" hreflang="en">Application Enhancer</a>.
+
+Et plus pour le confort que par véritable besoin, on se rajoute <a href="http://www.rubicode.com/Software/RCDefaultApp/" title="Rubicode : RCDefaultApp">RCDefaultApp</a> pour pouvoir choisir tranquillement son client FTP.
+
+Vous voyez que tout problème trouve une solution... au moins en informatique :-( .

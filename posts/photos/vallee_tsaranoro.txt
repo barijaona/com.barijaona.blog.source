@@ -1,0 +1,8 @@
+Vue de haut
+meta-creation_date: 7/4/2004 06:11:19
+
+(Vallée du Tsaranoro, janvier 2003)
+
+<img src="<$url /><$path />/vallee_tsaranoro.jpg" alt="Vall&eacute;e bien trop d&eacute;bois&eacute;e" width="400" height="267" class="photo" />
+
+Pfff, comme le mois de la photo s'écoule vite...

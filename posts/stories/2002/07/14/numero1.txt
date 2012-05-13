@@ -1,0 +1,18 @@
+Numéro 1
+meta-creation_date: 14/07/2002 23:00:30
+meta-bjrStylesheet: theme5.css
+meta-bjrKeywords: coton, tuléar, chien
+
+<div class="photo"><img src="<$url />/myPictures/2002/07/14/numero1_1.jpg" width="198" height="240" alt="Une chienne nomm&eacute;e Num&eacute;ro 1"><div class="phototext">Pas simple de photographier une boule de poils remuante...</div></div>
+<div class="photo"><img src="<$url />/myPictures/2002/07/14/numero1_2.jpg" width="177" height="238" alt="Une chienne nomm&eacute;e Num&eacute;ro 1"><div class="phototext">Non, surtout pas de photos : je ne suis pas maquillée !</div></div>
+<a href="http://www.cotondogs.com/coton_rescue.htm" title="Coton Rescue">SOS Coton</a> ! Franchement, je n'étais pas vraiment préparé à cette aventure... Mais lorsque j'ai su qu'un réfugié politique allait se retrouver sans aucun protecteur, je me suis retrouvé bien obligé de réagir...
+
+Heureusement, le Net est toujours là, pour faire face à des situations difficiles comme celle de gérer ce qui ressemble bien à un coton de Tuléar... Et là, encore une fois, il faut avouer que je me suis énervé contre le Web francophone... En effet, on trouve plus de pages consacrées au <a href="http://www.ccce.org/races/coton.html" title="Les races : le coton de Tul&eacute;ar">standard</a> de la race et au toilettage pour faire des bêtes de <a href="http://www.ccce.org/races/coton/standard.html" title="Les races : le coton : le standard">concours</a> qui me rappelent furieusement les imaginaires distinctions entre malgaches des plateaux et côtiers que de conseils pratiques...
+
+A coté, il est nettement plus rafraichissant de constater que les américains sensés être ségrégationnistes (la Case de l'Oncle Tom...) sont malgré tout plus <a href="http://www.cotondogs.com/About%20ACC.htm" title="About American Coton Club">tolérants</a>... C'est vrai, quoi, après tout, c'est du "<cite>alika gasy</cite>"...
+
+Heureusement, j'ai quand même laborieusement trouvé quelques éléments pratiques sur <a href="http://coton.tulear.free.fr/magazine/divers/alimentation/alimentation.htm" title="L'&Eacute;cho des &Eacute;lingues : l'Alimentation de votre Coton de Tul&eacute;ar">l'alimentation</a> (qu'est ce que ça bouffe ces petites bêtes là !) et le <a href="http://coton.tulear.free.fr/magazine/toilettage/1/toilettage.html" title="L'&Eacute;cho des &Eacute;lingues : quelques trucs">nettoyage</a> de celle que j'appelle «<cite>Numéro 1</cite>».
+
+Et j'ai surtout beaucoup de chance d'être tombé sur un Numéro bien élevé !!! Vous m'imaginez passer par <a href="http://www.doucoton.com/soins.htm" title="Soins pour vos cotons de Tul&eacute;ar">toutes ces étapes</a> ?
+
+Une petite surprise compte tenu des propriétaires antérieurs : elle semble plus comprendre le malgache que le français... Tant mieux, c'est du <cite title="Produit local">«vokatry ny tany»</cite> !

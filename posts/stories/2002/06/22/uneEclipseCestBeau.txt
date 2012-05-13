@@ -1,0 +1,6 @@
+Une éclipse, c'est beau... (photos)
+meta-creation_date: 22/06/2002 00:00:03
+meta-bjrStylesheet: theme5.css
+meta-bjrKeywords: madagascar, sud, 2001, éclipse, solaire, photos, ambahikily, morombe, toliara
+
+<div class="photo"><img src="<$url />/myPictures/2002/06/21/265-2343-12d.JPG" width="427" height="294" alt="Photo de la totalit&eacute;"><div class="phototext">Pendant la phase de totalité : des couleurs extraordinaires que ne rend pas la photo... Comme un lever de soleil sur les 360° de l'horizon... Ceux qui n'ont vu qu'une éclipse partielle ne peuvent avoir idée de la beauté de la chose.</div></div><div class="photo"><img src="<$url />/myPictures/2002/06/21/260-4043-03.JPG" width="382" height="416" alt="On relit la documentation juch&eacute; sur le toit de la voiture..."><div class="phototext"><cite>Geek</cite> jusqu'au bout des ongles, on relit la documentation avant le grand moment... Tout ça pour ne pas réussir une seule photo extra...</div></div><div class="photo"><img src="<$url />/myPictures/2002/06/21/260-4043-28.JPG" width="371" height="508" alt="D&eacute;buts timides de l'&eacute;clipse"><div class="phototext">On est encore dans la phase d'éclipse partielle : rien d'extraordinaire, si ce n'est le <cite>look</cite> avec les lunettes. Ils sont choux, non ?</div></div>

@@ -1,0 +1,277 @@
+On fête quoi au fait ?
+meta-creation_date: 3/1/2004 14:36:31
+
+Un des particularismes des voeux en langue malgache, c'est justement que les voeux passent au second plan.
+
+Oui, en malgache (du moins dans mon entourage, il peut y avoir quelques particularismes régionaux), et quelle que soit la circonstance, on se congratule d'abord d'un <q><cite lang="mg">Arahaba tratry ny...</cite></q>.
+
+Littéralement, <cite>félicitations d'être encore présent à la...</cite>, avec à la suite le nom de l'événement particulier.
+
+Cette culture qui considère la simple survie comme un miracle valant d'être salué nous imprègne inévitablement. Et cela se remarque le plus lors des transitions de calendrier, où on a droit :
+
+* le 31 décembre à <q><cite lang="mg">Arahaba tratry ny farany</cite></q> en début de conversation et à <q><cite lang="mg">Dia samy ho tratry ny rahampitso ê !</cite></q> en fin de conversation (soit <q><cite>félicitations d'être là pour la fin de l'année</cite></q>, et <q><cite>que demain nous trouve tous là</cite></q>),
+* le 1er janvier à <q><cite lang="mg">Arahaba tratry ny taona</cite></q> auquel on répond par <q><cite lang="mg">Dia samy ho tratry ny ho avy ê !</cite></q> (soit <q><cite>félicitations d'être là pour la nouvelle année</cite></q>, et <q><cite>que la prochaine nous trouve tous là</cite></q>).
+
+Alors, <a href="http://www.liberation.com/page.php?Article=163151" title="Lib&eacute;ration : Des foulards tr&egrave;s ordinaires &agrave; la R&eacute;union">plus proche</a> de <a href="http://www.clicanoo.com/articles/article.asp?id=67911" title="Journal de l'&Icirc;le de la R&eacute;union : Une bonne loi pour la R&eacute;union ?">La Réunion</a> que de la métropole française, je vous dis <cite lang="mg">Dia samy ho tratrin'ny... </cite> :
+
+
+==<dl>
+	<dt>5 <span lang="mg">janoary</span> </dt>
+		<dd>Anniversaire du gourou Gobindh Singh : sikhe</dd>
+
+	<dt>7 <span lang="mg">janoary</span> </dt>
+		<dd>Naissance du Christ : chrétienne orthodoxe et rastafarienne</dd>
+
+	<dt>7 <span lang="mg">janoary</span></dt>
+		<dd>Nouvel An : bouddhiste</dd>
+
+	<dt>14 <span lang="mg">janoary</span> </dt>
+		<dd>Maghi : sikhe</dd>
+
+	<dt>18 <span lang="mg">janoary</span> </dt>
+		<dd>Journée mondiale de la religion : baha’ie</dd>
+
+	<dt>22 <span lang="mg">janoary</span> </dt>
+		<dd>Nouvel An chinois (année du singe)</dd>
+
+	<dt>24 <span lang="mg">janoary</span></dt>
+		<dd>20ème anniversaire du Macintosh</dd>
+
+	<dt>26 <span lang="mg">janoary</span> </dt>
+		<dd>Vasant Panchami : hindoue</dd>
+
+	<dt>30 <span lang="mg">janoary</span> – 2 févr. </dt>
+		<dd>Hajj : islamique</dd>
+
+	<dt>2-5 <span lang="mg">febroary</span> </dt>
+		<dd>Aïd al Adha ou Fête du sacrifice : musulmane</dd>
+
+	<dt>14 <span lang="mg">febroary</span> </dt>
+		<dd>Saint-Valentin : commerçante</dd>
+
+	<dt>15 <span lang="mg">febroary</span> </dt>
+		<dd>Jour du Nirvana : bouddhiste</dd>
+
+	<dt>18 <span lang="mg">febroary</span> </dt>
+		<dd>Maha Shivaratri : hindoue</dd>
+
+	<dt>22 <span lang="mg">febroary</span> </dt>
+		<dd>Ras'el Am – Nouvel An : musulmane</dd>
+
+	<dt>25 <span lang="mg">febroary</span> </dt>
+		<dd>Mercredi des cendres : chrétienne</dd>
+
+	<dt>2 <span lang="mg">martsa</span></dt>
+		<dd>Ashura : musulmane</dd>
+
+	<dt>3 <span lang="mg">martsa</span></dt>
+		<dd>Ramanavami : hindoue</dd>
+
+	<dt>6 <span lang="mg">martsa</span></dt>
+		<dd>Holi (fin de l'hiver) : hindoue<br />Jour de Magha Puja : bouddhiste</dd>
+
+	<dt>7 <span lang="mg">martsa</span></dt>
+		<dd>Pourim ou Fête du destin : juive<br />Hola Mohalla (Nouvel An) : sikhe</dd>
+
+
+	<dt>21 <span lang="mg">martsa</span></dt>
+		<dd>Noruz (Fasali) Nouvel an : zoroastrien<br />Naw Ruz - Nouvel An : baha’i</dd>
+
+	<dt>21-30 <span lang="mg">martsa</span></dt>
+		<dd>Ramayana : hindoue</dd>
+
+	<dt>25 <span lang="mg">martsa</span></dt>
+		<dd>Annonciation à la Vierge Marie : chrétienne catholique et orthodoxe</dd>
+
+	<dt>26 <span lang="mg">martsa</span></dt>
+		<dd>Naissance du prophète Zarathoustra (Khordad Sal) : zoroastrienne </dd>
+
+	<dt>4 <span lang="mg">aprily</span></dt>
+		<dd>Dimanche des Rameaux : chrétienne catholique et orthodoxe</dd>
+
+	<dt>6-13 <span lang="mg">aprily</span></dt>
+		<dd>Pessah ou Pâque : juive</dd>
+
+	<dt>11 <span lang="mg">aprily</span></dt>
+		<dd>Pâques : chrétienne catholique et orthodoxe</dd>
+
+	<dt>13 <span lang="mg">aprily</span></dt>
+		<dd>Nouvel an : cambodgien (mise à jour grâce à Manur)</dd>
+
+	<dt>14 <span lang="mg">aprily</span></dt>
+		<dd>Baisakhi : sikhe</dd>
+
+	<dt>16 <span lang="mg">aprily</span></dt>
+		<dd>Dernier repas de Jésus : Témoins de Jehovah</dd>
+
+	<dt>21 <span lang="mg">aprily</span>-2 <span lang="mg">mey</span></dt>
+		<dd>Fête du Ridvan : baha’ie</dd>
+
+	<dt>30 <span lang="mg">aprily</span>-1er <span lang="mg">mey</span></dt>
+		<dd>Beltaine : païenne</dd>
+
+	<dt>2 <span lang="mg">mey</span></dt>
+		<dd>Mawlid an Nabi ou anniversaire de la naissance du prophète Mohammed : musulmane</dd>
+
+	<dt>4 <span lang="mg">mey</span> </dt>
+		<dd>Naissance de Bouddha – Visakha Puja : bouddhiste</dd>
+
+	<dt>20 <span lang="mg">mey</span></dt>
+		<dd>Ascension du Christ : chrétienne catholique et orthodoxe</dd>
+
+	<dt>23 <span lang="mg">mey</span></dt>
+		<dd>Déclaration du Bab : baha’ie</dd>
+
+	<dt>26-27 <span lang="mg">mey</span> </dt>
+		<dd>Shavuot ou Fête des semaines : juive</dd>
+
+	<dt>29 <span lang="mg">mey</span></dt>
+		<dd>Ascension de Baha’u’llah : baha’ie</dd>
+
+	<dt>30 <span lang="mg">mey</span></dt>
+		<dd>Pentecôte : chrétienne catholique et orthodoxe </dd>
+
+	<dt>6 <span lang="mg">jiona</span></dt>
+		<dd>Dimanche de la Trinité : chrétienne catholique<br />Tous les saints : chrétienne orthodoxe</dd>
+
+	<dt>10 <span lang="mg">jiona</span></dt>
+		<dd>Fête-Dieu : chrétienne catholique</dd>
+
+	<dt>16 <span lang="mg">jiona</span></dt>
+		<dd>Martyre du gourou Arjan Dev : sikhe</dd>
+
+	<dt>18 <span lang="mg">jiona</span></dt>
+		<dd>Le Sacré Cœur de Jésus : chrétienne catholique</dd>
+
+	<dt>19 <span lang="mg">jiona</span></dt>
+		<dd>Jour de l’Église de la Nouvelle Jérusalem : chrétienne swedenborgienne</dd>
+
+	<dt>29 <span lang="mg">jiona</span></dt>
+		<dd>Fête de Saint-Pierre et de Saint-Paul : chrétienne</dd>
+
+	<dt>2 <span lang="mg">jolay</span> </dt>
+		<dd>Gourou Purnima : hindoue<br />Asala Puja (anniversaire du 1er sermon de Buddha) : bouddhiste</dd>
+
+	<dt>6 <span lang="mg">jolay</span> </dt>
+		<dd>Anniversaire du Dalaï Lama : bouddhiste-tibétaine</dd>
+
+	<dt>9 <span lang="mg">jolay</span> </dt>
+		<dd>Martyre du Bab : baha’ie</dd>
+
+	<dt>13-16 <span lang="mg">jolay</span> </dt>
+		<dd>Ulambana/Obon (Fête des ancêtres) : bouddhiste</dd>
+
+	<dt>24 <span lang="mg">jolay</span>  </dt>
+		<dd>Jour des pionniers : chrétienne mormone</dd>
+
+	<dt>1 <span lang="mg">aogositra</span></dt>
+		<dd>Lughnassad (Lammas) : païenne</dd>
+
+	<dt>3 <span lang="mg">aogositra</span> </dt>
+		<dd>Raksha Bandhan (Fête du lien de soie) : hindoue</dd>
+
+	<dt>6 <span lang="mg">aogositra</span></dt>
+		<dd>Transfiguration du Christ : chrétienne orthodoxe</dd>
+
+	<dt>15 <span lang="mg">aogositra</span></dt>
+		<dd>Assomption : chrétienne catholique<br />Dormition de la Vierge : chrétienne orthodoxe</dd>
+
+	<dt>6 <span lang="mg">septambra</span></dt>
+		<dd>Krishan Jayanti : hindoue</dd>
+
+	<dt>8 <span lang="mg">septambra</span></dt>
+		<dd>Nativité de la Vierge : chrétienne catholique</dd>
+
+	<dt>12 <span lang="mg">septambra</span></dt>
+		<dd>Lailat al Miraj (ascension) : musulmane</dd>
+
+	<dt>14 <span lang="mg">septambra</span></dt>
+		<dd>Élévation de la Croix glorieuse : chrétienne orthodoxe</dd>
+
+	<dt>16-17 <span lang="mg">septambra</span></dt>
+		<dd>Ros-ha-sanah ou Nouvel An : juive</dd>
+
+	<dt>18 <span lang="mg">septambra</span></dt>
+		<dd>Ganesh Chaturthi : hindoue</dd>
+
+	<dt>25 <span lang="mg">septambra</span></dt>
+		<dd>Yom Kippour ou Jour du Grand pardon : juive</dd>
+
+	<dt>30 septambra - 5 oktobra</dt>
+		<dd><span lang="mg">oktobra</span> Souccoth (fête de la moisson) : juive</dd>
+
+	<dt>7-8 <span lang="mg">oktobra</span> </dt>
+		<dd>Shemini Azterat : juive</dd>
+
+	<dt>14-22 <span lang="mg">oktobra</span></dt>
+		<dd>Navaratra Dashara : hindoue</dd>
+
+	<dt>15 <span lang="mg">oktobra</span></dt>
+		<dd>Début du Ramadan : islamique</dd>
+
+	<dt>20 <span lang="mg">oktobra</span></dt>
+		<dd>Naissance du Bab : baha’ie<br />Installation du gourou Granth Sahib : sikhe</dd>
+
+	<dt>22 <span lang="mg">oktobra</span></dt>
+		<dd>Vijiya Dashami (Dasera) : hindoue</dd>
+
+	<dt>25 <span lang="mg">oktobra</span></dt>
+		<dd>Célébration du Nirvana : Jain</dd>
+
+	<dt>31 <span lang="mg">oktobra</span></dt>
+		<dd>Halloween : commerciale<br />Samhain : païenne</dd>
+
+	<dt>1 <span lang="mg">novambra</span></dt>
+		<dd>Toussaint : chrétienne catholique</dd>
+
+	<dt>12 <span lang="mg">novambra</span></dt>
+		<dd>Naissance de Baha’u’llah : baha’ie<br />Diwali : sikhe<br />Diwali (Deepawali) : hindoue</dd>
+
+	<dt>14 <span lang="mg">novambra</span></dt>
+		<dd>Eid al Fitr (fin du Ramadan) : musulmane</dd>
+
+	<dt>21 <span lang="mg">novambra</span></dt>
+		<dd>Fête du Christ-Roi : chrétienne catholique<br />Entrée au Temple de la Vierge : chrétienne orthodoxe</dd>
+
+	<dt>24 <span lang="mg">novambra</span></dt>
+		<dd>Martyre du gourou Tegh Bahadur : sikhe</dd>
+
+	<dt>26 <span lang="mg">novambra</span></dt>
+		<dd>Jour du Covenant : baha’ie<br />Naissance du gourou Nanak dev Sahib : sikhe</dd>
+
+	<dt>28 <span lang="mg">novambra</span></dt>
+		<dd>Ascension d’Abdul’l-Baha : baha’ie</dd>
+
+	<dt>8 <span lang="mg">desambra</span></dt>
+		<dd>Ro-hatsu (Illumination de Bouddha) : bouddhiste<br />Immaculée conception – chrétienne catholique</dd>
+
+	<dt>8-15 <span lang="mg">desambra</span></dt>
+		<dd>Hannoucah (Fête de la lumière) : juive</dd>
+
+	<dt>21 <span lang="mg">desambra</span></dt>
+		<dd>Yule (solstice d’hiver) : païenne</dd>
+
+	<dt>25 <span lang="mg">desambra</span></dt>
+		<dd>Noël : chrétienne catholique<br />Fête de la Nativité : chrétienne orthodoxe</dd>
+
+	<dt>26 <span lang="mg">desambra</span></dt>
+		<dd>Zarathosht Diso (Mort du prophète Zarathoustra) : zoroastrienne</dd>
+
+	<dt>26 <span lang="mg">desambra</span>-1er <span lang="mg">janoary</span></dt>
+		<dd>Kwanzaa (premières récoltes) : africain-américain</dd>
+
+	<dt>28 <span lang="mg">desambra</span></dt>
+		<dd>Fête des Saints Innocents : chrétienne anglicane<br />Fête de la Sainte Famille : chrétienne catholique</dd>
+
+	<dt>31 <span lang="mg">desambra</span> </dt>
+		<dd>Veille du Nouvel An</dd>
+
+	<dt>1 <span lang="mg">janoary</span></dt>
+		<dd>Jour de l’An<br />Gantan-sai (Nouvel An) : shinto</dd>
+</dl>==
+
+Et encore, j'ai pu faire relativement bref... cette année les fêtes mobiles catholiques et orthodoxes coïncident...
+
+Je ne peux malheureusement vous indiquer les fêtes malgaches, car la <a href="http://alimanakarabesata.free.fr/" title="Alimanaka malagasy">source de référence sur le net</a> n'a pas été mise à jour... Il faudra que je me procure un almanach papier.
+
+Principale source : <a href="http://www.interfaithcalendar.org/" title="Primary sacred times for world religions" lang="en" hreflang="en">Interfaith calendar</a> (via les <a href="http://www.uswa.ca/fr/who_we_are/calendrier_2004.htm" title="Metallos calendrier 2004">métallos</a> canadiens).

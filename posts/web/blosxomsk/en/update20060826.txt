@@ -1,0 +1,8 @@
+Blosxom 2.0.2
+meta-creation_date: 28/8/2006 07:17:55
+Blosxom starter kit version 20060826 :
+
+* Updated to Blosxom 2.0.2 and Markdown 1.0.1
+* HTML template tweaked for Search Engine Optimization
+
+<a href="<$url /><$path />/../blosxomsk_20060826.zip" title="324Ko, 26/08/2006">Download</a>.

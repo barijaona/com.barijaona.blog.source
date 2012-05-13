@@ -1,0 +1,18 @@
+Vary amin'anana (3)
+meta-creation_date: 4/4/2004 22:58:00
+
+<a href="http://www.telegraph.co.uk/global/main.jhtml;$sessionid$5MNXK5PSMQROTQFIQMGSFGGAVCBQWIV0?xml=%2Fglobal%2F2004%2F02%2F24%2Fexp.xml&amp;pos=portal_puff1&amp;_requestid=42027" title="Daily Telegraph : French kissing is too hot to handle" hreflang="en">2, 3 ou 4 ? en l'air ou sur la joue ?</a> moi aussi, j'ai du mal à m'y retrouver quant aux usages concernant les bises. Il me semble que le __[en]hug__ des américains n'est pas simple non plus. Le besoin de toucher est-il le corollaire d'une société en cours de virtualisation ?
+
+Ce doit être mon coté midinette, mais à mon humble avis, ce fut le poisson d'avril le plus réussi : le mariage de <a href="http://www.tonypierce.com/blog/2004_03_28_blogarc.htm#108083907822519575" title="well, it was bound to happen one day" hreflang="en">Tony Pierce</a> et de <a href="http://moxie.nu/moveabletype/archives/001955.php#001955" title="moxie: another blogger wedding" hreflang="en">Moxie</a> (qui a un peu triché sur la date). <q><cite><a href="http://www.actforlove.org/" title="Act for Love : &quot;take action&quot; while &quot;getting  action&quot;" hreflang="en">Ils furent heureux et ne parlèrent pas de politique.</a></cite></q>
+
+Pas mal non plus, la <a href="http://www.ietf.org/rfc/rfc3751.txt" title="IETF (Internet Engineering Task Force)" hreflang="en">RFC3751</a> :
+
+bq. Les serveurs du Protocole d'Omniscience (OP servers) enverront donc aux clients OP, à toute périodicité pour laquelle ils auront été configurés, des requêtes OP pour découvrir si l'opérateur dudit ordinateur s'est engagé dans une activité illégale pouvant intéresser l'opérateur du serveur OP. De futures versions du protocole OP pourraient utiliser un modèle peer-to-peer si les personnes en charge de la protection des droits d'auteur arrivent jamais à dépasser leur dégoût viscéral du concept P2P.
+
+Quant à <a href="http://www.neokraft.net/blog/2004/04/01/470-GrandeNouvelle" title="Grande Nouvelle">Olivier Meunier</a>, il aurait pu penser à Madagascar plutôt qu'à l'Inde ou à la Bulgarie pour délocaliser.
+
+Humour geek, face cachée : <a href="http://www.u-blog.net/lecom21/note/57832" title="Ublog, le com 21">j'ai rencontré une fille</a> [via  Mediatic] (faut-il préciser que le mot <cite>via</cite> porte sur le billet, pas sur la fille ?).
+
+Pour compléter mon <a href="<$url />/monde/abidjan_sanglant.html" title="31 mars">billet</a> sur la couverture des événements de Côte d'Ivoire : <i lang="en"><a href="http://blogalization.nu/modules.php?name=News&amp;file=article&amp;sid=1" title="Blogalization" hreflang="en">The Changing Face of the Foreign Correspondent</a></i>.
+
+Le New York Times <a href="http://www.nytimes.com/2004/03/30/science/30MADA.html?ex=1081227600&amp;en=ed1d8e527dfe1cda&amp;ei=5062&amp;partner=GOOGLE" title="NY Times : On Madagascar, a Treasury of Fauna and Flora">évoque un livre de 1700 pages</a>, <i lang="en">The Natural History of Madagascar</i> : <cite>à partir de 4 créatures, l'île a engendré 101 espèces uniques, une collection de mammifères couvrant un spectre remarquable de morphologies et de modes de vie</cite>.  

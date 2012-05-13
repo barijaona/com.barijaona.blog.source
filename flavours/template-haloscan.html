@@ -1,0 +1,87 @@
+{HSifFullPage}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<title>Commentaires HaloScan.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset={HSCharset}" />
+<link href="http://www.haloscan.com/members/rss.php?user={HSMemberName}" rel="alternate" title="Commentaires récents pour {HSMemberName}" type="application/rss+xml" />
+<base target="_new" />
+<link href="{HSStylesheet}" type="text/css" rel="stylesheet" />
+<script language="javascript1.2" type="text/javascript">
+<!--
+function emo_pop() {
+	window.open('http://www.haloscan.com/commenthelp.php','Help','width=200,height=360,resizable=yes,scrollbars=yes');
+}
+//-->
+</script>
+</head>
+<body>
+{/HSifFullPage}
+<div align="center">
+{HSifLoggedIn}<form method="post" action="/members/posts.php?silent=1"><p>Connecté comme: <a href="/members/" target="_blank">{HSMemberName}</a> (<a href="/members/logout.php" target="_blank">Se déconnecter</a>)&nbsp;<input type="submit" name="massdeletego" value="Effacer les sélectionnés" onclick="javascript:return confirm('Effacer de manière permanente les commentaires sélectionnés?')" /></p>{/HSifLoggedIn}
+{HSifErrorMessage}<p><b>{HSErrorMessage}</b></p>{/HSifErrorMessage}
+{HSifHeadImage}<img src="{HSHeadImage}">{/HSifHeadImage}
+{HSifHeadTitle}<p>{HSHeadTitle}</p>{/HSifHeadTitle}
+{HSifBlogPost}<p align="center"><u>{HSBlogPostTitle}</u></p>{/HSifBlogPost}
+</div>
+
+
+<!-- BJRBeginTag#{HSPageID}#BJREndTag -->
+<div align="center">
+{HSifSubmit}
+	<p><b>Commentaire posté avec succès
+	{HSifModeration}<br />Votre commentaire attend une modération{/HSifModeration}
+	</b></p>
+{/HSifSubmit}
+</div>
+
+{HSCommentStart}
+<!-- -->
+
+
+
+<a name="{HSCommentID}"></a>
+<div class="MessageCell">
+
+	{HSifPreview}<p><b>Aperçu du commentaire</b>: Cliquez "Publier" pour soumettre votre message.</p>{/HSifPreview}
+        <p>{HSifCommentGravatar}<img src="{HSCommentGravatar}" alt="Gravatar" title="Gravatar" style="padding: 1px; margin: 2px; float: right;" class="gravatar" />{/HSifCommentGravatar}
+	<span class="byline">
+	<a href="http://www.haloscan.com/comments/barijaona/{HSPageID}#{HSCommentID}" title="Lien vers ce commentaire">#</a> Le {HSCommentDate}, {HSifCommentName}{HSifCommentUrl}<a href="{HSCommentUrl}" title="{HSCommentUrl}" rel="nofollow">{/HSifCommentUrl}{HSifTypeKeyUser}<a href="{HSTypeKeyVisitorProfile}" title="Profil TypeKey">{/HSifTypeKeyUser}{HSCommentName}{HSifTypeKeyUser}&nbsp;<img src="/images/typekey/tkhead.gif" alt="TypeKey Profile" width="22" height="15" title="Profil TypeKey" border="0" /></a>{/HSifTypeKeyUser} {HSifCommentUrl}</a>{/HSifCommentUrl}{/HSifCommentName}
+	{HSifLoggedIn} | <a href="/members/editpost.php?post={HSCommentID}&amp;silent=1" title="Corriger commentaire"><img src="/images/icon_edit.png" title="Corriger commentaire" alt="Corriger commentaire" border="0"></a> <a href="/members/posts.php?deletepost={HSCommentID}&amp;silent=1" title="Effacer commentaire" onclick="javascript:return confirm('Effacer de manière permanente ce commentaire ?')"><img src="/images/icon_delete.png" title="Effacer commentaire" alt="Effacer commentaire" border="0"></a>&nbsp;<input name="massdelete[]" value="{HSCommentID}" type="checkbox"> {HSifCommentEmail}<a href="mailto:{HSCommentEmail}">Email</a>{/HSifCommentEmail} | {/HSifLoggedIn}
+	 a écrit : 	
+	</span><br />{HSCommentMessage}</p>
+</div>
+<br />
+{HSCommentEnd}
+
+{HSifCommentAllowed}
+    {HSifLoggedIn}</form>{/HSifLoggedIn}
+    <div class="InputCell">
+      {HSifTypeKeySignInRequired}Vous devez vous <a href="{HSTypeKeySignIn}" target="_self" title="S'identifer avec TypeKey pour commenter">identifier</a> pour commenter sur ce site.{/HSifTypeKeySignInRequired}
+      {HSFormStart}
+        <p>
+	  {HSifTypeKeySignOut}Merci de vous être identifié, {HSTypeKeyVisitorName} (<a href="{HSTypeKeySignOut}" target="_self" title="Se déconnecter de TypeKey">Se déconnecter</a>).<br />{/HSifTypeKeySignOut}
+	  {HSifVisitorName}Nom: {HSifTypeKeySignIn}[<a href="{HSTypeKeySignIn}" target="_self" title="S'identifier avec TypeKey">Se connecter</a> avec TypeKey]{/HSifTypeKeySignIn}<br />
+          <input name="name" type="text" size="38" value="{HSVisitorName}" /><br />{/HSifVisitorName}
+          {HSifVisitorEmail}Email (ne sera pas affiché):<br />
+          <input name="email" type="text" size="38" value="{HSVisitorEmail}" /><br />{/HSifVisitorEmail}
+          {HSifVisitorUrl}URL: <br />
+          <input name="url" type="text" size="38" value="{HSVisitorUrl}" /><br />{/HSifVisitorUrl}
+          Commentaire&nbsp;:&nbsp;{HSifFullPage}<a href="javascript:emo_pop()" title="Guide des icônes et aide" target="_self">?</a>&nbsp;<a href="#" onclick='window.open("http://www.thumbsnap.com/?l=n","imgup","width=550,height=420,resizable=yes,scrollbars=yes"); return false;' title="Joindre une image" target="_self"><img src="http://www.haloscan.com/images/image_link.gif" style="vertical-align:middle;" height="16" width="16" alt="Joindre une image" border="0" /></a>{/HSifFullPage}<br />
+          <textarea name="addMessage" rows="12" cols="38">{HSVisitorMessage}</textarea>
+        </p>
+        <p class="PSubmit"><input name="submit" type="submit" value="Publier" style="font-weight: bold;" class="SubmitButton" />&nbsp;<input name="previewMessage" type="submit" value="Aperçu" class="SubmitButton" />
+        </p>
+      {HSFormEnd}
+    </div>
+
+{/HSifCommentAllowed}
+
+
+<!-- #BJREndContent## -->
+
+{HSifFullPage}
+<p align="center">Commentaires gérés par <a href="http://www.haloscan.com/" target="_blank">HaloScan</a></p>
+</body>
+</html>
+{/HSifFullPage}

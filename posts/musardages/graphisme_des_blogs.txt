@@ -1,0 +1,30 @@
+Va comme je te pousse...
+meta-creation_date: 16/1/2004 03:41:31
+
+Il semble être tendance dans le choix des noms d'outils de blog de suggérer qu'un blog peut être fait par et pour des esthètes.
+
+Par exemple, <a href="http://www.movabletype.org/" title="movabletype.org" hreflang="en">MovableType</a> et <a href="http://www.typepad.com/" title="Hosted Weblog Service" hreflang="en">TypePad</a> semblent appeler à la rescousse les mânes des meilleurs typographes de la création, qui devraient inciter les carnetiers à une <a href="http://www.planete-typographie.com/manuel/index.html" title="Manuale Typographicum">élitiste exigence esthétique</a>.
+
+Dans un autre registre, <a href="http://www.dotclear.net/" title="Accueil DotClear">DotClear</a> semble nous promettre des esthétiques épurées et aériennes.
+
+Et quand à moi, j'avoue que le slogan de <a href="http://www.blosxom.com/" title="blosxom :: the zen of blogging ::">blosxom</a>, <cite lang="en">the zen of blogging</cite>, m'a fait rêver de mises en pages épurées, amenant magiquement la sérénité sur mon âme torturée.
+
+Dans la réalité, la pub n'engage que ceux qui y croient... Il faut bien avouer que l'excitation d'arriver pour la première fois sur un nouveau site est souvent contrecarrée par un bâillement provoqué par la reconnaissance au premier coup d'oeil d'une mise en page caractéristique de tel ou tel outil, ou la sortie stéréotypée d'un plugin exerçant ses ravages sur toute une famille de carnetiers.
+
+La planète blosxom est particulièrement peu folichonne sur ce plan là. Parce que le <a href="http://www.raelity.org/" title="raelity bytes" hreflang="en">carnet de Rael Dornsfeld</a> a longtemps été bleu, nous sommes semble-t-il frappés d'un syndrome de l'azur, d'une maladie de l'atlantique, d'une grippe attrapée plutôt lors d'une promenade en bord de mer qu'au contact des gallinacés...
+
+Sinon, il semble toujours du dernier chic de s'imaginer que le temps s'est arrêté <a href="http://cgi.no-ip.org/cgi-bin/blosxom/blosxom.cgi/index.1993" title="C.G.I.::Blosxom (circa 1993)">autour de 1993</a>.
+
+Bref, les blogs sous blosxom sont plus générés par des amoureux transis du Perl que par des chevaliers des arts et des lettres.
+
+Dans ce désert blosxom, il y a quand même quelques exceptions que je me dois de relever, en espérant que cela suscitera quelques vocations, et histoire de dire que tout le monde n'est pas obligé d'être aussi intégriste que votre serviteur qui <a href="<$url />/equipe/accessibilite.html" title="Charte d'accessibilit&eacute;">refuse toujours de mettre un seul graphisme à usage décoratif sur son site</a>.
+
+Un accessit au <i lang="en">hacker</i> de l'hexadécimal, <a href="http://www.decafbad.com/blog/" title="OxDECAFBAD">3737844653</a>, pas tellement pour l'esthétique qui se défend cependant très bien toute seule, mais surtout pour les commutateurs en Javascript qui rappellent que la fonction doit créer la forme.
+
+<a href="http://www.mobilewhack.com/" title="Blog collectif sur les assistants num&eacute;riques, t&eacute;l&eacute;phones mobiles..." hreflang="en">MobileWhack</a> démontre que lorsque Rael Dornsfeld a des préoccupations esthétiques, il sait faire travailler les <a href="http://static.bryanbell.com/weblog/index.mobile" title="Bryan Bell" hreflang="en">hommes de talent</a>.
+
+<a href="http://weblog.karelia.com/" title="Karelia Software" hreflang="en">Dan Wood</a>, le créateur de <a href="http://www.karelia.com/watson/" title="Web, effortlessly" hreflang="en">Watson</a>, prouve que l'on peut mettre joliment et subtilement en valeur les catégories de billets.
+
+Mais après m'être concerté avec moi-même, le prix spécial du jury est décerné à <a href="http://www.fernandoreig.com/notebook" title="Fernando's weblog" hreflang="en">Fernando Reig Matthies</a>.
+
+Bon, j'espère que ce billet sera rapidement périmé...

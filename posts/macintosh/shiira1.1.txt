@@ -1,0 +1,15 @@
+... et celui-là est réservé aux Applemaniaques.
+meta-creation_date: 24/7/2005 22:12:38
+En dehors du bureau, le navigateur web est certainement le logiciel dans lequel je passe le plus de temps (l'asocial n'a même pas honte de dire que ce n'est pas la messagerie !).
+
+Mon navigateur au quotidien reste [Safari](http://www.apple.com/fr/macosx/features/safari/ "Apple"), que j'apprécie pour sa rapidité et son ergonomie.
+
+Je l'ai cependant dopé par :
+
+* l'activation du menu <cite lang="en">Debug</cite> grâce à <a href="http://www.lordofthecows.com/safari_enhancer.php" title="application for enhancing the functionality of Apple's Safari webbrowser" hreflang="en">Safari Enhancer</a>,
+* l'excellent <a href="http://www.pozytron.com/acidsearch" title="pozytron.com" hreflang="en">AcidSearch</a> qui le met au niveau de Firefox pour ce qui est de la recherche sur le Web et au sein d'une page.
+
+Mais <a href="http://hmdt-web.net/shiira/index-e.html" title="Shiira project" hreflang="en">Shiira</a> pourrait bien devenir mon préféré : il utilise le moteur de rendu de Safari, reprend ses signets et intègre dès l'origine ces petites améliorations qui me sont devenues indispensables.
+
+Et en plus, il est en <i lang="en">open-source</i>. Ce qui ne gâte jamais rien.
+

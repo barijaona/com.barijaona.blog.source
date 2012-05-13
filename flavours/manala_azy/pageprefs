@@ -1,0 +1,4 @@
+$meta::bjrDescription = "Pitoyables efforts pour se détendre" ;
+$meta::bjrStylesheet = "theme2";
+
+$meta::navigationLinks = qq#<a href="$blosxom::url/manala_azy/" class="submenu" title="Tentatives de se lacher...">Digressions</a>&nbsp;|&nbsp;<a href="$blosxom::url/humour/informatique.html" class="submenu" title="Blagues de geeks">Informatique</a>&nbsp;|&nbsp;<a href="$blosxom::url/humour/hommes_femmes.html" class="submenu" title="Poires, pomme et pépins...">Hommes et femmes</a>&nbsp;|&nbsp;<a href="$blosxom::url/humour/religion.html" class="submenu" title="Et Dieu dans tout ça ?">Religion</a># ;

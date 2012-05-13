@@ -1,0 +1,6 @@
+Frustrant...
+meta-creation_date: 6/11/2003 06:57:12
+
+Est-ce que quelqu'un peut m'expliquer pourquoi <a href="http://www.weblogues.com/?blog=http%3A%2F%2Fhomepage.mac.com%2Fbarijaona%2F" title="Myopie rapide ou durable ?">weblogues.com</a> (ou plus vraisemblablement <a href="http://magpierss.sourceforge.net/" title="PHP RSS Parser">Magpie RSS</a>) ne détecte pas mes nouveaux articles ?
+
+Comble de l'ironie, il m'ignore lorsque le fil RSS est valide, et récupère des articles lorsque je fais des bêtises !

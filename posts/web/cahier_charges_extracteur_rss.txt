@@ -1,0 +1,14 @@
+Cahier de charges
+meta-creation_date: 4/11/2003 03:51:31
+
+Puisque je renonce à Radio, me voilà en quête d'outils pour convertir les pages Web en fil RSS.
+
+On trouve des fils intéressants sur <a href="http://www.syndic8.com/" title="Annuaire de fils RSS (en anglais)" hreflang="en">Syndic8</a>, mais il y a surtout des fils <a href="http://www.newsisfree.com/" title="Fournisseur de fils de nouvelles" hreflang="en">NewsIsFree</a> dont les versions gratuites sont limitées. Je comprends que Mike Krus soit obligé de payer la bande passante...
+
+Donc je cherche un outil me permettant de me débrouiller seul...
+
+Je fondais pas mal d'espoir sur <a href="http://search.cpan.org/dist/Template-Extract/" title="CPAN Perl Modules" hreflang="en">Template::Extract</a> et ai tenté d'améliorer <a href="http://blog.simon-cozens.org/bryar.cgi/id_6522" title="New Favorite Module and Pain-Free RSS Generation" hreflang="en">le travail de Simon Cozens</a>, mais le résultat pratique reste peu convaincant... À vouloir trop en faire...
+
+Bon, il reste un peu de travail, pour arriver à un outil <a href="http://paolo.evectors.it/stories/RssDistillerHowTo.html" title="Paolo Valdemarin : RssDistiller How To" hreflang="en">aussi simple d'emploi que RssDistiller</a>, mais si possible un peu plus puissant afin de retrouver à l'intérieur d'un article un lien et un titre...
+
+À moins que quelqu'un n'ait la perle recherchée ?

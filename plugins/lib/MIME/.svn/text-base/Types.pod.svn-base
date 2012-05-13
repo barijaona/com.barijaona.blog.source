@@ -1,0 +1,145 @@
+
+=head1 NAME
+
+MIME::Types - Definition of MIME types
+
+
+=head1 INHERITANCE
+
+ MIME::Types
+   is a Exporter
+
+
+=head1 SYNOPSIS
+
+ use MIME::Types;
+ my $mimetypes = MIME::Types->new;
+ my MIME::Type $plaintext = $mimetypes->type('text/plain');
+ my MIME::Type $imagegif  = $mimetypes->mimeTypeOf('gif');
+
+
+=head1 DESCRIPTION
+
+MIME types are used in MIME compliant lines, for instance as part
+of e-mail and HTTP traffic, to indicate the type of content which
+is transmitted.  Sometimes real knowledge about a mime-type is need.
+
+This module maintains a set of L<MIME::Type|MIME::Type> objects, which
+each describe one known mime type.  There are many types defined
+by RFCs and vendors, so the list is long but not complete.  Please
+don't hestitate to ask to add additional information.
+
+
+
+=head1 METHODS
+
+
+=head2 Instantiation
+
+
+MIME::Types-E<gt>B<new>(OPTIONS)
+
+=over 4
+
+Create a new C<MIME::Types> object which manages the data.  In the current
+implementation, it does not matter whether you create this object often
+within your program, but in the future this may change.
+
+=over 4
+
+ Option         Defined in  Default
+ only_complete              <false>
+
+. only_complete BOOLEAN
+
+=over 4
+
+Only include complete MIME type definitions: requires at least one known
+extension and an explicit type of encoding.  This will reduce the number of
+entries --and with that the amount of memory consumed-- considerably.
+
+In your program you have to decide: the first time that you call
+the creator (C<new>) determines whether you get the full or the partial
+information.
+
+=back
+
+=back
+
+=head2 Knowledge
+
+
+$obj-E<gt>B<addType>(TYPE, ...)
+
+=over 4
+
+Add one or more TYPEs to the set of known types.  Each TYPE is a
+C<MIME::Type> which must be experimental: either the main-type or
+the sub-type must start with C<x->.
+
+Please inform the maintainer of this module when registered types
+are missing.
+
+=back
+
+$obj-E<gt>B<mimeTypeOf>(FILENAME)
+
+=over 4
+
+Returns the C<MIME::Type> object which belongs to the FILENAME (or simply
+its filename extension) or C<undef> if the file type is unknown.  The extension
+is used, and considered case-insensitive.
+
+I<Example:> use of mimeTypeOf()
+
+
+ my MIME::Types $types = MIME::Types->new;
+ my MIME::Type  $mime = $types->mimeTypeOf('gif');
+
+ my MIME::Type  $mime = $types->mimeTypeOf('jpg');
+ print $mime->isBinary;
+
+=back
+
+$obj-E<gt>B<type>(STRING)
+
+=over 4
+
+Return the C<MIME::Type> which describes the type related to STRING.  One
+type may be described more than once.  Different extensions is use for
+this type, and different operating systems may cause more than one
+C<MIME::Type> object to be defined.  In scalar context, only the first
+is returned.
+
+=back
+
+
+
+=head1 DIAGNOSTICS
+
+I<Warning:> type $type already registered.
+
+You try to register a type, when it is already known.  This means that
+you are duplicating work (with chance on errors) or have knowledge you
+can contribute to this module (please contact the author).
+
+
+
+
+
+
+=head1 REFERENCES
+
+See the Mime::Types website at L<http://perl.overmeer.net/mimetypes/> for more details.
+
+=head1 COPYRIGHTS
+
+Module version 1.07.
+Written by Mark Overmeer (mimetypes@overmeer.net).  See the ChangeLog for
+other contributors.
+
+Copyright (c) 2001-2003 by the author(s). All rights reserved.  This program
+is free software; you can redistribute it and/or modify it under the
+same terms as Perl itself.
+
+

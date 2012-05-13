@@ -1,0 +1,5 @@
+The zen of blogging, the return
+meta-creation_date: 18/8/2007 16:27:14
+There is a renewed interest for Blosxom at the [development mailing list](http://sourceforge.net/mailarchive/forum.php?forum_name=blosxom-devel "Sourceforge").
+
+So, I experimented some ideas for a future version of Blosxom. You can download it <a href="<$url /><$path />/blosxom4skalpha1.zip" title="Zip 156 ko">here (Blosxom scripts, some plugins and documentation)</a>.

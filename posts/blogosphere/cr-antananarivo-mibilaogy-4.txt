@@ -1,0 +1,19 @@
+Compte-rendu (et invitation)
+meta-creation_date: 19/10/2007 07:37:57
+
+[Antananarivo mibilaogy 4](http://tattum.canalblog.com/archives/2007/10/15/6372685.html "Tattum : Rdv à Antananarivo miblaogy 4.0 :) [edit]"), c'était hier, et c'était vraiment sympa.
+
+Merci à [Elodieriana](http://elodieriana.canalblog.com/ "Les trésors d'Elodieriana") et à sa famille d'avoir accepté d'héberger la manifestation. Belle marque de confiance vis à vis de la blogosphère, j'espère qu'on n'a pas trop déçu !!
+
+Désolé, je n'ai pas noté tous les URLs et pseudonymes, donc pas de liste exhaustive, mais je crois que nous étions 11, ce qui constitue un record pour une rencontre de blogueurs à Tana.
+
+Quelques points choisis très arbitrairement :
+
+* Pour une fois, on s'est un peu moins plaint des débits internet que d'habitude... Consensus de place : la meilleure solution de connexion internet du moment sur Tana est Freedsl. Le débit descendant est correct (espérons qu'ils géreront correctement la montée en puissance), le fournisseur n'est pas très orienté marketing mais est à l'écoute de ses clients.
+* Ouah, on était trois utilisateurs de Mac... C'est une proportion inattendue. Encore plus inattendu : aucun PC-iste n'a contesté l'expression de notre satisfaction.
+* Réponse à Tattum, qui cherchait une solution technique pour agréger les flux RSS de la blogosphère malgache... Si tu peux installer sur une machine PHP et MySQL (ou mieux PHP et SQLite), <a href="http://gregarius.net/" hreflang="en" title="web-based RSS/RDF/ATOM feed aggregator">Gregarius</a> avec le plugin RSS View conviendrait assez bien.
+
+La même Tattum nous a parlé de différentes idées de coopération pour promouvoir l'internet à Madagascar ou Madagascar à travers l'internet... Il a été décidé de se revoir pour discuter de cela, et cela aura lieu le 
+Samedi 27 prochain à 10 h chez votre serviteur.
+
+Les intéressés sont priés de se manifester dans les commentaires de ce billet ou par mail.

@@ -1,0 +1,17 @@
+Quels moustiques nous piquent ?
+meta-creation_date: 25/4/2006 06:16:31
+
+Enervé que les médias ne parlent que du chikungunya ? Chic, [la dengue va peut-être faire parler d'elle](http://www.lemonde.fr/web/article/0,1-0@2-3244,36-763966@51-764074,0.html "Le Monde : La Guyane peine à lutter contre l'épidémie de dengue"). Et avec le réchauffement de la planète, lorsque le paludisme frappera en Camargue, on s'intéressera peut-être enfin à notre calamité quotidienne. Toutes ces maladies étant un peu apparentées, il est facile de s'y tromper : [dossier Chik chez Lionel](http://lionel.suz.free.fr/index.php?id=run&sub=chikungunya "La chikungunya à la Réunion : arboviros - Togaviridae - alphavirus").
+
+La rencontre des blogueurs de Tana, c'est pour ce Vendredi à 19 heures et [ça se précise](http://pokanel.canalblog.com/archives/2006/04/24/1758554.html "Pokanel : Blogueurs malagasy")...
+
+<a href="http://ask.metafilter.com/mefi/35550" title="Metafilter : Why A" hreflang="en">Pourquoi l'ordre alphabétique est-il ce qu'il est</a>  ? (via <a href="http://www.kottke.org/remainder/" title="Remaindered links" hreflang="en">kottke</a>). Imaginer ce que serait la planète si au lieu de l'alphabet, on avait eu le psiphi, le kappagamm, le thetazet, ou le iotamu, donne le vertige...
+
+Dans un des [3 projets déjoués de reproduction de la fusillade de Columbine](http://www.lemonde.fr/web/depeches/0,14-0,39-27183962@7-37,0.html "Dépêche AFP chez Le Monde"), MySpace se montre l'équivalent du bon vieux bar bien louche où <a href="http://arstechnica.com/news.ars/post/20060421-6650.html" title="Shooting rampage avoided due to MySpace posting" hreflang="en">les propos du loustic trop bavard tombent dans l'oreille d'Huggy les bons tuyaux</a> (désolé, ma culture télévisuelle date un peu...). 
+
+Les mots de passe font vraiment "has been", si on en est obligé de <a href="http://blogs.zdnet.com/threatchaos/?p=319" title="Super-Glue: Best practice for countering key stroke loggers | Threat Chaos | ZDNet.com" hreflang="en">sécuriser les ordinateurs avec de la colle cyanoacrylate</a>... (j'adore les sonorités de ce mot, mais je l'oublie tout le temps...)
+
+En lisant <a href="http://www.winsupersite.com/reviews/winvista_5308_05.asp" title="Paul Thurrott's : Where Vista Fails" hreflang="en">les complaintes des utilisateurs Windows par rapport à Vista</a>, j'ai l'impression de retrouver l'époque où [les utilisateurs Apple attendaient vainement Copland](http://fr.wikipedia.org/wiki/Apple_Computer#Les_ann.C3.A9es_difficiles "Wikipedia : Apple Computers : Les années difficiles").
+
+Comme quoi les années et le buzz tournent, on trouve maintenant une <a href="http://www.monocalendar.com/" title="MonoCalendar" hreflang="en">imitation assez servile d'iCal</a>, qui n'est pourtant pas l'application la plus réussie d'Apple. La gestion de mon propre agenda, assez bordelique, intègre [iCal](http://www.apple.com/fr/macosx/features/ical/ "Apple France"), [iSync](http://www.apple.com/fr/macosx/features/isync/ "Apple encore..."), un téléphone Bluetooth (pour moi), <a href="http://phpicalendar.net/" title="PHP iCalendar" hreflang="en">phpiCalendar</a>, [Mozilla Calendar](http://frenchmozilla.sourceforge.net/calendar/ "Chez Mozilla en français") (pour mes collaborateurs) et quelques scripts maison. Je veux bien tester <a href="http://calendar.google.com" title="Ne supporte pas encore Safari" hreflang="en">Google Calendar</a>, mais je doute qu'on arrive à une telle intégration...
+

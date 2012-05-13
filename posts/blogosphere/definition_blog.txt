@@ -1,0 +1,31 @@
+L'école du blog
+meta-creation_date: 15/12/2003 00:11:25
+
+<a href="http://www.hemisphair.net/index.php" title="Hemisphair">Morgan Magnin</a> et Christina Pasteur concluent un <a href="http://planetes.joueb.com/news/36.shtml" title="Mise en ligne du rapport du projet">travail d'école sur les blogs</a> :
+
+<blockquote cite="http://planetes.levillage.org/rapport/rapport_weblogs.doc">
+Un <i>weblog</i> (ou <i>blog</i>, ou carnet Web, ou joueb) est un site Internet sur lequel des informations sont publiées fréquemment. Elles sont le plus souvent présentées par ordre ante-chronologique et par catégories.
+Ces informations peuvent prendre des formes très diverses : articles, brèves, programmes de spectacles, sorties de disques, agenda de clubs, planches de bande dessinées n'en sont que quelques exemples.
+Les <i>weblogs</i> varient beaucoup dans leur forme, leur nombre d'auteurs et participants, leurs sujets, leur fréquence de mise a jour, leur degré d'interaction avec les lecteurs, ...
+De la même manière qu'un journal peut être d'opinion, d'information, d'entreprise, ou même intime, un <i>weblog</i> peut être personnel, d'entreprise, d'école, etc.
+
+[=]
+
+Lorsque les <i>weblogs</i> ont commencé à apparaître, à la fin des années 90, beaucoup ont pensé qu’ils ne seraient qu’une mode qui tomberait rapidement dans l’oubli. Aujourd’hui, il paraît évident qu’une telle perception était erronée.
+
+Le développement des <i>weblogs</i> est plus que jamais d’actualité. De nouvelles fonctionnalités sont sans cesse ajoutées aux outils permettant de créer et de gérer un <i>weblog</i> ;
+
+[=]
+
+Par ailleurs, les <i>weblog</i>geurs ont été les premiers à syndiquer en masse le contenu de leur site, ce qui a contribué au développement de la syndication. Aujourd’hui, les possibilités offertes par la syndication sont multiples et, au cours de ce projet, nous avons montré comment cette technologie pourrait être utilisée au sein de l’Ecole.
+
+[=]
+
+Les <i>weblogs</i> et la syndication remettent l’Internaute au cœur du processus de création de richesses sur Internet. Le réseau n’est plus seulement une gigantesque bibliothèque consultable par quiconque, il devient aussi un gigantesque livre auquel tout le monde peut participer. C’est certainement là le principal intérêt de ces deux technologies qui reviennent directement aux préceptes énoncés par Tim Berners-Lee lors de la création du World Wide Web.
+</blockquote>
+
+Difficile de leur reprocher de ne pas avoir inclus Blosxom dans le tableau comparatif des différentes solutions de blog, mais <a href="<$url />/web/blosxom_vs_cms_ideal.html" title="Autocitation : Powered by brain and fingers">ça m'aurait énormément intéressé</a>.
+
+Puisque j'en suis à couper les cheveux en quatre : <a href="http://radio.userland.com/" title="Radio Userland" hreflang="en">Radio</a> gère maintenant les <a href="http://radio.userland.com/trackbackForRadio" title="TrackBack for Radio" hreflang="en">liens croisés</a> et peut fonctionner sur un serveur FTP ou Webdav.
+
+Bon, ça ne devrait pas les empêcher d'avoir une très bonne note.

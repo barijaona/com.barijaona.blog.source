@@ -1,0 +1,5 @@
+$meta::bjrDescription = "Expérimentations et mésaventures technologiques" ;
+$meta::bjrKeywords = "blosxom, print66, lpd, weblog";
+$meta::bjrStylesheet = "theme4";
+
+$meta::navigationLinks = qq#<a href="$blosxom::url/web/" class="submenu" title="Historique des mutations du site">Carnet Web</a>&nbsp;|&nbsp;<a href="$blosxom::url/print66/" class="submenu" title="A freeware print daemon for Classical Macintosh" hreflang="en">Print66</a># ;
