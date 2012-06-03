@@ -52,22 +52,9 @@ Certains droits protégés par <a rel="license" href="http://creativecommons.org
 <a href="$blosxom::url/manala_azy/" title="Et vous trouvez ça drôle ?" class="menu">Humour</a>&nbsp;</span>|<span class="theme3">&nbsp;<a href="$blosxom::url/macintosh/" title="Paradis (?) ..." class="menu">Macintosh</a>&nbsp;</span>|<span class="theme4">&nbsp;<a href="$blosxom::url/web/" title="et enfers..." class="menu">Bidouilles</a>&nbsp;</span>|<span class="theme5">&nbsp;<a href="$blosxom::url/best_of/hotlist.html" title="Liens, blogroll..." class="menu">Sélection</a>&nbsp;</span>|<span class="theme6">&nbsp;<a href="$blosxom::url/equipe/equipe.html" title="Qui écrit ce machin ?" class="menu">Éditeur</a>&nbsp;</span><br />
 <div class="nav1">&nbsp;$meta::navigationLinks&nbsp;|&nbsp;<a href="$blosxom::url/equipe/accessibilite.html" class="submenu" title="Charte d'accessibilité" accesskey="0">Accessibilité</a></div>
 </div>
-<?$pagetype::pagetype eq="story"><script type="text/javascript"><!--
-var JSKitConfig = {
-       'comments-display-mode': 'inline'
-};
-//-->
-</script></?>
-<?$pagetype::pagetype eq="main"><script type="text/javascript"><!--
-function JSKitCommentsCountFilter(N)
-{
-    if (!N) return '[R&eacute;agir]';
-	if (N == 1){ return '[1 r&eacute;action]';}
-	else { return '[' + N + ' r&eacute;actions]';}
 }
 //-->
 </script></?>
-<?$pagetype::pagetype like="(main|story)"><script src="http://js-kit.com/for/blog.barijaona.com/comments.js" type="text/javascript"></script><noscript></noscript>
 <iframe name="RSIFrame" style="width:0px; height:0px; border: 0px"></iframe><script type="text/javascript" src="$blosxom::url/style/pphlogger.js"></script>
 <noscript><p><img alt="" src="http://whoistoolbox.us/stats/pphlogger.php?id=barijaona&amp;st=img" width="1" height="1" /></p></noscript>
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
@@ -76,6 +63,20 @@ function JSKitCommentsCountFilter(N)
 _uacct = "UA-598147-1";
 urchinTracker();
 //-->
-</script></?>
+</script>
+<?$pagetype::pagetype like="main">
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'barijaona-blog'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+</?>
 </body>
 </html>

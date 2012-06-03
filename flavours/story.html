@@ -1,16 +1,28 @@
-<?$pagetype::pagetype eq="main"><div class="post"><div class="post-full"><h3 class="$meta::bjrAccent"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Lien permanent vers cet article"><span class="timestamp">[&nbsp;$date_fullname::dw $da $date_fullname::mo $yr,&nbsp;$hr:$min&nbsp;]</span>&nbsp;$title</a></h3>$body</div><div class="comment-link"><script type="text/javascript"><!--
-document.write("<div class=\"js-kit-comments\" uniq=\"$yr$mo_num$da$hr$min\" permalink=\"$blosxom::url$path/$fn.html\" domain=\"blog.barijaona.com\"></div>");
-//-->
+<?$pagetype::pagetype eq="main"><div class="post"><article class="hentry">
+<h3 class="$meta::bjrAccent entry-title instapaper_title"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Lien permanent vers cet article"><time datetime="$yr-$mo_num-$da" class="timestamp">[&nbsp;$date_fullname::dw $da $date_fullname::mo $yr,&nbsp;$hr:$min&nbsp;]</time>&nbsp;$title</a></h3>
+<div class="post-full entry-content instapaper_body">$body</div></article>
+<div class="post-tools">[<a href="$fix_static_url::static_url$path/$fn.$flavour#disqus_thread" data-disqus-identifier="a$yr$mo_num$da$hr$min">Réagir</a>]</div>
+</div><br /></?>
+<?$pagetype::pagetype eq="story"><div class="post"><article class="hentry">
+<h3 class="$meta::bjrAccent entry-title instapaper_title"><time datetime="$yr-$mo_num-$da" class="timestamp"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;$hr:$min&nbsp;]</a></time>&nbsp;$title</h3>
+<div class="post-full entry-content instapaper_body">$body</div></article>
+<div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> $modiftime::modiftime</span><br /></div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'barijaona-blog';
+    var disqus_identifier='a$yr$mo_num$da$hr$min';
+    var disqus_url='$fix_static_url::static_url$path/$fn.html';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
 </script>
-<noscript>
-<a href="http://html.blog.barijaona.com/$yr$mo_num$da$hr$min">[Réactions]</a>
-</noscript></div></div><br /></?>
-<?$pagetype::pagetype eq="story"><div class="post"><div class="post-full"><h3 class="$meta::bjrAccent"><span class="timestamp"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;$hr:$min&nbsp;]</a></span>&nbsp;$title</h3>$body</div><div class="post-tools"><span class="timestamp">Dernière mise à jour :<br /> $modiftime::modiftime</span><br /></div><a name="comments"></a>
-<script type="text/javascript"><!--
-document.write("<div class=\"js-kit-comments\" uniq=\"$yr$mo_num$da$hr$min\" permalink=\"$blosxom::url$path/$fn.html\" domain=\"blog.barijaona.com\"></div>");
-//-->
-</script>
-<noscript>
-<a href="http://html.blog.barijaona.com/$yr$mo_num$da$hr$min">[Réactions]</a>
-</noscript></div><br /></?>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">Commentaires du blog hébergés par <span class="logo-disqus">Disqus</span></a>
+
+</div><br /></?>
 <?$pagetype::pagetype like="(chrono|category)"><h3 class="$meta::bjrAccent"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Aller vers l'article complet">$da $date_fullname::mo $yr : $title</a></h3>$foreshortened::body <span class="seemore"><a href="$url$path/$fn.$flavour" title="Aller vers l'article complet">-&gt;&gt;</a></span></?>
