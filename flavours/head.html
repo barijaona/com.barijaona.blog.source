@@ -25,4 +25,4 @@ urchinTracker();
 </script></?>
 </head>
 <body>
-<div class="contentwrapper"><div class="content"><h1>$blog_title</h1><?$pagetype::pagetype like="(main|story)"><em>$blog_description</em></?><?$pagetype::pagetype eq="chrono"><em>Index chronologique</em></?><?$pagetype::pagetype eq="category"><em>Index de la catégorie :</em> $breadcrumbs::breadcrumbs</?>
+<div class="contentwrapper"><div class="content"><header><a href="$url"><h1>$blog_title</h1></a><?$pagetype::pagetype like="(main|story)"><em>$blog_description</em></?><?$pagetype::pagetype eq="chrono"><em>Index chronologique</em></?><?$pagetype::pagetype eq="category"><em>Index de la catégorie :</em> $breadcrumbs::breadcrumbs</?></header>
