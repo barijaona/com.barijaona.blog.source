@@ -1,0 +1,6 @@
+.DS_Store
+.FBCIndex
+.FBCLockFolder
+plugins/state/.entries_cache.index
+plugins/state/.entries_cache.others
+plugins/state/etag.cache
