@@ -23,6 +23,7 @@ content="noindex,follow" /></?><?$pagetype::pagetype eq="main"><link rel="canoni
 _uacct = "UA-598147-1";
 urchinTracker();
 </script></?>
+<?$pagetype::pagetype like="main"><script type="text/javascript" src="$blosxom::url/style/disqus-ajah.js"></script></?>
 </head>
 <body>
 <div class="contentwrapper"><div class="content"><header><a href="$url"><h1>$blog_title</h1></a><?$pagetype::pagetype like="(main|story)"><em>$blog_description</em></?><?$pagetype::pagetype eq="chrono"><em>Index chronologique</em></?><?$pagetype::pagetype eq="category"><em>Index de la catégorie :</em> $breadcrumbs::breadcrumbs</?></header>

@@ -1,7 +1,8 @@
 <?$pagetype::pagetype eq="main"><div class="post"><article class="hentry">
 <h3 class="$meta::bjrAccent entry-title instapaper_title"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Lien permanent vers cet article"><time datetime="$yr-$mo_num-$da" class="timestamp">[&nbsp;$date_fullname::dw $da $date_fullname::mo $yr,&nbsp;$hr:$min&nbsp;]</time>&nbsp;$title</a></h3>
 <div class="post-full entry-content instapaper_body">$body</div></article>
-<div class="post-tools">[<a href="$fix_static_url::static_url$path/$fn.$flavour#disqus_thread" data-disqus-identifier="a$yr$mo_num$da$hr$min">Réagir</a>]</div>
+<div class="post-tools">[<a href="$fix_static_url::static_url$path/$fn.$flavour#disqus_thread" onclick="return(getComment('a$yr$mo_num$da$hr$min'));" data-disqus-identifier="a$yr$mo_num$da$hr$min">Réagir</a>]</div>
+<iframe id="HSda$yr$mo_num$da$hr$min" frameborder="0" style="border:0; height:0 ; width:100% ; overflow:hidden;" seamless></iframe>
 </div><br /></?>
 <?$pagetype::pagetype eq="story"><div class="post"><article class="hentry">
 <h3 class="$meta::bjrAccent entry-title instapaper_title"><time datetime="$yr-$mo_num-$da" class="timestamp"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;$hr:$min&nbsp;]</a></time>&nbsp;$title</h3>
