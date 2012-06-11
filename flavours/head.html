@@ -23,7 +23,30 @@ content="noindex,follow" /></?><?$pagetype::pagetype eq="main"><link rel="canoni
 _uacct = "UA-598147-1";
 urchinTracker();
 </script></?>
-<?$pagetype::pagetype like="main"><script type="text/javascript" src="$blosxom::url/style/disqus-ajah.js"></script></?>
+<?$pagetype::pagetype like="main"><script type="text/javascript" src="$blosxom::url/style/tinybox.js"></script>
+<script type="text/javascript">
+function getComment(commentId){
+	if(navigator.appVersion.indexOf("Mobile")>-1 && document.documentElement.style. WebkitOverflowScrolling == undefined )
+		{ boxWidth = 0 ; return true};
+	var e = window, a = 'inner';
+	if ( !( 'innerWidth' in window ) )
+		{
+		a = 'client';
+		e = document.documentElement || document.body;
+		}
+	theWidth = e[ a+'Width' ] ; theHeight = e[ a+'Height' ];
+	if (theWidth >= 780){ boxWidth= 750 ;}
+	else if (theWidth >= 320) {boxWidth = theWidth - 30;}
+	else { boxWidth = 0;};
+	if (theHeight >= 460){ boxHeight = 450 ;}
+	else if (theHeight >= 320) {boxHeight = theHeight - 10;}
+	else { boxHeight = 0;};
+	if (boxWidth !=0 && boxHeight !=0) {
+		TINY.box.show({iframe:'$url/style/disqus-template.html?'+commentId,boxid:'frameless',width:boxWidth,height:boxHeight});
+		return false; }
+	else {return true;}
+}
+</script></?>
 </head>
 <body>
 <div class="contentwrapper"><div class="content"><header><a href="$url"><h1>$blog_title</h1></a><?$pagetype::pagetype like="(main|story)"><em>$blog_description</em></?><?$pagetype::pagetype eq="chrono"><em>Index chronologique</em></?><?$pagetype::pagetype eq="category"><em>Index de la catégorie :</em> $breadcrumbs::breadcrumbs</?></header>
