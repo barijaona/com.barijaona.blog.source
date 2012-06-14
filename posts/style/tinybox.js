@@ -12,6 +12,10 @@ TINY.box=function(){
 				b=document.createElement('div'); b.className='tcontent';
 				m=document.createElement('div'); m.className='tmask';
 				g=document.createElement('div'); g.className='tclose'; g.v=0;
+				if(document.documentElement.style.WebkitOverflowScrolling != undefined){
+					p.style.WebkitOverflowScrolling='touch';
+					p.style.overflow='auto';
+				}
 				document.body.appendChild(m); document.body.appendChild(j); j.appendChild(p); p.appendChild(b);
 				m.onclick=g.onclick=TINY.box.hide; window.onresize=TINY.box.resize
 			}else{
