@@ -11,6 +11,8 @@
     var disqus_shortname = 'barijaona-blog';
     pos=document.location.href.search(/\?/);
     disqus_identifier=document.location.href.slice(pos+1);
+    pos=disqus_identifier.search(/#/);
+    if (pos>-1){ disqus_identifier=disqus_identifier.slice(0,pos);}
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
