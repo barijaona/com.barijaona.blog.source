@@ -25,7 +25,7 @@ urchinTracker();
 </script></?>
 <?$pagetype::pagetype like="main"><script type="text/javascript" src="$blosxom::url/style/tinybox.js"></script>
 <script type="text/javascript">
-function getComment(commentId){
+function getComment(threadId,refPageURL){
 	if(navigator.appVersion.indexOf("Mobile")>-1 && document.documentElement.style. WebkitOverflowScrolling == undefined )
 		{ boxWidth = 0 ; return true};
 	var e = window, a = 'inner';
@@ -42,7 +42,7 @@ function getComment(commentId){
 	else if (theHeight >= 320) {boxHeight = theHeight - 10;}
 	else { boxHeight = 0;};
 	if (boxWidth !=0 && boxHeight !=0) {
-		TINY.box.show({iframe:'$url/style/disqus-template.html?'+commentId,boxid:'frameless',width:boxWidth,height:boxHeight});
+		TINY.box.show({iframe:'$url/style/disqus-template.html?p='+refPageURL+'&id='+threadId,boxid:'frameless',width:boxWidth,height:boxHeight});
 		return false; }
 	else {return true;}
 }
