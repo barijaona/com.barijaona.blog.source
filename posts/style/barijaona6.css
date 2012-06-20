@@ -39,13 +39,6 @@ td {
 	border-style:none
 }
 
-/* Js-Kit Echo theme */
-.js-singleCommentBg { border:1px solid gray ; background-color:#f3f3f3;  padding-left:2%; padding-right:2%; }
-.jskit-MenuTitle, .js-CreateComment .js-kit-tab-title, .jsk-LinkFont, .jsk-ThreadWrapper a { color:#508080 !important; }
-.jskit-MenuTitle a:hover, .jsk-ThreadWrapper a:hover { font-weight:bold !important; color:#0000dd !important ; text-decoration:underline !important}
-.jsk-ThreadWrapper a:visited { font-weight:bold !important; color:#546464 !important ; text-decoration:underline !important}
-.jskit-MenuTitle a:active, .jsk-ThreadWrapper a:active { font-weight:bold ; color:aqua !important ; text-decoration:underline !important}
-
 caption {
 	text-align:center
 }
