@@ -5,8 +5,8 @@
 #            Enclosures support: Dave Slusher and Keith Irwin
 #            Upgrade to Atom 1.0 spec: Sam Pearson
 #            Removed static $feed_url, added georss support: Gavin Carr
-#            Fixed author email and uri for static rendering : Barijaona R.
-# Version: 2011-07-14
+#            Avoid multiple alterations of variables in static rendering : Barijaona R.
+# Version: 2012-06-21
 # Docs: Included below: type "perldoc atomfeed", or scroll down
 # Blosxom Home/Docs/Licensing: http://blosxom.sourceforge.net/
 
@@ -93,6 +93,7 @@ $author = '';
 $T = 'T';
 $colon = ':';
 $zerozero = '00';
+$once = 0;
 
 # Try to glean the domain from $url
 $id_domain or ($id_domain) = $blosxom::url =~ m#http://(?:www\.)?([^\/]+)#;
@@ -144,9 +145,9 @@ sub head {
   # can modify their defaults using the config and prefs plugins.
   # Note that these plugins will have to run *before* atomfeed for this to work as intended.
 
-  $css_url and $css_url = "\n<?xml-stylesheet href=\"$css_url\" type=\"$css_type\"?>";
+  $once or ($css_url and $css_url = "\n<?xml-stylesheet href=\"$css_url\" type=\"$css_type\"?>");
 
-  $copyright and $copyright_tag = "<rights>$copyright</rights>";
+  $once or ($copyright and $copyright = "<rights>$copyright</rights>");
 
   $author_uri or $author_uri = "$blosxom::url";
 
@@ -160,6 +161,7 @@ sub head {
 
   $feed_utc_date = '';
 
+  $once=1;
   1;
 }
 
@@ -274,6 +276,7 @@ sub story {
   ($body_type, $body) = _parse_markup($body);
 
   if($author_email) {$article_email = "\n      <email>$author_email</email>"};
+  if($author_uri) {$article_author_uri = "\n      <uri>$author_uri</uri>"};
   
   return 1;
 }
@@ -402,7 +405,7 @@ HEAD
     It is intended to be viewed in a Newsreader.
     Please visit <a href="http://www.atomenabled.org/">atomenabled.org</a> for more info.
   </div>
-  \$atomfeed::copyright_tag
+  \$atomfeed::copyright
   \$atomfeed::icon_url
   \$atomfeed::logo_url
   {{{updated}}}
@@ -592,7 +595,8 @@ B<$atomfeed::author> contains the contents for the author section's
 B<$atomfeed::article_email> contains any <email> element for the
 author. Includes the required opening and closing tags.
 
-B<$atomfeed::author_uri> contains any <uri> element for the author.
+B<$atomfeed::article_author_uri> contains any <uri> element for the author.
+Includes the required opening and closing tags.
 
 B<$atomfeed::blog_description> contains the contents for the
 <subtitle> element.
@@ -620,7 +624,7 @@ closing tags.
 B<$atomfeed::colon> simply contains a colon character, for use in the
 <id> elements - helps avoid confusion with variable interpolation.
 
-B<$atomfeed::copyright_tag> contains any copyright statement.  This
+B<$atomfeed::copyright> contains any copyright statement.  This
 variable includes the required opening and closing tags.
 
 B<$atomfeed::css_url> contains everything you need to link to a
