@@ -381,7 +381,7 @@ sub _load_templates {
 
   $blosxom::template{'atom'}{'date'} = "\n";
 
-  my $path_info_full = $blosxom::path_info_full || "$blosxom::path_info/index.atom";
+  my $path_info_full = $blosxom::path_info_full || "$blosxom::path_info/atom.xml";
   $blosxom::template{'atom'}{'head'} =<<HEAD;
 <?xml version="1.0" encoding="utf-8"?>\$atomfeed::css_url
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://\$atomfeed::id_domain"
