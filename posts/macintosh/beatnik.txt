@@ -1,0 +1,14 @@
+Beatnik
+meta-creation_date: 19/9/2012 14:21:41
+
+[Discussion enflammée sur Cuk](http://www.cuk.ch/articles/5188 "Ça y est ! J’ai enfin un Mac Moche, Bruyant et Instable ! - Cuk.ch") sur la moralité et/ou la légalité de fabriquer un Hackintosh ; autrement dit de faire tourner un PC avec MacOSX, ce qui est interdit par la license utilisateur Apple. Le commentaire le plus lumineux me semble celui de Yanfi :
+
+>En ce qui concerne la license Apple “seulement sur du Matériel Apple”, je vois ça non pas comme une interdiction, mais comme une protection légale. Personne ne peut attaquer Apple en justice parce que OS X ne marche pas bien sur son matériel générique, non-Apple. Si Apple se mettait à vendre OS X séparément ils auraient alors la charge du support. Et je suis sûr que ça n’arrivera jamais.
+
+>Cette opinion (qui n’engage que moi) est supportée par le fait qu’Apple a fait ZÉRO efforts pour fermer les sites de Hackintosh. Ils ont pignon sur Web, si l’on peut dire. Aucun n’a reçu de mise en demeure et autres plaisanteries légales dont Apple sait très bien faire usage quand elle est déterminée à faire valoir ses intérêts. Je pense qu’il laissent faire en sachant que ceux qui aiment OS X après y avoir gouté, et qui se lassent de bricoler finissent par s’acheter un Mac, parce que “ça marche” (sauf quand ça tombe en panne, mais bon…).
+
+Cette attitude me paraît complètement cohérente avec la culture Beatnik et libertaire qui imbibe une société comme Apple... Elle n'a aucune envie de trop s'embêter avec ce que le reste du monde bidouille. S'il y avait obligation morale de tenir compte de tout ce que les ateliers de Taïwan et de Chine produisent, ce serait beaucoup moins fun pour ses ingénieurs...
+
+Parce que c'est déjà suffisamment contraignant d'avoir à s'assurer de la compatibilité avec ses propres matériels, Apple la libertaire se réserve le droit souverain de laisser tomber un truc « pas assez bien » ou « trop vieux ». Elle se souvient avec un brin de terreur que Mac OS n'avait jamais eu autant de problèmes et stagné que lors de la brève période où elle avait autorisé les clones. Qui plus est, elle garde à l'esprit qu'elle est capable de faire de vrais miracles lorsqu'elle est hyper-concentrée sur l'intégration très poussée de matériels choisis sans faire de concession au passé et d'un logiciel qu'elle maîtrise seule : ainsi naquit le premier Macintosh, ainsi se fit sa résurrection, et ainsi vit l'iPhone.
+
+Certains déploreront une conception plutôt individualiste du <i lang="en">"free and open"</i>. Mais on ne reste pas <i lang="en">fun</i> sans n'en faire parfois qu'à sa tête.
