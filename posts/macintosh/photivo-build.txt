@@ -1,0 +1,177 @@
+Building photivo on Mac OS X Mountain Lion.
+
+[photivo](http://photivo.org/ "free and open source (GPL3) photo processor") is a photo processor for handing RAW files.
+
+The following instructions updates on those found on [photivo wiki](http://photivo.org/photivo/download_and_setup/mac "Mac OS X") as they were written by user [kwip](http://photivo.org/doku.php?id=photivo:download_and_setup:mac&rev=1321579972 "Retrieved Nov 25th, 2012"). These were tested on Mac OS X Mountain Lion, but the final result should probably run on Lion as well.
+
+# Installing and setting a current gcc compiler
+
+## Get a recent gcc
+
+photivo requires gcc >= 4.6, because it needs a good support of OpenMP. But Apple freezed its support of gcc at level 4.2.1, in favor of LLVM compilers.
+
+Fortunately, you won't need building gcc yourself. You can find recent builds of gcc and gfortran, thanks to the [High Performance Computing for Mac OS X](http://hpc.sourceforge.net "hpc") project.
+
+Go there, and download both gcc 4.7.1 and gfortran 4.7.1 (fortran is needed for building fftw). Follow the site's instructions, and these components will get installed in `/usr/local`.
+
+Make sure that `/usr/local/bin` is in your `$PATH`, but is behind `/usr/bin`, where are located Apple Xcode's command line tools. This is the default. (We will see later how to make sure gcc 4.7 is called when needed.)
+
+## Improve on the standard gcc
+
+Apple's gcc incorporates the `-arch` extension, which is especially useful for building fat binaries. When they detect that they are run on a Macintosh, many configuration scripts expect gcc to support this extension ; the problem is that it is not incorporated in the standard gcc trunk, nor in HPC builds.
+
+Fortunately, John Bowers [found some creative solutions to these shortcomings](http://www.implbits.com/About/Blog/tabid/78/post/building-with-gcc-4-6-on-osx/Default.aspx "Building With GCC 4.6 on OSX").
+
+He uses MacPorts in his examples, but my __hpcgccfixup__ is a transposition to HPC's gcc. [Download it](<$url /><$path />/hpcgccfixup.zip "Zip archive"), and do the usual "./configure, make, make install" stuff.
+
+Notes :
+
+- you will need [cmake](http://cmake.org "Cross-platform build system") if it is not installed yet on your system,
+- in case of problem, compare the variables set at the beginning of the CMakeLists.txt file to the structure of the archives downloaded from HPC (the Zipeg utility might be handy to inspect the archives)
+
+# Get Qt
+
+The following frameworks from Qt are needed :
+
+- QtCore
+- QtGui
+- QtNetwork
+
+I got them for the [open source version of qt libraries 4.8.3 for Mac](http://qt-project.org/downloads "Download Qt, the cross-platform application framework").
+
+# Build Gtk+ for MacOS X
+
+Download [gtk-osx-setup.sh](http://git.gnome.org/browse/gtk-osx/plain/gtk-osx-build-setup.sh "Available at Gnome") to your home directory and run it:
+
+<code>
+sh gtk-osx-build-setup.sh
+</code>
+
+If necessary, make ~/.local/bin added to your $PATH.
+
+To tell jhbuild to use the 4.7 version of GCC, add these instructions at the end of the ~/.jhbuilrc-custom script : 
+
+	os.environ["CC"] = "/usr/local/bin/gcc"
+	os.environ["OBJC"] = "/usr/local/bin/gcc"
+	os.environ["CXX"] = "/usr/local/bin/g++"
+	os.environ["F77"] = "/usr/local/bin/gfortran"
+
+Now, do : 
+
+	$jhbuild bootstrap
+	$jhbuild build meta-gtk-osx-bootstrap
+	$jhbuild build meta-gtk-osx-core
+
+
+In case of trouble, see https://live.gnome.org/GTK+/OSX/Building
+
+# Build dependancies
+
+Important : enter a jhbuild environment by typing the command:
+
+<code>$jhbuild shell</code>
+
+Grab some [GraphicsMagick delegates](ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/delegates/ "GraphicsMagick website") (FTP) :
+
+- libpng
+- tiff
+- libjpeg
+- lcms2
+
+Grab other elements :
+
+- [fftw3](http://www.fftw.org "Fast Fourier Transformation")
+- [liblqr](http://liblqr.wikidot.com "Liquid Rescale Library")
+
+Build the above elements in the order they are listed, using for each of them the sequence :
+
+
+	$ ./configure  --prefix=/Users/YOURUSERNAMEHERE/gtk/inst --enable-shared  --disable-static
+	$ make
+	$ make install
+
+
+(Replace YOURUSERNAMEHERE with your Unix user name).
+
+Get and build [lensfun](http://developer.berlios.de/project/showfiles.php?group_id=9034 "Library to mitigate photographic lenses defaults") :
+
+
+	$ ./configure  --prefix=/Users/YOURUSERNAMEHERE/gtk/inst
+	$ make
+	$ make install
+
+Still under a jhbuild shell, get and build [GraphicsMagick](ftp://tp.graphicsmagick.org/pub/GraphicsMagick/GraphicsMagick-LATEST.tar.bz2 "Image Processing System") (FTP) :
+
+	$ ./configure  --prefix=/Users/YOURUSERNAMEHERE/gtk/inst --enable-shared --disable-static --without-x --without-bzlib --without-zlib --without-xml --with-quantum-depth=16
+	$ make
+	$ make install
+
+Note : after the ./configure stage, I recommend you check that JPEG, TIFF and PNG supports are enabled. If not, you might have missed something from above.
+
+For some reason, exiv2 is the single dependency which should not be build under jhbuild (it crashes photivo otherwise). Open a __normal shell__, [get exiv2](http://www.exiv2.org "Image metadata library") and build it :
+
+	$ ./configure  --prefix=/Users/barijaon/gtk/inst --enable-shared  --disable-static
+	$ make
+	$ make install
+
+# Build photivo
+
+You will need Mercurial (or a Mercurial client, I use SourceTree) to get the photivo code : 
+
+	$ cd
+	$ hg clone https://photivo.googlecode.com/hg/ photivo
+	
+Replace every occurrence of `/usr/bin/gcc` with `/usr/local/bin/gcc` in the .pro files.
+Replace every occurrence of `/usr/bin/g++` with `/usr/local/bin/g++` in the .pro files.
+
+Make sure you are under a __jhbuild shell__ again, and type these commands :
+
+	$ cd photivo
+	$ PATH=/usr/local/bin:$PATH qmake -spec macx-g++ CONFIG+=WithoutGimp
+	$ PATH=/usr/local/bin:$PATH make
+
+(We force the use of the HPC gcc here).
+
+You will probably get errors at this stage. You will have to fiddle with some of the Makefiles and repeat many times the `PATH=/usr/local/bin:$PATH make` command to get photivo.app build.
+
+Personally, I had to :
+
+- remove  `-rdynamic` occurrences in ptclearProject/Makefile and photivoProject/Makefile
+- comment line 16 of photivoProject/Makefile
+
+To make photivo.app run correctly, I also had to :
+
+- copy ~/gtk/inst/lib/liblensfun.dylib in ~/lib
+- copy the Themes directory in photivo.app/Contents/MacOS/
+
+# Package photivo
+
+If you do a `otool -L photivo.app/Contents/MacOS/photivo`, you will notice there are references to libraries stored in your specific machine's directories. The following script will do the right stuff, using `install_name_tool` and Qt's `macdeployqt`.
+
+	#!/bin/sh
+	cd ~/photivo
+	rm -rf photivo.app
+	rm -rf photivo.dmg
+	PATH=/usr/local/bin:$PATH make
+	mkdir ./photivo.app/Contents/Resources/data
+	cp -R ChannelMixers Profiles Presets LensfunDatabase Icons Curves Themes ./photivo.app/Contents/Resources/data
+	mkdir ./photivo.app/Contents/Resources/data/images
+	cp *.png ./photivo.app/Contents/Resources/data/images/
+	cd photivo.app/Contents/MacOS
+	ln -s ../Resources/data/* .
+	unlink images
+	ln -s ../Resources/data/images/* .
+	cd -
+	install_name_tool -change liblensfun.dylib ~/gtk/inst/lib/liblensfun.dylib photivo.app/Contents/MacOS/photivo
+	cp photivo-appicon.icns ./photivo.app/Contents/Resources/
+	cp Info.plist ./photivo.app/Contents/
+	macdeployqt photivo.app
+	# The following instruction is optional :
+	# useful to people having an Apple developer ID for signing the build
+	codesign -f -s 'Developer ID Application' photivo.app
+	# Make a DMG
+	hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.app/ -format UDZO
+	
+That's it, a photivo.app you can install on any recent machine !
+
+

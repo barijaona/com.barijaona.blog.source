@@ -1,0 +1,9 @@
+Photivo
+
+__[fr]__
+
+Un peu lassé du manque de support de la gestion de couleur dans les versions d'ImageMagick sur Mac, je teste photivo pour traiter mes fichiers. Vous pouvez télécharger une version Macintosh [ici](<$url /><$path />/photivo.dmg "Image disque").
+
+__[en]__
+
+I made a Mac OS X build of photivo, an interesting tool for processing photographic RAW files. Download it [here](<$url /><$path />/photivo.dmg "Disk image").
