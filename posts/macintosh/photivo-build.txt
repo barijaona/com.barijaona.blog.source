@@ -1,4 +1,5 @@
 Building photivo on Mac OS X Mountain Lion.
+meta-creation_date: 25/11/2012 22:39:31
 
 [photivo](http://photivo.org/ "free and open source (GPL3) photo processor") is a photo processor for handing RAW files.
 
@@ -170,8 +171,8 @@ If you do a `otool -L photivo.app/Contents/MacOS/photivo`, you will notice there
 	# useful to people having an Apple developer ID for signing the build
 	codesign -f -s 'Developer ID Application' photivo.app
 	# Make a DMG
-	hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.app/ -format UDZO
+	hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.app/ -format UDBZ
 	
-That's it, a photivo.app you can install on any recent machine !
+That's it, a [photivo.app](<$url />/photos/photivo.dmg "photivo.dmg 13.3 Mo") you can install on any recent machine !
 
 
