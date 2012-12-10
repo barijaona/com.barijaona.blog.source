@@ -111,7 +111,7 @@ Note : after the ./configure stage, I recommend you check that JPEG, TIFF and PN
 
 For some reason, exiv2 is the single dependency which should not be build under jhbuild (it crashes photivo otherwise). Open a __normal shell__, [get exiv2](http://www.exiv2.org "Image metadata library") and build it :
 
-	$ ./configure  --prefix=/Users/barijaon/gtk/inst --enable-shared  --disable-static
+	$ ./configure  --prefix=/Users/YOURUSERNAMEHERE/gtk/inst --enable-shared  --disable-static
 	$ make
 	$ make install
 
@@ -123,7 +123,7 @@ You will need Mercurial (or a Mercurial client, I use SourceTree) to get the pho
 	$ hg clone https://photivo.googlecode.com/hg/ photivo
 	
 Replace every occurrence of `/usr/bin/gcc` with `/usr/local/bin/gcc` in the .pro files.
-Replace every occurrence of `/usr/bin/g++` with `/usr/local/bin/g++` in the .pro files.
+Replace also every occurrence of `/usr/bin/g++` with `/usr/local/bin/g++` in the .pro files.
 
 Make sure you are under a __jhbuild shell__ again, and type these commands :
 
