@@ -138,7 +138,7 @@ You will probably get errors at this stage. You will have to fiddle with some of
 Personally, I had to :
 
 - remove  `-rdynamic` occurrences in ptclearProject/Makefile and photivoProject/Makefile
-- comment line 16 of photivoProject/Makefile
+- remove spaces before line 16 of photivoProject/Makefile in order to have the parameter of -DAPPVERSION= correctly recognized
 
 To make photivo.app run correctly, I also had to :
 
