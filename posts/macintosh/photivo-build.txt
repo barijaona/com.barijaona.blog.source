@@ -173,6 +173,6 @@ If you do a `otool -L photivo.app/Contents/MacOS/photivo`, you will notice there
 	# Make a DMG
 	hdiutil create photivo.dmg -ov -volname "Photivo Mac OS X" -srcfolder photivo.app/ -format UDBZ
 	
-That's it, a [photivo.app](<$url />/photos/photivo.dmg "photivo.dmg 13.3 Mo") you can install on any recent machine !
+That's it, a [photivo.app](<$url />/photos/photivo.dmg "photivo.dmg 16.2 Mo") you can install on any recent machine !
 
 
