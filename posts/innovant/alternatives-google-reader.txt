@@ -1,0 +1,22 @@
+Après Google Reader, quelles alternatives ?
+meta-creation_date: 2/4/2013 07:21:53
+
+Google Reader est bientôt mort, et l'on doit se poser la question : pourquoi avoir utilisé Google Reader plutôt qu'un aggrégateur local de fils RSS ? Dans mon cas, je vois quatre justifications possibles à l'utilisation de Google Reader pour la collecte des fils RSS. Par ordre décroissant d'importance :
+
+- La mobilité : il existe quelques sites que je veux pouvoir suivre en déplacement avec tous les moyens informatiques disponibles, qu'il s'agisse d'un ordinateur emprunté quelques minutes dans un lieu de passage, d'une tablette ou d'un <i lang="en">smartphone</i>, et pour lesquels il est bien commode de synchroniser l'état de lecture entre les différents appareils utilisés ;
+- Le souci de discrétion : une connexion sécurisée (`https`) vers Google.com est moins révélatrice qu'une connexion directe (et qui plus est non sécurisée) vers un site susceptible de déplaire à votre gouvernement ou à tout autre organisme qui prétend vouloir votre bien (et qui pourrait confondre facilement votre bien ou celui de la communauté avec le sien). Cette approche n'a cependant de sens que pour les cas où l'on peut faire raisonnablement confiance à Google. Or, le halo croissant de mystère autour de cette société doit faire s'interroger de plus en plus sur l'équilibre entre avantages et inconvénients.
+- Plus marginalement, la courtoisie envers certains sites : envoyer une requête à Google plutôt que directement à ces sites permet de mutualiser l'utilisation de leur bande passante. Si vous envoyez à un site une requête toutes les cinq minutes alors qu'il publie seulement une fois par semaine, c'est que vous êtes un sagouin qui n'a pas vraiment réfléchi sur l'utilité des flux RSS. En passant par Google Reader, vous reportez sur la société de Mountain View la responsabilité de réfléchir.
+- Ce n'est pas mon cas, mais [certaines personnes peuvent être confrontées à des sites particulièrement bavards](http://forums.cocoaforge.com/viewtopic.php?t=26132&p=136557 "Ten hours of articles missing after restart (Cocoaforge)" hreflang="en"), qui nécessitent une collecte permanente des articles publiés. Un serveur allumé en permanence est la meilleure solution dans de tels cas.
+
+Il fut un temps où je lisais tous mes flux en allant les chercher chez Google. Depuis le début de 2013, et même en tenant compte des raisons cités plus haut, moins de 10% des flux que je lis passent par Google. Ajoutons que je n'ai jamais utilisé l'interface web de Google Reader qu'à titre de solution de dépannage temporaire, car un client RSS dédié est bien plus réactif et sollicite moins la bande passante. C'est encore mieux lorsque ce client est capable de stocker les images afin de les afficher même en l'absence de connexion.
+
+Il n'empêche que Google Reader ferme le 1er juillet, et l'on ressent comme un manque. Vers quoi se tourner ?
+
+Pour beaucoup, l'alternative s'appelle [Feedly](http://feedly.com "Feedly. A Better Reader" hreflang="en"). Feedly a gagné 500.000 utilisateurs dans les 48 heures qui ont suivi l'annonce de l'arrêt de Google Reader, et cela n'a rien d'étonnant : le produit est séduisant à l'oeil et plutôt bien fait. De plus, Feedly a été un des premiers services à annoncer qu'il s'efforcerait de reproduire l'API de Google Reader, ce qui ne peut qu'intéresser tous les développeurs de clients RSS comme moi.
+
+Mais à titre personnel, je crains que Feedly ne soit pas le produit qui s'adapte à mes besoins :
+
+- l'accès est largement moins universel que je ne le voudrais. Pour le moment, l'accès à Feedly n'est possible qu'après l'installation d'une application dédiée pour iOS ou Android ou d'une extension spécifique à certains navigateurs web (Safari, Firefox ou Chrome seulement).
+- le <i lang="en">business model</i> de Feedly est encore plus mystérieux que celui de Google. Maintenir des serveurs pour satisfaire des utilisateurs coûte de l'argent, qu'entend faire Feedly pour faire bouillir la marmite ? Quelles seront plus tard les contreparties à payer pour ces "clients" ? ("clients" est mis ici entre guillemets, car le vrai client est celui qui paye en argent sonnant et trébuchant).
+
+Ce billet devait traiter des petites astuces nécessaires pour mettre en place une installation de Tiny Tiny RSS. [Mais il m'est entretemps apparu que NewsBlur.com était une meilleure alternative](https://github.com/ViennaRSS/vienna-rss/issues/160#issuecomment-15705208 "Vienna RSS : comment on issue #160" hreflang="en").
