@@ -1,5 +1,5 @@
 #!/bin/sh
-perl /Users/barijaon/blosxom/blosxom.cgi  -password="doitdoit" -autotrack=yes ${*}
+perl /Library/WebServer/CGI-Executables/blosxom.cgi  -password="doitdoit" -autotrack=yes ${*}
 
 #supprimer les archives de jour
 find -d /Users/barijaon/Sites -path "/Users/barijaon/Sites/[0-9][0-9][0-9][0-9]/[0-9][0-9]/[0-9][0-9]" -exec rm -rf {} \;
