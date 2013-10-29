@@ -1,1 +1,0 @@
-/Library/WebServer/CGI-Executables/blosxom.cgi
