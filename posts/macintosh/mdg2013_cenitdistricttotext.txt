@@ -1,4 +1,5 @@
 #mdg2013 Code de traitement informatique
+meta-creation_date: 30/10/2013 07:56:11
 
 <pre>
 #!/bin/bash

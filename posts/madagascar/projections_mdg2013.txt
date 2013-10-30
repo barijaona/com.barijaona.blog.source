@@ -1,0 +1,66 @@
+#mdg2013 La CENIT prend son temps ? pas de quoi en faire un drame
+
+Il y a actuellement un brin de nervosité autour de la remontée des résultats électoraux à Madagascar. Ça me rappelle quelques vieux souvenirs. De mauvais souvenirs.
+
+Qui sait ? Madagascar aurait peut-être pu éviter deux crises majeures si :
+
+- la liste des électeurs avait été arrêtée à l'avance,
+- certaines personnes avaient lu ce [document](http://www.ndi.org/files/1417_elect_quickcounthdbk_0.pdf "The Quick Count and Election Observation" hreflang="en") (PDF).
+
+Pas trop de regret à avoir cependant. Aucune donnée sur la liste électorale n'était disponible à l'avance, et le document cité ci-dessus n'a été publié qu'en Juin 2002.
+
+En 2002, les délicates questions qui s'étaient posées aux observateurs des élections étaient celles-ci :
+
+- comment avoir une bonne idée de ce qui s'est effectivement passé dans les bureaux de vote où on n'arrive pas à être présent ? même lorsqu'on a des données pour près de 74% des bureaux de vote, peut-on généraliser le résultat à tout le pays ?
+- même s'ils se présentent comme indépendants, les observateurs sur terrain et les gens qui font ensuite la compilation des données sont-ils vraiment plus honnêtes que ceux qui le font pour les autorités ?
+
+Si l'objectif n'est pas de déceler toutes les fraudes (mission quasi-impossible), mais d'avoir une assurance suffisante qu'il n'y a pas eu de manipulations dans la remontée des résultats qui pourraient complètement fausser les résultats (comme on l'avait suspecté en 1996 et 2001), il n'est plus nécessaire aujourd'hui de se torturer avec ce genre de questions .
+
+À partir d'un nombre limité de résultats de bureaux de vote, à peu près correctement répartis dans l'espace, il est possible d'avoir une bonne idée du résultat final : la méthode consiste à extrapoler les informations sur le nombre de voix dans chaque district proportionnellement aux informations sur le nombre d'électeurs inscrits dans chaque district.
+
+J'ai fait une telle projection avec les données de la Cenit dimanche soir, qui sur la base de 1395 bureaux de vote, affichait alors Jean Louis Robinson à plus de 30%. La baisse de ce score était déjà prévisible.
+
+Avec la même méthodologie, j'ai refait une telle projection avec les données de la Cenit de ce mardi vers 18h30.
+
+
+
+|	N°	|	Candidat	|	Traitement à partir données dimanche 27 vers 18h00	|	Traitement à partir données mardi 29 vers 18h30	|
+|:-----:|:---------------------------------:|----------:|----------:|
+|	1	|	RAVALISAONA Clément Zafisolo	|	0,59%	|	0,92%	|
+|	3	|	RAJAONARIMAMPIANINA RAKOTOARIMANANA Hery Martial	|	15,49%	|	15,62%	|
+|	4	|	RABEHARISON Roland Dieu Donné dit VAHÖMBEY	|	0,52%	|	0,63%	|
+|	5	|	RATSIRAKA Iarovana Roland	|	8,62%	|	8,53%	|
+|	6	|	ANDRIANAINARIVELO Hajo Herivelona	|	9,28%	|	10,20%	|
+|	7	|	RAKOTO ANDRIANIRINA Fetison	|	0,63%	|	0,91%	|
+|	8	|	RABEMANANANTSOA Brigitte Ihantanirina	|	1,03%	|	1,27%	|
+|	9	|	RADAVIDSON ANDRIAMPARANY Benjamin	|	2,16%	|	2,30%	|
+|	10	|	VITAL Albert Camille	|	7,57%	|	7,45%	|
+|	11	|	RAKOTO Jean Pierre	|	0,21%	|	0,22%	|
+|	12	|	DOFO Mickaël Bréchard	|	0,23%	|	0,31%	|
+|	13	|	RANDRIAMAMPIONONA Joseph Martin dit DADAFARA	|	3,13%	|	2,68%	|
+|	15	|	RAJAONARY Patrick Ratsimba	|	0,59%	|	0,75%	|
+|	16	|	RABEHARISOA Saraha épouse GEORGET	|	4,67%	|	4,67%	|
+|	18	|	TINASOA Freddy	|	0,18%	|	0,20%	|
+|	19	|	RAZAFIARISON Laza	|	0,85%	|	0,85%	|
+|	20	|	MONJA Roindefo Zafitsimivalo	|	1,05%	|	1,42%	|
+|	22	|	TEHINDRAZANARIVELO Djacoba Alain	|	0,49%	|	0,53%	|
+|	23	|	RAJEMISON RAKOTOMAHARO	|	0,66%	|	0,82%	|
+|	25	|	LAHINIRIKO Jean	|	0,62%	|	0,78%	|
+|	27	|	VONINAHITSY Jean Eugène	|	1,50%	|	1,75%	|
+|	28	|	RAJAONARIVELO Pierrot Jocelyn	|	3,32%	|	2,75%	|
+|	31	|	RANDRIAMANANTSOA Tabera	|	0,73%	|	0,80%	|
+|	32	|	RATREMA William	|	1,79%	|	2,07%	|
+|	33	|	ROBINSON Jean-Louis Richard	|	24,64%	|	22,36%	|
+|	34	|	RAZAFINDRAVAHY Edgard	|	5,24%	|	4,57%	|
+|	35	|	RAHARIMANANA Venance Patrick	|	0,32%	|	0,41%	|
+|	36	|	RATRIMOARIVONY Guy	|	0,21%	|	0,23%	|
+|	37	|	RAZAFIMANAZATO Julien	|	1,30%	|	1,51%	|
+|	38	|	RATSIMBALSON Faharo	|	0,35%	|	0,52%	|
+|	39	|	RABETSAROANA Willy Sylvain	|	1,23%	|	1,30%	|
+|	40	|	NOELSON William	|	0,57%	|	0,41%	|
+|	41	|	LEZAVA Fleury RABARISON	|	0,22%	|	0,24%	|
+
+
+Les résultats me paraissent remarquablement stables entre ces deux traitements, et si les résultats finaux s'écartent beaucoup de ces chiffres, il y aura vraiment de quoi s'étonner…
+
+Il n'y a plus de suspense à mes yeux. Là où ça devient vraiment intéressant, c'est qu'il doit être possible d'annoncer les résultats du deuxième tour dès le lendemain de celui-ci. Une tâche largement à la portée d'organisations comme Zahavato ou Andrimaso, et de quoi nous éviter des crises (si ce n'est post-électorales, au moins de nerf).
