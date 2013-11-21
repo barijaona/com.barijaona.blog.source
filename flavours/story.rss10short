@@ -2,7 +2,7 @@
 	<title>$title</title>
 	<link>$blosxom::url$path/$fn.html</link>
 	<description>$foreshortened::body</description>
-    
+
     <dc:subject>$path</dc:subject>
     <dc:creator>$rss10::creator</dc:creator>
     <dc:date>$yr-$mo_num-$da$rss10::T$hr$rss10::colon$min$rss10::colon$rss10::seconds$rss10::tz_offset</dc:date>
