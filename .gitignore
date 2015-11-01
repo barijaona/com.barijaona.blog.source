@@ -2,3 +2,5 @@
 .FBCIndex
 .FBCLockFolder
 plugins/state/
+utils/render.sh
+
