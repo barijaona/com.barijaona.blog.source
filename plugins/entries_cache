@@ -298,9 +298,9 @@ sub extract_date {
 					warn "Entries_Cache: Adding meta-tag to $file, using $meta_date $mday/$mon/$year $hour:$min:$sec\n" if ($debug == 1);
 				
 					if ($use_UK_dates eq 1) {
-						$new_story .= "$meta_date $mday/$mon/$year $hour:$min:$sec\n\n";
+						$new_story .= "$meta_date $mday/$mon/$year $hour:$min:$sec\n";
 					} else {
-						$new_story .= "$meta_date $mon/$mday/$year $hour:$min:$sec\n\n";
+						$new_story .= "$meta_date $mon/$mday/$year $hour:$min:$sec\n";
 					}
 					
 					if ( $line !~ /^\s*$/) {
