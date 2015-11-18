@@ -13,9 +13,12 @@
 <a class="twitter-timeline" href="https://twitter.com/barijaona" data-widget-id="319240924322480129">Tweets by @barijaona</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </?>
-<div class="box"><form method="get" action="http://search.atomz.com/search/"><div class="scrollmenu"><label for="motcle" accesskey="4">Rechercher dans le site</label><input name="sp-q" id="motcle" type="text" size="17" value="mots cl&eacute;s" /></div><div><input type="submit" value="Rechercher" /></div><p><input type="hidden" name="sp-a" value="sp1000a7cc" /></p><p><input type="hidden" name="sp-f" value="utf-8" /></p></form>
-<?$pagetype::pagetype like="main|chrono"><span style="font-size:xx-small"><a href="$blosxom::url/equipe/sitemap.html" title="Plan du site, syndication...">À propos...</a></span><br /><br />$calendar::month_calendar</?><br />
-<span class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</span><br /></div>
+<div class="box">
+<div class="search">
+<form method="get" action="http://search.atomz.com/search/"><label for="motcle" accesskey="4">Rechercher dans le site</label><input name="sp-q" id="motcle" type="text" size="17" value="mots cl&eacute;s" /><input type="submit" value="Rechercher" /><input type="hidden" name="sp-a" value="sp1000a7cc" /><input type="hidden" name="sp-f" value="utf-8" /></form>
+</div>
+<?$pagetype::pagetype like="main|chrono"><p class="note"><a href="$blosxom::url/equipe/sitemap.html" title="Plan du site, syndication...">À propos...</a></p><div class="month-calendar">$calendar::month_calendar</div></?>
+<p class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</p></div>
 <?$pagetype::pagetype like="main">
 <div class="box">$file::oldiesgoldies</div>
 </?>

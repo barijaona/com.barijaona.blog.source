@@ -18,6 +18,10 @@
 
 .box, #friendfeed-badge { position:relative; top:2ex; padding:0.5em ; margin-top: 1em; border:1px solid gray ; background-color:#f3f3f3; text-align:left;}
 
+.month-calendar { min-width:180px; max-width:250px; margin:0 auto; text-align:center;}
+.note {text-align:center; font-size:x-small;}
+.search {text-align:center;}
+
 #friendfeed-badge ul {margin-left: 0; padding-left:8px ; }
 
 #friendfeed-badge ul ul {list-style-type:none ; font-style:italic ; }
