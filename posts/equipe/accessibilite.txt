@@ -58,8 +58,6 @@ Si votre logiciel de navigation ne supporte pas du tout les pages de style, le c
 
 Un formulaire de recherche simplifié permet à ceux qui ne peuvent parcourir facilement le site de trouver l'information plus rapidement.
 
-Pour des besoins de recherche fins, une <a href="<$url />/accueil/advanced_search.html" title="Formulaire de recherche">recherche avancée</a> est également disponible.
-
 <h2>Formulaires</h2>
 
 Un effort a été fait pour rendre les formulaires accessibles : l'utilisation de la balise <code>LABEL</code> associe un sens à chaque champ, et les balises <code>FIELDSET</code> et <code>LEGEND</code> regroupent les contrôles correspondant à une logique commune.
