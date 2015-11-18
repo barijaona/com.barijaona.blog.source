@@ -76,22 +76,10 @@ a[hreflang]:after {
 }
 
 .post-tools {
-	position:absolute;
 	bottom:15px;
-	right:-20em;
-	width:15em;
-	line-height:1em;
-	text-align:left ; 
+	top:5px;
+	text-align:right ;
 }
-
-* html .post-tools {
-	position:static;
-}
-
-.comment-link {
-	text-align:right ; 
-}
-
 
 .month-calendar-day-this-day {  background-color:#E8E8E8}
 .month-calendar { font-size:xx-small}
@@ -178,12 +166,6 @@ body, .topnav, .nav1, .nav2, .content, .contentwrapper, .post-tools {
 .inline-button, .menu, .submenu {display:inline-block ;}
 .topnav {top: 1em; text-align:center; }
 .nav1 { text-align:center; }
-.post-tools {
-	position:relative;
-	bottom:15px;
-	top:5px;
-	right:0;
-}
 h3 .timestamp { float:none; display:block;}
 
  /* fixer une largeur maximale  de 100 % aux éléments potentiellement problématiques */
