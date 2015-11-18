@@ -157,7 +157,7 @@ a[hreflang]:after {
 body, .topnav, .nav1, .nav2, .content, .contentwrapper, .post-tools {
    width: auto;
    margin: auto ;
-   padding: 0;
+   padding: 3px;
  }
 
 /* adaptation d'éléments spécifiques */
