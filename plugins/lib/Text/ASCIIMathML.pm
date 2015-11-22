@@ -1,1 +1,1 @@
-/Users/barijaon/github/MultiMarkdown/bin/ASCIIMathML.pm
+/Users/barijaon/gitdirs/MultiMarkdown/bin/ASCIIMathML.pm
