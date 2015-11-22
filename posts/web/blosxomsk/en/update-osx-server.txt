@@ -16,7 +16,7 @@ My personal site has always been static. As soon as October 2003, I started usin
 
 My setup is derived from the standard [Blosxom starter kit](<$url />/web/blosxomsk/en/announcement_20040921.html "Announcement : Blosxom starter kit").
 
-I currently use Apple's OSX Server, which is available to me through Apple's Developer Program. Therefore, the `blosxom.cgi` script is installed inside `/Library/Server/Web/Data/CGI-Executables`. The `$datadir` variable in the script points to a public folder in my home directory. Inside this folder, the Unix group of `plugins/state/` and its content should be set to `_www`.
+I currently use Apple's OSX Server, which is available to me through Apple's Developer Program. Therefore, the `blosxom.cgi` script is installed inside `/Library/Server/Web/Data/CGI-Executables`. The `$basedir` variable in the script points to a public folder in my home directory. Inside this folder, the Unix owner of `plugins/state/` is set to `_www`, its group to `staff` and its permission is set to octal `770`.
 
 In the `/Library/Server/Web/Config/apache2/other` folder, I have a `blosxom.conf` file which just contains the following line :
 
