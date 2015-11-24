@@ -1,4 +1,4 @@
 $meta::bjrDescription = "Ça me fait rire... à peine salé" ;
 $meta::bjrStylesheet = "theme2";
 
-$meta::navigationLinks = qq#<a href="./humour/informatique.html" class="submenu" title="Blagues de geeks">Informatique</a>&nbsp;|&nbsp;<a href="./humour/hommes_femmes.html" class="submenu" title="Poires, pomme et pépins...">Hommes et femmes</a>&nbsp;|&nbsp;<a href="./humour/religion.html" class="submenu" title="Et Dieu dans tout ça ?">Religion</a># ;
+$meta::navigationLinks = qq#<a href="$blosxom::url/humour/informatique.html" class="submenu" title="Blagues de geeks">Informatique</a>&nbsp;|&nbsp;<a href="$blosxom::url/humour/hommes_femmes.html" class="submenu" title="Poires, pomme et pépins...">Hommes et femmes</a>&nbsp;|&nbsp;<a href="$blosxom::url/humour/religion.html" class="submenu" title="Et Dieu dans tout ça ?">Religion</a># ;
