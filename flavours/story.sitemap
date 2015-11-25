@@ -1,0 +1,4 @@
+  <url>
+    <loc>$fix_static_url::static_url$path/$fn.$blosxom::default_flavour</loc>
+    <lastmod>$yr-$mo_num-$da$rss10::T$hr$rss10::colon$min$rss10::colon$rss10::seconds$rss10::tz_offset</lastmod>
+  </url>

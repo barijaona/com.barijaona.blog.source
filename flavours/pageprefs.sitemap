@@ -1,0 +1,2 @@
+$blosxom::static_date_pages = 0;
+$blosxom::num_entries = 9999 ;
