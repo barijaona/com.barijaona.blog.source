@@ -1,0 +1,18 @@
+Outil de suivi
+meta-creation_date: 30/11/2015 04:25:14
+Version en français d'un outil disponible sur [Climate Talks Live](http://climatetalkslive.org "UN Climate Talks Live").
+
+<div id="shore-embed-219929"></div>
+<script type="text/javascript">(function(d, t) {
+var s = d.createElement(t), options = {
+id: "shore-embed-219929",
+src: "https://climatetalkslive.org/widgets/?page=all&autoresize=true&limit=20&title=Tweets%2520sur%2520la%2520COP21&font=Helvetica%20Neue&width=700&lang=fr&clang=fr&header=true&stats=true&color=4F93D5&logo=false",
+width: "700",
+height: "1000",
+autoresize: true};
+s.src = "https://climatetalkslive.org/static/js/embed.js";
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != "complete") if (rs != "loaded") return;
+try { se = new ShoreEmbed(); se.initialize(options); se.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, "script");</script>
