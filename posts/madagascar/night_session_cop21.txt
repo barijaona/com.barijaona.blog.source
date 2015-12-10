@@ -1,0 +1,38 @@
+Comment ça se termine une COP ?
+meta-creation_date: 10/12/2015 13:18:05
+
+En quenouille ou en feu d'artifice ? Comme prévu, la COP21 se transforme en marathon jour et nuit… Petit aperçu (qui dure quand même 3h14) ci-bas (choisissez la bande son originale ou la traduction simultanée).
+
+<div style="position:relative;margin:0;padding:0 0 61.3%;border:0;overflow:hidden;height:0;width:100%">
+    <iframe src="//player.meta-fusion.com/comite-de-paris-4th-meeting" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+</div>
+
+Cela se passait hier soir de 20H13 à 23h17. Je ne sais pas à quelle heure les plus courageux se sont couchés (ni même s'ils se sont couchés…).
+
+Les 99% les plus paresseux (dont moi) ont le droit de zapper : on peut par exemple prendre les 19 premières minutes [^4], et l'on finira avec les dix dernières minutes (à partir de 3:05:00).
+
+[^4]: pour voir successivement parler la présidence française, l'Afrique du Sud (qui parle au nom du groupe « G77 + Chine ») et la Suisse (au nom du « Groupe de l'Intégrité Environnementale »)
+
+Quelques décryptages : 
+
+- on trouvera des explications sur les principales alliances entre pays 
+[sur le site de l'ONU](http://unfccc.int/portal_francophone/essential_background/convention/convention_bodies/party_groupings/items/3273.php "Les groupes de Parties").
+- les « parties » ne se situent pas dans le bas-ventre mais désignent les États, en tant que signataires de la Convention cadre des Nations unies sur les Changements Climatiques[^1]
+- la formule « Indaba » fait référence à une réunion moins formelle qu'une grande réunion plénière.[^2]
+- une « informelle informelle » est une réunion en sous-sous-groupe (qui peut quand même réunir des dizaines de personnes…)
+
+Plus d'explications sur [ce chaos organisé ici](http://vlscop.vermontlaw.edu/2015/12/02/understanding-the-complex-organized-chaos-of-unfccc-negotiations/ "Understanding the Complex Organized Chaos of UNFCCC Negotiations" hreflang="en").
+
+[^1]: Négocié au Sommet de la Terre à Rio en 1992
+[^2]: À la base, l'Indaba est une assemblée traditionnelle des tribus xhosa et zoulous ; la formule est passée dans le volapuk des diplomates à travers l'influence de Desmond Tutu.
+
+Certains commentateurs externes, [comme là](http://m.leparisien.fr/environnement/cop21/cop21-l-ultimatum-des-africains-a-hollande-09-12-2015-5354339.php "COP21 : l'ultimatum des Africains à Hollande - Le Parisien") [^3], ne réalisent pas que le terme « communauté internationale » puisse avoir dans une COP un autre sens que celui un rien perverti qu'on lui donne généralement (au sens de [Barack et ses copains](http://www.rfi.fr/emission/20140312-gel-avoirs/ "RFI : Mamane")). Contrairement au Conseil de Sécurité de l'ONU, aucun pays n'a de droit de veto dans une COP, ou plutôt tous les pays ont des capacités de nuisance. Tous les pays du monde ont signé la Convention cadre des Nations unies, et la grande force de cette COP21 est qu'il avait été convenu lors de la réunion de Durban en 2011 qu'un accord _universel_ et ayant une valeur légale doit être conclu avant fin 2015.
+
+Dans ces conditions, les coalitions les plus larges ont une force inhabituelle. Le groupe « G77 + Chine » pèse lourd parce qu'il regroupe beaucoup de petits pays et qu'il reste globalement uni, bien que les intérêts ne soient pas tout à fait identiques.
+
+Vous me suivez toujours ? Pour rendre les choses encore plus compliquées, outre son appartenance au « G77 + Chine », Madagascar fait partie du groupe africain, du groupe des pays les moins avancés (PMA), du forum de la vulnérabilité et du groupe des vingt pays les pays vulnérables (« V20 »)… j'en passe et des meilleures.
+
+[^3]: « Ah c l'afrique qui gouverne le monde maintenant !! ont est pas dans la panade alors !!!! » (sic et re-sic)
+
+Cette [dépêche de Reuters](http://www.boursorama.com/actualites/cop21-les-principaux-points-durs-toujours-pas-tranches-a546b3e02d8c02d27b40c3da1e179f2b "COP21-Les principaux points durs toujours pas tranchés - sur boursorama.com") situe les principaux problèmes encore sur les différentes tables au stade actuel. La position de Madagascar est quant à elle assez bien résumée [dans cet article](http://www.madagascar-tribune.com/La-nouvelle-ebauche-ne-convient,21699.html "La nouvelle ébauche ne convient pas encore à la population malgache, sur Madagascar-Tribune.com") écrit par une [jeune observatrice](https://twitter.com/domoinapoete "Domoina Ratovozanany sur Twitter") qui a pu venir à Paris [grâce à un concours](http://articlesdedomoinaratovozanany.over-blog.com/2015/12/domoina-est-reporter-et-benevole-pour-la-cop-21-jactiv-ouest-france-fr-1er-decembre-2015.html "Domoina est reporter et bénévole pour la COP 21") et au soutien du PNUD.
+
