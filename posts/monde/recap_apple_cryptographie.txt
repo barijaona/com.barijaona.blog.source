@@ -1,0 +1,56 @@
+L'affaire Apple contre FBI
+meta-creation_date: 20/2/2016 14:50:02
+Pour éviter de trop encombrer mes comptes de réseaux sociaux avec une affaire qui me tient à cœur, je récapitulerai ici les liens qui aident à comprendre le contentieux en cours entre Apple et le FBI.
+
+Ce billet fera l'objet de mises à jour périodiques. J'essaierai de privilégier chaque fois que possible des liens vers des articles francophones, mais il est probable que la plupart des liens seront en anglais.
+
+- Un [résumé](http://www.lefigaro.fr/secteur/high-tech/2016/02/17/32001-20160217ARTFIG00104-apple-refuse-d-aider-a-debloquer-l-iphone-d-un-terroriste-malgre-l-ordre-d-un-juge.php "LeFgaro.fr :Apple refuse d'aider à débloquer l'iPhone d'un des auteurs de la tuerie de San Bernardino" hreflang="fr") des débuts de la polémique.
+
+### Mise en contexte politique : pourquoi chacun est concerné
+
+- [Article 12 de la Déclaration Universelle des Droits de l'Homme](http://www.un.org/fr/documents/udhr/#a12 "Site de l'ONU" hreflang="fr") :
+> « Nul ne sera l'objet d'immixtions arbitraires dans sa vie privée, sa famille, son domicile ou sa correspondance, ni d'atteintes à son honneur et à sa réputation. Toute personne a droit à la protection de la loi contre de telles immixtions ou de telles atteintes. »
+
+- À travers une récente interview du patron de la NSA, on notera cependant que, même après les révélations d'Edward Snowden et leurs conséquences, la NSA ainsi que la classe politique américaine continuent à considérer que la vie privée de ceux qui ne sont pas citoyens des États-Unis n'a guère d'importance. On pourra voir la séquence entre 6mn 56 et 9mn 45 de la [vidéo liée à cet article](http://www.lemonde.fr/pixels/article/2016/02/18/le-chiffrement-a-empeche-la-detection-des-attentats-de-paris-selon-le-chef-de-la-nsa_4867171_4408996.html "Le chiffrement a empêché la détection des attentats de Paris, selon la NSA") et apprécier la différence de traitement entre les deux catégories de personnes.
+
+- Coïncidence ? En Novembre dernier, le conseil national de sécurité US avait donné instruction aux agences gouvernementales de trouver des solutions pour [contourner les techniques de chiffrement](http://www.bloomberg.com/news/articles/2016-02-19/secret-memo-details-u-s-s-broader-strategy-to-crack-phones "Secret Memo Details U.S.’s Broader Strategy to Crack Phones - Bloomberg" hreflang="en").
+
+### Le positionnement politique d'Apple
+
+- Comme toute entreprise, Apple doit se conformer à la loi des pays où elle opère et doit coopérer avec la justice. Cependant, Apple a graduellement durci sa position au cours des derniers mois. Les causes les plus visibles de ce durcissement semblent être :
+	- les révélations d'Edward Snowden,
+	- la hausse du nombre de demandes reçues de la part des instances juridiques de différents pays (pour se faire une idée, voir les [rapports d'Apple](http://www.apple.com/fr/privacy/transparency-reports/ "Rapports de transparence d'Apple" hreflang=fr")),
+	- la crainte de se retrouver confronté à des dilemmes moraux lorsque ces demandes proviennent de pays peu démocratiques,
+	- la fragilité juridique de certaines de ces demandes, y compris parmi celles venant des États-Unis.
+
+- Dans une affaire précédente à New York, Apple a déjà entamé une [confrontation avec le gouvernement](http://www.nytimes.com/2016/02/19/technology/a-yearlong-road-to-a-standoff-with-the-fbi.html "Apple’s Line in the Sand Was Over a Year in the Making (New York Times)" hreflang="en") qui, entre autres questions, soulève celle de l'usage ambigü d'une loi datant du 18è siècle, le [All Writs Act](https://en.wikipedia.org/wiki/All_Writs_Act "Wikipedia" hreflang="en").
+
+- Mais Apple voit clairement que, plutôt que la contestation judiciaire, [la plus efficace des protections](http://www.apple.com/fr/privacy/government-information-requests/ "Apple : Confidentialité - Demande d'informations" hreflang="fr") face à tout mandat un peu scabreux est de s'être placé bien en amont des faits dans l'impossibilité matérielle de s'y conformer. D'où une plus grande prudence dans la collecte des données auprès des utilisateurs et un investissement important dans la sécurisation des appareils et des données, en particulier à travers l'utilisation du chiffrement.
+
+- Ce positionnement politique « <i>Vos données vous appartiennent, et n'appartiennent à personne d'autre</i> » pourrait aussi être vu comme un argument marketing visant à mettre en avant [l'avantage compétitif](http://kieranhealy.org/blog/archives/2016/02/18/walled-garden/ "k
+Kieran Healy : Walled Garden" hreflang="en") que donne à Apple la forte intégration entre le matériel et le logiciel qu'il développe. Ce serait cependant faire bien peu de cas du positionnement constant d'Apple en faveur des minorités et des [positions](http://www.bloomberg.com/news/articles/2014-10-30/tim-cook-speaks-up "Tim Cook Speaks Up - Bloomberg" hreflang="en") affichées publiquement par Tim Cook, le CEO d'Apple, [à différentes reprises](https://www.washingtonpost.com/opinions/pro-discrimination-religious-freedom-laws-are-dangerous-to-america/2015/03/29/bdb4ce9e-d66d-11e4-ba28-f2a685dc7f89_story.html?tid=a_inl "Tim Cook: Pro-discrimination ‘religious freedom’ laws are dangerous - Washington Post" hreflang="en").
+
+### L'enquête sur la tuerie de San Bernardino
+
+- Il y a de bonnes raisons de penser que, dans le cas présent, le FBI fait beaucoup plus de la politique que du travail d'enquête. Le FBI a déjà obtenu beaucoup de données et il est très probable que celles qui sont dans l'iPhone en question [ne lui apporteraient guère plus](https://medium.com/@thegrugq/feeble-noise-pollution-627acb5931a2#.asckscja8 "Feeble Noise Pollution - the grugq" hreflang="en").
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">FBI wants people to believe that Farook was using his work phone to contact other terrorist; not his private phone which he destroyed.</p>&mdash; the grugq (@thegrugq) <a href="https://twitter.com/thegrugq/status/700555611415556096">February 19, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Journalists: Crucial details in the <a href="https://twitter.com/FBI">@FBI</a> v. <a href="https://twitter.com/hashtag/Apple?src=hash">#Apple</a> case are being obscured by officials. Skepticism here is fair: <a href="https://t.co/lEVEvOxcNm">pic.twitter.com/lEVEvOxcNm</a></p>&mdash; Edward Snowden (@Snowden) <a href="https://twitter.com/Snowden/status/700823383961792512">February 19, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+- Parmi les données dont le FBI dispose, beaucoup ont d'ailleurs été fournies par Apple grâce notamment aux données stockées dans le nuage. Mais une mauvaise coordination entre le FBI et l'employeur de Syed Farook a entraîné la remise à zéro d'un mot de passe et [l'impossibilité de récupérer via iCloud](http://gizmodo.com/the-san-bernardino-terrorists-icloud-password-was-accid-1760158613 "The San Bernardino Terrorist's iCloud Password Was Accidentally Reset By His Employer (Gizmodo)" hreflang="en") les dernières mises à jour de données sur l'iPhone en question.
+
+
+### La bataille juridique qui s'annonce
+
+- La loi All Writs peut contraindre Apple à faire des efforts « raisonnables » pour aider les autorités. Mais la demande qui est faite à Apple [diffère fondamentalement des précédentes](http://www.zdziarski.com/blog/?p=5645 "A forensics expert describes the intricate legal burden and consequences of the FBI's request to Apple" hreflang="en") et il est très probable qu'Apple argumentera qu'il ne s'agirait plus là d'efforts raisonnables.
+
+- Dans l'affaire de New York qui est encore en cours, cet argument semble [avoir été pris en compte par un juge](https://www.eff.org/deeplinks/2015/10/judge-doj-not-all-writs "Judge to DOJ: Not All Writs" hreflang="en"). Ce même argument aurait plus de poids encore si la demande gouvernementale devait entraîner un recul de la sécurité pour tous les utilisateurs d'iPhone.
+
+### La bataille technique qui continue
+
+- La demande du FBI démontre que, même si elle améliore grandement la sécurité de l'utilisateur qui prend des précautions raisonnables, l'intégration entre matériel et logiciel pratiquée par Apple reste [encore insuffisante face à des cas comme celui-ci](http://daringfireball.net/linked/2016/02/17/ios-security-guide "John Gruber comments on Apple’s iOS security guide" hreflang="en"). L'on peut penser que les prochaines versions d'iOS ou les prochaines versions de l'iPhone iront [encore plus loin](https://www.mikeash.com/pyblog/friday-qa-2016-02-19-what-is-the-secure-enclave.html "NSBlog : What Is the Secure Enclave?" hreflang="en").
+
+- Un hôpital américain, le Hollywood Presbyterian Medical Center, a été obligé de [verser une rançon](http://www.zone-numerique.com/le-hollywood-presbyterian-medical-center-verse-une-rancon-de-17-000-en-bitcoins-aux-pirates.html "Le Hollywood Presbyterian Medical Center contraint de verser une rançon de 17 000 $ en bitcoins aux pirates" hreflang="fr") à des pirates informatiques. Démonstration s'il en était besoin qu'il serait fort malvenu de fragiliser la sécurité de l'utilisateur moyen et de laisser les malfrats profiter seuls d'un chiffrage fort.
+
+
