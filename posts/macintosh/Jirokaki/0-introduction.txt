@@ -1,0 +1,51 @@
+Projet Jirōkaki (次郎柿)
+meta-creation_date: 28/8/2016 19:58:53
+<img src="<$url /><$path />/vienna-3.png" width="128px" height="128px" style="float:left;" alt="Icône de Vienna RSS" />Étant devenu l'un des principaux [développeurs](https://github.com/ViennaRSS/vienna-rss/graphs/contributors "Contributors list on Github" hreflang="en") actuels (si ce n'est le principal développeur) de [Vienna RSS](http://www.vienna-rss.org "RSS/Atom reader for Mac OS X" hreflang="en"), j'ai été fort embêté en apprenant lors de la dernière [WWDC](https://fr.wikipedia.org/wiki/Worldwide_Developers_Conference "Worldwide Developers Conference sur Wikipedia") que mon Mac Mini fin 2009 ne serait pas supporté par macOS Sierra (macOS 10.12).
+
+<!-- more -->
+
+J'utilise par ailleurs un MacBook Pro qui lui reste supporté, mais ce Mac Mini demeure ma principale machine de développement. Malgré son âge, il s'agit aujourd'hui encore d'un ordinateur très agréable, après remplacement/rajout de quelques composants (mémoire poussée à 8 Go, remplacement du lecteur DVD par un SSD 240 Go pour créer un [FusionDrive](http://www.mac4ever.com/actu/75301_un-pas-a-pas-detaille-pour-creer-vos-propres-fusion-drive "Mac4Ever : Un pas à pas détaillé pour créer vos propres Fusion Drive") avec le disque dur d'origine de 320 Go).
+
+Si je n'avais pas le besoin de développer Vienna, je ne changerais pas mes habitudes et resterais un an ou deux sur OS X 10.11 en attendant d'ici là un éventuel coup de cœur pour une nouvelle machine. Mais lorsqu'on se sent responsable d'un logiciel avec quelques milliers d'utilisateurs, difficile d'ignorer l'évolution logicielle que représente Sierra.
+
+Il y a quelques hackeurs qui ont réussi [à faire fonctionner](http://forums.macrumors.com/threads/macos-10-12-sierra-unsupported-macs-thread.1977128/ "MacRumors : MacOS 10.12 Sierra Unsupported Macs Thread" hreflang="en") mon modèle de MacMini sous Sierra, avec cependant des limitations (WiFi non fonctionnel). J'ai fait quelques tests, mais ça ne m'a pas franchement convaincu et paru durable…
+
+Pas trop le choix, il faut renouveller plus drastiquement le matériel. Mais la réalité économique se rappelle à nous : dans la gamme Apple actuelle, difficile de composer un Mac Mini conforme à mes exigences minimales (FusionDrive) à moins de 1.000 ou 1.100 euros[^3]. Coté iMac, la même exigence nous amène à 1.370 euros minimum. À ces prix, des machines indubitablement très bien conçues, mais pas vraiment enthousiasmantes par rapport à mes attentes (processeur Intel 4è ou 5è génération, facultés d'évolutions ultérieures quasi-nulles).
+
+[^3]: Prix TTC France.
+
+Si l'on cherche à les acheter à Madagascar, le prix de ces machines est encore plus dissuasif. Je serais en Europe, il y aurait le <i lang="en">refurb</i>, voire l'occasion[^1] pour avoir plus de choix et optimiser le rapport qualité-prix. Mais ici, rien de tel…
+
+[^1]: En occasion, je me serais bien laissé tenter par un MacPro 5,1, modèle sorti en 2010 et légèrement rafraîchi en 2012. Je doute qu'Apple laisse tomber le support logiciel de ces machines avant un bon bout de temps…
+
+À ce moment là de mes réflexions, je suis tombé sur cet article de Nicolas Furno sur MacGeneration : [Et si je montais un hackintosh ?](http://www.macg.co/mac/2016/07/et-si-je-montais-un-hackintosh-94929 "MacGeneration : article du 18 juillet 2016") J'y retrouve un questionnement très semblable au mien, et le [long fil du forum](http://forums.macg.co/threads/et-si-je-montais-un-hackintosh.1283051/ "Discussion dans 'Customisation et hackintosh' du forum MacG") confirme les avantages et inconvénients du hackintoshing : 
+
+- plaisir de configurer une machine à son goût,
+- longues heures (voire semaines) pour bien faire marcher le tout, avec parfois des manquements frustrants,
+- grosses inquiétudes lors des mises à jour logicielles.
+
+À la lecture du forum, et à réfléchir au sujet, j'arrive à une conclusion : eu égard à la qualité des composants et de leur assemblage, les Macs <i lang="en">desktop</i> ne sont pas si chers, mais c'est leur philosophie qui est bien particulière. La compacité qui a tout son sens sur un portable a moins d'intérêt sur un ordinateur de bureau. Souvent, il sera plus rationnel de payer un peu plus, prendre un Mac portable et lui brancher un écran externe et quelques périphériques.
+
+Mais si l'on veut profiter des qualités de macOS sur une machine de bureau performante et évolutive tant sur le plan logiciel que matériel, il n'y a pas de choix dans la gamme Apple actuelle. Ce marché là est devenu un peu confidentiel, et d'ailleurs la plupart des grands constructeurs ne s'y intéressent plus guère. Les <i lang="en">gamers</i> sont quasiment seuls à tirer la demande, et ils sont plutôt sous Windows…
+
+Me voici donc un rien contraint de m'orienter vers le hackintosh. D'un point de vue juridique et moral, ça pose quelques questions. La clause dans le contrat de licence macOS qui interdit de faire tourner ce logiciel sur du matériel non Apple fait débat : s'agit-il ou non d'une vente liée, contraire au droit de la consommation ? En tout cas, je précise que : 
+
+- je garde un "vrai" Macintosh à côté du futur hackintosh,
+- je paie annuellement le logiciel à travers le programme développeurs, donc il n'y a pas de piratage du logiciel mais du « <i lang="en">hacking</i> » de celui-ci,
+- l'usage que je ferai de cette machine et du logiciel restera strictement personnel et non commercial,
+
+ce qui me convainc qu'il n'y aura pas de préjudice pour Apple.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Diospyros_kaki_20101123_d.jpg/320px-Diospyros_kaki_20101123_d.jpg" width="320px" height="240px" style="float:right;" title="Photo par Batholith (Travail personnel) [Domaine public], via Wikimedia Commons" alt="Diospyros kaki Jiro" />
+Pour conclure, j'ai fini par trouver un nom au projet. Par glissements successifs, de Macintosh, puis Hackintosh, puis Hacky, l'on arrive relativement facilement à Kaki, ce qui dans le contexte est d'autant plus tentant qu'on trouve assez couramment à Madagascar des « [Kakis pomme](http://www.pepinieredubosc.fr/kaki/ "La Pépinière du Bosc") ». Va donc pour le Jirōkaki ou [次郎柿](https://ja.wikipedia.org/wiki/次郎柿 "Wikipedia en Japonais" hreflang="ja"), le fruit d'une des variétés du [plaqueminier](https://fr.wikipedia.org/wiki/Plaqueminier "Plaqueminier sur Wikipedia en français") qui aura le mérite :  
+
+- d'évoquer la couleur orange chère à Vienna et à MacGeneration,
+- de rappeler qu'il y a autant de confusion possible dans le monde des PCs que [dans le monde des kakis](http://www.fruitiers-rares.info/articles45a50/article45-confusions-appellations-Diospyros-kaki.html "Confusions d'appellation des variétés de Diospyros kaki, par François Drouet")
+- de faire croiser les doigts pour qu'il n'y ait pas de [délestage](http://www.madagascar-tribune.com/-Energie-.html "Quelques articles…") pendant les phases d'installation[^2].
+
+[^2]: <i lang="mg">Jiro</i> veut dire « lumière » en malgache. Jirama est le nom de la compagnie nationale d'électricité.
+
+On retrouvera ci-après les différentes phases du projet (au fur et à mesure qu'elles seront écrites) : 
+ 
+- [le choix du matériel](<$url /><$path />/1-choix-materiel.html "La démarche de sélection et de commande du matériel")
+

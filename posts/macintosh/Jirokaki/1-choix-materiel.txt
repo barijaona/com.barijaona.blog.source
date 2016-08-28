@@ -1,0 +1,41 @@
+Jirōkaki, le choix du matériel
+meta-creation_date: 28/8/2016 22:56:05
+[La démarche de fabriquer un hackintosh ayant été expliquée](<$url /><$path />/0-introduction.html "Projet Jirōkaki"), le moment semble venu d'expliquer le choix du matériel.
+
+<!-- more -->
+
+J'ai d'abord été visiter de long en large [le site de l'importateur officiel de Gigabyte à Madagascar](http://madplus.com "Madplus Company"), dont le nom était un clin d'œil parfait, me donnant fortement envie de remplacer un "d" par la lettre la précédant dans l'alphabet pour retrouver ma folle jeunesse… On ne trouve pas sur ce site les matériels les plus récents de la gamme Gigabyte, mais cela ne m'aurait pas gêné outre mesure, la compatibilité pouvant être plus facilement assurée avec des matériels déjà bien connus. Et si les prix pouvaient être bons, qu'aurait demandé le peuple ?
+
+Malheureusement, Madplus n'a pas daigné répondre à mon mail de demande de prix. Je suppose que leur site internet ne reflète pas en temps réel leur stock disponible, d'où leur manque d'empressement, mais je ne me voyais pas faire des navettes pendant plusieurs samedi vers leur magasin d'Ampefiloha pour peaufiner ma configuration au milieu d'une petite foule de clients. Composer une liste de composants pour un hackintosh ne se fait pas dans la précipitation, surtout lorsque l'on débute comme moi.
+
+Ma seconde piste a été un [magasin local pour gamers](http://pcupgrade.mg "PC Upgrade"). Bons contacts par mails pour leur demander d'importer une liste de composants sur mesure, mais :
+
+- pour limiter les frais, ils m'ont fortement recommandé d'utiliser un des boitiers disponibles sur leur site, mais je n'ai eu aucun coup de cœur alors que la visite du site de Madplus avait contribué à me faire tomber amoureux des Fractal Design Define ;
+- il m'est désormais impossible de me passer de [Continuité et de Hand-Off](http://www.macg.co/os-x/2014/06/os-x-yosemite-appels-telephoniques-airdrop-et-hand-82368 "Présentation en Juin 2014"), et il est évident qu'Apple va continuer à renforcer ce point. Cela plaide pour une carte Wifi/Bluetooth d'origine Apple, mais aucun de mes contacts jusqu'ici ne semblait intéressé à commander ce genre d'élément.
+
+Si l'on doit importer soi-même un élément essentiel, pourquoi ne pas le faire pour l'ensemble ? La chance aidant (beaucoup), j'ai fini par tomber parmi mes relations sur une société important régulièrement du matériel informatique. Ils ont accepté de faire rentrer mes desideratas dans leur flux logistique. Il a fallu néanmoins faire quelques adaptations en fonction des disponibilités, ce qui nous a amené à la configuration finale suivante :
+
+[Configuration matérielle]
+|:------|:------------------------------------------|
+__Type de composant__|__Modèle__
+|Carte-mère| [Gigabyte GA-Z170X-Gaming 5](https://www.grosbill.com/4-gigabyte_ga_z170x_gaming_5_-656288-informatique-carte_mere_intel) |
+|Processeur| [Intel Skylake Core i5-6600K 3.5 - 3.9 GHz CPU](https://www.grosbill.com/4-intel_intel_core_i5_6600k_3_5ghz-654494-informatique-_processeur)|
+|Carte graphique	|[MSI GTX960 GAMING 2G](https://www.grosbill.com/4-msi_nvidia_gtx960_gaming_2g_-644218-informatique-geforce_gtx_pour_le_gaming)|
+|RAM|[HyperX FURY 16Go (2x8Go) 2666MHz DDR4 CL15 1.2V Black Hyper X - HX426C15FBK2/16](https://www.grosbill.com/4-kingston_fury_16go_2x8go_2666mhz_ddr4_cl15_1_2v_black_hyper_x_-656619-informatique-memoire_ddr4)|
+|Boîtier|[Fractal Design Define R5 Titanium](http://www.ldlc.com/fiche/PB00178926.html)|
+|Alimentation	|[be quiet! Straight Power 10 CM 600W](http://www.amazon.fr/dp/B00NC4H3NS)|
+|Ventilateur CPU|[Cooler Master Hyper 412s](https://www.grosbill.com/4-cooler_master_hyper_412s_-152413-informatique-ventilateur_radiateur)|
+|Carte sans fil|[Carte Combo ABWB 802.11 AC Bluetooth 4 BCM94360CD](http://www.amazon.fr/dp/B00MBP25UK)|
+|SSD|[Crucial  MX200 500 Go - 2.5 pouces - 7mm - SATA](https://www.grosbill.com/4-crucial_ssd_mx200_2_5_pcs_500_go_sata_7_mm_-643841-informatique-_ssd)|
+|Disques dur|[Western Digital Blue 3 To WD30EZRZ](https://www.grosbill.com/4-western_digital_wd_blue_3_to_wd30ezrz_-661601-informatique-_disque_dur)|
+
+Certains choix ont été guidés par ceux de [Nicolas Furno](http://www.macg.co/mac/2016/07/monter-un-hackintosh-choix-des-composants-95027 "Monter un hackintosh : choix des composants"), qui s'est lui-même inspiré d'un article de [Mike Rundle](https://medium.com/swlh/building-my-1-200-hackintosh-49a1a186241e#.bau6be9ru "Building My $1,200 Hackintosh" hreflang="en"), tout ce petit monde regardant par ailleurs d'assez-près [les recommandations de TonyMacX86](http://www.tonymacx86.com/buyersguide/july/2016 "Building a CustoMac: Buyer's Guide July 2016" hreflang="en").
+
+Pour ma part, tout en lisant [le fil lancé par Nicolas sur le forum de MacGeneration](http://forums.macg.co/threads/et-si-je-montais-un-hackintosh.1283051/ "Discussion dans 'Customisation et hackintosh' du forum MacG"), je me suis beaucoup intéressé aux [recommandations de ChoixPC pour un PC silencieux](http://www.choixpc.com/silence.htm "Pour un PC aussi silencieux que possible"), dont j'extrais quelques lignes :
+
+- boitier : <cite>« si votre budget vous le permet, un Fractal Design R5 sera des plus approprié : il s'agit certainement du meilleur produit pour assembler facilement une configuration discrète, performante et évolutive »</cite>
+- ventilateur de CPU : <cite>« dans un ordre croissant de performances, les Cooler Master Hyper 212 X, Be Quiet Pure Rock, Cooler Master Hyper 412s... »</cite>
+- carte graphique : <cite>« les modèles Nvidia Asus, iChill et MSI "Gaming" sont souvent les plus discrets d'origine. Les modèles Nvidia récents sont de plus refroidis passivement en bureautique/Internet/lecture vidéo voire en faible charge dans les jeux et leur ventilation active, qui se déclenche donc lorsque la température augmente, reste discrète. »</cite>
+- alimentation : après quelques hésitations, mon coté écolo m'a orienté vers une alimentation certifiée Gold. J'espère que 600 watts, ce ne sera pas trop.
+
+Bref, les dés sont jetés. À l'heure qu'il est, le matériel a été livré au grand complet chez le transitaire en région parisienne, et je croise les doigts en attendant son arrivée… ce qui me laisse tout le temps pour préparer la suite.
