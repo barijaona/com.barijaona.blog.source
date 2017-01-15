@@ -6,4 +6,4 @@ N'empêche que je trouve qu'il n'y a pas que les Autrichiens qui ont besoin de c
 
 (Ce genre de discours est tellement inaudible de nos jours qu'il faut cliquez sur l'icône de haut-parleur pour l'entendre)
 
-<iframe src="http://www.ultimedia.com/deliver/generic/iframe/mdtk/01637594/src/u0mrvv/zone/3/showtitle/1/" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" hspace="0" vspace="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" width="560" height="410"></iframe>
+<iframe src="//www.ultimedia.com/deliver/generic/iframe/mdtk/01637594/src/u0mrvv/zone/3/showtitle/1/" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" hspace="0" vspace="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true" width="560" height="410"></iframe>
