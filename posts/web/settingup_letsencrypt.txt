@@ -17,12 +17,14 @@ Certbot also supports these kinds of setups, but automatic renewal [seems less m
 
 Being lazy, I chose certbot as it seemed easier to setup, and hopes it will continue to mature.
 
-### certbot installation
+### Installation of certbot
 
 Quite easy, since I already had [Homebrew](http://brew.sh "Package manager for macOS") installed.
 
 	brew update
 	brew install certbot
+
+### Setting up a certificate
 
 I tested first:
 
@@ -49,6 +51,8 @@ and imported the certificate into macOS keychain :
 	-T /Applications/Server.app/Contents/ServerRoot/System/Library/CoreServices/ServerManagerDaemon.bundle/Contents/MacOS/servermgrd
 
 Afterwards, I launch Server.app, went to the Certificates section, and selected the new certificate.
+
+### Autorenewal
 
 Afterward, I thought I could trust Cyril Picard's script found at https://gist.github.com/cyrilpic/4504527de3a7b08ed84e :
 
