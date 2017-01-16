@@ -1,0 +1,127 @@
+DO encrypt
+meta-creation_date: 16/1/2017 07:23:26
+This is a reminder for myself, on how I setup an [Let's Encrypt](https://letsencrypt.org "Free, automated, and open certificate authority brought to you by the non-profit Internet Security Research Group (ISRG)") SSL/TLS certificate on a [macOS server test](http://blog.barijaona.com/web/blosxomsk/en/update-osx-server.html "Using Blosxom starter kit with Apple's OS X Server") machine. Because we are in 2017, and I got tired of getting web browser warnings due to use of self-signed certificates.
+
+<!-- more -->
+
+I considered which Let's Encrypt client to use on my machine : [certbot](http://certbot.eff.org "EFF's tool"), the currently recommended client, or [dehydrated](https://github.com/lukas2511/dehydrated "letsencrypt/acme client implemented as a shell-script"), the formerly recommended one ?
+
+I was tempted by dehydrated because : 
+
+- it's lighter;
+- it has supported the [dns-01 challenge](https://github.com/lukas2511/dehydrated/blob/master/docs/dns-verification.md "Verification through specific TXT DNS records") for a longer time, with support for automatic renewal through [AnalogJ/lexicon](https://github.com/AnalogJ/lexicon "Python tool to manipulate DNS records") and this [hook script](https://github.com/AnalogJ/lexicon/blob/master/examples/dehydrated.default.sh "Bash script for dehydrated");
+- this could be handy for intranet setups which aren't accessible from the internet;
+- Gandi is the DNS provider I use, and it has an [API](https://www.gandi.net/admin/api_key "API key") which supports this well.
+
+Certbot also supports these kinds of setups, but automatic renewal [seems less mature](https://serverfault.com/questions/750902/how-to-use-lets-encrypt-dns-challenge-validation/812038 "How to use Let's Encrypt DNS challenge validation? (serverfault.com)") for the moment.
+
+Being lazy, I chose certbot as it seemed easier to setup, and hopes it will continue to mature.
+
+### certbot installation
+
+Quite easy, since I already had [Homebrew](http://brew.sh "Package manager for macOS") installed.
+
+	brew update
+	brew install certbot
+
+I tested first:
+
+	sudo certbot certonly --webroot -w /Library/Server/Web/Data/Sites/Default -d test.example.com --test-cert
+
+
+Once this seemed OK, I generated a real certificate:
+
+	sudo certbot certonly --webroot -w /Library/Server/Web/Data/Sites/Default -d test.example.com
+
+
+Then, I converted the certificate for macOS:
+
+	sudo openssl pkcs12 -export -inkey /etc/letsencrypt/live/test.example.com/privkey.pem \
+	-in /etc/letsencrypt/live/test.example.com/cert.pem \
+	-certfile /etc/letsencrypt/live/test.example.com/fullchain.pem \
+	-out /etc/letsencrypt/live/test.example.com/letsencrypt_sslcert.p12 -passout pass:topsecret
+
+
+and imported the certificate into macOS keychain :
+
+	sudo security import /etc/letsencrypt/live/test.example.com/letsencrypt_sslcert.p12 \
+	-f pkcs12 -k /Library/Keychains/System.keychain -P topsecret \
+	-T /Applications/Server.app/Contents/ServerRoot/System/Library/CoreServices/ServerManagerDaemon.bundle/Contents/MacOS/servermgrd
+
+Afterwards, I launch Server.app, went to the Certificates section, and selected the new certificate.
+
+Afterward, I thought I could trust Cyril Picard's script found at https://gist.github.com/cyrilpic/4504527de3a7b08ed84e :
+
+<script src="https://gist.github.com/cyrilpic/4504527de3a7b08ed84e.js"></script>
+ 
+
+This script can be used two ways :
+
+- getting a new certificate : `sudo certbot4osx new test.example.com /Library/Server/Web/Data/Sites/Default`
+- renewing a certificate : `sudo certbot4osx renew`
+
+To automate the renewal process, I setup a launch daemon. Here is the content of the `/Library/LaunchDaemons/com.github.cyrilpic.certbot4osx.plist` file I got.
+
+
+	<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+	<plist version="1.0">
+	<dict>
+		<key>Disabled</key>
+		<false/>
+		<key>Label</key>
+		<string>com.github.cyrilpic.certbot4osx</string>
+		<key>ProcessType</key>
+		<string>Background</string>
+		<key>EnvironmentVariables</key>
+		<dict>
+			<key>PATH</key>
+			<string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin</string>
+		</dict>
+		<key>Program</key>
+		<string>/usr/local/bin/certbot4osx</string>
+		<key>ProgramArguments</key>
+		<array>
+			<string>/usr/local/bin/certbot4osx</string>
+			<string>renew</string>
+		</array>
+		<key>StartCalendarInterval</key>
+		<array>
+			<dict>
+				<key>Hour</key>
+				<integer>20</integer>
+				<key>Minute</key>
+				<integer>37</integer>
+			</dict>
+			<dict>
+				<key>Hour</key>
+				<integer>6</integer>
+				<key>Minute</key>
+				<integer>48</integer>
+			</dict>
+		</array>
+	</dict>
+	</plist>
+
+
+For security reason, the involved files (the .plist and certbot4osx) must be set with owner `root`, group owner `wheel`, and mod 755.
+
+The daemon must be launched for the first time this way :
+
+	sudo launchctl load -w /Library/LaunchDaemons/com.github.cyrilpic.certbot4osx.plist
+
+
+and one can ensure that the result is OK by peeking certbot's log :
+
+	sudo cat /var/log/letsencrypt/letsencrypt.log
+
+
+If the daemon has problem launching, adding entries like these ones in the .plist can help understanding the issue :
+
+
+	<key>StandardErrorPath</key>
+	<string>/tmp/com.github.cyrilpic.certbot4osx.stderr</string>
+	<key>StandardOutPath</key>
+	<string>/tmp/com.github.cyrilpic.certbot4osx.stdout</string>
+
+
