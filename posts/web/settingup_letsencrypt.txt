@@ -38,17 +38,12 @@ Once this seemed OK, I generated a real certificate:
 
 Then, I converted the certificate for macOS:
 
-	sudo openssl pkcs12 -export -inkey /etc/letsencrypt/live/test.example.com/privkey.pem \
-	-in /etc/letsencrypt/live/test.example.com/cert.pem \
-	-certfile /etc/letsencrypt/live/test.example.com/fullchain.pem \
-	-out /etc/letsencrypt/live/test.example.com/letsencrypt_sslcert.p12 -passout pass:topsecret
+	sudo openssl pkcs12 -export -inkey /etc/letsencrypt/live/test.example.com/privkey.pem -in /etc/letsencrypt/live/test.example.com/cert.pem -certfile /etc/letsencrypt/live/test.example.com/fullchain.pem -out /etc/letsencrypt/live/test.example.com/letsencrypt_sslcert.p12 -passout pass:topsecret
 
 
 and imported the certificate into macOS keychain :
 
-	sudo security import /etc/letsencrypt/live/test.example.com/letsencrypt_sslcert.p12 \
-	-f pkcs12 -k /Library/Keychains/System.keychain -P topsecret \
-	-T /Applications/Server.app/Contents/ServerRoot/System/Library/CoreServices/ServerManagerDaemon.bundle/Contents/MacOS/servermgrd
+	sudo security import /etc/letsencrypt/live/test.example.com/letsencrypt_sslcert.p12 -f pkcs12 -k /Library/Keychains/System.keychain -P topsecret -T /Applications/Server.app/Contents/ServerRoot/System/Library/CoreServices/ServerManagerDaemon.bundle/Contents/MacOS/servermgrd
 
 Afterwards, I launch Server.app, went to the Certificates section, and selected the new certificate.
 
