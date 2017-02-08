@@ -39,3 +39,5 @@ Pour ma part, tout en lisant [le fil lancé par Nicolas sur le forum de MacGener
 - alimentation : après quelques hésitations, mon coté écolo m'a orienté vers une alimentation certifiée Gold. J'espère que 600 watts, ce ne sera pas trop.
 
 Bref, les dés sont jetés. À l'heure qu'il est, le matériel a été livré au grand complet chez le transitaire en région parisienne, et je croise les doigts en attendant son arrivée… ce qui me laisse tout le temps pour préparer la suite.
+
+Suite : [premier bilan et résumé](<$url /><$path />/2-premier-bilan.html "Version 1.0").

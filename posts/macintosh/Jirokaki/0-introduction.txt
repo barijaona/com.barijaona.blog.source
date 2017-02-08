@@ -48,4 +48,5 @@ Pour conclure, j'ai fini par trouver un nom au projet. Par glissements successif
 On retrouvera ci-après les différentes phases du projet (au fur et à mesure qu'elles seront écrites) : 
  
 - [le choix du matériel](<$url /><$path />/1-choix-materiel.html "La démarche de sélection et de commande du matériel")
+- [premier bilan et résumé](<$url /><$path />/2-premier-bilan.html "Version 1.0")
 
