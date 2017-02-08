@@ -182,7 +182,7 @@ J'invite ceux que ça intéresse à regarder de plus près [ma configuration de 
 
 Dernier problème à signaler : iBooks et (plus gênant pour moi) Xcode/Developer Tool/Instruments affichent des fenêtres transparentes lorsque la carte graphique Nvidia est utilisée.
 
-C'est un problème qui n'est pas spécifique aux hacks ([il apparaît avec les anciens MacPro](https://discussions.apple.com/thread/7683640?start=0&tstart=0 "Apple Support Communities : IBooks book window shows no content" hreflang="en")) et [il paraît](https://tonymacx86.com/threads/nvidia-web-driver-ibooks-bug.203229/ "NVIDIA Web Driver iBooks Bug" hreflang="en") que Nvidia travaille dessus en liaison avec Apple, mais pour l'heure c'est assez agaçant…
+C'est un problème qui n'est pas spécifique aux hacks ; [il apparaît avec les anciens MacPro](https://discussions.apple.com/thread/7683640?start=0&tstart=0 "Apple Support Communities : IBooks book window shows no content" hreflang="en") et [il paraît](https://tonymacx86.com/threads/nvidia-web-driver-ibooks-bug.203229/ "NVIDIA Web Driver iBooks Bug" hreflang="en") que Nvidia travaille dessus en liaison avec Apple, mais pour l'heure c'est assez agaçant…
 
 La solution temporaire est de forcer l'activation de la carte graphique intégrée Intel (iGPU) pour qu'elle soit à la disposition de Metal :
 
