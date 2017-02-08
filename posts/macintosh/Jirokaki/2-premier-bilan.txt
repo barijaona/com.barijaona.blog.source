@@ -126,7 +126,7 @@ Il faut :
 
 [^3]: Le contrôleur de macOS ne peut pas gérer plus de 15 ports, et une connexion physique USB3 prend deux ports logiques : une en USB2 et une en USB3.
 
-### 12. iMessage, iCloud, AppStore…
+#### 12. iMessage, iCloud, AppStore…
 
 En principe, votre interface réseau `en0` correspond à la carte Intel. Informations Système d'Apple devrait afficher quelque chose comme cela :
 
@@ -138,7 +138,7 @@ Lancez Clover Configurator, ouvrez le fichier config.plist du dossier EFI/Clover
 
 Afin de lire certains contenus protégés, il faut vérifier que l'on a le renommage du device [HECI en IMEI](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/blob/7b3032e1d918301e89016880121ebc74a3770405/config.plist#L38-L51 "Source config.plist dans Github").
 
-### 13. États du processeur et veille
+#### 13. États du processeur et veille
 
 L'économie d'énergie est peut-être le sujet qui m'a demandé le plus de temps et… d'énergie dans ce projet.
 
@@ -178,7 +178,7 @@ Ceci étant, tout semble maintenant fonctionner normalement (avec les quelques e
 
 J'invite ceux que ça intéresse à regarder de plus près [ma configuration de Clover](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/releases/tag/v%2F1.0 "version 1.0") et mes [réglages de BIOS](https://www.flickr.com/photos/barijaona/albums/72157679912387936 "Album photo sur Flickr").
 
-### 14. Bug nVidia avec iBooks
+#### 14. Bug nVidia avec iBooks
 
 Dernier problème à signaler : iBooks et (plus gênant pour moi) Xcode/Developer Tool/Instruments affichent des fenêtres transparentes lorsque la carte graphique Nvidia est utilisée.
 
@@ -193,7 +193,7 @@ La solution temporaire est de forcer l'activation de la carte graphique intégr�
 	
 Pour ne pas avoir de problème de sortie de veille, mettre dans config.plist/KernelAndKextPatches/KextsToPatch des [modifications de framebuffers](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/blob/7b3032e1d918301e89016880121ebc74a3770405/config.plist#L198-L237 "Lignes 198 à 237") trouvées chez Toleda pour macOS 10.11.4 ou supérieur avec la carte graphique Intel HD530.
 
-### 15. Liens utiles
+#### 15. Liens utiles
 
 - Mes travaux en cours : [https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/)
 - Configuration de BIOS et autres photos : [https://www.flickr.com/photos/barijaona/albums/72157679912387936](https://www.flickr.com/photos/barijaona/albums/72157679912387936)
