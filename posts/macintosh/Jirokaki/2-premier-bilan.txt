@@ -21,7 +21,7 @@ La volonté délibérée était d'adapter le matériel à macOS, et non pas tent
 
 Cela exigeait de comprendre autant que possible ce que je faisais, et de ne pas faire confiance à des outils automatiques qui auraient pu modifier des fichiers système ou installer des tas de choses à des endroits mystérieux. Les principaux outils qui ont été utilisés étaient [Clover](https://sourceforge.net/projects/cloverefiboot/ "Clover EFI Boot at Sourceforge" hreflang="en") et de quoi éditer son fichier `config.plist` : tout bêtement mon éditeur de texte préféré et, très occasionnellement, Xcode lorsqu'il fallait saisir une data sous forme de données hexadécimales. Ah, si, il faut aussi utiliser le terminal et la commande [`diskutil`](http://osxdaily.com/2013/05/13/mount-unmount-drives-from-the-command-line-in-mac-os-x/ "Mount & unmount drives from the command line in Mac OS X" hreflang="en")….
 
-Avec mes réflexes de programmeur, j'ai eu la bonne inspiration de suivre le dossier Clover avec un outil de version. C'était peut-être la meilleure décision de l'ensemble du montage, car il y eut quand même pas mal de remises en cause, de doutes et d'interrogation. Avoir un [historique Git](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commits/master "CLOVER_GA-Z170X-Gaming5 on Github" hreflang="en") m'a encouragé à être plus aventureux et m'a fait gagner beaucoup de temps, mais montre aussi quelques errements sur lesquels je n'entrerai pas trop dans les détails ici.
+Avec mes réflexes de programmeur, j'ai eu la bonne inspiration de suivre le dossier Clover avec un outil de gestion de version. C'était peut-être la meilleure décision de l'ensemble du montage, car il y eut quand même pas mal de remises en cause, de doutes et d'interrogation. Avoir un [historique Git](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commits/master "CLOVER_GA-Z170X-Gaming5 on Github" hreflang="en") m'a encouragé à être plus aventureux et m'a fait gagner beaucoup de temps, mais montre aussi quelques errements sur lesquels je n'entrerai pas trop dans les détails ici.
 
 Quoi qu'il en soit, le résultat actuel est à la hauteur de mes attentes, et je suis persuadé que sur le long terme, une telle approche méthodique et précautionneuse est la plus rentable.
 
@@ -49,8 +49,8 @@ L'iMac17,1 (iMac Retina 27 pouces de fin 2015) est plus récent de deux ans, don
 
 Par contre, choisir l'iMac17,1 comme base de configuration du SMBios présente l'inconvénient d'avoir à affronter un problème d'écran noir au démarrage de macOS. Ce problème se contourne par un [rajout dans config.plist/KernelAndKextPatches/KextsToPatch](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/8692b99464e0f5a7bc2d83c939074b5ee5e79331 "Commit sur Github"), mais ce contournement[^1] représente un risque légèrement accru (est-ce que ça continuera de marcher à l'avenir ?) et pourrait me compliquer la vie en cas de réinstallation ou de démarrage sur la partition de secours Recovery HD.
 
-[^1]: Information à l'usage des "sachants" : cette solution alternative à AGDPfix présente l'avantage de résider entièrement dans le dossier Clover :
-- elle n'a donc pas besoin d'être réappliquée lors des mises à jour macOS,
+[^1]: Information à l'usage des "sachants" : cette solution alternative à AGDPfix présente l'avantage de résider entièrement dans le dossier Clover :  
+- elle n'a donc pas besoin d'être réappliquée lors des mises à jour macOS,  
 - elle permet de maintenir actif en permanence la fonction SIP.
 
 Le second doute est lié au choix de la carte graphique elle-même. Mon choix s'était porté sur une carte silencieuse à base de chipset Nvidia GTX960 et j'en suis techniquement très satisfait. C'était aussi la solution de facilité pour un hackintosh, notamment pour avoir une veille qui fonctionne bien (dans ce domaine, il y a des problèmes connus et non encore résolus avec les cartes AMD ainsi qu'avec les GPU Intel HD530).
@@ -77,28 +77,28 @@ Sur mes "vrais" Macs de bureau, cette fonction d'hibernation avait marché un te
 
 Je me suis basé sur un [tutoriel paru chez MacBidouille](http://forum.macbidouille.com/index.php?showtopic=391275 "Créer une clé d'installation avec le bootloader Clover"), mais en simplifiant drastiquement l'étape 3 en utilisant [Flash Drive Maker](http://fljagd.fr/falsh-drive-maker-v-1-1/ "fljagd.fr").
 
-Les drivers suivants, à installer dans EFI/CLOVER/kexts/Other activent les cartes Ethernet : [IntelMausiEthernet](http://www.insanelymac.com/forum/files/file/396-intelmausiethernet/ "InsanelyMac" hreflang="en") pour la LAN1 et [AtherosE2200Ethernet](http://www.insanelymac.com/forum/files/file/313-atherose2200ethernet/ "InsanelyMac" hreflang="en") pour la LAN2.
+Les drivers suivants, à installer dans EFI/CLOVER/kexts/Other, activent les cartes Ethernet : [IntelMausiEthernet](http://www.insanelymac.com/forum/files/file/396-intelmausiethernet/ "InsanelyMac" hreflang="en") pour la LAN1 et [AtherosE2200Ethernet](http://www.insanelymac.com/forum/files/file/313-atherose2200ethernet/ "InsanelyMac" hreflang="en") pour la LAN2.
 
 #### 7. Contourner des bugs liés au BIOS
 
 J'ai constaté deux bugs avec ma version de BIOS :
 
-- il faut désactiver l'affichage de la jolie mais inutile LED rouge présente sur la carte mère
+- il faut désactiver l'affichage de la jolie mais inutile LED rouge présente sur la carte mère,
 - pour résoudre la multiplication sauvage d'entrées de boot dans le BIOS, [il faut faire du ménage à travers le shell UEFI puis renommer le dossier EFI/BOOT](https://sourceforge.net/p/cloverefiboot/tickets/226/#d1a9/0222/8cc1 "Sourceforge ticket #226" hreflang="en") (de façon à ce qu'il ne soit pas actif et qu'EFI/CLOVER prenne la main).
 
 <i lang="en">Your mileage may vary…</i>
 
 #### 8. Sauvegarder et décompiler les DSDT/SSDT d'origine
 
-C'est une étape préliminaire pour étudier l'état de sa machine et qui pourra servir de point de départ plus tard afin d'affiner plus finement que ne le permet Clover certains réglages.
+C'est une étape préliminaire pour étudier l'état de sa machine et qui pourra servir de point de départ plus tard afin d'ajuster plus finement que ne le permet Clover certains réglages.
 
 On se réfèrera au début de [ce guide](http://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/ "Patching LAPTOP DSDT/SSDTs" hreflang="en"). En résumé :
 
-- dans CLOVER, on sauvegarde les DSDT et SSDT d'origine avec la touche F4
-- on recopie les DSDT.aml et SSDT*.aml (__et ceux là uniquement !!__) de EFI/CLOVER/origin dans un dossier vide
-- on ajoute le fichier refs.txt
-- on décompile en bloc avec `iasl -da -dl -fe refs.txt *.aml`
-- on obtient les fichiers .dsl qui pourront être utilisés avec à MaciASL
+- dans CLOVER, on sauvegarde les DSDT et SSDT d'origine avec la touche F4,
+- on recopie les DSDT.aml et SSDT*.aml (__et ceux là uniquement !!__) de EFI/CLOVER/origin dans un dossier vide,
+- on ajoute le fichier refs.txt,
+- on décompile en bloc avec `iasl -da -dl -fe refs.txt *.aml`,
+- on obtient les fichiers .dsl qui pourront être utilisés avec MaciASL.
 
 #### 9. La carte graphique
 
@@ -122,7 +122,7 @@ Il faut :
 - choisir un maximum de 15 ports[^3] USB2 + USB3 à partir des schémas fournis dans cette archive,
 - modifier le fichier Info.plist dans GA_Z170X_G5_Injector.kext pour supprimer les ports que vous avez décidé de sacrifier,
 - pour faciliter la mise en veille, mettre UsbConnector à 255 pour les ports à usage interne (par exemple, celui qui me sert à connecter la carte Bluetooth),
-- placer le .kext ainsi modifié dans EFI/CLOVER/kexts/Other 
+- placer le .kext ainsi modifié dans EFI/CLOVER/kexts/Other.
 
 [^3]: Le contrôleur de macOS ne peut pas gérer plus de 15 ports, et une connexion physique USB3 prend deux ports logiques : une en USB2 et une en USB3.
 
@@ -164,10 +164,10 @@ On récupére dans ~/Library/ssdtPRGen le fichier ssdt.aml qui a été généré
 
 Pour activer AppleLPC, ça a été plus compliqué. Il m'a fallu un [patch du DSDT](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/09d6fc9d279e051f3197e34fb1f9cb5e4f9a5018 "Commit sur Github"). Pour faire la même chose chez vous :
 
-- téléchargez MaciASL,
-- ouvrir ses préférences et ajoutez le référentiel de RehabMan ayant comme URL http://raw.github.com/RehabMan/Laptop-DSDT-Patch/master
-- ouvrir une copie du fichier DSDT.dsl (généré à l'étape 8 du présent document) et appliquer le patch nommé **[Sys] Slylake LPC**
-- compiler et placer le nouveau fichier DSDT.aml ainsi généré dans EFI/CLOVER/ACPI/patched
+- téléchargez MaciASL ;
+- ouvrir ses préférences et ajoutez le référentiel de RehabMan ayant comme URL http://raw.github.com/RehabMan/Laptop-DSDT-Patch/master ;
+- ouvrir une copie du fichier DSDT.dsl (généré à l'étape 8 du présent document) et appliquer le patch nommé **[Sys] Slylake LPC** ;
+- compiler et placer le nouveau fichier DSDT.aml ainsi généré dans EFI/CLOVER/ACPI/patched.
 
 La difficulté suivante a été d'avoir une machine stable pendant les longues périodes de veille. J'y suis arrivé, mais il y a encore pas mal de choses qui méritent un peu de clarification là dedans. À mes yeux, les deux points les plus importants sont d'avoir l'argument de boot `darkwake=1` dans config.plist/Boot/Arguments et de désactiver l'autoextinction de macOS :
 
@@ -186,10 +186,10 @@ C'est un problème qui n'est pas spécifique aux hacks ; [il apparaît avec les 
 
 La solution temporaire est de forcer l'activation de la carte graphique intégrée Intel (iGPU) pour qu'elle soit à la disposition de Metal :
 
-- dans le BIOS : <i lang="en">Onboard LAN controller: enabled</i> (au lieu de <i>auto</i>)
+- dans le BIOS : <i lang="en">Onboard LAN controller: enabled</i> (au lieu de <i>auto</i>),
 - dans la configuration Clover :
-	- config.plist/Graphics/Inject/Intel : true
-	- config.plist/Graphics/ig-platform-id : 0x19120000
+	- config.plist/Graphics/Inject/Intel : true,
+	- config.plist/Graphics/ig-platform-id : 0x19120000.
 	
 Pour ne pas avoir de problème de sortie de veille, mettre dans config.plist/KernelAndKextPatches/KextsToPatch des [modifications de framebuffers](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/blob/7b3032e1d918301e89016880121ebc74a3770405/config.plist#L198-L237 "Lignes 198 à 237") trouvées chez Toleda pour macOS 10.11.4 ou supérieur avec la carte graphique Intel HD530.
 
