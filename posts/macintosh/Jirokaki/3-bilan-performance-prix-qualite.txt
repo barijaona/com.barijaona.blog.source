@@ -1,0 +1,36 @@
+Jirōkaki, bilan performance/prix
+meta-creation_date: 13/2/2017 06:59:57
+Ceux qui auront lu [depuis le début](<$url /><$path />/0-introduction.html "Projet Jirōkaki (次郎柿)") auront sans doute compris que le côté performance ne m'a pas vraiment accaparé dans cette démarche de construction d'un hackintosh. Contrairement à d'autres, je ne suis pas un <i lang="en">gamer</i> sous Windows en quête du matériel le plus récent et le plus performant… J'ai retenu une configuration à base de Skylake [un peu par défaut](<$url /><$path />/1-choix-materiel.html "La démarche de sélection et de commande du matériel") et parce que l'économie d'énergie me donnait meilleure conscience. Mais si d'ici Madagascar j'avais eu accès à un large marché de l'occasion pour les composants PC, le souci du développement durable aurait sans doute passé par une démarche récupération et recyclage qui aurait par ailleurs très probablement facilité la configuration logicielle.
+
+Alors si j'ai eu envie de faire un petit bilan performance, c'est avant tout pour vérifier que tout marche correctement. Il y avait en effet de quoi s'étonner de ne jamais voir le ventilateur de la carte mère s'activer, comme si cette carte graphique ne travaillait pas… D'autant que les utilitaires disponibles pour suivre en temps réel l'activité de la carte graphique (XRG et iStat Menus) affichaient des données contradictoires sur le type de carte utilisée.
+
+Alors, que disent les benchmarks ? J'ai rapproché mes mesures de celles disponibles sur MacGeneration.
+
+| | [iMac Retina 21,5" Core i5 3,1 GHz fin 2015](http://www.macg.co/tests/2015/10/test-de-limac-215-retina-4k-fin-2015-91515) | [iMac Retina 27" Core i5 3,2 GHz fin 2015](https://www.macg.co/tests/2015/10/test-de-limac-27-retina-5k-core-i5-32-ghz-skylake-fin-2015-91572) | [iMac Retina 27" Core i7 4,0 GHz fin 2015](https://www.macg.co/tests/2015/12/test-de-limac-27-retina-5k-core-i7-4-ghz-skylake-fusion-drive-fin-2015-92106) | Jirōkaki Core i5 3,9 Ghz |
+|:---------------------|------:|------:|------:|------:|
+| Geekbench 4 simple cœur | 3 788| 3 956| 4 450 | 4 573 |
+| Geekbench 4 multiples cœurs | 12 690 | 12 110 | 17 439 | 11 347 |
+| Unigine Valley benchmark (Ultra, antialiasing x8, 1080 p)| 4,9 | 22,6 | 28,3 | 33,4 |
+| LuxMark 2 OpenCL (CPU+GPU, Sala Scene) | 424 | 976 | 1 383 | 1 710 |
+| Cinebench R15 (OpenGL) | 47,08 | 94,10 | 108,15 | 101,83 |
+[ Benchmarks orientés CPU et cartes graphique ]
+
+Globalement, il y a largement là de quoi être rassuré. Tout n'est pas très homogène[^1], il y a peut-être encore de quoi optimiser la configuration logicielle (sans même aborder les rives un peu dangereuses de l'<i lang="en">overclocking</i> matériel), mais la machine tient son rang et la carte nVidia répond bien présente même si son élévation de température reste si limitée que son ventilateur tourne à peine…
+
+[^1]: Faut-il encore accuser les mémoires, disposées en <i lang="en">single channel</i> dans la performance CPU en multiple cœurs ?
+
+Mais une autre conclusion s'impose, et celle là est économique. Ma configuration m'a coûté à l'époque un peu plus de 1 350 €. Avec la fluctuation du dollar et des [prix de la mémoire](https://www.macg.co/materiel/2017/02/pourquoi-le-prix-de-la-ram-augmente-depuis-plusieurs-mois-97303 "Pourquoi le prix de la RAM augmente depuis plusieurs mois"), son prix actuel France serait proche de 1 415 €. Mais si j'avais dû rajouter le prix d'un clavier Apple (Magic Keyboard ou clavier USB avec pavé numérique), d'un Magic Trackpad et surtout le prix d'un écran comparable à ceux des iMacs présentés ci-dessus, j'aurais sans doute regretté d'avoir monté un hackintosh.
+
+En fait, au vu du prix d'un [bon écran 5K](http://euro.dell.com/fr/fr/corp/Périphériques-Dell/dell-up2715k-monitor/pd.aspx?refid=dell-up2715k-monitor&s=corp "Dell UltraSharp UP2715K"), les iMac 27 pouces Retina sont d'excellentes affaires !
+
+Je continue à trouver relativement chers les Macs actuellement disponibles au catalogue Apple, mais leur prix me paraît quand même plus logique que je ne le pensais auparavant. Car la qualité des composants et de la finition n'est pas la même. On a tendance à comparer les fiches techniques des hackintosh à celles de Macs de haut de gamme, mais lorsqu'on ouvre les capots et qu'on y regarde de plus près, force est de constater qu'il y a quelques différences sensibles… Et lorsqu'on doit brancher et débrancher souvent les périphériques d'un hackintosh, on se dit que ces fabricants de PC sont bien arriérés !
+
+Monter un hackintosh m'a ainsi permis de réaliser de manière moins abstraite qu'il y a dans un Mac de la vraie R&D spécifique à Apple, parce que le constructeur à la pomme a cherché à devancer le reste du marché dans certains domaines, notamment l'économie d'énergie ou la gestion de certains périphériques. Cela se traduit par des fonctionnalités qu'un hackintosh ne parvient toujours pas à reproduire aujourd'hui (exemple : pas de <i lang="en">hot plug</i> de périphériques Thunderbolt sur un hack), mais cela trahit aussi des spécificités matérielles qui doivent contribuer à renchérir le prix sortie usine d'un « vrai » Mac.
+
+Le problème est que ces spécificités doivent être amorties sur un bien plus faible nombre de machines que dans le modèle économique de l'iPhone, modèle où qui plus est, le haut de gamme de l'année passée (6s ou 6s Plus) peut devenir le milieu de gamme de cette année. Pas facile de faire ça avec les Macs où les nouveaux modèles poussent plutôt les anciens vers la sortie…
+
+Du coup, je me dis que si j'étais à la place d'Apple, je serais assez tenté de casser la compatibilité de macOS afin de pouvoir réaliser des économies d'échelle en mutualisant un plus grand nombre de composants avec les iDevices… Cela ferait sûrement crier beaucoup d'utilisateurs, mais n'est-ce pas la voie de l'avenir ?
+
+J'espère qu'une autre voie sera également explorée par Apple : dé-{bundler} écran et unité centrale et chercher à être compétitif en <i lang="en">build to order</i> dans un format [boîte à pizza](http://macinpomme.fr/les-boites-a-pizza "Macintosh LC et assimilés"). Ce serait une vraie démarche écologique, car elle permettrait de mieux adapter les machines aux besoins réels des utilisateurs et de conserver plus longtemps les périphériques.
+
+Oui, les dirigeants d'Apple sont bien placés pour savoir que [la modularité ne paie pas toujours](https://mondaynote.com/lazy-thinking-modularity-always-works-27257500a586 "Lazy Thinking: Modularity Always Works (Jean Louis Gassée)" hreflang="en"), mais les années ont démontré que le Mac ne doit pas être vu comme un simple iPad. Par ailleurs, la lente décroissance des ventes de ce dernier permet de rappeller à Tim Cooke et à ses collègues  que même dans les pays très urbains, il y a toujours une demande pour les [SUVs et camionnettes](http://www.macg.co/aapl/2010/06/steve-jobs-le-pc-est-un-camion-76226/page/0/1 "Steve Jobs : Le PC est un camion").
