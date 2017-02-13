@@ -59,7 +59,9 @@ Mais il faut reconnaître que cette puissance est un peu sous-exploitée pour mo
 
 Sauf est que ma configuration est tellement stable que j'oublie très régulièrement cette précaution et effectue les mises à jour Apple comme sur un Mac ultra-basique… ce qui me confronte au problème ci-dessus et m'oblige alors à un hack temporaire pour retrouver toutes les fonctionnalités de ma machine.
 
-Je ne voudrais pas cependant que ces problèmes potentiels effrayent outre mesure le débutant. En cas de problème, on peut toujours rajouter `nv_disable=1` parmi les arguments de boot (il y a d'ailleurs une option pour cela directement dans les menus de Clover) afin d'avoir une machine à peu près fonctionnelle. D'autres solutions de contournement existent, mais je n'insisterai pas dessus car la solution n'est jamais très lointaine et il est généralement moins fatigant d'attendre quelques heures la sortie du driver officiel Nvidia.
+Je ne voudrais pas cependant que ces problèmes potentiels effrayent outre mesure le débutant. En cas de problème, on peut toujours rajouter `nv_disable=1` parmi les arguments de boot (il y a d'ailleurs une option pour cela directement dans les menus de Clover[^4]) afin d'avoir une machine à peu près fonctionnelle. D'autres solutions de contournement existent, mais je n'insisterai pas dessus car la solution n'est jamais très lointaine et il est généralement moins fatigant d'attendre quelques heures la sortie du driver officiel Nvidia.
+
+[^4]: Sélectionner dans Clover l'icône du volume de démarrage, appuyer sur la touche Espace, activez l'option qui vous intéresse (<i>Set Nvidia to VESA (nv_disable=1)</i>, puis l'option <i>Return<i>, avant de booter effectivement.
 
 #### 5. Ce qui ne marche pas
 
@@ -102,7 +104,7 @@ On se réfèrera au début de [ce guide](http://www.tonymacx86.com/threads/guide
 
 #### 9. La carte graphique
 
-Rajouter [ce patch dans config.plist/KernelAndKextPatches/KextsToPatch](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/8692b99464e0f5a7bc2d83c939074b5ee5e79331 "Commit sur Github") pour prévenir l'écran noir au démarrage avec le SMBios iMac17,1, puis télécharger les drivers de la carte sur le site de Nvidia et les installer.
+Rajouter [ce patch dans config.plist/KernelAndKextPatches/KextsToPatch](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/8692b99464e0f5a7bc2d83c939074b5ee5e79331 "Commit sur Github") pour prévenir l'écran noir au démarrage avec le SMBios iMac17,1, forcer une reconstruction du cache du kernel système par un `sudo touch /System/Library/Extensions/` suivi d'un redémarrage de l'ordinateur, puis télécharger les drivers de la carte sur le site de Nvidia et les installer.
 
 #### 10. Le son
 
