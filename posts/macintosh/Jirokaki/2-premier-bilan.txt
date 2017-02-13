@@ -61,7 +61,7 @@ Sauf est que ma configuration est tellement stable que j'oublie très régulièr
 
 Je ne voudrais pas cependant que ces problèmes potentiels effrayent outre mesure le débutant. En cas de problème, on peut toujours rajouter `nv_disable=1` parmi les arguments de boot (il y a d'ailleurs une option pour cela directement dans les menus de Clover[^4]) afin d'avoir une machine à peu près fonctionnelle. D'autres solutions de contournement existent, mais je n'insisterai pas dessus car la solution n'est jamais très lointaine et il est généralement moins fatigant d'attendre quelques heures la sortie du driver officiel Nvidia.
 
-[^4]: Sélectionner dans Clover l'icône du volume de démarrage, appuyer sur la touche Espace, activez l'option qui vous intéresse (<i>Set Nvidia to VESA (nv_disable=1)</i>, puis l'option <i>Return<i>, avant de booter effectivement.
+[^4]: Sélectionner dans Clover l'icône du volume de démarrage, appuyer sur la touche Espace, activez l'option qui vous intéresse (<i>Set Nvidia to VESA (nv_disable=1)</i>, puis l'option <i>Return</i>, avant de booter effectivement.
 
 #### 5. Ce qui ne marche pas
 
