@@ -206,3 +206,5 @@ Pour ne pas avoir de problème de sortie de veille, mettre dans config.plist/Ker
 - Discussion en cours sur le problème de la NVRAM (très geek) : [http://www.insanelymac.com/forum/topic/317802-EFI-Variable-Store-on-Aptio-V-%28Haswell-E-and-up%29#](http://www.insanelymac.com/forum/topic/317802-EFI-Variable-Store-on-Aptio-V-%28Haswell-E-and-up%29#)
 - Discussion sur le développement de Clover (très geek également) : [http://www.insanelymac.com/forum/topic/306156-Clover-Bug-Issue-Report-and-Patch](http://www.insanelymac.com/forum/topic/306156-Clover-Bug-Issue-Report-and-Patch)
 
+Suite : [bilan performance/prix](<$url /><$path />/3-bilan-performance-prix-qualite.html "Conseillerais-je de m'imiter ?").
+
