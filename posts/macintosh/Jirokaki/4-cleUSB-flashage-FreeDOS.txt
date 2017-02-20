@@ -1,0 +1,74 @@
+Disposer d'une clé USB de secours pour flasher le BIOS
+meta-creation_date: 20/2/2017 06:01:17
+L'une des choses qui parait les plus effrayantes lorsqu'on commence à travailler de très près un matériel PC est le flashage du BIOS. C'est ce que je me suis aventuré à faire si vous avez lu les [épisodes précédents](<$url /><$path />/0-introduction.html "La démarche de sélection et de commande du matériel").
+
+Cela n'est largement plus un problème avec les cartes Gigabyte qui disposent d'un double BIOS. Si pour une raison ou une autre, quelque chose a été loupé et la machine n'arrive pas à démarrer correctement, elle bascule automatiquement sur le BIOS de sauvegarde (celui qui a été précédemment flashé et qui a réussi à démarrer).
+
+Néanmoins, je n'ai pas abordé mes tests avec les BIOS F20 ou plus récents sans quelque appréhension. Selon le site internet de Gigabyte, il ne serait pas possible de revenir vers des versions antérieures à la F20 une fois celle-ci installée.
+
+Sauf qu'il y a quand même une solution pour le faire, et cela passe par une clé USB de secours pour démarrer sous MS-DOS ou assimilé afin de sauvegarder le BIOS actuel et éventuellement le (re)flasher. Ceci est mon aide-mémoire sur la façon de créer une telle clé sous FreeDOS.
+
+__1.__ Télécharger et décompresser une image disque directement exécutable de FreeDOS. J'ai trouvé la mienne [ici](http://derek.chezmarcotte.ca/freedos-1-1-usb-boot-image "FreeDOS 1.1 USB Boot Image" hreflang="en"), et elle s'appelle `fdos11.img`.
+
+__2.__ Formater avec "Utilitaire de disque" une clé USB ayant au moins un gigaoctet de capacité, au format "MS-DOS (FAT)", schéma "Enregistrement de démarrage principal (MBR)"[^0].
+
+[^0]: Il faut parfois s'y prendre à plusieurs fois pour y arriver.
+
+__3.__ Transférer l'image disque sur la clé USB. On pourra utiliser un utilitaire comme [Etcher](https://etcher.io "Burn images to SD cards & USB drives, safe & easy." hreflang="en") ou plus traditionnellement en repérant le point de montage de la clé USB et en utilisant la commande `dd` selon la séquence suivante.
+
+    $ diskutil list
+    /dev/disk0 (internal, physical):
+       #:                       TYPE NAME                    SIZE       IDENTIFIER
+       0:      GUID_partition_scheme                        *500.1 GB   disk0
+       1:                        EFI EFI                     209.7 MB   disk0s1
+       2:                  Apple_HFS Macintosh HD            499.2 GB   disk0s2
+       3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+
+    /dev/disk1 (internal, physical):
+       #:                       TYPE NAME                    SIZE       IDENTIFIER
+       0:      GUID_partition_scheme                        *3.0 TB     disk1
+       1:                        EFI EFI                     209.7 MB   disk1s1
+       2:                  Apple_HFS SNAPSHOT                511.3 GB   disk1s2
+       3:                  Apple_HFS BACKUP                  2.0 TB     disk1s3
+       4:                  Apple_HFS ARCHIVES_LT             488.7 GB   disk1s4
+
+    /dev/disk2 (external, physical):
+       #:                       TYPE NAME                    SIZE       IDENTIFIER
+       0:     FDisk_partition_scheme                        *2.1 GB     disk2
+       1:                 DOS_FAT_32 USB-STICK               2.1 GB     disk2s1
+
+    $ diskutil unmountDisk /dev/disk2
+    Unmount of all volumes on disk2 was successful
+    $ sudo dd bs=1m if=/chemin/du/fichier/fdos11.img of=/dev/disk2
+
+
+__4.__ Recopier le contenu de [cette archive](<$url /><$path />/copier_contenu_base_cle_USB.zip "Archive ZIP 663 Ko") à la base de la clé[^1].
+
+[^1]: Certains fichiers de cette archive ont été récupérés de l'adresse http://www.mediafire.com/file/p66jhts7cfi26y8/fpt_DOS-Z170.zip
+
+__5.__ Redémarrer et entrer dans le BIOS. Si ce n'est déjà fait, sauvegardez votre profil actuel (<i lang="en">"Save & Exit"</i>, <i lang="en">"Save Profiles"</i>).
+
+__6.__ Réamorcez à partir de la clé (<i lang="en">"Save & Exit"</i>, <i lang="en">"Boot Override"</i>, <i lang="en">"General UDisk 5.00"</i>).
+
+__7.__ Les plus anciens savoureront un petit moment de nostalgie en redécouvrant les écrans du DOS… Lisez les instructions à l'écran et tapez : `fpt -d bios.sav` pour sauvegarder sur la clé USB votre BIOS actuel et l'ensemble de sa configuration.
+
+__8.__ Une fois l'opération de sauvegarde terminée avec succès, il ne reste plus qu'à redémarrer avec un `reboot` ou la bonne vieille combinaison de touches Control-Alt-Del…
+
+Nous disposons maintenant d'une bonne solution de secours. Si vous voulez retrouver votre BIOS "antique", il vous suffira de refaire l'étape 6 et suivre les instructions à l'écran…
+
+L'espace disque nécessité par FreeDOS étant ridicule par rapport à la capacité des clés USB actuelles, je me dois de citer une méthode alternative. Formatter la clé comme précédemment, utiliser [UNetbootin](https://unetbootin.github.io "UNetbootin allows you to create bootable USB drives" hreflang="en") pour rendre la clé amorçable et y installer un LiveCD qui pourrait vous être utile[^2]. Ensuite, recopier sur la clé successivement les contenus de l'image disque `fdos11.img` et de la [petite archive](<$url /><$path />/copier_contenu_base_cle_USB.zip "Archive ZIP 663 Ko") déjà cités précédemment. Par la suite, rechercher où se trouve le fichier `syslinux.cfg` et rajouter au bon endroit une entrée de ce genre :
+
+    LABEL FreeDos
+      # MENU DEFAULT
+      # MENU HIDE
+      MENU LABEL Load FreeDOS 1.1 (8086+, FAT32)
+      # MENU PASSWD
+      TEXT HELP
+      Load FreeDOS now
+      ENDTEXT
+      com32 /fdos/bin/chain.c32
+      append freedos=/fdos/bin/kernel.sys
+
+Le reste sans grand changement pour les étapes 6 à 8, sauf que le secteur d'amorçage devrait s'appeler "Generic USB driver" ou quelque chose d'approchant.
+
+[^2]: Pour ma part, j'ai installé GParted.
