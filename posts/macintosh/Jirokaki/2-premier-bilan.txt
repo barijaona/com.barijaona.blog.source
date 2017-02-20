@@ -102,6 +102,8 @@ On se réfèrera au début de [ce guide](http://www.tonymacx86.com/threads/guide
 - on décompile en bloc avec `iasl -da -dl -fe refs.txt *.aml`,
 - on obtient les fichiers .dsl qui pourront être utilisés avec MaciASL.
 
+__Note :__ cette étape est sans doute à recommencer si l'on flashe un autre BIOS.
+
 #### 9. La carte graphique
 
 Rajouter [ce patch dans config.plist/KernelAndKextPatches/KextsToPatch](https://github.com/barijaona/CLOVER_GA-Z170X-Gaming5/commit/8692b99464e0f5a7bc2d83c939074b5ee5e79331 "Commit sur Github") pour prévenir l'écran noir au démarrage avec le SMBios iMac17,1, forcer une reconstruction du cache du kernel système par un `sudo touch /System/Library/Extensions/` suivi d'un redémarrage de l'ordinateur, puis télécharger les drivers de la carte sur le site de Nvidia et les installer.
