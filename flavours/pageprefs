@@ -34,7 +34,7 @@ if (($pagetype::pagetype eq 'chrono') or ($pagetype::pagetype eq 'category')) { 
 # Used for statically rendered pages
 # URL of the blog's root
 # ie : http://yourname.name or http://www.yourprovider.com/username
-$fix_static_url::static_url = '//blog.barijaona.com';
+$fix_static_url::static_url = 'https://blog.barijaona.com';
 
 $meta::bjrDescription = "Carnet web de Barijaona R." ;
 $meta::bjrKeywords = "macintosh, print66, geek, madagascar, malgache, madagasikara, malagasy, barijaona, ramaholimihaso, blog" ;
