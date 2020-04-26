@@ -4,6 +4,9 @@
 <meta charset="UTF-8" />
 <?$pagetype::pagetype like="(category|chrono)"><meta name="robots"
 content="noindex,follow" /></?><?$pagetype::pagetype eq="main"><link rel="canonical" href="$url/index.$flavour" />
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+<link rel="pgpkey" href="/pubkey.asc">
 <link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
 <link rel="openid2.local_id" href="https://openid.stackexchange.com/user/b54e01ce-9812-499d-89d1-8d413d694298"></?><?$pagetype::pagetype eq="story"><link rel="canonical" href="$url/$path_info" /></?>
 <title>$storytitle::page_title$blosxom::blog_title</title>
