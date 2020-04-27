@@ -15,7 +15,7 @@ Pour l'authenticité : <i>La tendresse</i>.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rEjvRktXeis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Pour les petites d'humour anglais : <i lang="en">Times Like These</i> produit par la BBC.
+Pour les petites touches d'humour anglais : <i lang="en">Times Like These</i> produit par la BBC.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7GElP4YdrBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
