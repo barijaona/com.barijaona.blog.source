@@ -21,7 +21,7 @@ $email = 'jjjs@example';
 $tz_offset = "-08:00"; #PST
 
 # What placeholder in your flavour tempalte should I replace with <items />?
-my $template_placeholder = "{{{items}}}";
+my $template_placeholder = "_#_#_items_#_#_#";
 
 # What is your TrackBack implementation's URL (if any)?
 #$trackback_url = "$blosxom::url/tb.cgi";

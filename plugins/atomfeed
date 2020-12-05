@@ -55,7 +55,7 @@ $logo_url = ""  unless defined $logo_url;
 
 # What template placeholder in your flavour template should I replace with feed-level <updated>?
 # If you are using the built-in templates, leave this alone.
-my $template_placeholder = "{{{updated}}}" unless defined $template_placeholder;
+my $template_placeholder = "_#_#_updated_#_#_" unless defined $template_placeholder;
 
 # Generator that produced this feed
 $generator_url = "http://blosxom.sourceforge.net/";
@@ -408,7 +408,7 @@ HEAD
   \$atomfeed::copyright
   \$atomfeed::icon_url
   \$atomfeed::logo_url
-  {{{updated}}}
+  _#_#_updated_#_#_
 HEAD
 
   $blosxom::template{'atom'}{'story'} =<<'STORY';

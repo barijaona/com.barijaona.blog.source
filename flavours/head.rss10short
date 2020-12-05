@@ -20,7 +20,7 @@
     <admin:generatorAgent rdf:resource="$rss10::generatorAgent" />
     <admin:errorReportsTo rdf:resource="mailto:$rss10::email"/>
 
-{{{items}}}
+_#_#_items_#_#_#
 
 $blogroll::blogroll
   </channel>
