@@ -9,10 +9,6 @@
 
 <aside><div class="nav2">
 
-<?$pagetype::pagetype like="main">
-<a rel="me" class="twitter-timeline" data-dnt="true" href="https://twitter.com/barijaona?ref_src=twsrc%5Etfw">Tweets de @barijaona</a>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</?>
 <div class="box">
 <div class="search">
 <form method="get" id="search" action="https://duckduckgo.com/">
@@ -26,6 +22,12 @@
 <?$pagetype::pagetype like="main|chrono"><p class="note"><a href="$blosxom::url/equipe/sitemap.html" title="Plan du site, syndication...">À propos...</a></p><div class="month-calendar">$calendar::month_calendar</div></?>
 <p class="note">Les opinions traduites dans ces pages sont strictement personnelles et n'engagent que leur auteur.</p></div>
 <?$pagetype::pagetype like="main">
+<div id="mt-timeline" class="box mt-timeline">
+    <h3><a href="https://mastodon.mg/@barijaona" rel="me" title="Mon compte Mastodon">https://mastodon.mg/@barijaona</a></h3>
+    <div id="mt-body" class="mt-body">
+        <div class="loading-spinner"></div>
+    </div>
+</div>
 <div class="box">$file::oldiesgoldies</div>
 </?>
 </div></aside>
@@ -62,7 +64,7 @@ Certains droits protégés par <a rel="license" href="http://creativecommons.org
 
 </rdf:RDF>
 
---><?$pagetype::pagetype eq="story">, $yr Barijaona Ramaholimihaso</?></div><br /><?$pagetype::pagetype eq="main"><a class="inline-button" href="https://mastodon.mg/@barijaona" rel="me"><em>Mastodon</em></a>::<a class="inline-button" href="https://github.com/barijaona" rel="me"><em>Github</em></a>::<a class="inline-button orange" href="$blosxom::url/atom.xml" title="Fil Atom"><em>Atom</em><span> 1.0</span></a>::<a class="inline-button orange" href="$blosxom::url/rss.xml" title="Fil RSS 1.0"><em>RSS</em><span> articles</span></a>::<a class="inline-button orange" href="$blosxom::url/shortened.xml" title="Fil RSS 1.0"><em>RSS</em><span> titres</span></a>::<a class="inline-button yellow" href="$blosxom::url/web/blosxomsk/" title="Kit de démarrage Blosxom"><em>Mû par</em><span> Blosxom</span></a><br /></?>Réagissez par les liens de commentaires ou par courriel : <script type="text/javascript">
+--><?$pagetype::pagetype eq="story">, $yr Barijaona Ramaholimihaso</?></div><br /><?$pagetype::pagetype eq="main"><a class="inline-button" href="https://twitter.com/barijaona" rel="me"><em>Twitter</em></a>::<a class="inline-button" href="https://github.com/barijaona" rel="me"><em>Github</em></a>::<a class="inline-button orange" href="$blosxom::url/atom.xml" title="Fil Atom"><em>Atom</em><span> 1.0</span></a>::<a class="inline-button orange" href="$blosxom::url/rss.xml" title="Fil RSS 1.0"><em>RSS</em><span> articles</span></a>::<a class="inline-button orange" href="$blosxom::url/shortened.xml" title="Fil RSS 1.0"><em>RSS</em><span> titres</span></a>::<a class="inline-button yellow" href="$blosxom::url/web/blosxomsk/" title="Kit de démarrage Blosxom"><em>Mû par</em><span> Blosxom</span></a><br /></?>Réagissez par les liens de commentaires ou par courriel : <script type="text/javascript">
 <!--
 // Email obfuscator script 2.1 by Tim Williams, University of Arizona
 // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
@@ -102,6 +104,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>")
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
 </script>
+<script type="text/javascript" src="$blosxom::url/style/mastodon-timeline.js"></script>
 </?>
 </body>
 </html>

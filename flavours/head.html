@@ -29,7 +29,8 @@ content="noindex,follow" /></?><?$pagetype::pagetype eq="main"><link rel="canoni
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
 </?>
 <?$prevnextstory::nextlink><link rel="next" href="$prevnextstory::nextlink" title="$prevnextstory::nexttitle" /></?>
-<?$pagetype::pagetype like="main"><script type="text/javascript" src="$blosxom::url/style/tinybox.js"></script>
+<?$pagetype::pagetype like="main"><link rel="styleSheet" type="text/css" href="$blosxom::url/style/mastodon-timeline.css" />
+<script type="text/javascript" src="$blosxom::url/style/tinybox.js"></script>
 <script type="text/javascript">
 function getComment(threadId,refPageURL){
 	if(navigator.appVersion.indexOf("Mobile")>-1 && document.documentElement.style. WebkitOverflowScrolling == undefined )
