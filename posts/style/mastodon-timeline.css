@@ -9,6 +9,10 @@
   background: #F3F3F3;
 }
 
+p {
+	text-align:left
+}
+
 .mt-body {
 	height: 100%;
 	overflow-y: auto;
