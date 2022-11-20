@@ -1,25 +1,15 @@
 Ne m'appelez pas Barjot...
-meta-creation_date: 28/1/2003 13:53:00
+meta-creation_date: 20/11/2022 17:00:00
 meta-bjrDescription: À propos de Barijaona Ramaholimihaso, l'auteur de ce site
 
 Barijaona Ramaholimihaso
 
-40 ans finalement bien assumés.
+Né vers le milieu des années 1960, marié à Lalaina, deux enfants…
 
-Je travaille dans une <a href="http://www.bni.mg/" title="BNI Cr&eacute;dit Lyonnais Madagascar">banque</a> où je couvre les moyens et le système d'information au sens large (de l'organisation jusqu'au contrôle de gestion).
+J'ai fait toute ma carrière dans une [banque](https://www.bni.mg/ "BNI Madagascar"), passant plus ou moins allègrement des systèmes d'information (au sens large) aux aspects réglementaires ou à l'impact environnemental et social, en passant par la direction financière ou le juridique.
 
-Bénédiction ou tare ? Je suis de formation <a href="http://www.ensmp.fr/" title="&Eacute;cole des Mines de Paris">ingénieur</a>.
+Bénédiction ou tare ? Je suis de formation [ingénieur](https://www.minesparis.psl.eu/ "École des Mines de Paris, actuellement Mines ParisTech"), ce qui m'a laissé un goût marqué pour le codage qui continue à structurer mon approche de beaucoup de choses : je suis profondément convaincu que, pour faire évoluer les choses, il faut d'abord les comprendre.
 
-À cela s'ajoute une bonne dose de <a href="http://www.jce-tana.org/" title="J'esp&egrave;re que c'est &agrave; jour...">Jeune Chambre Économique d'Antananarivo</a> (association affiliée la <a href="http://www.multimania.com/jcem" title="Vieux site absolument pas &agrave; jour...">Jeune Chambre Économique de Madagascar</a> et à la <a href="http://www.jci.cc/index.php?lgg=3" title="F&eacute;d&eacute;ration offrant des opportunit&eacute;s de d&eacute;veloppement aux jeunes de 18 &agrave; 40 ans">Jeune Chambre Internationale</a>). À mon retour à Madagascar, l'expérience de cette association a compensé un peu l'éloignement de l'ambiance du Quartier Latin et m'a vraisemblablement permis de me mettre un peu de plomb supplémentaire dans la tête.
-
-Je m'occupe également d'une association qui s'occupe des couches peu favorisées de la population d'une partie de la banlieue Sud d'Antananarivo. Cette Association Médico-Sociale d'Andohatanjona gère un dispensaire qui a des activités préventives et curatives, et s'efforce de promouvoir les actions de développement économique de cette population. L'association est financée par des particuliers malgaches et des amis suisses, dont beaucoup sont regroupés dans une association appelée Madech (Madagascar Échange Confédération Helvétique).
-
-Vous pouvez m'écrire par e-mail ou par courrier à :
-<address>
-Barijaona Ramaholimihaso<br>
-Rue Rajakoba Augustin<br>
-Ankadivato<br>
-101 Antananarivo<br>
-Madagascar.<br>
-r&#101;&#97;&#99;&#116;&#105;&#111;&#110;&#115;@&#98;a&#114;&#105;&#106;&#97;&#111;&#110;&#97;.&#99;o&#109;
-</address>
+En matière de volontariat, je peux relever :
+- une longue participation à la Jeune Chambre Économique d'Antananarivo, affiliée à la [Jeune Chambre Économique de Madagascar](https://www.linkedin.com/in/jcimadagascar "Page LinkedIn") et à la [Jeune Chambre Internationale](https://jvc.jci.cc "Junior Chamber International" hreflang="en"). À mon retour à Madagascar, l'expérience de cette association m'avait beaucoup aidé à m'adapter et à faire face aux réalités du pays.
+- une grande passion pour l'environnement. J'ai eu l'honneur de faire deux mandats d'administrateur à la [Fondation pour les Aires Protégées et la Biodiversité de Madagascar (FAPBM)](https://www.fapbm.org), et je suis encore actuellement membre de son comité d'investissement. Je suis également membre fondateur et président du Conseil d'Administration d'[INDRI](https://indri.solutions), un <i lang="en">think-and-do-tank</i> qui mobilise les acteurs malgaches dans l'optique d'apporter des changements positifs dans les paysages urbains, terrestres et côtiers.
