@@ -1,0 +1,3 @@
+[submodule "posts/mastodon-bookmarklet-generator"]
+	path = posts/mastodon-bookmarklet-generator
+	url = git@github.com:barijaona/mastodon-bookmarklet-generator.git
