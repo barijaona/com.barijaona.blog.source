@@ -1,0 +1,21 @@
+Aider un pachyderme à surfer
+meta-creation_date: 4/12/2022 22:12:03
+L'apprentissage de Mastodon peut être assez ingrat, car après votre inscription sur une instance, votre page d'accueil demeurera désespérément vide si vous ne la meublez pas… Votre serveur Mastodon ne vous proposera rien de lui-même, et il vous faudra explorer pour trouver des personnes à suivre. Peuut-être découvrirez vous des gens qui vous intéressent dans le "fil public local" ou dans le "fil public global" affichés par votre serveur, mais cela risque d'être un peu laborieux si vous comptez uniquement sur la chance…
+
+Je vous encourage néanmoins à persévérer. En ce qui me concerne, je suis sur Mastodon depuis Avril 2017, mais le service n'est devenu vraiment intéressant que lorsque j'ai franchi un cap concernant le nombre de personnes suivies. J'en suis actuellement à 217 personnes suivies (qui ne sont toutefois pas toutes actives). Mon conseil est donc : explorez, explorez, et de préférence, trouvez…
+
+Dans le [billet précédent](<$url /><$path />/initiation_migration_mastodon_1.html "L'envol sur un pachyderme"), je faisais état d'une chose qui m'avait moi-même trompé pendant plus de cinq ans : c'est une grosse erreur de croire que les applications dédiées Mastodon sont des outils efficaces pour découvrir de nouveaux contenus.
+
+Il s'agit d'une erreur, car les clients dédiés sont avant tout conçus pour afficher du contenu transitant par votre instance. Ce qui ne représente qu'un sous-ensemble de tout le contenu disponible, en particulier si l'instance à laquelle vous êtes inscrit est récente (comme celles qui viennent de se créer suite aux changements chez Twitter) ou relativement petite (comme Mastodon.mg, l'instance où je suis).
+
+Car ce qu'on appelle "fil public global" ne l'est que de nom. Le graphique du message ci-après explique cela mieux que je ne le puis :
+
+<iframe src="https://mastodon.scop.coop/@cyrilz/109416406331993929/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="480" height="960" allowfullscreen="allowfullscreen"></iframe>
+
+Il faut le dire et le redire : en raison de la structure décentralisée du Fediverse, un navigateur web est beaucoup plus efficace qu'un client Mastodon dédié pour faire des découvertes intéressantes. En effet, vous serez exposé à bien plus de contenu si vous utilisez votre navigateur web pour suivre les liens affichés par les serveurs (ceux sur l'heure d'un message ou ceux en bas d'un profil). Vous découvrirez alors l'intégralité des conversations sur les instances où leurs auteurs sont inscrits et, de fil en aiguille, vous découvrirez d'autres personnes ayant des intérêts communs.
+
+Mais vous sentirez rapidement que, via le web, réagir à un post ou suivre quelqu'un qui est inscrit sur une instance autre que la votre devient vite un peu fastidieux.
+
+Toutefois, la situation s'améliore très nettement si l'on installe dans son navigateur quelques signets Javascript bien pratiques. Pour vous faciliter la tâche, j'ai donc mis en ligne [un outil qui vous permet d'installer facilement de tels signets](https://barijaona.github.io/mastodon-bookmarklet-generator/index.fr.html "Générateur de Bookmarklets Mastodon"). J'espère qu'ils vous seront utiles.
+
+(_À suivre_)

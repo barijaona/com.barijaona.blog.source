@@ -54,4 +54,4 @@ Ne refermez pas trop vite les onglets précédemment ouverts : profitez en pour 
 
 Oui, les applications dédiées à Mastodon existent, et elles ont leur utilité. Pour ma part, j'utilise [Metatext](https://apps.apple.com/app/id1523996615), en parallèle de mon navigateur, et je bascule de l'un à l'autre grâce à l'icône "Partager". Mais ces applications sont encore trop inspirées de celles des plateformes dominantes, destinées à maintenir leurs utilisateurs à l'intérieur d'un jardin clos, pour s'adapter au contexte Mastodon. De plus, leur rythme de développement ne suit pas celui de Mastodon, qui vient de passer en version 4.
 
-(_À suivre_)
+(_[Suite](<$url /><$path />/initiation_migration_mastodon_2.html "Aider un pachyderme à surfer")…_)
