@@ -1,0 +1,36 @@
+Légendes
+meta-creation_date: 18/12/2022 19:04:49
+Plusieurs choix dans la conception de Mastodon ont été dictés par une méfiance vis-à-vis des phénomènes de viralité recherchés par les réseaux sociaux dominants. Il n'empêche : Mastodon a vu dans les récentes heures l'émergence de son premier <i>meme</i> natif. En quelques heures, le hashtag #JohnMastodon nous a tous pris par surprise, et a été suivi par la suite de #JoanMastodon et #JeanneMasTodon, dans un doux mélange de satire sociale et de figures héroïques populaires.
+
+Que s'est-il passé ? L'auteur conservateur Isaac Schorr a mal lu le nom du compte Twitter [@joinmastodon](https://twitter.com/joinmastodon "Twitter account") et l'a attribué à un certain John Mastodon, fondateur supposé d'une compagnie éponyme rivale de Twitter.
+
+<iframe src="https://mastodon.social/@taylorlorenz/109532050191181640/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" height="800" allowfullscreen="allowfullscreen"></iframe>
+
+Accordons à Schorr le bénéfice du doute. Il avait peut-être fait une recherche Google sur John Mastodon et était tombé sur cette ["annonce" sur YCombinator](https://news.ycombinator.com/item?id=32698698 "Comment on an article titled “Mastodon still can't replace Twitter”" hreflang="en") selon laquelle John Mastodon, CEO et fondateur de Mastodon, avait été viré de la compagnie lorsque le cours de celle-ci était tombé au plus bas.  
+
+Certaines personnes semblent tellement imbibées de mythologie libertarienne qu'elles sont intellectuellement incapables d'imaginer que "quelque chose" qui a du succès puisse exister sans être la création d'une multinationale menée par un "capitaine d'industrie""… Leur modèle de progrès repose sur « un-homme-un-vrai-un-leader » qui en impose à des milliers de techno-serfs, mérite de cette manière les millions de dollars qu'il accumule et a des millions de suiveurs sur [LinkedIn](https://www.linkedin.com/in/john-mastodon-61904525b/ "Profil parodique sur LinkedIn").
+
+<iframe src="https://mastodon.gamedev.place/@nitrillo/109533602963906940/embed" class="mastodon-embed" style="max-width: 100%; border: 0" height="520" allowfullscreen="allowfullscreen"></iframe>
+
+L'histoire d'Internet nous montre pourtant que les progrès les plus solides sont souvent venus de travaux coopératifs menés sans quête de profit financier… Pourquoi privilégier le modèle très vertical du maître régnant sur des hordes de techno-serfs, alors que la réalité ressemble davantage à des artisans utilisant les technologies collaboratives pour coopérer de manière beaucoup plus horizontale ?
+
+Refusant d'avoir des esclaves à disposition, je me suis appuyé sur une [pseudo-intelligence artificielle](https://chat.openai.com/ "ChatGPT" hreflang="en") pour vous conter la véritable 😉 histoire de John Mastodon :
+
+
+> John Mastodon est un jeune explorateur de l'espace qui rêve de faire de grandes découvertes sur les planètes lointaines de la galaxie. Un jour, alors qu'il explore une nouvelle planète, il se retrouve confronté à Hellon Buck, un méchant empereur intergalactique qui cherche à s'emparer de ses technologies avancées et à terroriser la population.
+
+> Hellon Buck : "Mes fusées vont s'emparer de tes technologies !"
+
+> John Mastodon : "Je ne me laisse pas marcher sur les pieds, Hellon. Je suis prêt à me battre pour défendre ce qui m'appartient, même si je n'ai qu'un sabre à ma disposition."
+
+> Hellon Buck : "Tu vas regretter de t'être opposé à moi !"
+
+> John Mastodon : "Je n'ai pas peur de toi, Hellon. Tu es juste un méchant empereur qui ne pense qu'à lui-même."
+
+> Hellon Buck : "Mes fusées vont t'écraser !"
+
+> John Mastodon : "On verra bien, Hellon. Je suis prêt à me battre jusqu'à la mort s'il le faut."
+
+> Au moment où Hellon Buck s'apprête à donner l'ordre à ses fusées d'attaquer John, il glisse sur la peau de banane qu'il vient de manger et tombe à terre. John en profite pour attaquer et vaincre rapidement Hellon et ses fusées.
+
+> Grâce à son agilité et à sa chance, John réussit à vaincre Hellon Buck et ses fusées et à défendre ses droits et sa liberté. Il devient un héros pour la population de la galaxie et continue à explorer l'univers, à la recherche de nouvelles formes de vie et de technologies avancées.
