@@ -1,0 +1,23 @@
+Ouf de soulagement
+meta-creation_date: 13/3/2023 04:23:28
+[Communiqué commun du Trésor Américain, de la Réserve Fédérale et du fonds de garantie des dépôts](https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312b.htm "Joint Press Release" hreflang="en") :
+
+<blockquote lang="en">After receiving a recommendation from the boards of the FDIC and the Federal Reserve, and consulting with the President, Secretary Yellen approved actions enabling the FDIC to complete its resolution of Silicon Valley Bank, Santa Clara, California, in a manner that fully protects all depositors. Depositors will have access to all of their money starting Monday, March 13. No losses associated with the resolution of Silicon Valley Bank will be borne by the taxpayer.</blockquote>
+
+Traduction libre :
+
+> Après avoir reçu une recommandation des conseils d'administration de la <abbr title="Federal Deposit Insurance Corporation" lang="en">FDIC</abbr> et de la Réserve fédérale, et consulté le président, la secrétaire d'État [Janet] Yellen a approuvé les mesures permettant à la FDIC d'achever la résolution de la Silicon Valley Bank, située à Santa Clara, en Californie, d'une manière qui protège pleinement tous les déposants. Les déposants auront accès à la totalité de leur argent à partir du lundi 13 mars. Aucune perte liée à la résolution de la Silicon Valley Bank ne sera supportée par le contribuable.
+
+La dernière phrase de ce communiqué s'explique par le fait que le problème initial de la Silicon Valley Bank était un problème de liquidité, pas de solvabilité. La lecture des [états financiers à fin décembre](https://web.archive.org/web/20230309205016/https://s201.q4cdn.com/589201576/files/doc_financials/2022/q4/f36fc4d7-9459-41d7-9e3d-2c468971b386.pdf "FORM 10-K" hreflang="en") laissait clairement penser que la banque disposait dans son bilan d'une quantité significative d'actifs relativement sûrs (Bons du Trésor et obligations hypothécaires). Par ailleurs, il n'a jamais été fait état de difficulté particulière sur le portefeuille de crédits. La valeur des actifs de la banque permettait en théorie de couvrir le remboursement des dépôts de la clientèle.
+
+La difficulté était que la banque, pour faire face à des retraits massifs de la clientèle, se retrouvait contrainte de vendre hâtivement des titres qu'elle avait initialement l'intention de garder jusqu'à leur échéance : les HTM (<i lang="en">held-to-maturity</i>) évoqués dans [mon billet précédent](https://blog.barijaona.com/monde/silicon-valley-bank.html "Dimanche 12 mars 2023, 18h38 TU"). Mais compte tenu de l'évolution des conditions sur le marché obligataire (forte hausse des taux d'intérêts sur les derniers mois), céder précipitamment ces titres amenait à comptabiliser des dépréciations. Le problème de liquidité risquait de se transformer en problème de solvabilité.
+
+En décidant de fermer la banque en pleine journée du vendredi, les autorités ont pu stopper la fuite de liquidité, profiter du week-end pour évaluer la situation et constater qu'elles pouvaient injecter de la liquidité sans risque l'argent du contribuable.
+
+En revanche, je ne me prononcerai pas en ce qui concerne la Signature Bank que les autorités US ont également décidé de fermer ce week-end. Car le problème de cette banque semble avoir été provoqué par l'activité relative aux cryptomonnaies. On est bien loin là de la "banque de Papa".
+
+
+
+
+
+
