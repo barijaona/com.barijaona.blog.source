@@ -10,4 +10,4 @@ Depuis 48 heures, les appels à ce que Simone Veil entre au Panthéon se multipl
 
 Le 10 janvier 2007, elle y prononçait toutefois un discours remarquable, qui la fait entrer encore plus dans mon Panthéon personnel.
 
-<iframe allowfullscreen width='460' height='259' frameborder='0' marginheight ='0' marginwidth='0' scrolling ='no' src='https://player.ina.fr/player/embed/I12243825/1/1b0bd203fbcd702f9bc9b10ac3d0fc21/460/259/1' ></iframe>
+<iframe allowfullscreen width='460' height='259' frameborder='0' marginheight ='0' marginwidth='0' scrolling ='no' src='https://player.ina.fr/player/embed/I12243825/1/1b0bd203fbcd702f9bc9b10ac3d0fc21/460/259/1?autoplay=0' ></iframe>
