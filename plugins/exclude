@@ -4,20 +4,24 @@
 #   Breyten Ernsting author of the original exclude plugin http://www.bje.nu/
 #   Fletcher T. Penney author of the hide plugin http://fletcher.freeshell.org
 # IMPORTANT : requires a recent version of Blosxom (v2.0.1+ aka CVS revision 1.9)
-# Version: 2006-01-02blosxom2
+# Version: 2024-01-06blosxom2
 
 package exclude;
 
 # --- Configurable variables -----
 
-# name of the file where the patterns of the posts to be hidden
-# are stored ; another popular choice is 'hide'
-$ign_file = 'exclude';
+# Name of the file(s) where are stored the patterns of the posts to be hidden.
+# Another popular choice is 'hide'
+my $ign_file = 'exclude';
 
-# location of the file : I prefer it in the flavour directory
+# Where are located this/these file(s) : I prefer it/them to be in the flavour directory
 $refdir = "$blosxom::datadir/../flavours";
 
 $refdir = $blosxom::datadir unless defined $refdir ;
+
+# Should I show a file if its exact URL is requested by the user ?
+# 0 = no; 1 = yes
+my $show_if_exact_match = 0;
 
 # --------------------------------
 use CGI qw/:standard/;
@@ -36,8 +40,8 @@ sub read_exclude_file {
       $line =~ s/\n//;
       $exclude_pattern = "$ign_fp2$line";
       # takes into account patterns corresponding to our directory path,
-      # and patterns from parallel paths which are hidden from upper index views
-      if ( $line && (( $ign_fp2 eq $workingdir2 ) || ($exclude_pattern  !~ /$workingdir/ )) ){
+      # and patterns from upper index views
+      if ( $line && ($workingdir2 =~ $ign_fp2) ){
 		push(@excludes, $exclude_pattern);
 	  }
     }
@@ -71,18 +75,30 @@ sub filter {
       if (-e $ign_fn) {read_exclude_file(); };
       $ign_fn = "$ign_fp$ign_file";
       if ( -e $ign_fn) {read_exclude_file(); };
-	} while ($path =~ s#([^/]*\/?)$## and $1) ;
+	} while ($path =~ s#([^/]*\/?)$## and $path) ;
 
 
 
   foreach $exclude (@excludes) {
     foreach $ign_cf (keys %$files_ref) {
- 	if ($ign_cf =~ m#^$exclude# && $ign_cf ne $queried_file){ delete $files_ref->{$ign_cf} ;  };
+ 	if ($ign_cf =~ m#^$exclude#i && !($show_if_exact_match && $ign_cf eq $queried_file)){ delete $files_ref->{$ign_cf} ; };
  	}
   }
  1;
 }
   	 
+sub skip {
+  my $match = 0;
+  if ($blosxom::static_or_dynamic eq 'static'){
+     foreach $exclude (@excludes) {
+      if ($queried_file =~ m#^$exclude#i && !$show_if_exact_match) {
+        $match = 1;
+        last;
+      }
+    }
+  }
+  $match;
+}
 
 1;
 
@@ -96,36 +112,24 @@ Blosxom Plug-in: exclude
 
 Purpose: ignores files and directories in entries. Still allow these stories to appear in the results of a search via Fletcher T. Penney's find plugin <http://fletcher.freeshell.org>
  
-This file does not make any new variables available for use in template files.
+This plugin does not make any new variables available for use in template files.
 
 =head1 VERSION
 
-2006-01-02blosxom2
+2024-01-06blosxom2
 
 Version number is the date on which this version of the plug-in was created.
-
-=head2 CHANGES
-
-2006-01-02blosxom2 : takes into account the modified call of filter subroutines in recent versions of blosxom.cgi. Tested with Blosxom CVS revision 1.9  (http://cvs.sourceforge.net/viewcvs.py/blosxom/blosxom2/)
-
-2004-09-13blosxom2 : First published version. Very hackish, needs a specific version of blosxom.
-
-=head1 AUTHOR
-
-Barijaona Ramaholimihaso http://homepage.mac.com/barijaona/
-The original exclude plugin was written by Breyten J. Ernsting <bje@dds.nl> http://www.bje.nu/
-Compatibility with the find plugin provided by Fletcher Penney.
-
-=head1 BUGS
-
-Probably ;)
-IMPORTANT : Needs a recent version of Blosxom2. Tested with Blosxom CVS revision 1.9  (http://cvs.sourceforge.net/viewcvs.py/blosxom/blosxom2/) 
 
 =head1 CONFIGURATION
 
 C<$ign_file> name to use for exclude files. Defaults to C<exclude>.
+A file extension can be added to the name, to specify that this particular file (Ex: C<exclude.html>) is specific to a flavour. 
 
-C<$refdir> directory where you put the exclude files. The default is your flavourdir. Some people might prefer the datadir.
+C<$refdir> directory where you put the exclude files. It is recommended to use what is defined by the flavourdir plugin.
+Falls back to your datadir if it is not defined.
+exclude files are parsed following the hierarchical structure of your datadir / flavourdir. 
+
+C<$show_if_exact_match> defines if Blosxom should display an individual story when its exact URL is requested.  
 
 =head1 EXAMPLE
 
@@ -138,14 +142,36 @@ One entry per line. You should be able to use regexes.
 
 =head1 BUGS
 
-None known; please send bug reports and feedback to the Blosxom
-development mailing list <blosxom-devel@lists.sourceforge.net>.
+Some plugins running ahead of the filter routine might still display links to excluded stories. This makes the security risks
+inherent to activating C<$show_if_exact_match> higher.
+
+Works with recent versions of Blosxom2 (2.0.1 or later).
+
+Every version is tested with the latest revision of Blosxom available at the date of publication <https://sourceforge.net/p/blosxom/blosxom/ci/master/tree/>.
+Please send bug reports and feedback to the author.
+
+=head2 CHANGES
+
+2024-01-06blosxom2 : default behavior is now to hide a file even when the requester is able to guess its exact URL ;
+fix loading of patterns ; fix static rendering of individual stories ; change name match to be case insensitive.
+
+2006-01-02blosxom2 : takes into account the modified call of filter subroutines in recent versions of blosxom.cgi.
+Tested with Blosxom CVS revision 1.9  (modified 18th December 2005).
+
+2004-09-13blosxom2 : First published version. Very hackish, needed a specific version of blosxom.
+
+=head1 AUTHOR
+
+Barijaona Ramaholimihaso <https://blog.barijaona.com> or <https://github.com/barijaona>
+
+The original exclude plugin was written by Breyten J. Ernsting <bje@dds.nl> <http://www.bje.nu/>.
+Compatibility with the find plugin provided by Fletcher Penney.
 
 =head1 LICENSE
 
-this Blosxom Plug-in
+this Blosxom Plug-in:
 Copyright 2003, Breyten Ernsting
-Copyright 2004-2006, Barijaona Ramaholimihaso
+Copyright 2004-2024, Barijaona Ramaholimihaso
 
 (This license is the same as Blosxom's)
 
