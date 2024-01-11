@@ -1,0 +1,45 @@
+2024, renouveau du web décentralisé
+meta-creation_date: 11/1/2024 03:28:30
+<i lang="en">Happy birthday, Matt Mullenweg. [Your note](https://ma.tt/2024/01/birthday-gift/ "Birthday Gift") had a strong influence in the follwing text. Sorry, I had not enough time to translate it. I don't know if you read French, but if it's not the case, I am confident DeepL can help.</i>
+
+Le titre ci-dessus est à la fois une prévision à caractère général et une bonne résolution personnelle pour l'année nouvelle. Je suis raisonnablement confiant que l'on devrait assister à un relatif renouveau des "petits sites" en 2024. Et j'ai l'intention d'y contribuer dans une très modeste mesure en publiant un peu plus souvent ici. Pourquoi ? Parce que les moteurs de recherche et les réseaux sociaux pilotés par des algorithmes sont en passe de transformer le web en magma où l'on a davantage de mal à retrouver quelque chose de fiable.
+
+Dans ce contexte, mémoire et notes personnelles deviennent plus précieuses. Ainsi que le partage d'information d'humain à humain. Lorsque les robots sont défaillants, savoir que telle information est jugée importante par une personne physique bien identifiée acquiert bien plus de valeur. Tenir un blog personnel pourrait ainsi devenir un peu moins un exercice de <i lang="en">personal branding</i> et un peu plus l'exercice d'un devoir de mémoire et de mise en avant de cet exercice. 
+
+Donc, je vais faire l'effort cette année de prendre plus de notes, et de les structurer un minimum. En ayant comme principale ambition que ces notes me soient personnellement utiles, tout en gardant à l'esprit que si je les trouve potentiellement utiles à d'autres personnes, j'en ferai plus volontiers des billets de blogs.
+
+En ce qui me concerne, j'ai beaucoup de mal à trouver un système de tenue de notes qui me satisfasse complètement. Mais je suis arrivé à trois constats :
+
+- au jour le jour, [comme beaucoup de monde sans doute](https://www.barebones.com/products/bbedit/bbedit14.html "Why BBEdit 14 got a Notes feature" hreflang="en"), je crée dans BBEdit une grande quantité de documents "Sans titre" pour prendre rapidement des notes. Une bonne raison à cela : il est quasiment impossible de faire planter cette application et elle récupère impeccablement la situation précédente chaque fois qu'on la relance ;
+- j'ai trop d'onglets ouverts dans Safari, parce que je garde des pages que je me promets de relire ou qui doivent me servir d'éléments dans la réalisation d'un projet. Tout comme BBEdit, Safari est très stable et plutôt sobre en ressources. Mais c'est quand même beaucoup de cycles CPU qui sont gaspillés et qui ne le seraient pas si je sauvegardais et classais ces liens dans des notes ;
+- il m'est arrivé plus d'une fois de retrouver des choses qui me sont très utiles dans mon blog, à travers des billets qui prenaient souvent la forme de "notes pour soi".
+
+Après avoir considéré la courbe d'apprentissage qui me serait nécessaire pour conserver mes notes privées dans un outil destiné aux <i lang="en">power users</i> comme [Obsidian](https://forum.obsidian.md/t/how-to-curb-the-steepness-of-obsidians-learning-curve/41725 "Forum: How to curb the steepness of Obsidian’s learning curve?" hreflang="en"), après avoir testé pendant plusieurs mois [Agenda](https://agenda.com "Notes meet calendar (macOS, iOS, iPadOS)" hreflang="en"), j'ai décidé de tout recentraliser sur BBEdit, et de garder la même logique qu'un weblog : des fichiers texte classés et nommés de manière chronologique. En général, un ou deux fichiers par jour : un pour les notes professionnelles, un pour celles plus personnelles ou relevant de la serendipité.
+
+Et pour aller au bout de la logique précédente, autant mettre toutes ces notes dans un sous-répertoire de mon outil de blogging. Mon "nouveau" système de notes entend s'appuyer totalement sur l'intuition, assez géniale à l'époque, de [Blosxom](https://web.archive.org/web/20030524112140/http://www.blosxom.com/ "May 2003" hreflang="en") :
+
+> La philosophie de conception qui sous-tend Blosxom est axée sur le lien entre la simplicité, la convivialité et l'interopérabilité. Bloguer devrait être aussi simple que de taper dans l'éditeur de texte de son choix et d'appuyer sur Enregistrer. Le blogging devrait être aussi intuitif et naturel que de travailler avec des fichiers et des répertoires. Un système de blogs doit être extensible sans nécessiter de savoir-faire particulier ; il doit interopérer avec le système d'exploitation et le serveur Web qui se trouvent sous ses pieds et en tirer pleinement parti.
+
+Bon, dans la réalité, ça a demandé plus de travail que prévu. Parce que mon système personnel de blogging se base sur la génération de fichiers statiques, et parce qu'il faut que mes notes privées le demeurent, il m'a fallu me repencher sur [un de mes plugins](https://sourceforge.net/p/blosxom/blosxom-plugins/ci/master/tree/barijaona/exclude "exclude plugin on Sourceforge" hreflang="en"). Et au passage, découvrir et corriger deux bugs dans Blosxom, dont [l'un datait de treize ans](https://sourceforge.net/p/blosxom/blosxom/ci/ca97975d66a1cde50c04fc35e7fec19e639e237f/ "Commit" hreflang="en") !
+
+#### Notes complémentaires pour soi
+
+1/ lorsqu'une mise à jour de macOS écrase `/etc/apache2/httpd.conf`, il faut, pour pouvoir utiliser Blosxom en mode dynamique, réactiver dans ce fichier les modules :
+
+- cgi_module
+- rewrite_module
+
+2/ si l'on veut en sus utiliser TLS/SSL, il faut également activer les modules :
+
+- ssl_module
+- socache_shmcb_module
+
+et décommenter la ligne :
+
+````
+Include /private/etc/apache2/extra/httpd-ssl.conf
+````
+
+La gestion des clés TLS se fait avec [certbot](https://certbot.eff.org "Electronic Frontier Foundatin" hreflang="en"), déjà installé [à l'époque via Homebrew](<$url />/web/settingup_letsencrypt.html "DO encrypt" hreflang="en").
+
+3/ il me faut rajouter quelques éléments aux tests d'intégration continue de [Blosxom](https://blosxom.sourceforge.net "blosxom :: the zen of blogging" hreflang="en") et publier une version 2.1.3.
