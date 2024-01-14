@@ -1,7 +1,7 @@
 #!/bin/sh
 
-pushd ~/blosxom/posts/___Notes
-find ~/Nextcloud/Documents/___Notes -name "*.txt" -exec ln -v {} . \;
+pushd ~/blosxom/posts/___Carnet
+find ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/___Carnet -name "*.txt" -exec ln -f -v {} . \;
 popd
 
 
