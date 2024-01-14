@@ -1,0 +1,55 @@
+Rajout de notes avec un raccourci Apple
+meta-creation_date: 14/1/2024 21:24:51
+Lors de [l'épisode précédent](<$url /><$path />/blosxom-refresh-2024.html), j'expliquais que j'avais décidé de garder mes notes dans des fichiers texte nommés de manière chronologique. Pour chaque jour, un fichier texte pour les notes ou brouillons professionnels, un autre pour ceux à caractère plus personnel.
+
+Ces notes constituent ainsi un carnet. Le système se veut simple, versatile et allant contre [la loi de Wirth](https://fr.wikipedia.org/wiki/Loi_de_Wirth "loi empirique selon laquelle « les programmes ralentissent plus vite que le matériel n'accélère »"). Lorsque je dois écrire quelque chose de consistent, j'utilise le vénérable BBEdit.
+
+Mais pour de petits ajouts rapides, je me suis dit qu'utiliser le menu de partage intégré dans bon nombre d'applications iPhone ou Mac pouvait être un plus.
+
+D'où l'idée de créer un raccourci (<i lang="en">Shortcut</i>) et de l'intégrer à ces fonctions de partage.
+
+Pour je ne sais quelle raison, l'application Raccourcis sur iOS n'arrive pas à écrire dans un dossier partagé Nextcloud, pourtant accessible via l'application Fichiers. Pour partager les données entre un Mac et un iPhone, j'ai de ce fait été contraint de réviser ma stratégie et mettre les fichiers sur iCloud Drive.
+
+Une fois cette contrainte prise en compte, [le raccourci auquel je suis arrivé](https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e "lien iCloud drive") me satisfait largement sur iOS, un peu moins sur macOS où l'application Raccourcis semble moins mûre. Mais l'activation du dit raccourci n'est pas si évidente, d'où la publication du présent billet (qui, si vous suivez bien, a débuté en note à usage personnel) avec les remarques d'installation qui suivent.
+
+#### Sur iOS
+
+##### Permettre aux raccourcis d'apparaître dans le menu de partage :
+Application *Réglages* ︎➙ *Raccourcis* ➙ *Partage privé* (à cocher)
+
+##### Installer le raccourci "Ajouter au carnet"
+Cliquez [ce lien](https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e "lien iCloud drive").
+
+Dans Raccourcis, appuyer sur (…) qui permet de modifier le raccourci *Ajouter au carnet*. Lancer le raccourci une première fois pour vérifier qu'il fonctionne et qu'il puisse demander les autorisations d'accès au dossier "___Carnet" dans iCloud Drive.
+
+##### Vérifier les autorisations du raccourci :
+Appuyer sur (…) qui permet de modifier, puis choisir l'onglet Informations ⓘ
+Vérifier que sont cochés :
+
+- *Dans la feuille de partage*
+- *Epingler dans la barre de menus*
+- *Recevoir le contenu affiché*
+- *Utiliser comme action rapide*
+
+##### Associer les fichiers texte à un éditeur qui vous plaît
+Dans Files.app, choisir un fichier texte (extension .txt), le partager et choisir l'application  à laquelle vous voulez associer les fichiers texte. Pour ma part, j'utilise [Pretext](https://apps.apple.com/app/pretext/id1347707000?l=fr-FR "Markdown & Plain Text Editor").
+
+#### Sur macOS
+
+##### Permettre aux raccourcis d'apparaître dans le menu de partage :
+Activer dans *Réglages Système* ➙ *Confidentialité et sécurité* ➙ *Autres* ➙ *Extensions* ➙ *Partage* ➙ *Raccourcis*.
+
+##### Accepter les raccourcis non signés par Apple
+Dans les réglages de Raccourcis.app, activer *Partage privé*.
+
+Lancer le raccourci *Ajouter au carnet* manuellement dans Raccourcis pour vérifier qu'il fonctionne.
+
+Cette fonction de partage est encore un peu bougée dans macOS : pour les textes, mon raccourci ne marche pas avec l'élément de menu contextuel *Partager…*, mais je peux passer par l'élément de menu *Services* ➙ *Ajouter au carnet*.
+
+#### Références :
+
+- [Shortcuts app missing in share sheets (iOS) - SravanKrA's answer](https://discussions.apple.com/thread/251930666?answerId=251930666021#251930666021 "Apple Discussions" hreflang="en")
+- [Files.app - how to control what app opens when you click a file?](https://www.reddit.com/r/ios/comments/jmbjtw/filesapp_how_to_control_what_app_opens_when_you/ "Reddit" hreflang="en")
+- [Utiliser le menu Partager sur Mac](https://support.apple.com/fr-fr/guide/mac-help/mh40614/mac "Guide d’utilisation de macOS Sonoma 14")
+- [Recevoir des éléments affichés à l’écran provenant d’autres apps](https://support.apple.com/fr-fr/guide/shortcuts/apd350ce757a/ios "Guide d’utilisation de Raccourcis")
+
