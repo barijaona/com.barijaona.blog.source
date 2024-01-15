@@ -1,6 +1,6 @@
 Rajout de notes avec un raccourci Apple
 meta-creation_date: 14/1/2024 21:24:51
-Lors de [l'épisode précédent](<$url /><$path />/blosxom-refresh-2024.html), j'expliquais que j'avais décidé de garder mes notes dans des fichiers texte nommés de manière chronologique. Pour chaque jour, un fichier texte pour les notes ou brouillons professionnels, un autre pour ceux à caractère plus personnel.
+Lors de [l'épisode précédent](<$url />/web/blosxom-refresh-2024.html), j'expliquais que j'avais décidé de garder mes notes dans des fichiers texte nommés de manière chronologique. Pour chaque jour, un fichier texte pour les notes ou brouillons professionnels, un autre pour ceux à caractère plus personnel.
 
 Ces notes constituent ainsi un carnet. Le système se veut simple, versatile et allant contre [la loi de Wirth](https://fr.wikipedia.org/wiki/Loi_de_Wirth "loi empirique selon laquelle « les programmes ralentissent plus vite que le matériel n'accélère »"). Lorsque je dois écrire quelque chose de consistent, j'utilise le vénérable BBEdit.
 
