@@ -17,10 +17,15 @@ Une fois cette contrainte prise en compte, [le raccourci auquel je suis arrivé]
 ##### Permettre aux raccourcis d'apparaître dans le menu de partage :
 Application *Réglages* ︎➙ *Raccourcis* ➙ *Partage privé* (à cocher)
 
+![Copie écran Raccourcis dans l'application Réglages d'iOS](<$url /><$path />/ajouter-au-carnet-ios1.jpg "Copie écran Raccourcis dans l'application Réglages d'iOS" width="480px")
+
 ##### Installer le raccourci "Ajouter au carnet"
 Cliquez [ce lien](https://www.icloud.com/shortcuts/9675a09d05f74f3c9ad1fcb715a2177e "lien iCloud drive").
 
 Dans Raccourcis, appuyer sur (…) qui permet de modifier le raccourci *Ajouter au carnet*. Lancer le raccourci une première fois pour vérifier qu'il fonctionne et qu'il puisse demander les autorisations d'accès au dossier "___Carnet" dans iCloud Drive.
+
+![Copie écran Contenu du raccourci - Partie 1](<$url /><$path />/ajouter-au-carnet-ios2.jpg "Copie écran Contenu du raccourci - Partie 1" width="480px")
+![Copie écran Contenu du raccourci - Partie 2](<$url /><$path />/ajouter-au-carnet-ios3.jpg "Copie écran Contenu du raccourci - Partie 2" width="480px")
 
 ##### Vérifier les autorisations du raccourci :
 Appuyer sur (…) qui permet de modifier, puis choisir l'onglet Informations ⓘ
@@ -31,6 +36,8 @@ Vérifier que sont cochés :
 - *Recevoir le contenu affiché*
 - *Utiliser comme action rapide*
 
+![Copie écran Informations du raccourci](<$url /><$path />/ajouter-au-carnet-ios4.jpg "Copie écran Informations du raccourci" width="480px")
+
 ##### Associer les fichiers texte à un éditeur qui vous plaît
 Dans Files.app, choisir un fichier texte (extension .txt), le partager et choisir l'application  à laquelle vous voulez associer les fichiers texte. Pour ma part, j'utilise [Pretext](https://apps.apple.com/app/pretext/id1347707000?l=fr-FR "Markdown & Plain Text Editor").
 
@@ -39,12 +46,16 @@ Dans Files.app, choisir un fichier texte (extension .txt), le partager et choisi
 ##### Permettre aux raccourcis d'apparaître dans le menu de partage :
 Activer dans *Réglages Système* ➙ *Confidentialité et sécurité* ➙ *Autres* ➙ *Extensions* ➙ *Partage* ➙ *Raccourcis*.
 
+![Copie écran Réglages Système](<$url /><$path />/ajouter-au-carnet-macos1.jpg "Copie écran Réglages Système" width="720px")
+
 ##### Accepter les raccourcis non signés par Apple
 Dans les réglages de Raccourcis.app, activer *Partage privé*.
 
 Lancer le raccourci *Ajouter au carnet* manuellement dans Raccourcis pour vérifier qu'il fonctionne.
 
 Cette fonction de partage est encore un peu bougée dans macOS : pour les textes, mon raccourci ne marche pas avec l'élément de menu contextuel *Partager…*, mais je peux passer par l'élément de menu *Services* ➙ *Ajouter au carnet*.
+
+![Copie écran menu contextuel Services](<$url /><$path />/ajouter-au-carnet-macos2.jpg "Copie écran menu contextuel Services" width="635px")
 
 #### Références :
 
