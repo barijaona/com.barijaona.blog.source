@@ -1,0 +1,13 @@
+Débuts
+meta-creation_date: 24/1/2024 21:51:55
+Janvier 1984, c'était le mois de l'annonce de deux micro-ordinateurs assez extraordinaires pour l'époque : le [Sinclair QL](https://fr.wikipedia.org/wiki/Sinclair_QL "Wikipedia") le 12 janvier, et le Macintosh, le 24 du même mois.
+
+Ces ordinateurs étaient présentés comme 32 bits. En fait, le QL, avec son Motorola 68008, n'était en toute rigueur qu'un ordinateur 8/32 bits. Et le Mac, n'était en 1984 avec son 68000 qu'un 16/32 bits. Mais ils faisaient rêver par rapport à l'IBM PC, qui avec son Intel 8088, n'était qu'un 8/16 bits, tandis que les meilleurs clones d'IBM de l'époque se targuaient avec leur 8086 d'être de « vrais 16 bits ». Sans pouvoir se targuer de la puissance du 32 bits.
+
+À l'époque, il n'y avait pas véritablement de fragmentation du marché entre les micro-ordinateurs à usage personnel et ceux à usage professionnel. Avoir des cartouches comme support de stockage de masse n'était pas forcément un obstacle dirimant. Une machine pouvait être considérée comme professionnelle avec un seul lecteur de disquettes. Un deuxième lecteur était néanmoins considéré comme un élément de confort non négligeable. Quant aux disques durs, c'étaient des choses exotiques au coût pharamineux que personne de mon entourage n'avait physiquement vu.
+
+Pas vraiment possible pour moi de recasser la tirelire, après l'avoir fait [un peu moins de trois ans plus tôt](<$url />/photos/old_dai.html "Fouille de placards"). Mais ces machines faisaient saliver. Prix oblige, je regardais le Sinclair avec davantage d'intérêt, alors que le Macintosh m'apparaissait comme une extravagance inaccessible.
+
+Je ne suis tombé amoureux du Mac qu'en le rencontrant dans une boutique du boulevard Saint Germain de Paris qui permettait de le manipuler un peu. Et je me suis dit que mon retour prochain à Madagascar valait bien de casser à nouveau la tirelire, que ce geste n'était plus un plaisir que je m'offrais, mais un investissement. En restant raisonnable : le choix se porta sur un modèle 128 transformé en Macintosh Plus, bien plus convaincant que le Macintosh originel grâce à son mégaoctet de mémoire vive (!), son clavier avec pavé numérique et son lecteur de disquettes de 800 Ko au lieu de 400 Ko. J'ajoutais à mon achat un deuxième lecteur de disquette avant de passer quelque temps plus tard à un disque Rodime 45 Plus, [qui se plaçait sous l'unité centrale du Mac](https://collection.sciencemuseumgroup.org.uk/objects/co8413211/macintosh-plus-1mb-computer-micro-computer "Collection Science Museum" hreflang="en") et que l'on connectait en SCSI…
+
+<i lang="en">Happy Birthday, Macintosh !</i>
