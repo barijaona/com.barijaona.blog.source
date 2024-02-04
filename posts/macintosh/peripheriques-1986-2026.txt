@@ -1,0 +1,25 @@
+Périphériques
+meta-creation_date: 4/2/2024 20:51:40
+En écrivant le [précédent article](<$url /><$path />/happy-40th-birthday.html "Débuts"), j'avais complètement oublié d'évoquer un accessoire pourtant acheté en même temps que ma configuration initiale : l'imprimante Apple ImageWriter II.
+
+L'ImageWriter II fut introduite par Apple sur le marché en septembre 1985 (en même temps que le disque dur Apple). Ce fut pour moi le choix par défaut, la LaserWriter présentée en janvier de la même année étant financièrement inaccessible.
+
+L'outil était de facto inutilisable la nuit, pour des raisons que vous devinerez en regardant cette vidéo (qui ne reflète pas fidèlement la couleur de l'engin, qui avait adopté le design <i lang="en">[Snow White](https://en.wikipedia.org/wiki/Snow_White_design_language "Snow White design language on Wikipedia")</i>)…
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/q6sAj-N05Xc?si=sYoUwHJFJ2UIX6kD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+J'avais adjoint à cette imprimante un [chargeur feuille à feuille](https://archive.org/details/ImageWriter_II_SheetFeeder_Installation_Manual/page/n18/mode/1up "Chargeur feuille-a-feuille Image Writer™ II : Guide d'installation (sur archive.org)") qui m'a régulièrement fait pester, car il fallait démonter l'engin pour repasser au papier listing en continu à bandes Caroll.
+
+Quelque temps plus tard, je découvrais avec stupéfaction chez un cousin qu'une alternative plus économique à l'ImageWriter existait : l'imprimante C-Itoh 8510, une fois celle-ci munie d'un câble adéquat.
+
+![Photo d'imprimante C-Itoh 8510 sur eBay](<$url /><$path />/c-itoh-8510.jpg "Imprimante C-Itoh 8510 sur eBay" width="560px")
+
+Si j'avais eu ces informations plus tôt, peut-être aurais-je choisi cette solution, sans m'embarrasser d'un chargeur feuille à feuille. En effet, mon utilisation la plus régulière de l'imprimante était l'impression de codes source, pour pouvoir les examiner avec un recul bien plus grand que face à un écran de 9 pouces de diagonale[^1]…
+
+[^1]: Le mode brouillon permettait de stresser un peu moins par rapport au coût des rubans et du papier…
+
+De nos jours, où l'on passe par des outils de gestion de version et des éditeurs de texte dotés de l'indentation automatique et de la coloration syntaxique, imprimer du code afin de le relire n'a plus guère de sens. Mais prendre du recul pour lire ce code reste d'actualité.
+
+La vidéo ci-après me convainc qu'une prochaine version pourrait dans quelques années devenir un périphérique très apprécié de mon Mac… Comme souvent avec les grosses innovations matérielles d'Apple, il vaudra mieux attendre une version 2 qui éliminera certains défauts à la lumière des usages, mais il y a là un gros potentiel par rapport à ce besoin…
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GkPw6ScHyb4?si=gWN20RGJfjf2Y7kJ&amp;start=497" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

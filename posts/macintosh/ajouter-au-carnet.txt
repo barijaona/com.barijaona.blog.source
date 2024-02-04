@@ -53,7 +53,7 @@ Dans les réglages de Raccourcis.app, activer *Partage privé*.
 
 Lancer le raccourci *Ajouter au carnet* manuellement dans Raccourcis pour vérifier qu'il fonctionne.
 
-Cette fonction de partage est encore un peu bougée dans macOS : pour les textes, mon raccourci ne marche pas avec l'élément de menu contextuel *Partager…*, mais je peux passer par l'élément de menu *Services* ➙ *Ajouter au carnet*.
+Cette fonction de partage est encore un peu buggée dans macOS : pour les textes, mon raccourci ne marche pas avec l'élément de menu contextuel *Partager…*, mais je peux passer par l'élément de menu *Services* ➙ *Ajouter au carnet*.
 
 ![Copie écran menu contextuel Services](<$url /><$path />/ajouter-au-carnet-macos2.jpg "Copie écran menu contextuel Services" width="635px")
 
