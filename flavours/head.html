@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="$blosxom::blog_language">
 <head>
-<meta charset="UTF-8" />
+<meta charset="UTF-8">
 <?$pagetype::pagetype like="(category|chrono)"><meta name="robots"
-content="noindex,follow" /></?><?$pagetype::pagetype eq="main"><link rel="canonical" href="$url/index.$flavour" />
+content="noindex,follow"></?><?$pagetype::pagetype eq="main"><link rel="canonical" href="$url/index.$flavour">
 <link rel="authorization_endpoint" href="https://indieauth.com/auth">
 <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 <link rel="pgpkey" href="/pubkey.asc">
 <link rel="openid2.delegate" href="https://blog.barijaona.com/">
-<link rel="openid2.server" href="https://openid.indieauth.com/openid"></?><?$pagetype::pagetype eq="story"><link rel="canonical" href="$url/$path_info" /></?>
+<link rel="openid2.server" href="https://openid.indieauth.com/openid"></?><?$pagetype::pagetype eq="story"><link rel="canonical" href="$url/$path_info"></?>
 <title>$storytitle::page_title$blosxom::blog_title</title>
-<meta name="DESCRIPTION" content="$meta::bjrDescription" />
-<meta name="keywords" content="$meta::bjrKeywords" />
-<meta name="ICBM" content="-18.9079, 47.5333" />
-<meta name="geo.region" content="MG-T" />
-<meta name="viewport" content="initial-scale=1" />
-<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="$blosxom::url/favicon.ico" />
-<link rel="styleSheet" type="text/css" href="$blosxom::url/style/barijaona6.css" />
-<link rel="styleSheet" type="text/css" href="$blosxom::url/style/$meta::bjrStylesheet.css" />
-<link rel="styleSheet" type="text/css" media="screen" href="$blosxom::url/style/screenlayout6.css" />
-<link rel="styleSheet" type="text/css" media="screen" href="$blosxom::url/style/code.css" />
-<link rel="stylesheet" media="print" type="text/css" href="$blosxom::url/style/print.css" />
-<?$pagetype::pagetype like="(main|story)"><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="$blosxom::url/atom.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="$blosxom::url/rss.xml" /><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="$blosxom::url/shortened.xml" /></?>
-<?$pagetype::pagetype eq="category"><link rel="alternate" type="application/rss+xml" title="RSS (titres)" href="$blosxom::url/$path_info/rss.xml" /></?>
-<?$prevnextstory::prevlink><link rel="prev" href="$prevnextstory::prevlink" title="$prevnextstory::prevtitle" /></?>
+<meta name="DESCRIPTION" content="$meta::bjrDescription">
+<meta name="keywords" content="$meta::bjrKeywords">
+<meta name="ICBM" content="-18.9079, 47.5333">
+<meta name="geo.region" content="MG-T">
+<meta name="viewport" content="initial-scale=1">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="$blosxom::url/favicon.ico">
+<link rel="styleSheet" type="text/css" href="$blosxom::url/style/barijaona6.css">
+<link rel="styleSheet" type="text/css" href="$blosxom::url/style/$meta::bjrStylesheet.css">
+<link rel="styleSheet" type="text/css" media="screen" href="$blosxom::url/style/screenlayout6.css">
+<link rel="styleSheet" type="text/css" media="screen" href="$blosxom::url/style/code.css">
+<link rel="stylesheet" media="print" type="text/css" href="$blosxom::url/style/print.css">
+<?$pagetype::pagetype like="(main|story)"><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="$blosxom::url/atom.xml"><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="$blosxom::url/rss.xml"><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="$blosxom::url/shortened.xml"></?>
+<?$pagetype::pagetype eq="category"><link rel="alternate" type="application/rss+xml" title="RSS (titres)" href="$blosxom::url/$path_info/rss.xml"></?>
+<?$prevnextstory::prevlink><link rel="prev" href="$prevnextstory::prevlink" title="$prevnextstory::prevtitle"></?>
 <?$pagetype::pagetype like="(main|story)">
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
 </?>
-<?$prevnextstory::nextlink><link rel="next" href="$prevnextstory::nextlink" title="$prevnextstory::nexttitle" /></?>
-<?$pagetype::pagetype like="main"><link rel="styleSheet" type="text/css" href="$blosxom::url/style/mastodon-timeline.css" />
-<script type="text/javascript" src="$blosxom::url/style/tinybox.js"></script>
-<script type="text/javascript">
+<?$prevnextstory::nextlink><link rel="next" href="$prevnextstory::nextlink" title="$prevnextstory::nexttitle"></?>
+<?$pagetype::pagetype like="main"><link rel="styleSheet" type="text/css" href="$blosxom::url/style/mastodon-timeline.css">
+<script src="$blosxom::url/style/tinybox.js"></script>
+<script>
 function getComment(threadId,refPageURL){
 	if(navigator.appVersion.indexOf("Mobile")>-1 && document.documentElement.style. WebkitOverflowScrolling == undefined )
 		{ boxWidth = 0 ; return true};
