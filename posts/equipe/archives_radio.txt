@@ -1,5 +1,5 @@
 ﻿Archives Radio Userland
-meta-creation_date: 7/1/2006 08:43:54
+meta-creation_date: 20/11/2003 08:43:54
 * Février 2002
 	* <a href="<$url />/2002/02/16.html" title="Billet(s) du 16/02/2002">16/02/2002</a>
 	* <a href="<$url />/2002/02/18.html" title="Billet(s) du 18/02/2002">18/02/2002</a>
