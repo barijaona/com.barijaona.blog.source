@@ -43,7 +43,7 @@ Dans Files.app, choisir un fichier texte (extension .txt), le partager et choisi
 
 #### Sur macOS
 
-##### Permettre aux raccourcis d'apparaître dans le menu de partage :
+##### Permettre aux raccourcis d'apparaître dans le menu de partage : [permettreMenuPartage2]
 Activer dans *Réglages Système* ➙ *Confidentialité et sécurité* ➙ *Autres* ➙ *Extensions* ➙ *Partage* ➙ *Raccourcis*.
 
 ![Copie écran Réglages Système](<$url /><$path />/ajouter-au-carnet-macos1.jpg "Copie écran Réglages Système" width="720")
