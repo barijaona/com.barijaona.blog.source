@@ -16,7 +16,7 @@ L'ensemble des pages a été conçu avec un souci d'accessibilité à l'esprit. 
 
 <h2>Accès rapide par combinaison de touches</h2>
 
-La plupart des logiciels de navigation permettent d'atteindre des liens spécifiques par la frappe simultanée d'une touche spéciale (Alt sous Windows, Control sous Macintosh) et d'une clé d'accès.
+La plupart des logiciels de navigation permettent d'atteindre des liens spécifiques par la frappe simultanée d'une [touche spéciale](https://developer.mozilla.org/fr/docs/Web/HTML/Global_attributes/accesskey "attribut 'accesskey' sur MDN Web Docs") (en général, Alt sous Windows, Control+Option sous Macintosh) et d'une clé d'accès.
 <dl>
 <dt>Clé d'accès 1</dt>
 <dd>Page d'accueil</dd>
