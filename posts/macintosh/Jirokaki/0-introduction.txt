@@ -1,6 +1,6 @@
 Projet Jirōkaki (次郎柿)
 meta-creation_date: 28/8/2016 19:58:53
-<img src="<$url /><$path />/vienna-3.png" width="128px" height="128px" style="float:left;" alt="Icône de Vienna RSS" />Étant devenu l'un des principaux [développeurs](https://github.com/ViennaRSS/vienna-rss/graphs/contributors "Contributors list on Github" hreflang="en") actuels (si ce n'est le principal développeur) de [Vienna RSS](http://www.vienna-rss.org "RSS/Atom reader for Mac OS X" hreflang="en"), j'ai été fort embêté en apprenant lors de la dernière [WWDC](https://fr.wikipedia.org/wiki/Worldwide_Developers_Conference "Worldwide Developers Conference sur Wikipedia") que mon Mac Mini fin 2009 ne serait pas supporté par macOS Sierra (macOS 10.12).
+<img src="<$url /><$path />/vienna-3.png" width="128" height="128" style="float:left;" alt="Icône de Vienna RSS" />Étant devenu l'un des principaux [développeurs](https://github.com/ViennaRSS/vienna-rss/graphs/contributors "Contributors list on Github" hreflang="en") actuels (si ce n'est le principal développeur) de [Vienna RSS](http://www.vienna-rss.org "RSS/Atom reader for Mac OS X" hreflang="en"), j'ai été fort embêté en apprenant lors de la dernière [WWDC](https://fr.wikipedia.org/wiki/Worldwide_Developers_Conference "Worldwide Developers Conference sur Wikipedia") que mon Mac Mini fin 2009 ne serait pas supporté par macOS Sierra (macOS 10.12).
 
 <!-- more -->
 
@@ -36,7 +36,7 @@ Me voici donc un rien contraint de m'orienter vers le hackintosh. D'un point de 
 
 ce qui me convainc qu'il n'y aura pas de préjudice pour Apple.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Diospyros_kaki_20101123_d.jpg/320px-Diospyros_kaki_20101123_d.jpg" width="320px" height="240px" style="float:right;" title="Photo par Batholith (Travail personnel) [Domaine public], via Wikimedia Commons" alt="Diospyros kaki Jiro" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Diospyros_kaki_20101123_d.jpg/320px-Diospyros_kaki_20101123_d.jpg" width="320" height="240" style="float:right;" title="Photo par Batholith (Travail personnel) [Domaine public], via Wikimedia Commons" alt="Diospyros kaki Jiro" />
 Pour conclure, j'ai fini par trouver un nom au projet. Par glissements successifs, de Macintosh, puis Hackintosh, puis Hacky, l'on arrive relativement facilement à Kaki, ce qui dans le contexte est d'autant plus tentant qu'on trouve assez couramment à Madagascar des « [Kakis pomme](http://www.pepinieredubosc.fr/kaki/ "La Pépinière du Bosc") ». Va donc pour le Jirōkaki ou [次郎柿](https://ja.wikipedia.org/wiki/次郎柿 "Wikipedia en Japonais" hreflang="ja"), le fruit d'une des variétés du [plaqueminier](https://fr.wikipedia.org/wiki/Plaqueminier "Plaqueminier sur Wikipedia en français") qui aura le mérite :  
 
 - d'évoquer la couleur orange chère à Vienna et à MacGeneration,
