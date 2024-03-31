@@ -1,0 +1,16 @@
+Maintenir paraît ennuyeux…
+meta-creation_date: 31/3/2024 16:08:08
+Devant assumer le rôle de garde-malade pour un proche, j'ai été amené à relire [un billet d'il y a vingt ans](<$url />/madagascar/hopital.html "On n'est pas à Lambaréné… Tempêtes et verre de toaka gasy") en rapport avec cette situation.
+
+Même hôpital, quasiment même pavillon : en deux décennies, pratiquement rien ne semble avoir changé. Il faut un œil assez attentif pour remarquer que, non, cet appareil de radiologie ou ce respirateur ne sont ni des années 1950 ni des années 2000.
+
+L'ambiance rétro est d'évidence toujours là… Les problèmes que j'avais naguère narrés également. S'y ajoute, du fait de la hausse de la population d'Antananarivo et de la gestion calamiteuse de la compagnie nationale d'eau et électricité, l'impossibilité à certaines heures d'avoir de l'eau courante. Lorsque l'on se réveille la nuit, mieux vaut en profiter pour remplir le seau d'une réserve qui pourrait bien être fort utile.
+
+Et pourtant, malgré toutes ces limites, l'institution fonctionne, et c'est à elle ou à d'autres aussi datées que l'on pense en premier lorsqu'on est confronté à un problème sérieux.
+
+Il est des hôpitaux publics plus récents que [celui-ci](https://www.youtube.com/watch?v=H7Fa7HxxJ1M "L'hôpital de Soavinandriana, témoin de 130 ans d'histoire médicale - 2424.mg sur YouTube") à Antananarivo. Il est aussi de rutilantes et onéreuses cliniques privées. Mais comme il y a vingt ans, le choix a porté sur la fiabilité plutôt que sur le confort ou le clinquant. Ici, les équipes connaissent leur métier, savent se coordonner, tentent de suppléer aux déficiences matérielles, et appliquent de fait ce principe de sobriété que les grandes conférences internationales n'arrivent pas à nous enjoindre d'adopter.
+
+Difficile de ne pas faire un rapprochement avec mes propres réflexions sur la sobriété numérique. Maintenir, optimiser est moins <i lang="en">sexy</i> qu'inaugurer quelque chose de neuf. Moins valorisant dans une carrière également, que l'on soit homme politique, médecin ou informaticien. Il est difficile de construire une carrière valorisante en étant très familier avec une vieille chose ennuyeuse qui est juste considérée comme acquise par tout le monde.
+
+En 1969, la NASA envoyait les astronautes d’Apollo 11 sur la lune, avec un ordinateur d’une capacité de 70 Kilo Octet. Serions nous capables aujourd'hui d'en faire autant ? Connaissons nous [ce que nous avons perdu entretemps](https://lebondigital.com/de-linfobesite-a-lobesiciel-comment-le-numerique-surcharge/ "De l’infobésité à l’obésiciel : comment le numérique s’est surchargé - Le bon digital"), et serions nous prêts à adopter une [discipline de frugalité](https://mcfunley.com/choose-boring-technology "Choose boring technologies - Dan McKinley" hreflang="en") ?
+
