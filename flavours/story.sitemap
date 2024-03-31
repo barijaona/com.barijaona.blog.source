@@ -1,3 +1,3 @@
   <url>
-    <loc>$fix_static_url::static_url$path/$fn.$blosxom::default_flavour</loc>
+    <loc>$blosxom::url$path/$fn.$blosxom::default_flavour</loc>
   </url>
