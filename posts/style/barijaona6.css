@@ -26,7 +26,7 @@
 
 body,html {
 	background:var(--background-color); margin:0; padding:0;
-	font-family:"Open Sans",Helvetica,Arial,sans-serif
+	font-family:Optima,"Inclusive Sans","Lucida Grande",Verdana,Tahoma,Helvetica,Arial,sans-serif;
 }
 
 .contentfooter,.nav1,.topnav2,.topnav {
@@ -104,7 +104,6 @@ dt {
 }
 
 .dateofday {
-	font-family:Optima,'Lucida Grande',Futura,Verdana,"Bitstream Vera Sans",Tahoma,Geneva,Lucida,Helvetica,Arial,sans-serif;
 	text-align:right;
 	border-top:1px dotted gray;
 	border-left:10px dotted #999;
