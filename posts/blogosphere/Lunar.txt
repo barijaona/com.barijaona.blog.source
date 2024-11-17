@@ -10,6 +10,6 @@ Apprendre la mort d'une belle personnalité plus jeune que soi laisse toujours u
 
 Si les pages Web de 2003 génèrent des codes 404 ou 403, les idées, elles, peuvent survivre et se traduire en actes. Mettre en oeuvre sur ce blog un système de commentaire basé sur Mastodon [comme promis](https://w3c.social/@koalie/113293812108487212 "Discussion chez Coralie Mercier") sera mon petit geste de communion avec [les obsèques de Lunar](https://lunar.anargeek.net/) ce jour.
 
-### Commentaires :
+#### Commentaires :
 
 Avec un compte Mastodon ou du Fediverse, vous pouvez répondre à ce billet. Étant donné que le Fediverse est un système décentralisé, vous pouvez réagir en utilisant votre compte existant hébergé par un serveur Mastodon ou une plate-forme compatible, à partir du lien ci-après ou en collant celui-ci dans la barre de recherche de votre application Mastodon : [https://mastodon.mg/@barijaona/113500538860688431](https://mastodon.mg/@barijaona/113500538860688431)
