@@ -1,0 +1,185 @@
+# Blosxom Plugin: fedifeedback
+# Author(s): Barijaona Ramaholimihaso
+# Version: 2024-11-24blosxom2
+# Documentation: See the bottom of this file or type: perldoc fedifeedback
+
+package fedifeedback;
+
+use strict;
+
+# use as $fedifeedback::shortlink and $fedifeedback::explainedlink in flavour templates
+use vars qw($shortlink $explainedlink);
+
+# Uncomment next line to enable debug output (don't uncomment debug() lines)
+#use Blosxom::Debug debug_level => 1;
+
+# --- Configurable variables -----
+
+# text of the shortlink
+my $shortlink_text = "React and comment";
+
+# header of explained link
+my $explained_header = "<h4>React and comment</h4>";
+
+# explanation for explained link
+my $explanation =
+"With a Mastodon or Fediverse account, you can reply to this post. Since the Fediverse is a decentralized system, you can respond using your existing account hosted by a Mastodon server or compatible platform, from the following link or by pasting it into the search bar of your Mastodon application: ";
+
+# --------------------------------
+
+sub start {
+    1;
+}
+
+# Return the first existing metadata item key and value given a list of keys
+sub _get_meta {
+    for my $attr (@_) {
+        my $meta_attr = $attr;
+        $meta_attr =~ s/-/_/g;
+        my $value = $blosxom::meta{$meta_attr};
+        $value = eval "\$meta::$attr" unless defined $value;
+        return wantarray ? ( $attr, $value ) : $value if defined $value;
+    }
+    return wantarray ? () : undef;
+}
+
+sub story {
+    my ( $pkg, $path, $filename, $story_ref, $title_ref, $body_ref ) = @_;
+
+    my $toot_url = _get_meta('feedback');
+
+    # debug(1, "toot_url: $toot_url");
+    if ( $toot_url ne "" ) {
+        $shortlink =
+            "<a class=\"fedifeedback_link\" href=\""
+          . $toot_url . "\">"
+          . $shortlink_text . "</a>";
+        $explainedlink =
+            $explained_header
+          . "<p class=\"fedifeedback_explanation\">"
+          . $explanation
+          . "<a href=\""
+          . $toot_url . "\">"
+          . $toot_url
+          . "</a></p>";
+    }
+    else {
+        $shortlink     = "";
+        $explainedlink = "";
+    }
+
+    1;
+}
+
+1;
+
+__END__
+
+=encoding UTF-8
+=head1 NAME
+
+Blosxom Plug-in: fedifeedback
+
+=head1 DESCRIPTION
+
+Purpose: Populates $fedifeedback::shortlink and $fedifeedback::explainedlink
+with some HTML to link to a “toot” (which should link back to your article),
+which will serve as an “anchor” for a comment thread.
+
+=head2 REQUIRED METADATA ITEMS
+
+=over 4
+
+=item Feedback
+
+An URL pointing to a Mastodon or Fediverse post which will serve as an anchor
+for visitor's comments.
+
+=back
+
+=head1 USAGE
+
+fedifeedback should be loaded after your meta plugins (typically either 
+L<metamail> or L<meta>).
+
+Once the plugin is integrated, you will change your publication workflow as
+follows:
+
+=over 4
+
+1/ you will publish your blog post, without Fediverse discussion enabled
+yet (no toot ID).
+
+2/ you will write a post on Mastodon (or any similar system supporting
+the Fediverse like GoToSocial, PixelFed, Pleroma, Friendica, Misskey…).
+This post (“toot”) should link to your blog post, and be designed to provide
+increased visibility to it. It will allow users to easily share and engage with
+your content, as they can simply “boost” (similar to retweet) your toots to
+share them with their followers.
+
+3/ grab the “toot” URL and change your blog post to include it.
+
+4/ republish the website.
+
+=back
+
+=head1 EXAMPLE
+
+If using the L<meta> plugin:
+
+  Random blog post
+  meta-feedback: https://mastodon.example.org/@barijaona/113500538860688431
+
+If using the L<metamail> plugin:
+
+  Random blog post
+  Feedback: https://mastodon.example.org/@barijaona/113500538860688431
+
+=head1 VERSION
+
+2024-11-24blosxom2
+
+Version number is the date on which this version of the plug-in was created.
+
+=head1 AUTHOR
+
+Barijaona Ramaholimihaso <https://blog.barijaona.com> or <https://mastodon.mg/@barijaona>
+or <https://github.com/barijaona>
+
+=head1 SEE ALSO
+
+Blosxom Home/Docs/Licensing: https://blosxom.sourceforge.net
+
+Blosxom Repository : https://sourceforge.net/p/blosxom/blosxom/
+
+Author's plugins in Blosxom Plugins Repository:
+https://sourceforge.net/p/blosxom/blosxom-plugins/ci/master/tree/barijaona/
+
+=head1 BUGS
+
+Address bug reports and comments to the author.
+
+=head1 LICENSE
+
+This Blosxom Plug-in
+Copyright 2024, Barijaona Ramaholimihaso
+
+This plugin is licensed under the same terms as blosxom itself i.e.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.

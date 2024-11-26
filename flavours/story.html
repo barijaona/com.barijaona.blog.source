@@ -1,13 +1,13 @@
 <?$pagetype::pagetype eq="main"><article class="h-entry post">
 <h3 class="$meta::bjrAccent"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Lien permanent vers cet article"><time datetime="$yr-$mo_num-$da" class="timestamp dt-published">[&nbsp;$date_fullname::dw $da $date_fullname::mo $yr,&nbsp;$hr:$min&nbsp;]</time>&nbsp;<span class="p-name">$title</span></a></h3>
 <div class="post-full e-content">$body</div></article>
-<div class="post-tools"></div>
+<div class="post-tools">$fedifeedback::shortlink</div>
 <br></?>
 <?$pagetype::pagetype eq="story"><article class="h-entry post">
 <h3 class="$meta::bjrAccent"><time datetime="$yr-$mo_num-$da" class="timestamp dt-published"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Lien permanent vers cet article">[&nbsp;$hr:$min&nbsp;]</a></time>&nbsp;<span class="p-name">$title</span></h3>
 <div class="post-full e-content">$body</div></article>
 <div class="post-tools"><span class="timestamp">Dernière mise à jour :<br> $modiftime::modiftime</span><br></div>
-
+$fedifeedback::explainedlink
 
 <br></?>
 <?$pagetype::pagetype like="(chrono|category)"><h3 class="$meta::bjrAccent"><a href="$url$path/$fn.$flavour" rel="bookmark" title="Aller vers l'article complet">$da $date_fullname::mo $yr : $title</a></h3>$foreshortened::body <span class="seemore"><a href="$url$path/$fn.$flavour" title="Aller vers l'article complet">-&gt;&gt;</a></span></?>

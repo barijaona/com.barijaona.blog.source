@@ -1,5 +1,6 @@
 Maintenir vivant nos idéaux
 meta-creation_date: 18/11/2024 00:28:45
+meta-feedback: https://mastodon.mg/@barijaona/113500538860688431
 C'est avec émotion que j'apprends via [Tristant Nitot](https://standblog.org/blog/post/2024/11/15/Au-revoir-Lunar "Au revoir, Lunar !") le décès de Lunar.
 
 Tristesse. Lors de notre unique rencontre il y a 21 ans ([lors d'une rencontre Paris Carnet](https://blog.barijaona.com/2003/08/07.html "jeudi 7 août 2003 : Et le blog se fit verbe")), celui qui était alors un très jeune homme m'avait impressionné.
@@ -9,7 +10,3 @@ La conversation fut passionnante, pleine de découvertes et des espoirs de l'ép
 Apprendre la mort d'une belle personnalité plus jeune que soi laisse toujours un sentiment d'injustice et fait prendre conscience de son propre âge. Mais découvrir [à travers son compte Mastodon](https://mastodon.opportunis.me/@lunar) qu'il était resté jusque dans ses derniers jours le même esprit ouvert et vif me console un peu.
 
 Si les pages Web de 2003 génèrent des codes 404 ou 403, les idées, elles, peuvent survivre et se traduire en actes. Mettre en oeuvre sur ce blog un système de commentaire basé sur Mastodon [comme promis](https://w3c.social/@koalie/113293812108487212 "Discussion chez Coralie Mercier") sera mon petit geste de communion avec [les obsèques de Lunar](https://lunar.anargeek.net/) ce jour.
-
-#### Commentaires :
-
-Avec un compte Mastodon ou du Fediverse, vous pouvez répondre à ce billet. Étant donné que le Fediverse est un système décentralisé, vous pouvez réagir en utilisant votre compte existant hébergé par un serveur Mastodon ou une plate-forme compatible, à partir du lien ci-après ou en collant celui-ci dans la barre de recherche de votre application Mastodon : [https://mastodon.mg/@barijaona/113500538860688431](https://mastodon.mg/@barijaona/113500538860688431)
