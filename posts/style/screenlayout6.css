@@ -68,6 +68,10 @@
 	color: #ccc;
 	clear: both
 }
+.ffb_explanation {
+    text-align: left;
+    font-size: smaller
+}
 .theme1 {
 	background-color: #933
 }

@@ -1,14 +1,16 @@
 # Blosxom Plugin: fedifeedback
 # Author(s): Barijaona Ramaholimihaso
-# Version: 2024-11-24blosxom2
+# Version: 2024-11-30blosxom2
 # Documentation: See the bottom of this file or type: perldoc fedifeedback
 
 package fedifeedback;
 
 use strict;
 
-# use as $fedifeedback::shortlink and $fedifeedback::explainedlink in flavour templates
-use vars qw($shortlink $explainedlink);
+# configurable texts
+# use $fedifeedback::shortlink and $fedifeedback::explainedlink in flavour templates
+use vars
+  qw($shortlink_text $explained_header $explanation $shortlink $explainedlink);
 
 # Uncomment next line to enable debug output (don't uncomment debug() lines)
 #use Blosxom::Debug debug_level => 1;
@@ -16,14 +18,16 @@ use vars qw($shortlink $explainedlink);
 # --- Configurable variables -----
 
 # text of the shortlink
-my $shortlink_text = "React and comment";
+$shortlink_text = "React and comment" unless defined $shortlink_text;
 
 # header of explained link
-my $explained_header = "<h4>React and comment</h4>";
+$explained_header = "<h4>React and comment</h4>"
+  unless defined $explained_header;
 
 # explanation for explained link
-my $explanation =
-"With a Mastodon or Fediverse account, you can reply to this post. Since the Fediverse is a decentralized system, you can respond using your existing account hosted by a Mastodon server or compatible platform, from the following link or by pasting it into the search bar of your Mastodon application: ";
+$explanation =
+"With a Mastodon or Fediverse account, you can reply to this post. Since the Fediverse is a decentralized system, you can respond using your existing account hosted by a Mastodon server or compatible platform, from the following link or by pasting it into the search bar of your Mastodon application: "
+  unless defined $explained_header;
 
 # --------------------------------
 
@@ -51,15 +55,17 @@ sub story {
     # debug(1, "toot_url: $toot_url");
     if ( $toot_url ne "" ) {
         $shortlink =
-            "<a class=\"fedifeedback_link\" href=\""
+            "<a class=\"ffb_link\" href=\""
           . $toot_url . "\">"
           . $shortlink_text . "</a>";
         $explainedlink =
             $explained_header
-          . "<p class=\"fedifeedback_explanation\">"
+          . "<p class=\"ffb_explanation\">"
           . $explanation
           . "<a href=\""
-          . $toot_url . "\">"
+          . $toot_url
+          . "\" title=\""
+          . $shortlink_text . "\">"
           . $toot_url
           . "</a></p>";
     }
@@ -76,6 +82,7 @@ sub story {
 __END__
 
 =encoding UTF-8
+
 =head1 NAME
 
 Blosxom Plug-in: fedifeedback
@@ -135,25 +142,35 @@ If using the L<metamail> plugin:
   Random blog post
   Feedback: https://mastodon.example.org/@barijaona/113500538860688431
 
-=head1 VERSION
+=head1 VERSION HISTORY
 
-2024-11-24blosxom2
+=over 4
 
-Version number is the date on which this version of the plug-in was created.
+=item 2024-11-30
+
+Allow configurable variables texts to be translated / customized through plugins like L<prefs> or L<config>.
+
+Change CSS style class names to `ffb_link` and `ffb_description`.
+
+=item 2024-11-24
+
+Preliminary release
+
+=back
 
 =head1 AUTHOR
 
-Barijaona Ramaholimihaso <https://blog.barijaona.com> or <https://mastodon.mg/@barijaona>
-or <https://github.com/barijaona>
+Barijaona Ramaholimihaso L<https://blog.barijaona.com> or L<https://mastodon.mg/@barijaona>
+or L<https://github.com/barijaona>
 
 =head1 SEE ALSO
 
-Blosxom Home/Docs/Licensing: https://blosxom.sourceforge.net
+Blosxom Home/Docs/Licensing: L<https://blosxom.sourceforge.net>
 
-Blosxom Repository : https://sourceforge.net/p/blosxom/blosxom/
+Blosxom Repository : L<https://sourceforge.net/p/blosxom/blosxom/>
 
 Author's plugins in Blosxom Plugins Repository:
-https://sourceforge.net/p/blosxom/blosxom-plugins/ci/master/tree/barijaona/
+L<https://sourceforge.net/p/blosxom/blosxom-plugins/ci/master/tree/barijaona/>
 
 =head1 BUGS
 
@@ -161,7 +178,6 @@ Address bug reports and comments to the author.
 
 =head1 LICENSE
 
-This Blosxom Plug-in
 Copyright 2024, Barijaona Ramaholimihaso
 
 This plugin is licensed under the same terms as blosxom itself i.e.
