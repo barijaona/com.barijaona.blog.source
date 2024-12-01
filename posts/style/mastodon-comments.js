@@ -1,19 +1,15 @@
+// forked from https://github.com/dpecos/mastodon-comments
 const styles = `
 :root {
-  --font-color: #5d686f;
-  --font-size: 1.0rem;
-
   --block-border-width: 1px;
   --block-border-radius: 3px;
   --block-border-color: #ededf0;
-  --block-background-color: #f7f8f8;
 
-  --comment-indent: 40px;
+  --comment-indent: 20px;
 }
 
 #mastodon-stats {
   text-align: center;
-  font-size: calc(var(--font-size) * 2)
 }
 
 #mastodon-comments-list {
@@ -21,15 +17,13 @@ const styles = `
 }
 
 .mastodon-comment {
-  background-color: var(--block-background-color);
+  background-color: transparent;
   border-radius: var(--block-border-radius);
   border: var(--block-border-width) var(--block-border-color) solid;
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 1.5rem;
   display: flex;
   flex-direction: column;
-  color: var(--font-color);
-  font-size: var(--font-size);
 }
 
 .mastodon-comment p {
@@ -70,7 +64,7 @@ const styles = `
   font-size: small;
 }
 
-.mastodon-comment .content {
+.mastodon-comment .tootcontent {
   margin: 15px 20px;
 }
 
@@ -86,7 +80,7 @@ const styles = `
   max-width: 100%;
 }
 
-.mastodon-comment .content p:first-child {
+.mastodon-comment .tootcontent p:first-child {
   margin-top:0;
   margin-bottom:0;
 }
@@ -118,9 +112,9 @@ class MastodonComments extends HTMLElement {
   constructor() {
     super();
 
-    this.host = this.getAttribute("host");
-    this.user = this.getAttribute("user");
-    this.tootId = this.getAttribute("tootId");
+    this.tootUrl = this.getAttribute("feedback");
+    this.mastodonApiUrl = this.tootUrl.replace(/@[^\/]+/, 'api/v1/statuses');
+    this.tootId = this.mastodonApiUrl.replace(/.*api\/v1\/statuses\//,'');
 
     this.commentsLoaded = false;
 
@@ -132,17 +126,6 @@ class MastodonComments extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <div id="mastodon-stats"></div>
-      <h2>Comments</h2>
-
-      <noscript>
-        <div id="error">
-          Please enable JavaScript to view the comments powered by the Fediverse.
-        </div>
-      </noscript>
-
-      <p>You can use your Fediverse (i.e. Mastodon, among many others) account to reply to this <a class="link"
-          href="https://${this.host}/@${this.user}/${this.tootId}">post</a>.
-      </p>
       <p id="mastodon-comments-list"></p>
     `;
 
@@ -251,7 +234,7 @@ class MastodonComments extends HTMLElement {
             10,
           )} ${toot.created_at.substr(11, 8)}</a>
         </div>
-        <div class="content">${toot.content}</div>
+        <div class="tootcontent">${toot.content}</div>
         <div class="attachments">
           ${toot.media_attachments
             .map((attachment) => {
@@ -296,16 +279,14 @@ class MastodonComments extends HTMLElement {
 
     let _this = this;
 
-    fetch("https://" + this.host + "/api/v1/statuses/" + this.tootId)
+    fetch(this.mastodonApiUrl)
       .then((response) => response.json())
       .then((toot) => {
         document.getElementById("mastodon-stats").innerHTML =
           this.toot_stats(toot);
       });
 
-    fetch(
-      "https://" + this.host + "/api/v1/statuses/" + this.tootId + "/context",
-    )
+    fetch(this.mastodonApiUrl + "/context")
       .then((response) => response.json())
       .then((data) => {
         if (

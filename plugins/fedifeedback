@@ -10,7 +10,7 @@ use strict;
 # configurable texts
 # use $fedifeedback::shortlink and $fedifeedback::explainedlink in flavour templates
 use vars
-  qw($shortlink_text $explained_header $explanation $shortlink $explainedlink);
+  qw($shortlink_text $explained_header $explanation $shortlink $explainedlink $statsandcomments);
 
 # Uncomment next line to enable debug output (don't uncomment debug() lines)
 #use Blosxom::Debug debug_level => 1;
@@ -68,10 +68,16 @@ sub story {
           . $shortlink_text . "\">"
           . $toot_url
           . "</a></p>";
+        $statsandcomments =
+            $explainedlink
+          . "<mastodon-comments feedback=\""
+          . $toot_url
+          . "\"></mastodon-comments>";
     }
     else {
         $shortlink     = "";
         $explainedlink = "";
+        $statsandcomments ="";
     }
 
     1;
