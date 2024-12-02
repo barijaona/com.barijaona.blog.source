@@ -125,7 +125,6 @@ class MastodonComments extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <div id="mastodon-stats"></div>
       <p id="mastodon-comments-list"></p>
     `;
 

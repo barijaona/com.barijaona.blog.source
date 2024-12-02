@@ -69,7 +69,8 @@ sub story {
           . $toot_url
           . "</a></p>";
         $statsandcomments =
-            $explainedlink
+            "<div id=\"mastodon-stats\"></div>"
+          . $explainedlink
           . "<mastodon-comments feedback=\""
           . $toot_url
           . "\"></mastodon-comments>";
