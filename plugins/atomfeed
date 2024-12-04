@@ -269,7 +269,7 @@ sub story {
   # Parse the post body:
   if ( $$body_ref =~ m!</?[a-zA-Z0-9]+ ?/?>! ) {
     # OK, looks like markup in there.
-    $body = $$body_ref . "<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/2.0/deed.fr\">licence Creative Commons</a><br /><a href=\"$blosxom::url$blosxom::path/$blosxom::fn.$blosxom::default_flavour#comments\" title=\"Commentaire(s)\">Réagissez</a>";}
+    $body = $$body_ref . "<br />Barijaona Ramaholimihaso - Certains droits protégés par <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr\">licence Creative Commons</a><br /><a href=\"$blosxom::url$blosxom::path/$blosxom::fn.$blosxom::default_flavour#comments\" title=\"Commentaire(s)\">Réagissez</a>";}
   else {
     $body = $$body_ref . "\nBarijaona Ramaholimihaso - Certains droits protégés par licence Creative Commons";
   }
