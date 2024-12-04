@@ -31,8 +31,7 @@ content="noindex,follow"></?><?$pagetype::pagetype eq="main"><link rel="canonica
 <?$prevnextstory::nextlink><link rel="next" href="$prevnextstory::nextlink" title="$prevnextstory::nexttitle"></?>
 <?$pagetype::pagetype like="main"><link rel="styleSheet" type="text/css" href="$blosxom::url/style/mastodon-timeline.css">
 </?>
-<?$pagetype::pagetype like="story"><script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.2.2/purify.min.js" integrity="sha512-aMwmSY1jtPTUuu81C/rDUHoj2IyPpqqSX6N+efBFVFIe5nV4ZsKebsEWDUxsVdDMy3XVhY4TsZ3WHgXmhSufjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script type="module" src="$blosxom::url/style/mastodon-comments.js"></script>
+<?$pagetype::pagetype like="story"><script type="module" src="$blosxom::url/style/fedifeedback.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </?>
 </head>
