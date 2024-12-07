@@ -17,15 +17,15 @@
     }
 }
 
-#mastodon-stats {
+#ffb-stats {
   text-align: center;
 }
 
-#mastodon-comments-list {
+#ffb-comments-list {
   margin: 0 auto;
 }
 
-.mastodon-comment {
+.ffb-comment {
   background-color: transparent;
   border-radius: var(--block-border-radius);
   border: var(--block-border-width) var(--block-border-color) solid;
@@ -35,71 +35,71 @@
   flex-direction: column;
 }
 
-.mastodon-comment p {
+.ffb-comment p {
   margin-bottom: 0px;
 }
 
-.mastodon-comment .author {
+.ffb-comment .author {
   padding-top:0;
   display:flex;
 }
 
-.mastodon-comment .author a {
+.ffb-comment .author a {
   text-decoration: none;
 }
 
-.mastodon-comment .author .avatar img {
+.ffb-comment .author .avatar img {
   margin-right:1rem;
   min-width:60px;
   border-radius: 5px;
 }
 
-.mastodon-comment .author .details {
+.ffb-comment .author .details {
   display: flex;
   flex-direction: column;
 }
 
-.mastodon-comment .author .details .name {
+.ffb-comment .author .details .name {
   font-weight: bold;
 }
 
-.mastodon-comment .author .details .user {
+.ffb-comment .author .details .user {
   color: #5d686f;
   font-size: medium;
 }
 
-.mastodon-comment .author .date {
+.ffb-comment .author .date {
   margin-left: auto;
   font-size: small;
 }
 
-.mastodon-comment .tootcontent {
+.ffb-comment .tootcontent {
   margin: 15px 20px;
 }
 
-.mastodon-comment .attachments {
+.ffb-comment .attachments {
   margin: 0px 10px;
 }
 
-.mastodon-comment .attachments > * {
+.ffb-comment .attachments > * {
   margin: 0px 10px;
 }
 
-.mastodon-comment .attachments img {
+.ffb-comment .attachments img {
   max-width: 100%;
 }
 
-.mastodon-comment .tootcontent p:first-child {
+.ffb-comment .tootcontent p:first-child {
   margin-top:0;
   margin-bottom:0;
 }
 
-.mastodon-comment .status > div, #mastodon-stats > div {
+.ffb-comment .status > div, #ffb-stats > div {
   display: inline-block;
   margin-right: 15px;
 }
 
-.mastodon-comment .status a, #mastodon-stats a {
+.ffb-comment .status a, #ffb-stats a {
   color: #5d686f;
   text-decoration: none;
 }
@@ -132,18 +132,18 @@
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" aria-hidden="true"><path d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143ZM233-120l65-281L80-590l288-25 112-265 112 265 288 25-218 189 65 281-247-149-247 149Zm247-350Z"></path></svg>');
 }
 
-.mastodon-comment .status a, #mastodon-stats a {
+.ffb-comment .status a, #ffb-stats a {
   filter: var(--image-filter);
 }
 
-.mastodon-comment .status .replies.active a, #mastodon-stats .replies.active a {
+.ffb-comment .status .replies.active a, #ffb-stats .replies.active a {
   filter: invert(14%) sepia(88%) saturate(2666%) hue-rotate(206deg) brightness(108%) contrast(118%); /* #003eaa */
 }
 
-.mastodon-comment .status .reblogs.active a, #mastodon-stats .reblogs.active a {
+.ffb-comment .status .reblogs.active a, #ffb-stats .reblogs.active a {
   filter: invert(68%) sepia(84%) saturate(3571%) hue-rotate(208deg) brightness(100%) contrast(102%); /* #8c8dff */
 }
 
-.mastodon-comment .status .favourites.active a, #mastodon-stats .favourites.active a {
+.ffb-comment .status .favourites.active a, #ffb-stats .favourites.active a {
   filter: invert(52%) sepia(95%) saturate(1016%) hue-rotate(12deg) brightness(92%) contrast(97%); /* #ca8f04 */
 }

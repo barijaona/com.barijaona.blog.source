@@ -13,10 +13,10 @@ class MastodonComments extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <p id="mastodon-comments-list"></p>
+      <p id="ffb-comments-list"></p>
     `;
 
-    const comments = document.getElementById("mastodon-comments-list");
+    const comments = document.getElementById("ffb-comments-list");
     const rootStyle = this.getAttribute("style");
     if (rootStyle) {
       comments.setAttribute("style", rootStyle);
@@ -99,7 +99,7 @@ class MastodonComments extends HTMLElement {
       );
     });
 
-    const mastodonComment = `<div class="mastodon-comment" style="margin-left: calc(var(--comment-indent) * ${depth})">
+    const mastodonComment = `<div class="ffb-comment" style="margin-left: calc(var(--comment-indent) * ${depth})">
         <div class="author">
           <div class="avatar">
             <img src="${this.escapeHtml(
@@ -152,7 +152,7 @@ class MastodonComments extends HTMLElement {
         ? DOMPurify.sanitize(mastodonComment.trim())
         : mastodonComment.trim();
     document
-      .getElementById("mastodon-comments-list")
+      .getElementById("ffb-comments-list")
       .appendChild(div.firstChild);
 
     this.render_toots(toots, toot.id, depth + 1);
@@ -161,7 +161,7 @@ class MastodonComments extends HTMLElement {
   loadComments() {
     if (this.commentsLoaded) return;
 
-    document.getElementById("mastodon-comments-list").innerHTML =
+    document.getElementById("ffb-comments-list").innerHTML =
       "Loading comments from the Fediverse...";
 
     let _this = this;
@@ -169,7 +169,7 @@ class MastodonComments extends HTMLElement {
     fetch(this.mastodonApiUrl)
       .then((response) => response.json())
       .then((toot) => {
-        document.getElementById("mastodon-stats").innerHTML =
+        document.getElementById("ffb-stats").innerHTML =
           this.toot_stats(toot);
       });
 
@@ -181,10 +181,10 @@ class MastodonComments extends HTMLElement {
           Array.isArray(data["descendants"]) &&
           data["descendants"].length > 0
         ) {
-          document.getElementById("mastodon-comments-list").innerHTML = "";
+          document.getElementById("ffb-comments-list").innerHTML = "";
           _this.render_toots(data["descendants"], _this.tootId, 0);
         } else {
-          document.getElementById("mastodon-comments-list").innerHTML =
+          document.getElementById("ffb-comments-list").innerHTML =
             "<p>No comments found</p>";
         }
 
@@ -209,4 +209,4 @@ class MastodonComments extends HTMLElement {
   }
 }
 
-customElements.define("mastodon-comments", MastodonComments);
+customElements.define("ffb-comments", MastodonComments);

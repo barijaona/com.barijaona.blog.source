@@ -55,12 +55,12 @@ sub story {
     # debug(1, "toot_url: $toot_url");
     if ( $toot_url ne "" ) {
         $shortlink =
-            "<a class=\"ffb_link\" href=\""
+            "<a class=\"ffb-link\" href=\""
           . $toot_url . "\">"
           . $shortlink_text . "</a>";
         $explainedlink =
             $explained_header
-          . "<p class=\"ffb_explanation\">"
+          . "<p class=\"ffb-explanation\">"
           . $explanation
           . "<a href=\""
           . $toot_url
@@ -69,11 +69,11 @@ sub story {
           . $toot_url
           . "</a></p>";
         $statsandcomments =
-            "<div id=\"mastodon-stats\"></div>"
+            "<div id=\"ffb-stats\"></div>"
           . $explainedlink
-          . "<mastodon-comments feedback=\""
+          . "<ffb-comments feedback=\""
           . $toot_url
-          . "\"></mastodon-comments>";
+          . "\"></ffb-comments>";
     }
     else {
         $shortlink     = "";
