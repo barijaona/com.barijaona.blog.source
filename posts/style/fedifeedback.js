@@ -48,7 +48,7 @@ class MastodonComments extends HTMLElement {
       <div class="replies ${this.toot_active(toot, "replies")}">
         <a href="${
           toot.url
-        }" rel="nofollow"><i class="fa fa-reply fa-fw"></i>${this.toot_count(
+        }" rel="nofollow"><i class="icn icn-reply"></i>${this.toot_count(
           toot,
           "replies",
         )}</a>
@@ -56,7 +56,7 @@ class MastodonComments extends HTMLElement {
       <div class="reblogs ${this.toot_active(toot, "reblogs")}">
         <a href="${
           toot.url
-        }" rel="nofollow"><i class="fa fa-retweet fa-fw"></i>${this.toot_count(
+        }" rel="nofollow"><i class="icn icn-boost"></i>${this.toot_count(
           toot,
           "reblogs",
         )}</a>
@@ -64,7 +64,7 @@ class MastodonComments extends HTMLElement {
       <div class="favourites ${this.toot_active(toot, "favourites")}">
         <a href="${
           toot.url
-        }" rel="nofollow"><i class="fa fa-star fa-fw"></i>${this.toot_count(
+        }" rel="nofollow"><i class="icn icn-star"></i>${this.toot_count(
           toot,
           "favourites",
         )}</a>
