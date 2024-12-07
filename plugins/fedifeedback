@@ -1,6 +1,6 @@
 # Blosxom Plugin: fedifeedback
 # Author(s): Barijaona Ramaholimihaso
-# Version: 2024-11-30blosxom2
+# Version: 2024-12-07blosxom2
 # Documentation: See the bottom of this file or type: perldoc fedifeedback
 
 package fedifeedback;
@@ -15,7 +15,7 @@ use vars
 # Uncomment next line to enable debug output (don't uncomment debug() lines)
 #use Blosxom::Debug debug_level => 1;
 
-# --- Configurable variables -----
+# --- Configurable variables (can be set here or through the 'prefs' or 'config' plugins) -----
 
 # text of the shortlink
 $shortlink_text = "React and comment" unless defined $shortlink_text;
@@ -76,9 +76,9 @@ sub story {
           . "\"></ffb-comments>";
     }
     else {
-        $shortlink     = "";
-        $explainedlink = "";
-        $statsandcomments ="";
+        $shortlink        = "";
+        $explainedlink    = "";
+        $statsandcomments = "";
     }
 
     1;
@@ -96,11 +96,47 @@ Blosxom Plug-in: fedifeedback
 
 =head1 DESCRIPTION
 
-Purpose: Populates $fedifeedback::shortlink and $fedifeedback::explainedlink
-with some HTML to link to a “toot” (which should link back to your article),
-which will serve as an “anchor” for a comment thread.
+Purpose: Populates the $fedifeedback namespace with some HTML:
+- to link to a “toot”, which will serve as an “anchor” for a comment thread, OR
+- to display the comment thread itself.
 
-=head2 REQUIRED METADATA ITEMS
+The above mentioned “toot” may link to the article itself, enabling a close integration
+between the Fediverse and the articles of your website, even if the website is statically
+generated and served.
+
+=head2 GENERATED VARIABLES
+
+=over 4
+
+=item $fedifeedback::shortlink
+
+A short text with an HTML link to the Mastodon or Fediverse post.
+
+=item $fedifeedback::explainedlink
+
+A longer explanation of the integration between your site and the Fediverse,
+followed by an HTML link to the Fediverse post, and preceded by an (optional)
+HTML header.
+
+=item $fedifeedback::statsandcomments
+
+A dynamically generated rendering of the comment thread, with icons indicating the
+numbers of replies, boosts and favorites. As only one rendering is possible per webpage,
+this is mostly useful for pages of individual articles.
+
+=back
+
+=head1 REQUIREMENT AND DEPENDENCIES
+
+=head2 REQUIRED PLUGIN
+
+A plugin (typically either L<meta> or L<metamail>) designed for handling metadata is
+required, to allow us to store and retrieve the URL of a post which will serve as an
+anchor for visitor's comments.
+
+fedifeedback should be loaded after this plugin.
+
+=head2 REQUIRED METADATA INFO IN ARTICLES
 
 =over 4
 
@@ -111,10 +147,30 @@ for visitor's comments.
 
 =back
 
-=head1 USAGE
+=head3 EXAMPLE
 
-fedifeedback should be loaded after your meta plugins (typically either 
-L<metamail> or L<meta>).
+=over 2
+
+If using the L<meta> plugin:
+
+  Title of my random blog post
+  meta-feedback: https://mastodon.example.org/@barijaona/113500538860688431
+
+If using the L<metamail> plugin:
+
+  Title of my random blog post
+  Feedback: https://mastodon.example.org/@barijaona/113500538860688431
+
+=back
+
+=head2 ADDITIONAL REQUIREMENTS FOR $fedifeedback::statsandcomments
+
+If you want the dynamic rendering allowed by B<$fedifeedback::statsandcomments>,
+you will need to have links to the Javascript file F<fedifeedback.js> and the
+CSS stylesheet F<fedifeedback.css> in the <HEAD> of your webpage.
+These are not necessary if you only use $fedifeedback::shortlink and/or $fedifeedback::explainedlink
+
+=head1 USAGE
 
 Once the plugin is integrated, you will change your publication workflow as
 follows:
@@ -125,7 +181,7 @@ follows:
 yet (no toot ID).
 
 2/ you will write a post on Mastodon (or any similar system supporting
-the Fediverse like GoToSocial, PixelFed, Pleroma, Friendica, Misskey…).
+the Mastodon API like GoToSocial, PixelFed, Pleroma, Friendica, Iceshrimp, Sharkey…).
 This post (“toot”) should link to your blog post, and be designed to provide
 increased visibility to it. It will allow users to easily share and engage with
 your content, as they can simply “boost” (similar to retweet) your toots to
@@ -137,25 +193,42 @@ share them with their followers.
 
 =back
 
-=head1 EXAMPLE
+=head1 SECURITY CONSIDERATIONS
 
-If using the L<meta> plugin:
+Only public posts will be displayed by $fedifeedback::statsandcomments.
 
-  Random blog post
-  meta-feedback: https://mastodon.example.org/@barijaona/113500538860688431
+The Javascript integrates a function which escapes any and all HTML from a string,
+which is used for any user supplied content returned from the API where we are not
+sure whether Mastodon sanitises it.
 
-If using the L<metamail> plugin:
+It is also possible to handle an extra layer of sanitization by including DOMPurify
+in the <HEAD> of your pages.
+Relevant code can be found at L<https://cdnjs.com/libraries/dompurify>.
 
-  Random blog post
-  Feedback: https://mastodon.example.org/@barijaona/113500538860688431
+=head1 ENVIRONMENTAL AND SOCIAL CONSIDERATIONS
+
+While $fedifeedback::shortlink and $fedifeedback::explainedlink can be statically
+rendered by this plugin, each dynamic rendering performed by $fedifeedback::statsandcomments
+will require at least 4 additional HTTP requests (2 to the server hosting the resources used
+by your webpage, 2 to the server hosting your fediverse account).
+
+If your site generates a lot of web traffic and comments, it's a good idea to be moderate
+on the use of this feature enabling instant and updated display of all comments.
 
 =head1 VERSION HISTORY
 
 =over 4
 
+=item 2024-12-07
+
+Add dynamically rendered $fedifeedback::statsandcomments
+
+Change again CSS style class names.
+
 =item 2024-11-30
 
-Allow configurable variables texts to be translated / customized through plugins like L<prefs> or L<config>.
+Allow configurable variables texts to be translated / customized through plugins like
+L<prefs> or L<config>.
 
 Change CSS style class names to `ffb_link` and `ffb_description`.
 

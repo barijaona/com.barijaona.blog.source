@@ -1,4 +1,5 @@
 // forked from https://github.com/dpecos/mastodon-comments
+// so this is probably covered by a GPL-3.0 license
 
 class MastodonComments extends HTMLElement {
   constructor() {
