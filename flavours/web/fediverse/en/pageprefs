@@ -1,0 +1,5 @@
+$blosxom::blog_language = "en";
+
+$fedifeedback::shortlink_text = "React and comment";
+$fedifeedback::explained_header ="<h4>React and comment</h4>";
+$fedifeedback::explanation = "With a Mastodon or Fediverse account, you can reply to this post. Since the Fediverse is a decentralized system, you can respond using your existing account hosted by a Mastodon server or compatible platform, from the following link or by pasting it into the search bar of your application: ";
