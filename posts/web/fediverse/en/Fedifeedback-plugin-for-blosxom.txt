@@ -1,0 +1,54 @@
+Same Spirit, Refreshed Tools
+meta-creation_date: 8/12/2024 08:19:25
+If you search for <q>static site generator</q> in a search engine, you’re unlikely to come across any mention of "Blosxom"[^amazon]. However, an [article from 2012](https://siliconangle.com/2012/03/20/5-minimalist-static-html-blog-generators-to-check-out/ "5 Minimalist Static Blog Generators to Check Out") states that <q><i>Blosxom is the original open source static site generator</i></q>.
+
+[^amazon]: Worst, the first result when searching "the zen of blogging" is an Amazon book titled "The Zen of Blogging: Make money with your blog, fire your boss and live the good life" 😢🙄
+
+#### A long ride with Blosxom
+
+I could not agree more. Since [October 2003](https://blog.barijaona.com/web/bascule_sous_blosxom.html hreflang="fr" "Bascule sous Blosxom"), this blog has been statically generated with Blosxom. Back then, I ran into issues with some plugins that I had to debug or rewrite, which [led me to package a Blosxom starter kit](https://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html "Announcement of Blosxom starter kit in September 2024") for anyone wiling to try out Blosxom's "static rendering".
+
+There never was a strong enough reason to change, so I stuck with my system. However, some frustrations emerged over time:
+
+- the state of abandonment of the Blosxom website[^1];
+- concerns about potential legal and privacy issues which might arise from the use of an external commenting system (though I never had specific problems with Disqus);
+- a relative decline in the blogging ecosystem, which led to a shift in conversations moving to social networks;
+- a feeling that I could get better interactions with open web standards.
+
+[^1]: I hope I'll have more about that in upcoming posts.
+
+#### Attraction to the Fediverse
+
+I was aware of [WebMentions](https://indieweb.org/Webmention "W3C Recommendation for interactions across the web"), but was never motivated enough to give a try at implementing it.
+
+Then two flushes of motivation came from discoveries :
+
+- [@rolle](https://mementomori.social/@rolle "Roni Laukkarinen, owner of
+mementomori.social")'s blog, with this particular post : [Comment to a WordPress blog post via the Fediverse](https://rolle.design/comment-to-a-wordpress-blog-post-via-the-fediverse "rolle.design, December 2023");
+- a portion of Coralie Mercier's [interview](https://www.w3.org/blog/2024/on-the-55th-world-standards-day-my-history-of-the-web-and-relationship-with-w3c/) on the history of the Web and her relationship with W3C (starting at 14:50)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5sCmpE_v9aA?si=hoADtbLHmsQlTdZX&amp;start=890" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### A new commenting system based on Mastodon
+
+After [the ensuing conversation](https://w3c.social/@koalie/113288170505154472 "Discussion on W3C.social"), I had a tentative timeframe for implementing a solution.
+
+The initial setup was quite manual, but this post marks the "official" release of the [fedifeedback plugin for Blosxom](https://sourceforge.net/p/blosxom/blosxom-plugins/ci/master/tree/barijaona/fedifeedback/ "Directory content in Blosxom blosxom-plugins repository").
+
+Once installed, using the plugin is straightforward:
+
+1. publish your blog post, without enabling Fediverse discussion
+yet (i.e., no toot ID).
+
+2. write a post on Mastodon (or any similar system that supports
+the Mastodon API, like GoToSocial, PixelFed, Pleroma, Friendica, Iceshrimp, Sharkey, etc.).
+This post (“toot”) should link to your blog post and help
+increase its visibility. It will allow users to easily share and engage with
+your content by boosting your “toot” to their followers or reply to it.
+
+3. grab the “toot” URL and update your blog post to include it.
+
+4. republish the website.
+
+Example: the source text of this article can be found at: [https://github.com/barijaona/com.barijaona.blog.source/blob/master/posts/web/fediverse/en/Fedifeedback-plugin-for-blosxom.txt](https://github.com/barijaona/com.barijaona.blog.source/blob/master/posts/web/fediverse/en/Fedifeedback-plugin-for-blosxom.txt).
+
+Some of the code (Javascript and CSS) is derived from [Daniel Pecos Martinez](https://danielpecos.com/2022/12/25/mastodon-as-comment-system-for-your-static-blog/ "Mastodon as comment system for your static blog")'s [web component](https://github.com/dpecos/mastodon-comments "Mastodon-Comments on Github"). However, I modified it significantly to align with my vision of Blosxom's philosophy. And for the first time in my life, I have included a part entitled _ENVIRONMENTAL AND SOCIAL CONSIDERATIONS_ in a software documentation…
