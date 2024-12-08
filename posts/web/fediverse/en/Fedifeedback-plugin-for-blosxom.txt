@@ -1,12 +1,13 @@
 Same Spirit, Refreshed Tools
 meta-creation_date: 8/12/2024 08:19:25
+meta-feedback: https://mastodon.mg/@barijaona/113617819914815871
 If you search for <q>static site generator</q> in a search engine, you’re unlikely to come across any mention of "Blosxom"[^amazon]. However, an [article from 2012](https://siliconangle.com/2012/03/20/5-minimalist-static-html-blog-generators-to-check-out/ "5 Minimalist Static Blog Generators to Check Out") states that <q><i>Blosxom is the original open source static site generator</i></q>.
 
 [^amazon]: Worst, the first result when searching "the zen of blogging" is an Amazon book titled "The Zen of Blogging: Make money with your blog, fire your boss and live the good life" 😢🙄
 
 #### A long ride with Blosxom
 
-I could not agree more. Since [October 2003](https://blog.barijaona.com/web/bascule_sous_blosxom.html hreflang="fr" "Bascule sous Blosxom"), this blog has been statically generated with Blosxom. Back then, I ran into issues with some plugins that I had to debug or rewrite, which [led me to package a Blosxom starter kit](https://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html "Announcement of Blosxom starter kit in September 2024") for anyone wiling to try out Blosxom's "static rendering".
+I could not agree more. Since [October 2003](https://blog.barijaona.com/web/bascule_sous_blosxom.html hreflang="fr" "Bascule sous Blosxom"), this blog has been statically generated with Blosxom. Back then, I ran into issues with some plugins that I had to debug or rewrite, which [led me to package a Blosxom starter kit](https://blog.barijaona.com/web/blosxomsk/en/announcement_20040921.html "Announcement of Blosxom starter kit in September 2024") for anyone willing to try out Blosxom's "static rendering".
 
 There never was a strong enough reason to change, so I stuck with my system. However, some frustrations emerged over time:
 
