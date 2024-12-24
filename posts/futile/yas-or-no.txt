@@ -1,5 +1,6 @@
 Yet Another What?
 meta-creation_date: 24/12/2024 18:11:45
+meta-feedback: https://mastodon.mg/@barijaona/113708535598720669
 Telma (ex-Télécom Malagasy) a été rebaptisé Yas. Mon impression est que le changement de nom est essentiellement motivé par la création d'un nom panafricain afin de plaire aux marchés financiers.
 
 Et je fais le constat que dans le domaine des télécoms, les marketeux et financiers ont pris le dessus sur les ingénieurs. Les geeks, s'il en reste, auraient pu faire la remarque qu'[un nom commençant par YA](https://en.wikipedia.org/wiki/Yet_another hreflang="en" "Wikipedia : Yet another") est souvent un aveu humoristique que ce qui est ainsi nommé a un peu de mal à démontrer son originalité.
