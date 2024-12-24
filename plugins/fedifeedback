@@ -1,6 +1,6 @@
 # Blosxom Plugin: fedifeedback
 # Author(s): Barijaona Ramaholimihaso
-# Version: 2024-12-07blosxom2
+# Version: 2024-12-24blosxom2
 # Documentation: See the bottom of this file or type: perldoc fedifeedback
 
 package fedifeedback;
@@ -218,6 +218,10 @@ on the use of this feature enabling instant and updated display of all comments.
 =head1 VERSION HISTORY
 
 =over 4
+
+=item 2024-12-24
+
+Simplify Javascript
 
 =item 2024-12-07
 
