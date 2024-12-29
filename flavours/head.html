@@ -21,7 +21,7 @@ content="noindex,follow"></?><?$pagetype::pagetype eq="main"><link rel="canonica
 <link rel="styleSheet" type="text/css" media="screen" href="$blosxom::url/style/screenlayout6.css">
 <link rel="styleSheet" type="text/css" media="screen" href="$blosxom::url/style/code.css">
 <link rel="stylesheet" media="print" type="text/css" href="$blosxom::url/style/print.css">
-<?$pagetype::pagetype like="(main|story)"><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="$blosxom::url/atom.xml"><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="$blosxom::url/rss.xml"><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="$blosxom::url/shortened.xml"></?>
+<?$pagetype::pagetype like="(main|story)"><meta name="fediverse:creator" content="@barijaona@mastodon.mg"><link rel="alternate" type="application/atom+xml" title="Atom (articles complets)" href="$blosxom::url/atom.xml"><link rel="alternate" type="application/rss+xml" title="RSS (articles complets)" href="$blosxom::url/rss.xml"><link rel="alternate" type="application/rss+xml" title="RSS (titres articles)" href="$blosxom::url/shortened.xml"></?>
 <?$pagetype::pagetype eq="category"><link rel="alternate" type="application/rss+xml" title="RSS (titres)" href="$blosxom::url/$path_info/rss.xml"></?>
 <?$prevnextstory::prevlink><link rel="prev" href="$prevnextstory::prevlink" title="$prevnextstory::prevtitle"></?>
 <?$pagetype::pagetype like="(main|story)">
