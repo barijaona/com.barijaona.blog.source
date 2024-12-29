@@ -1,0 +1,34 @@
+Construire son fil personnel Mastodon
+meta-creation_date: 28/12/2024 21:43:47
+J'ai eu un mal fou à retrouver [mes premiers toots](https://mastodon.cloud/@barijaona "@barijaona@mastodon.cloud") (terminologie de l'époque, avril 2017). Quête sans grand intérêt, mais dont il ressort néanmoins un constat très significatif : 13 mois après, je n'avais trouvé que 38 comptes à suivre[^1].
+
+[^1]: Et à l'issue de ces 13 mois, j'avais en tout et pour tout 2 (oui, deux !) abonnés.
+
+Au début de la rédaction de cet article, j'en suis à 505 comptes suivis[^2]. Et cela fait plus de deux ans que je n'utilise plus que Mastodon 🦣, notamment parce qu'entretemps mon fil personnel est devenu passionnant.
+
+[^2]: … et accessoirement 172 abonnés.
+
+Un des points de bascule aura été le rachat de Twitter par Elon Musk, avec les différentes conséquences qui s'en sont ensuivies. Mais, à mes yeux, le point le plus important est intervenu peu après et aura été le fait de dépasser le cap des 200 comptes suivis sur Mastodon. À partir de ce moment là, mon fil personnel est devenu plus vivant et plus surprenant, tout en étant complètement différent de celui qui m'est proposé par les autres réseaux sociaux, lorsque je me retrouve amené à y retourner contre ma volonté. Si au départ j'avais été un peu déçu de ne pas retrouver sur Mastodon les personnes que je connaissais sur Twitter, j'ai dépassé ce cap depuis fort longtemps. Désormais, lorsque j'ouvre Mastodon, je suis pratiquement assuré d'y trouver assez rapidement un contenu intéressant. Cela peut même devenir assez addictif, alors qu'aucun algorithme machiavélique n'est à l'œuvre…
+
+Bien entendu, le point de bascule que je situe à 200 comptes suivis n'est qu'indicatif. Que se passerait-il si un utilisateur décidait de suivre 200 comptes complètement au hasard ? le meilleur ou le pire ? Je vous laisse le soin d'essayer si d'aventure l'envie vous en prenait… Inversement, ce qui a marché pour moi pourrait ne pas convenir à d'autres. Quoi qu'il en soit, cette période de fêtes de fin d'année est à mes yeux la plus propice pour tenter de faire un cadeau en faisant part de mes recettes de cuisine 📓.
+
+Commençons par relever les recommandations qui, selon moi, __ne marchent pas vraiment__ et m'ont fait stagner au début.
+
+#### La page par défaut de Mastodon 🤷
+
+Lorsque vous arrivez sur une "instance" Mastodon (c'est à dire un serveur) sans y avoir ouvert de compte, vous tombez en général sur la page __Explore__. En général, soit celle-ci est confuse, soit elle est vide, ce qui est le cas pour le serveur que j'utilise, [mastodon.mg](https://mastodon.mg/), qui n'affiche que 6 utilisateurs actifs[^3]. J'ai rarement fait des découvertes dans ces pages _Explore_.
+
+[^3]: En fait, il n'y a que deux utilisateurs qui sont régulièrement actifs : [Sokatra](https://mastodon.mg/@Sokatra), premier habitant des lieux après l'administrateur système, et moi-même.
+
+#### Suivre un hashtag 😑
+
+Mastodon permet de rechercher des hashtags, puis de les suivre. C'est certainement très intéressant sur de grosses instances où l'on peut découvrir des messages provenant de comptes suivis par les personnes présentes sur la même instance, mais sur une petite instance comme mastodon.mg, le potentiel de découvertes est nécessairement plus limité…
+
+#### Poster une #introduction 🤨
+
+On recommande souvent aux débutants de débuter sur le Fediverse en postant un message de présentation, en y incluant le hashtag #introduction. Cette pratique ne m'a jamais vraiment convaincue. Ce n'est pas avec une auto-promotion que vous donnerez à beaucoup de personnes l'envie de vous faire signe, surtout si votre profil n'affiche pas encore grand chose d'autre.
+
+Je suggèrerais en tout cas de ne rédiger un message d'introduction qu'après avoir commencé à suivre quelques personnes et boosté des messages, qui illustreront vos centres d'intérêts et enrichiront le profil affiché par les visiteurs de votre instance. Mais c'est un peu comme un serpent qui se mord la queue : où et comment commencer de la manière la plus efficace ?
+
+C'est ce que nous allons voir dans la [deuxième partie](<$url /><$path />/construire-fil-perso-mastodon-p2.html "Le point clé dans Mastodon : le menu « `…` » et sa commande « Ouvrir la page d'origine »") 💪🏽.
+

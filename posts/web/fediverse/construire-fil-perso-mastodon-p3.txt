@@ -1,0 +1,46 @@
+Tirer parti des autres serveurs
+meta-creation_date: 29/12/2024 21:38:32
+#### Chercher un hashtag
+
+Dans la [première partie](<$url /><$path />/construire-fil-perso-mastodon.html "Construire son fil personnel Mastodon"), j'ai expliqué que l'une des forces de Mastodon, l'abonnement à un hashtag, n'était pas si intéressant lorsque l'on est résident d'une petite instance.
+
+Toutefois, ce n'est pas un handicap car même si l'on n'en est pas résident, la plupart des grosses instances Mastodon laissent leur moteur de recherche accessible au visiteur anonyme. C'est valable aussi bien pour les  "officiels" [mastodon.social](https://mastodon.social/search) et [mastodon.online](https://mastodon.online/search), que pour les outsiders [mstdn.social](https://mstdn.social/search), [mas.to](https://mas.to/search) et [Vivaldi](https://social.vivaldi.net/search) ou les plus sulfureux  [baraag.net](https://baraag.net/search) et [pawoo.net](https://pawoo.net/search).
+
+Pour ma part, j'ai acquis le réflexe de taper directement le modèe d'URL pour rechercher un hashtag :
+
+`https://`_domaine.example_`/tags/`_LibelléDuTag_
+
+#### Explorer une communauté
+
+Si les groses instances ont leurs vertus, les petites ont aussi les leurs. Dont la moindre n'est pas d'héberger des groupes de personnes plus petits, souvent plus homogènes, ce qui en facilite la modération.
+
+On peut trouver des listes de serveurs sur notamment [joinmastodon.org](https://joinmastodon.org/servers hreflang="en"), [fedi.garden](https://fedi.garden hreflang="en") et [mastodonservers.net](https://mastodonservers.net hreflang="en").
+
+Là aussi, j'ai acquis le réflexe de taper directement les URL pour trouver le fil local, à mon avis plus parlant que le répertoire des utilisateurs :
+
+`https://`_domaine.example_`/public/local`
+
+Sur certaines instances, l'accès à ce fil local est réservé aux membres enregistrés, pour des raisons de protection de la vie privée. Dans d'autres instances, il est pollué par des robots mal configurés, et dont les administrateurs n'ont pas modifié les réglages par défaut. Mais en général, sur les instances de taille moyenne, il permet de faire de belles découvertes.
+
+Plusieurs clients Mastodon permettent de suivre des fils locaux additionnels, en sus de celui de l'instance où l'on a son compte. Pour ma part, je jette de temps en temps un œeil sur :
+
+- Dans le codage :
+    - <span lang="en">[iosdev.space](https://iosdev.space/public/local): a server for all SwiftLang developers</span>
+    - <span lang="en">[infosec.exchange](https://infosec.exchange/public/local): a Mastodon instance for info/cyber security-minded people</span>
+    - <span lang="en">[techhub.social](https://techhub.social/public/local): a hub primarily for passionate technologists</span>
+    - <span lang="en">[Hachyderm](https://hachyderm.io/public/local): Hachyderm is a safe space, LGBTQIA+ and BLM, primarily comprised of tech industry professionals world wide</span>
+- Dans d'autres professions :
+    - <span lang="en">[hci.social](https://hci.social/public/local): for Human-computer Interaction researchers and practitioners</span>
+    - <span lang="en">[mastodon.energy](https://mastodon.energy/public/local): a server dedicated to professional and academic individuals or organizations working on energy transition policy, infrastructure, technology, journalism, and science</span>
+- Pour les sciences :
+    - [Sciences·Re](https://social.sciences.re/public/local) : Sciences·Re souhaite offrir un espace de partage, de collaboration et de discussion en ligne pour la communauté scientifique, académique, éducative francophone
+    - <span lang="en">[scicomm.xyz](https://scicomm.xyz/public/local): an instance for scientists, researchers, science students, communicators, and enthusiasts</span>
+    - <span lang="en">[mstdn.science](https://mstdn.science/public/local): a place for scientists and science enthusiasts to discuss research and topics surrounding our work</span>
+- Plus généralistes :
+    - [tooting.ch](https://tooting.ch/public/local) : instance Mastodon suisse pour les personnes de Suisse et hébergée par l'association FairSocialNet
+    - <span lang="en">[mastodon.xyz](https://mastodon.xyz/public/local): open to everyone, but mainly English and French speaking</span>
+    - <span lang="en">[toad.social](https://toad.social/public/local): operated by David Troy, a tech pioneer and investigative journalist addressing threats to democracy</span>
+    - <span lang="en">[hostux.social](https://hostux.social/public/local): European mastodon instance hosted in Luxembourg. Also beer, privacy and free software lovers.</span>
+    - <span lang="en">[freeradical.zone]https://freeradical.zone/public/local: infosec and privacy and technology and leftward politics and cats and dogs and...</span>
+
+Entre le début de la rédaction de cette série d'articles, hier matin, et sa conclusion, ce soir, je me suis abonné à 12 comptes de plus. Preuve s'il en fallait que le Fediverse est plein de richesses qui restent encore à explorer !
