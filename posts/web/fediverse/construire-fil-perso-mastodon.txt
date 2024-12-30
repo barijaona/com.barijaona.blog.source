@@ -1,5 +1,6 @@
 Construire son fil personnel Mastodon
 meta-creation_date: 28/12/2024 21:43:47
+meta-feedback: https://mastodon.mg/@barijaona/113737664728538222
 J'ai eu un mal fou à retrouver [mes premiers toots](https://mastodon.cloud/@barijaona "@barijaona@mastodon.cloud") (terminologie de l'époque, avril 2017). Quête sans grand intérêt, mais dont il ressort néanmoins un constat très significatif : 13 mois après, je n'avais trouvé que 38 comptes à suivre[^1].
 
 [^1]: Et à l'issue de ces 13 mois, j'avais en tout et pour tout 2 (oui, deux !) abonnés.
