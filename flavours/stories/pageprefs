@@ -1,1 +1,5 @@
 $blosxom::num_entries = 9999 ;
+
+$storytitle::add_blogtitle_to_indexes = 0;
+$storytitle::add_blogtitle_to_story = 0;
+$storytitle::prevent_hanging_sep = 1;

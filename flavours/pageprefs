@@ -48,3 +48,7 @@ $atomfeed::icon_url = "$blosxom::url/favicon.ico";
 $fedifeedback::shortlink_text = "Réagir";
 $fedifeedback::explained_header ="";
 $fedifeedback::explanation = "Avec un compte Mastodon ou du Fediverse, vous pouvez répondre à ce billet. Étant donné que le Fediverse est un système décentralisé, vous pouvez réagir en utilisant votre compte hébergé par un serveur Mastodon ou une plate-forme similaire, en suivant le lien ci-après ou en le collant dans la barre de recherche de votre application : ";
+
+$storytitle::add_blogtitle_to_indexes = 1;
+$storytitle::add_blogtitle_to_story = 0;
+$storytitle::prevent_hanging_sep = 1;

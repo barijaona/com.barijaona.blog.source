@@ -4,3 +4,7 @@ $meta::bjrKeywords = "print server, macintosh, tcp/ip, lpd, lpr, rfc1179, free, 
 $meta::bjrStylesheet = "theme4";
 
 $meta::navigationLinks = qq#<a href="$blosxom::url/print66/presentation.html" class="submenu" title="Description">What is it ?</a>&nbsp;|&nbsp;<a href="$blosxom::url/print66/setup.html" class="submenu" title="How to...">Setup</a>&nbsp;|&nbsp;<a href="$blosxom::url/print66/faq.html" class="submenu" title="Read before complaining">Frequently asked questions</a>&nbsp;|&nbsp;<a href="$blosxom::url/print66/legal.html" class="submenu" title="I am not a lawyer">Legal</a># ;
+
+$storytitle::add_blogtitle_to_indexes = 0;
+$storytitle::add_blogtitle_to_story = 0;
+$storytitle::prevent_hanging_sep = 1;
