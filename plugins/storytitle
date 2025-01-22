@@ -31,6 +31,9 @@ $page_title_right;
 
 # ---------------------------------------------------------
 
+# Uncomment next line to enable debug output (don't uncomment debug() lines)
+#use Blosxom::Debug debug_level => 1;
+
 sub start { 1; }
 
 sub head {
@@ -42,6 +45,7 @@ sub head {
           . ( defined $blosxom::path_info_mo ? "$blosxom::path_info_mo/" : "" )
           . "$blosxom::path_info_yr";
 
+        # debug(1, "Chrono or main page : title $title");
     }
     elsif ( $dir =~ m#(.*?)/?([\-\.\w]+)\.(\w+)$# and $2 ne 'index' ) {
         my $file =
@@ -51,13 +55,18 @@ sub head {
             chomp( $title = <$fh> );
             $fh->close;
         }
+
+        # debug(1, "Story : title $title");
     }
     if ( defined $title and $title =~ /\S/ ) {
+
+        # debug(1, "Defined title");
         $page_title_right = $right_sep . $title;
         $page_title_left  = $title . $left_sep;
         $page_title       = $right ? $page_title_right : $page_title_left;
     }
     else {    # these need to be reset otherwise we'll get the last value
+        # debug(1, "Other page…");
         $page_title_right = undef;
         $page_title_left  = undef;
         $page_title       = undef;
