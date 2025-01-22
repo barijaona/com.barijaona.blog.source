@@ -6,7 +6,8 @@
 package storytitle;
 
 use strict;
-use vars qw($sep $right $right_sep $left_sep $page_title $page_title_left $page_title_right);
+use vars
+  qw($sep $right $right_sep $left_sep $page_title $page_title_left $page_title_right);
 
 # ------------------ Config variables ---------------------
 
@@ -17,8 +18,8 @@ $sep = ' : ' unless defined $sep;
 # 1 for right aligned, 0 for left
 $right = 0 unless defined $right;
 
-# seperator for right aligned title 
-$right_sep = ''|| $sep unless defined $right_sep;
+# seperator for right aligned title
+$right_sep = '' || $sep unless defined $right_sep;
 
 # seperator for left aligned title
 $left_sep = '' || $sep unless defined $left_sep;
@@ -31,29 +32,36 @@ $page_title_right;
 # ---------------------------------------------------------
 
 sub start { 1; }
+
 sub head {
-    my ($p, $dir, $head) = @_;
+    my ( $p, $dir, $head ) = @_;
     my $title;
-    if (!$dir) {
-        $title = (defined $blosxom::path_info_da ? "$blosxom::path_info_da/" : "") . (defined $blosxom::path_info_mo ? "$blosxom::path_info_mo/" : "") . "$blosxom::path_info_yr" ;
-        
-    } elsif ($dir =~ m#(.*?)/?([\-\.\w]+)\.(\w+)$# and $2 ne 'index') {
-        my $file = join('/', $blosxom::datadir, $1, "$2.$blosxom::file_extension");
+    if ( !$dir ) {
+        $title =
+            ( defined $blosxom::path_info_da ? "$blosxom::path_info_da/" : "" )
+          . ( defined $blosxom::path_info_mo ? "$blosxom::path_info_mo/" : "" )
+          . "$blosxom::path_info_yr";
+
+    }
+    elsif ( $dir =~ m#(.*?)/?([\-\.\w]+)\.(\w+)$# and $2 ne 'index' ) {
+        my $file =
+          join( '/', $blosxom::datadir, $1, "$2.$blosxom::file_extension" );
         my $fh = new FileHandle;
-        if (-f "$file" && $fh->open("< $file")) {
-            chomp($title = <$fh>);
+        if ( -f "$file" && $fh->open("< $file") ) {
+            chomp( $title = <$fh> );
             $fh->close;
         }
     }
-    if (defined $title and $title =~ /\S/) {
+    if ( defined $title and $title =~ /\S/ ) {
         $page_title_right = $right_sep . $title;
-        $page_title_left = $title . $left_sep;
-        $page_title =  $right ? $page_title_right : $page_title_left;
-    } else { # these need to be reset otherwise we'll get the last value
+        $page_title_left  = $title . $left_sep;
+        $page_title       = $right ? $page_title_right : $page_title_left;
+    }
+    else {    # these need to be reset otherwise we'll get the last value
         $page_title_right = undef;
-        $page_title_left = undef;
-        $page_title = undef;
-    } 
+        $page_title_left  = undef;
+        $page_title       = undef;
+    }
 }
 
 1;
