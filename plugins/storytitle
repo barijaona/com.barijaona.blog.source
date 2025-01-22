@@ -1,6 +1,6 @@
 # Blosxom plugin: storytitle
 # Author(s): Struan Donald <code@exo.org.uk>
-# Version: 0.6
+# Version: 0.7
 # Documentation: see bottom of file or perldoc title
 
 package storytitle;
@@ -97,6 +97,9 @@ sub head {
 1;
 
 __END__
+
+=encoding UTF-8
+
 =head1 NAME
 
 Blosxom Plug-in: storytitle
@@ -121,9 +124,14 @@ You can also individually configure the left and right sided seperators with the
 
 =head1 VERSION
 
-0.6
+0.7
 
 =head2 CHANGES
+
+0.7 - Allow inclusion of Blosxom blog title into output (can be configured
+      through new variables $add_blogtitle_to_indexes, $add_blogtitle_to_story
+      and $prevent_hanging_sep)
+      Add debugging code based on <https://metacpan.org/pod/Blosxom::Debug>
 
 0.6 - Now uses the users file extension setting rather than always .txt
 
@@ -139,7 +147,7 @@ You can also individually configure the left and right sided seperators with the
 
 =head1 AUTHOR
 
-Struan Donald <code@exo.org.uk>, http://exo.org.uk/code/
+Struan Donald <code@exo.org.uk>, https://exo.org.uk/code/
 
 =head2 CREDITS
 
@@ -147,11 +155,14 @@ Lim Chee Aun <http://phoenity.com/> for the left/right sided titles idea.
 
 Anthony DeLorenzo <anthony.delorenzo@gmail.com> for fix to make it use the users file extension setting.
 
+Barijaona Ramaholimihaso <https://sourceforge.net/u/barijaona/profile/> for optional inclusion of Blosxom's
+blog title.
+
 =head1 SEE ALSO
 
-Blosxom Home/Docs/Licensing:http://blosxom.sourceforge.net/
+Blosxom Home/Docs/Licensing: https://blosxom.sourceforge.net/
 
-Blosxom Plugin Docs: http://blosxom.sourceforge.net/documentation/users/plugins.html
+Blosxom Plugin Docs: https://blosxom.sourceforge.net/documentation/users/plugins.html
 
 =head1 BUGS
 
@@ -160,7 +171,7 @@ development mailing list <blosxom-devel@lists.sourceforge.net>.
 
 =head1 COPYRIGHT
 
-Copyright (C) 2003-2005 Struan Donald.
+Copyright (C) 2003-2025 Struan Donald.
 
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
