@@ -7,9 +7,20 @@ package storytitle;
 
 use strict;
 use vars
-  qw($sep $right $right_sep $left_sep $page_title $page_title_left $page_title_right);
+  qw($add_blogtitle_to_indexes $add_blogtitle_to_story $prevent_hanging_sep $sep $right $right_sep $left_sep $page_title $page_title_left $page_title_right);
 
 # ------------------ Config variables ---------------------
+
+# do we include the blog title for index pages (chrono & main page)
+$add_blogtitle_to_indexes = 0 unless defined $add_blogtitle_to_indexes;
+
+# do we include the blog title to individual stories
+$add_blogtitle_to_story = 0 unless defined $add_blogtitle_to_story;
+
+# do we prevent hanging separators ?
+# ( 0 maintains compatibility with versions prior to 0.7 ;
+#   1 recommended when we want to include the blog title set by Blosxom)
+$prevent_hanging_sep = 0 unless defined $prevent_hanging_sep;
 
 # default seperator to add to story title
 $sep = ' : ' unless defined $sep;
@@ -39,6 +50,7 @@ sub start { 1; }
 sub head {
     my ( $p, $dir, $head ) = @_;
     my $title;
+    my $story = 0;
     if ( !$dir ) {
         $title =
             ( defined $blosxom::path_info_da ? "$blosxom::path_info_da/" : "" )
@@ -55,22 +67,31 @@ sub head {
             chomp( $title = <$fh> );
             $fh->close;
         }
+        $story = 1;
 
         # debug(1, "Story : title $title");
     }
     if ( defined $title and $title =~ /\S/ ) {
 
         # debug(1, "Defined title");
-        $page_title_right = $right_sep . $title;
-        $page_title_left  = $title . $left_sep;
-        $page_title       = $right ? $page_title_right : $page_title_left;
+        my $add_blogtitle = ( $story && $add_blogtitle_to_story )
+          || ( !$story && $add_blogtitle_to_indexes );
+        my $include_separator = $add_blogtitle || !$prevent_hanging_sep;
+        $page_title_right =
+            ( $add_blogtitle     ? $blosxom::blog_title : "" )
+          . ( $include_separator ? $right_sep           : "" )
+          . $title;
+        $page_title_left =
+            $title
+          . ( $include_separator ? $left_sep            : "" )
+          . ( $add_blogtitle     ? $blosxom::blog_title : "" );
     }
-    else {    # these need to be reset otherwise we'll get the last value
+    else {
         # debug(1, "Other page…");
-        $page_title_right = undef;
-        $page_title_left  = undef;
-        $page_title       = undef;
+        $page_title_right = $page_title_left = ( $prevent_hanging_sep
+              || $add_blogtitle_to_indexes ? $blosxom::blog_title : undef );
     }
+    $page_title = $right ? $page_title_right : $page_title_left;
 }
 
 1;
