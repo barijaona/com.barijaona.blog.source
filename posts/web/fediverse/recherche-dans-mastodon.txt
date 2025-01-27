@@ -1,0 +1,66 @@
+Rechercher sur votre instance Mastodon
+meta-feedback: https://mastodon.mg/@barijaona/113672116437820034
+meta-creation_date: 27/1/2025 17:58:07
+Je reprends et prolonge ici le <i>toot</i> que j'ai publié et qui jusqu'à ce jour a engendré le plus de réactions…
+
+Oui, il est indéniable que l'utilisation du Fediverse demeure un peu plus "technique" qu'adhérer à une plate-forme de réseau social centralisatrice. Mais les développeurs de Mastodon font un travail de fond patient et sérieux et, petit à petit, l'oiseau fait son nid. Ainsi, s'il fut une époque où il était très difficile de retrouver un post sur Mastodon, les choses se sont quand même améliorées avec les versions récentes[^1]. L'on est désormais moins confronté à la phrase maudite : "J'avais remarqué cela quelque part sur Mastodon et je l'avais même boosté, mais où diable se trouve ce message ?".
+
+[^1]: Instances Mastodon utilisant la version 4.2 ou plus récente.
+
+L'ajout de l'argument de recherche `from:me` permet de rechercher parmi vos propres messages.
+
+L'ajout de l'argument de recherche `in:library` permet de rechercher parmi les messages que vous avez mis en favoris ou inclus dans vos marque-pages.
+
+La recherche fonctionne pour les messages qui sont publics et qui proviennent d'un compte qui a configuré ses messages pour qu'ils puissent faire l'objet d'une recherche. Par défaut, les messages ne peuvent pas faire l'objet d'une recherche : il faut que les utilisateurs aient consenti à ce que leur profil puisse faire l'objet de recherche[^2]. Vous pouvez toutefois toujours rechercher parmi vos propres messages, ainsi que parmi les messages avec lesquels vous avez interagi, par exemple en les mettant en favoris.
+
+[^2]: Les administrateurs peuvent modifier la valeur par défaut. Toutefois, les utilisateurs gardent la main pour modifier le réglage quand à l'incorporation de leurs propres messages et profil dans le moteur de recherche. Pour cela, allez dans "Préférences", "Profil", onglet "Vie privée et confidentialité", et réglez l'option "Inclure mes messages publics dans les résultats de recherche". Il y a également une option "Inclure la page de profil dans les moteurs de recherches".
+
+#### Utilisateur
+
+- `from:me` affiche vos messages, comme indiqué précédemment.
+- `from:nom d'utilisateur` affiche les messages de la personne ayant ce nom d'utilisateur. Pour les utilisateurs d'autres instances, vous devez utiliser le nom d'utilisateur complet. Par exemple : `from:lisamelton@mastodon.social`  
+
+#### Nature de l'index
+
+- `in:library` : comme indiqué précédemment, ce paramètre recherche dans vos propres messages, vos favoris et marque-pages, ainsi que les messages qui vous mentionnent.
+- `in:public` : affiche les messages publics qui sont connus de votre instance et qui peuvent faire l'objet de recherche.
+- `in:all` : combine les deux options précédentes. C'est l'option par défaut, vous n'avez pas besoin de l'utiliser explicitement.
+
+#### Exclusions
+
+Vous pouvez exclure un terme de recherche par `-motClé`. Ceci fonctionne également pour n'importe lequel des autres opérateurs comme `-is:reply`. Il y a aussi `+`, mais comme le comportement par défaut est de combiner les opérateurs, vous n'en avez pas besoin.
+
+#### Heure
+
+- `before:2024-04-25` affiche les messages qui ont été postés avant le 25 avril 2024 00:00.
+- `after:2024-04-25` montre les messages qui ont été postés à partir du 25 avril 2024 00:00.
+- `during:2024-04-25` montre les messages qui ont été postés le 25 avril 2024. C'est la forme courte pour `after:2024-04-25` `before:2024-04-26`.
+
+Ces trois opérateurs utilisent votre fuseau horaire local et non l'heure universelle.
+
+#### Langue
+
+`language:en` recherche les messages en anglais. `language:fr` recherche les messages en français. Vous pouvez utiliser tous les codes de langue ISO-639-1 (à deux lettres) et quelques codes ISO-639-3 (à trois lettres).
+
+#### Type
+
+- `is:reply` pour n'obtenir que les réponses.
+- `is:sensitive` pour n'obtenir que les messages comportant un avertissement de contenu.
+
+#### Caractéristiques
+
+- `has:media` pour les messages contenant des images ou des vidéos.
+- `has:image` pour les messages contenant des images en pièce jointe.
+- `has:video` pour les messages contenant des vidéos.
+- `has:link` pour les messages contenant des URL.
+- `has:poll` pour les messages contenant des sondages.
+- `has:embed` pour les messages contenant des éléments incorporés. Il ne s'agit pas d'aperçus, mais d'<i lang="en">embeds</i> réels comme une vidéo que vous pouvez regarder sans quitter votre client.
+
+#### Faits amusants / bizarreries
+
+`is:` et `has:` sont traités de la même manière. Par conséquent, vous pouvez rechercher soit `has:image` soit `is:image` et obtenir les mêmes résultats. Dans le cas des réponses, cela peut être trompeur : `has:reply` ne trouve pas les messages qui ont des réponses, mais les messages qui sont des réponses.
+
+#### Sources:
+
+- au départ, un toot de [@aetataureate](https://gamedev.lgbt/@aetataureate hreflang="en") aujourd'hui supprimé ;
+- un tutoriel de Luca Hammer, <i lang="en">[Mastodon Advanced Search Guide and Operators](https://lucahammer.com/2024/04/25/mastodon-advanced-search-guide-and-operators hreflang="en")</i>.
