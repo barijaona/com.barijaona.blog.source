@@ -147,7 +147,7 @@ You can also individually configure the left and right sided seperators with the
 
 =head1 AUTHOR
 
-Struan Donald <code@exo.org.uk>, https://exo.org.uk/code/
+Struan Donald <https://exo.org.uk/code/>
 
 =head2 CREDITS
 
@@ -171,7 +171,7 @@ development mailing list <blosxom-devel@lists.sourceforge.net>.
 
 =head1 COPYRIGHT
 
-Copyright (C) 2003-2025 Struan Donald.
+Copyright (C) 2003-2025 Struan Donald and contributors.
 
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
