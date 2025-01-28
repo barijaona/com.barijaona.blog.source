@@ -33,7 +33,7 @@ Vous pouvez exclure un terme de recherche par `-motClé`. Ceci fonctionne égale
 #### Heure
 
 - `before:2024-04-25` affiche les messages qui ont été postés avant le 25 avril 2024 00:00.
-- `after:2024-04-25` montre les messages qui ont été postés à partir du 25 avril 2024 00:00.
+- `after:2024-04-25` montre les messages qui ont été postés à partir du 26 avril 2024 00:00.
 - `during:2024-04-25` montre les messages qui ont été postés le 25 avril 2024. C'est la forme courte pour `after:2024-04-25` `before:2024-04-26`.
 
 Ces trois opérateurs utilisent votre fuseau horaire local et non l'heure universelle.
